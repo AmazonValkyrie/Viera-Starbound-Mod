@@ -1,0 +1,32 @@
+{
+  "id" : "vierawakeup",
+  "title" : "^orange;A Day in the Life...^reset;",
+  "text" : "Last thing you remember, ^green;things were exploding^reset;... like... everything. You've come to on a ship that's seen better days, and are greeted by an imposing ^orange;Viera^reset;. You don't know if she's a warrior, or a princess, or what... but ^green;you'd better hear her out^reset;.",
+  "completionText" : "You don't know who this ^cyan;Seonha^reset; person is, but she seems to have her wits about her. Better hurry and do as she says! ^green;Interact with the Magicite Core^reset; to power ^orange;the Argo^reset; back up!",
+  "showCompleteDialog" : true,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "vieraopening" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [  ] ],
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/vierawakeup.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/captainseonha.png"} ],
+        "title" : "Cpt. Seonha"
+      }
+    },
+    "descriptions" : {
+      "wakePlayer" : "^green;Hear out^reset; the confident looking ^orange;Viera^reset;."
+    },
+    "stunTime" : 2.0,
+    "compassUpdate" : 0.2,
+    "npcUID" : "captainseonha",
+    "followUp" : "vierabootship"
+  }
+}

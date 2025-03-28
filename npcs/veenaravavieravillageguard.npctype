@@ -1,0 +1,140 @@
+{
+  "type" : "femaleveenaravavieravillageguard",
+  "baseType" : "vierabase",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+
+    "behaviorConfig" : {
+	  "greetingChance" : 0.25,
+	  "converseChance" : 1,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "enableParticipation" : true,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "vieracrewmember"],
+		  [1, "vieracrewmemberfencer"],
+		  [1, "vieracrewmemberarcher"],
+		  [1, "vieracrewmemberwhitemage"]
+        ]
+      }
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "dialog" : {
+      "greeting" : "/dialog/viera.config:greeting",
+      "converse" : "/dialog/viera.config:converse",
+
+      "attack" : "/dialog/viera.config:attack",
+      "reattack" : "/dialog/viera.config:reattack",
+      "killedTarget" : "/dialog/viera.config:killedTarget",
+      "lostTarget" : "/dialog/viera.config:lostTarget",
+      "outOfSight" : "/dialog/viera.config:outOfSight",
+      "cheerOn" : "/dialog/viera.config:cheerOn",
+      "cantReach" : "/dialog/viera.config:cantReach",
+
+      "hail" : "/dialog/viera.config:hail",
+
+      "accuse" : "/dialog/viera.config:accuse"
+    }
+  },
+
+  "items" : {
+    "femaleveenaravaviera" : [
+      [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "femalewoodwarderchest" } ],
+            "legs" : [ { "name" : "femalewoodwarderlegs" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "femalewoodwarderchest" } ],
+            "legs" : [ { "name" : "femalewoodwarderlegs" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "femalewoodwarderchest" } ],
+            "legs" : [ { "name" : "femalewoodwarderlegs" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ],
+            "alt" : [
+              { "name" : "commonsmallshield" },
+              { "name" : "commonlargeshield" }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

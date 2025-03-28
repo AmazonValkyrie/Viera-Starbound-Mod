@@ -1,0 +1,74 @@
+{
+  "objectName" : "eithnefountain2",
+  "colonyTags" : ["viera","pretty","valuable","vieravillage"],
+  "rarity" : "Uncommon",
+  "price" : 325,
+  "description" : "Sturdy roots of the trees of the Wood Herself hold these stone chalices.",
+  "shortdescription" : "Roots and Water Fountain",
+  "race" : "viera",
+  "category" : "decorative",
+  "health" : 1.5,
+  
+  "statusEffects" : [ ],
+
+  "apexDescription" : "A pretty fountain. The sound of the water is soothing.",
+  "avianDescription" : "A large fountain. Reminds me of a birdbath.",
+  "floranDescription" : "Water is bringer of life for Floran.",
+  "glitchDescription" : "Relaxed. The sounds of this water is calming.",
+  "humanDescription" : "If I had a penny I'd throw it in.",
+  "hylotlDescription" : "Beautiful clear healing water. Sometimes I miss the ocean.",
+  "novakidDescription" : "Some kinda splashy statues spoutin' water.",
+  "vieraDescription" : "The healing waters of the Wood Herself collect and dance here.",
+  
+    "lightColor" : [107, 127, 127],
+    
+    "particleEmitter" : {
+    "emissionRate" : 0.7,
+    "emissionVariance" : 0.3,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 4.25],
+      "size" : 1.0,
+      "color" : [233, 255, 147, 255],
+      "light" : [88, 104, 25],
+      "fade" : 0.9,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [-0.1, -0.1],
+      "approach" : [0.65, 0.65],
+      "timeToLive" : 8,
+      "layer" : "front"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.0, 1.0],
+      "position" : [1.5, 4.125]
+    }
+  },
+
+  "inventoryIcon" : "fountainicon.png",
+  "orientations" : [
+    {
+      "image" : "eithnefountain2.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "eithnefountain2.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 5,
+      "animationCycle" : 0.6,
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg"
+
+}

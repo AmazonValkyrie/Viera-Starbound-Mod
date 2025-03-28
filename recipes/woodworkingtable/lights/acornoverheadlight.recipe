@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "glass", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "acornoverheadlight",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

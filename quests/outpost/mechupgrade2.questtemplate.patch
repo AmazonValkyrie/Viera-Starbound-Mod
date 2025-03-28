@@ -1,0 +1,4 @@
+[
+{"op":"add","path":"/scriptConfig/giveSpeciesBlueprints/viera","value":["mechbodyviera"]},
+{"op":"add","path":"/scriptConfig/giveSpeciesBlueprints/moogle","value":["mechbodyviera"]}
+]

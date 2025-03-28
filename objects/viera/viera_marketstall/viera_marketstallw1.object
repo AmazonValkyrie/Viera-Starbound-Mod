@@ -1,0 +1,38 @@
+{
+  "objectName" : "viera_marketstallw1",
+  "colonyTags" : ["viera","vieravillage","commerce","vieraarmsmerchant"],
+  "rarity" : "Common",
+  "description" : "A large market stall displaying weaponry and basic wares.",
+  "shortdescription" : "Arms Market Stall",
+  "race" : "viera",
+  "objectType" : "loungeable",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "A primitive, yet elegant selection of goods.",
+  "avianDescription" : "Quite a plethora of items.",
+  "floranDescription" : "Many itemssss.",
+  "glitchDescription" : "Interested. I find these wares pleasing.",
+  "humanDescription" : "There's a lot of interesting looking stuff here.",
+  "hylotlDescription" : "Quite a display of exotic goods.",
+  "novakidDescription" : "Lotsa interestin' stuff here.",
+  "vieraDescription" : "A pleasant variety of goods.",
+
+  "inventoryIcon" : "marketstalliconw1.png",
+  "orientations" : [
+    {
+      "dualImage" : "viera_marketstallw1.png",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "sitPosition" : [ 0, 18.25 ]
+
+    }
+  ],
+  "sitCoverImage" : "/objects/viera/viera_marketstall/viera_marketstallw1cover.png"
+}

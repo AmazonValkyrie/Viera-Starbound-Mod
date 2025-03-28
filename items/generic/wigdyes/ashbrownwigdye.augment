@@ -1,0 +1,15 @@
+{
+  "itemName" : "ashbrownwigdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "ashbrownwigdye.png",
+  "description" : "This dye can be applied to Viera wigs/wig back items only.",
+  "shortdescription" : "Ash Brown Wig Dye",
+
+  "dyeColorIndex" : 8,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

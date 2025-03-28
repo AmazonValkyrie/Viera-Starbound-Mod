@@ -1,0 +1,46 @@
+{
+  "objectName" : "vierashipcupboard2",
+  "colonyTags" : ["viera","storage", "vieraship", "argo"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 80,
+  "learnBlueprintsOnPickup" : [ "vierashipcupboard2" ],
+
+  "description" : "A cupboard with a modest amount of space.",
+  "shortdescription" : "Viera Ship Single Cupboard",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "Useful for adding additional storage to a room.",
+  "avianDescription" : "A wall cabinet, for storing items up high.",
+  "floranDescription" : "Turn wallss into sstorage. Clever.",
+  "glitchDescription" : "Optimistic. Suspended storage. Useful.",
+  "humanDescription" : "A couple of wall cabinets. Good for saving space.",
+  "hylotlDescription" : "A good way to make use of empty space.",
+  "novakidDescription" : "A handy wall mounted cabinet.",
+  "vieraDescription" : "A high cupboard for storing cookwares.",
+
+  "inventoryIcon" : "vierashipcupboard2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipcupboard2.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

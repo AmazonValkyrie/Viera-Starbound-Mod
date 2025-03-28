@@ -1,0 +1,68 @@
+{
+  "objectName" : "magicitevillageteleporter",
+  "shortdescription" : "Magicite Village Teleporter",
+  "colonyTags" : ["viera", "vieravillage", "misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "A large, blue magickal crystal, capable of transporting you to faraway places.",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "An extravagant way to travel. Perhaps too extravagant.",
+  "avianDescription" : "I love the whoosh of my feathers when I teleport!",
+  "floranDescription" : "Crysssstal take me placessss!",
+  "glitchDescription" : "Entranced. This object emanates with tremendous energy.",
+  "humanDescription" : "Now this is travelling in style.",
+  "hylotlDescription" : "A large, crystal, giving off such gentle energy.",
+  "novakidDescription" : "As teleporters go, this sure is fancy lookin'!",
+  "vieraDescription" : "This magicite can take me to faraway lands.",
+
+  "category" : "light",
+  "lightColor" : [195, 204, 204],
+  "lightPosition" : [8, 7],
+  "flickerPeriod" : 4,
+  "flickerMinIntensity" : 1,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 1.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "icon.png",  
+  "animation" : "magicitevillageteleporter.animation",
+  "animationParts" : {
+    "bg" : "magicitevillageteleporter.png",
+    "fg" : "magicitevillageteleporterlit.png"
+  },
+  "animationPosition" : [-44, 0],
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "magicitevillageteleporter.png:<color>" } ],
+
+      "imagePosition" : [-44, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "health" : 10,
+
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : ["teleporter", "teleporterComplete"],
+    "defaultReactions" : {
+	   "teleporter" : [[1.0, "beamaway"]], 
+	   "teleporterComplete" : [[1.0, "smile"]]
+	   },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore24",
+  "title" : "Origins of the Wood: Whispers of the Wind",
+  "description" : "Writings of ancient Viera spirituality.",
+  "icon" : "vieracover6.png",
+  "contentPages" : [
+    "^yellow;Echoes of the Eternal^reset;\n\nThe Wood speaks on the wind, Her voice a melody of rustling leaves and sighing branches. Her words are woven with layers of meaning, decipherable only by those who listen with both heart and spirit. The Elders, whose ears have grown long with wisdom, interpret these whispers, guiding the Viera with Her counsel.",
+	
+	"Her prophecies are subtle, glimpses of what may come. They are not commands, but guidance-warnings and blessings carried on the breeze. A gentle rustle may foretell an abundant harvest, while a mournful wail through the boughs warns of approaching danger. It is said that those who listen carefully can hear Her laughter in the spring wind, and Her tears in the autumn rain.",
+	
+	"Yet, Her voice is not bound by time. Sometimes, She speaks of the past, of ancient Viera who walked the forest floor long before the oldest tree took root. Other times, She whispers of the future, of shadows that threaten to overtake Her light. But always, Her words are woven with love for Her children, urging them to live in harmony with the world around them."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

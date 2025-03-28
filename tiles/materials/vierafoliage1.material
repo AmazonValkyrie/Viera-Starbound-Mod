@@ -1,0 +1,22 @@
+{
+  "materialId" : 13116,
+  "materialName" : "vierafoliage1",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "vierafoliage1",
+  "description" : "Lush leaves from the depths of the Wood.",
+  "shortdescription" : "Lush Foliage",
+
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vierafoliage1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3980
+  }
+}

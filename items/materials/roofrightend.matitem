@@ -1,0 +1,10 @@
+{
+  "itemName" : "roofrightend",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "roofrightendicon.png",
+  "description" : "Vieran whitewood roofing.",
+  "shortdescription" : "Roofing Right End",
+
+  "materialId" : 13034
+}

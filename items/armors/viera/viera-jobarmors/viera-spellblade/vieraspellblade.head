@@ -1,0 +1,48 @@
+{
+  "itemName" : "vieraspellbladehead",
+  "shortdescription" : "Spellblade's Bicorne",
+  "description" : "Spellblades use their blade arts to damage and afflict foes with assorted maladies.",
+  
+  "category" : "headwear",
+  "statSpread" : "spellblade",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 25,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* BLUE */
+    { "5675B8" : "5675B8", "41598C" : "41598C", "2F4166" : "2F4166", "1D283F" : "1D283F", "8496CC" : "8496CC", "6B7AA5" : "6B7AA5", "525E7F" : "525E7F" },
+    /* BLACK */
+    { "5675B8" : "7F7F7F", "41598C" : "595959", "2F4166" : "333333", "1D283F" : "000000", "8496CC" : "AFBFCC", "6B7AA5" : "7D8993", "525E7F" : "646E77" },
+    /* GREY */
+    { "5675B8" : "AFBFCC", "41598C" : "7D8993", "2F4166" : "646E77", "1D283F" : "41474C", "8496CC" : "7F7F7F", "6B7AA5" : "595959", "525E7F" : "333333" },
+    /* WHITE */
+    { "5675B8" : "FFFFFF", "41598C" : "C9DBED", "2F4166" : "95BBC9", "1D283F" : "728F99", "8496CC" : "AFBFCC", "6B7AA5" : "7D8993", "525E7F" : "646E77" },
+    /* RED */
+    { "5675B8" : "D80000", "41598C" : "840000", "2F4166" : "680000", "1D283F" : "300000", "8496CC" : "BC4B00", "6B7AA5" : "7F3300", "525E7F" : "592300" },
+    /* ORANGE */
+    { "5675B8" : "FFA477", "41598C" : "FF8C4F", "2F4166" : "C8713D", "1D283F" : "844929", "8496CC" : "FFB970", "6B7AA5" : "E69E50", "525E7F" : "C18443" },
+    /* YELLOW */
+    { "5675B8" : "FFB970", "41598C" : "E69E50", "2F4166" : "C18443", "1D283F" : "996835", "8496CC" : "AFBFCC", "6B7AA5" : "7D8993", "525E7F" : "646E77" },
+    /* GREEN */
+    { "5675B8" : "40D65B", "41598C" : "2D9941", "2F4166" : "267F37", "1D283F" : "13421C", "8496CC" : "FFB970", "6B7AA5" : "E69E50", "525E7F" : "C18443" },
+    /* BLUE */
+    { "5675B8" : "5675B8", "41598C" : "41598C", "2F4166" : "2F4166", "1D283F" : "1D283F", "8496CC" : "8496CC", "6B7AA5" : "6B7AA5", "525E7F" : "525E7F" },
+    /* PURPLE */
+    { "5675B8" : "9A76CC", "41598C" : "8565B1", "2F4166" : "5D4068", "1D283F" : "302135", "8496CC" : "AFBFCC", "6B7AA5" : "7D8993", "525E7F" : "646E77" },
+    /* PINK */
+    { "5675B8" : "FF9B88", "41598C" : "E08879", "2F4166" : "C17668", "1D283F" : "A36358", "8496CC" : "AFBFCC", "6B7AA5" : "7D8993", "525E7F" : "646E77" },
+    /* BROWN */
+    { "5675B8" : "BC4B00", "41598C" : "7F3300", "2F4166" : "592300", "1D283F" : "3F1800", "8496CC" : "FFB970", "6B7AA5" : "E69E50", "525E7F" : "C18443" }
+  ]
+}

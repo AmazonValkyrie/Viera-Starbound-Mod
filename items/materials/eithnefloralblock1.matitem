@@ -1,0 +1,12 @@
+{
+  "itemName" : "eithnefloralblock1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "eithnefloralblock1icon.png",
+  "description" : "A bundle of fragrant flowers.",
+  "shortdescription" : "Flowers of the Wood",
+
+  "materialId" : 13071,
+  "learnBlueprintsOnPickup" : [ "eithnefloralblock1" ]
+}

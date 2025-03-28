@@ -1,0 +1,89 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "light" : {
+        "default" : "eithneecho",
+        "states" : {
+          "eithneecho" : {
+		    "frames" : 16,
+			"cycle" : 9.5,
+			"mode" : "loop",
+            "properties" : {
+              "particleEmittersOn" : [ "crystalenergies", "greenenergy", "lightEffect" ],
+			  "persistentSound" : "/sfx/objects/crystallineecho.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "light" : {
+            "eithneecho" : {
+              "properties" : {
+                "image" : "viera_sail.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+		  "zLevel" : 1
+        },
+
+        "partStates" : {
+          "light" : {
+            "eithneecho" : {
+              "properties" : {
+                "image" : "viera_saillit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "crystalenergies" : {
+      "emissionRate" : 8,
+      "emissionRateVariance" : 0.5,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_magiciteblue", "offset" : [8.5, 7.625] } 
+      ]
+    },
+	"greenenergy" : {
+	  "emissionRate" : 3,
+	  "emissionRateVariance" : 0.5,
+	  "active" : true,
+	  "particles" : [
+	    { "particle" : "viera_magicitegreen", "offset" : [8.5, 7.25] } 
+      ]
+	},
+    "lightEffect" : {
+      "emissionRate" : 0.25,
+      "emissionVariance" : 0,
+      "particles" : [
+        { "particle" : "viera_prismlightpink",  "offset" : [8.5, 7.25] },
+        { "particle" : "viera_prismlightpink",  "offset" : [8.5, 7.25] },
+        { "particle" : "viera_prismlightblue",  "offset" : [8.5, 7.25] },
+        { "particle" : "viera_prismlightblue",  "offset" : [8.5, 7.25] },
+        { "particle" : "viera_prismlightgreen", "offset" : [8.5, 7.25] },
+        { "particle" : "viera_prismlightgreen", "offset" : [8.5, 7.25] }
+      ]
+    }
+  },  
+  "sounds" : {
+    "shipUpgrade" : [ "/sfx/interface/ship_powerup.ogg" ]
+  }
+}

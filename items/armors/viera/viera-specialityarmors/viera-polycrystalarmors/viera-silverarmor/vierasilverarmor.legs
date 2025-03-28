@@ -1,0 +1,49 @@
+{
+  "itemName" : "vierasilverarmorpants",
+  "shortdescription" : "Silver Plated Greaves",
+  "description" : "An experiment in Viera metallurgy - these stunning silver greaves make up for their bulk with extra defense. Comes with battle skirt.",
+  "itemTags" : [ "tier2armour" ],  
+  
+  "category" : "legarmour",
+  "statSpread" : "polycrystal",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 960,
+  "level" : 2,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "colorOptions" : [
+    // SILVER
+    { "D7ECFA" : "D7ECFA", "B3CBDF" : "B3CBDF", "8799AA" : "8799AA", "647080" : "647080", "B200A0" : "B200A0", "7F006E" : "7F006E", "4C0044" : "4C0044", "260021" : "260021" },
+    // BLACK
+    { "D7ECFA" : "BFCCC0", "B3CBDF" : "6F7068", "8799AA" : "3B3F3B", "647080" : "000000", "B200A0" : "D80000", "7F006E" : "AD0000", "4C0044" : "840000", "260021" : "5E0000"  },
+    // SILVER
+    { "D7ECFA" : "D7ECFA", "B3CBDF" : "B3CBDF", "8799AA" : "8799AA", "647080" : "647080", "B200A0" : "B200A0", "7F006E" : "7F006E", "4C0044" : "4C0044", "260021" : "260021" },
+    // WHITE
+    { "D7ECFA" : "FFFFFF", "B3CBDF" : "C7F2F2", "8799AA" : "C4C4C4", "647080" : "8C8C8C", "B200A0" : "00DDFF", "7F006E" : "00B9D6", "4C0044" : "009FB7", "260021" : "007F94"  },
+    // RED
+    { "D7ECFA" : "FFC6C6", "B3CBDF" : "EA0000", "8799AA" : "AD0000", "647080" : "660000", "B200A0" : "FFFFFF", "7F006E" : "D6EAFF", "4C0044" : "B8C9DB", "260021" : "80A1AD"  },
+    // ORANGE
+    { "D7ECFA" : "FFF8B9", "B3CBDF" : "F3A74A", "8799AA" : "CA6613", "647080" : "6F382D", "B200A0" : "FFFFFF", "7F006E" : "D6EAFF", "4C0044" : "B8C9DB", "260021" : "80A1AD"  },
+    // YELLOW
+    { "D7ECFA" : "FFFBD8", "B3CBDF" : "FFD84D", "8799AA" : "E2AF20", "647080" : "B97C01", "B200A0" : "40D65B", "7F006E" : "37B74E", "4C0044" : "2D9941", "260021" : "267F37"  },
+    // GREEN
+    { "D7ECFA" : "9BFFD2", "B3CBDF" : "1AB26E", "8799AA" : "137F4E", "647080" : "0A472C", "B200A0" : "FFF6A8", "7F006E" : "F2CB79", "4C0044" : "B5985A", "260021" : "826D41"  },
+    // BLUE
+    { "D7ECFA" : "D8FFFC", "B3CBDF" : "4FACC8", "8799AA" : "39747F", "647080" : "233C43", "B200A0" : "FFFFFF", "7F006E" : "D6EAFF", "4C0044" : "B8C9DB", "260021" : "80A1AD"  },
+    // PURPLE
+    { "D7ECFA" : "E8D8FF", "B3CBDF" : "906EBF", "8799AA" : "60497F", "647080" : "392C4C", "B200A0" : "9CABB7", "7F006E" : "7D8993", "4C0044" : "646E77", "260021" : "41474C"  },
+    // PINK
+    { "D7ECFA" : "FFD3CC", "B3CBDF" : "FF9B88", "8799AA" : "BF7467", "647080" : "7F4D44", "B200A0" : "FFFFFF", "7F006E" : "D6EAFF", "4C0044" : "B8C9DB", "260021" : "80A1AD"  },
+    // BROWN
+    { "D7ECFA" : "FFD0B5", "B3CBDF" : "C6672F", "8799AA" : "8C4821", "647080" : "4C2712", "B200A0" : "FF9B88", "7F006E" : "E08879", "4C0044" : "C17668", "260021" : "A36358"  }
+]
+}
+

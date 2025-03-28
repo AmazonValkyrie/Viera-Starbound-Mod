@@ -1,0 +1,34 @@
+{
+  "objectName" : "vierashipvalance",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 75,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "vierashipvalance" ],
+
+  "description" : "A valance embroidered in red and white with gold trim.",
+  "shortdescription" : "Embroidered Ship Valance",
+  "race" : "viera",
+
+  "apexDescription" : "Beautiful window decor.",
+  "avianDescription" : "Such elegant window dressings.",
+  "floranDescription" : "Fabricccc on windowsss!",
+  "glitchDescription" : "Observation. Window dressings.",
+  "humanDescription" : "Such gorgeous curtains.",
+  "hylotlDescription" : "These Viera know how to decorate.",
+  "novakidDescription" : "Some well tailored curt'ins!",
+  "vieraDescription" : "Such lovely silken curtains.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "vierashipvalance.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "anchors" : [ ]
+
+    }
+  ]
+}

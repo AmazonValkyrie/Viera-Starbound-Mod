@@ -1,0 +1,10 @@
+{
+  "itemName" : "scallopedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "scallopedicon.png",
+  "description" : "Scalloped carving on Vieran mahogany.",
+  "shortdescription" : "Scalloped Carving",
+
+  "materialId" : 13004
+}

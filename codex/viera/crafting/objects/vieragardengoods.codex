@@ -1,0 +1,41 @@
+{
+    "id": "vieragardengoods",
+    "title": "Viera Garden Goods",
+    "description": "A book of plans detailing how to craft Viera garden goods.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating Viera hanging baskets, flower pots, and more. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "vieraflowerboxend1",
+            "vieraflowerboxend2",
+            "vieraflowerboxend3",
+            "vieraflowerboxp1",
+            "vieraflowerboxp2",
+            "vieraflowerboxp3",
+            "vierahangingbasket1",
+			"vierahangingbasket2",
+			"vierahangingbasket3",
+			"vierahangingbasket4",
+			"vieralgflowerpot1",
+			"vieralgflowerpot2",
+			"vieralgflowerpot3",
+			"vieramedflowerpot1",
+			"vieramedflowerpot2",
+			"vieramedflowerpot3",
+			"vierasmallflowerpot1",
+			"vierasmallflowerpot2",
+			"vierasmallflowerpot3",
+			"eithnefountain1",
+			"eithnefountain2",
+			"eithnefountain3",
+			"eithnefountain4",
+			"vieraspiritwoodwall1",
+			"vieraspiritwoodwall2"
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 275
+    }
+}

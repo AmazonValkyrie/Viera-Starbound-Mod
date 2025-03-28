@@ -1,0 +1,15 @@
+{
+  "itemName" : "hotpinkwigdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "hotpinkwigdye.png",
+  "description" : "This dye can be applied to Viera wigs/wig back items only.",
+  "shortdescription" : "Hot Pink Wig Dye",
+
+  "dyeColorIndex" : 26,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

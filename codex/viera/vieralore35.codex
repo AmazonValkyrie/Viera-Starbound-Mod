@@ -1,0 +1,14 @@
+{
+  "id" : "vieralore35",
+  "title" : "Legacy of the Vessel",
+  "description" : "A book of ancient stories of Viera spirituality.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;The Rite of Aithri Eithne^reset;\n\nTo this day, the ^yellow;Rite of Eithne's Vessel^reset; is spoken of only in whispers, its memory preserved by the Elders who guard its secrets. Those with silver-blue eyes are revered as blessed by Eithne, their destinies intertwined with Her will. Yet, they are also feared, for to carry Her light is to carry Her sorrow."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

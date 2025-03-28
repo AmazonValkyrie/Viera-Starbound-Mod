@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfiligreestripe2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfiligreestripe2icon.png",
+  "shortdescription" : "Dalmascan Stripe Stone",
+  "description" : "Metalwork and colored stone.",
+
+  "materialId" : 13103
+}

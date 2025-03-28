@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstripe",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstripeicon.png",
+  "description" : "Painted white stone with stripes.",
+  "shortdescription" : "Striped Moulding",
+
+  "materialId" : 13081
+}

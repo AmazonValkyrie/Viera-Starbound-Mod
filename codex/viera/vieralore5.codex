@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore5",
+  "title" : "The Exile's Lament",
+  "description" : "Viera ruminations on leaving the Wood.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Exile's Lament^reset;\n\nTo leave the forest is to sever the root within. No longer does the pulse of the forest resonate through the soles of my feet. The wind carries a foreign scent, unanchored by the familiar canopy.",
+
+	"I breathe, yet it is shallow-air unblessed by the ancient trees. What remains of me now, when I no longer belong to the land that made me?"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "magicitecrystalore",
+  "price" : 8,
+  "rarity" : "Uncommon",
+  "category" : "fuel",
+  "inventoryIcon" : "magicitecrystalore.png",
+  "description" : "A bright, glistening stone with many uses, including a fuel source for Viera.",
+  "shortdescription" : "Magicite Crystal Ore",
+  "fuelAmount" : 8,
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,13 @@
+{
+	"id" : "bangaadiary1",
+	"title" : "Bangaa Log",
+	"description" : "The diary of a lost soul.",
+	"icon" : "bangaacover1.png",
+	"contentPages" : [
+    "Lore here."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

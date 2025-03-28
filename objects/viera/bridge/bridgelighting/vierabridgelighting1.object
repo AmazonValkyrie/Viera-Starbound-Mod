@@ -1,0 +1,91 @@
+{
+  "objectName" : "vierabridgelighting1",
+  "colonyTags" : ["viera","light", "vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "description" : "Magicite illuminates the heart of a bloom for the background.",
+  "shortdescription" : "Bloom Lighting BG",
+  "race" : "viera",
+  "printable" : false,
+  "price" : 95,
+  "health" : 1.5,
+
+  "apexDescription" : "It's just a lamp.",
+  "avianDescription" : "This small crystal gives off just enough light.",
+  "floranDescription" : "Brightnesss.",
+  "glitchDescription" : "Query. What generates this light?",
+  "humanDescription" : "An interesting crystal light.",
+  "hylotlDescription" : "The light provides ambience for reflection.",
+  "novakidDescription" : "This gives off some nice light.",
+  "vieraDescription" : "Magicite lighting the treeways.",
+  
+  "lightColor" : [194, 235, 235],
+  "beamAmbience" : 0.4,
+  "flickerPeriod" : 4,
+  "flickerMinIntensity" : 1,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 1.075,
+  "flickerIntensityVariance" : 0.025,
+  
+  "particleEmitter" : {
+  "emissionRate" : 1.0,
+  "emissionVariance" : 0.5,
+
+    "particle" : {
+          "type" : "ember",
+          "size" : 1.0,
+          "color" : [197, 211, 119, 255],
+          "destructionAction" : "shrink",
+          "destructionTime" : 0.5,
+          "position" : [-0.5, 2.5],
+          "initialVelocity" : [0, 0],
+          "finalVelocity" : [-0.1, -0.1],
+          "approach" : [0.65, 0.65],
+          "timeToLive" : 5,
+          "light" : [194, 235, 235],
+          "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.0, 1.0],
+      "finalVelocity" : [1.0, 1.0],
+      "position" : [0, 2.5]
+    }
+  },
+
+  "inventoryIcon" : "vierabridgelighting1icon.png",
+  "orientations" : [
+    {
+      "image" : "vierabridgelighting1.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 3],
+      "animationPosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vierabridgelighting1.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "lightPosition" : [0, 3],
+      "animationPosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+    "animationParts" : {
+    "bg" : "vierabridgelighting1.png",
+    "fg" : "vierabridgelighting1lit.png"
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ]
+}

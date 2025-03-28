@@ -1,0 +1,43 @@
+{
+  "objectName" : "vierabasket3",
+  "colonyTags" : ["viera","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 75,
+  "description" : "A large woven basket for storage.",
+  "shortdescription" : "Large Basket",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A large basket for storage.",
+  "avianDescription" : "Baskets are such a practical way of storage.",
+  "floranDescription" : "What's inssssside?",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A basket use for storing items.",
+  "hylotlDescription" : "This woven basket is used for storing goods.",
+  "novakidDescription" : "What could be inside?",
+  "vieraDescription" : "Crafted by my people to store our intricate wares.",
+
+  "inventoryIcon" : "vierabasket3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierabasket3.png:<color>",
+      "imagePosition" : [-8, 0],
+	  "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/blocks/footstep_snow.ogg" ],
+  "closeSounds" : [ "/sfx/blocks/footstep_snow.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

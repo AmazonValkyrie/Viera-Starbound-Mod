@@ -1,0 +1,22 @@
+{
+  "materialId" : 13015,
+  "materialName" : "flutedtile",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "flutedtile",
+  "description" : "Fluted carvings adorn this mahogany column.",
+  "shortdescription" : "Fluted Mahogany",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "fluted.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2890
+  }
+}

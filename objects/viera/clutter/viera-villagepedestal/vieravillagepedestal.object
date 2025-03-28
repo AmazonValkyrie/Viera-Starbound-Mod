@@ -1,0 +1,57 @@
+{
+  "objectName" : "vieravillagepedestal",
+  "colonyTags" : ["viera","vieravillage", "pretty", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "An ornate pedestal with spiral staircase.",
+  "shortdescription" : "Teleporter Pedestal",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 155,
+  "health" : 1.5,
+
+  "apexDescription" : "A garish way to move upward.",
+  "avianDescription" : "Such a beautiful pathway up.",
+  "floranDescription" : "Lovely ssstaircasse.",
+  "glitchDescription" : "Admiration. An intricate path of decoration.",
+  "humanDescription" : "It's a classy way to go up stairs.",
+  "hylotlDescription" : "What ornate stepping stones.",
+  "novakidDescription" : "A purdy set o' stairs.",
+  "vieraDescription" : "This pedestal grants a means to elevate.",
+
+  "inventoryIcon" : "villagepedestalicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "villagepedestal.png:<color>", "fullbright" : true }, { "image" : "villagepedestallit.png:<color>" } ],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[4, 0], [3, 1], [2, 1], [1, 2], [0, 2], [-1, 3], [-2, 4], [-3, 4], [-4, 5], [-5, 5], [-6, 6], [-7, 7],
+			[5, 7], [4, 7], [3, 7], [2, 7], [1, 7], [0, 7], [-1, 7], [-2, 7], [-3, 7], [-4, 7], [-5, 7]
+	  ]
+    },
+	{
+      "imageLayers" : [ { "image" : "villagepedestal.png:<color>", "fullbright" : true }, { "image" : "villagepedestallit.png:<color>" } ],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-4, 0], [-3, 1], [-2, 1], [-1, 2], [-0, 2], [1, 3], [2, 4], [3, 4], [4, 5], [5, 5], [6, 6], [7, 7],
+			[-5, 7], [-4, 7], [-3, 7], [-2, 7], [-1, 7], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]
+	  ]
+    }
+  ]
+}

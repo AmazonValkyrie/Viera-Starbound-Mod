@@ -1,0 +1,10 @@
+{
+  "itemName" : "swirltile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "swirlicon.png",
+  "description" : "Swirl carvings on mahogany.",
+  "shortdescription" : "Swirl Motif",
+
+  "materialId" : 13005
+}

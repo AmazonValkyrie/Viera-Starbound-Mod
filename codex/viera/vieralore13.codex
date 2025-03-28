@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore13",
+  "title" : "The Trickster's Trial",
+  "description" : "Ancient Viera folktale.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Trickster's Trial^reset;\n\nOnce, a wanderer challenged the Laughing Spirit, who danced on the wind with eyes like golden fireflies. 'Outwit me,' it teased, and the path to the hidden glade is yours.' Three riddles it spoke, each a thorny vine of words.",
+
+	"But the wanderer answered with a heart unclouded by greed, and the spirit vanished, leaving only laughter echoing among the trees."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

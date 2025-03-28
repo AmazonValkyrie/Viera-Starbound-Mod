@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore30",
+  "title" : "Marpesia, The Chosen Leader: Ch. 3",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Order of Moonshadow^reset;\n\nWith the trials completed, Marpesia returned to Golmore, her spirit aflame with purpose. She gathered the bravest and wisest of her kin, founding the ^blue;Order of the Moonshadow^reset;, dedicated to preserving the balance of life and shadow. They swore their oaths beneath the Heart Tree, their words carried on the wind to Eithne Herself.",
+	
+	"Marpesia taught them to listen to the whispers, to move with the rhythm of the forest, to fight with honor and compassion. Guided by her visions and Eithne's voice, the Moonshadow Warriors became legends, their arrows swift as the wind, their blades shadows upon the earth.",
+	
+	"Yet Marpesia never spoke of the true name she carried, for it was a burden meant only for her. She guarded the secret fiercely, invoking it only in moments of great need, when the balance teetered on the edge of chaos."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

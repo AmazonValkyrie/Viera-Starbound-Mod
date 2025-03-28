@@ -1,0 +1,14 @@
+{
+  "id" : "vieralore8",
+  "title" : "Song of the Sylphs",
+  "description" : "An ancient song celebrating nature's harmony.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Song of the Sylphs^reset;\n\nO' spirits of root and bough,\nWe sing to thee in twilight's breath.\nGuide us through the shadowed path,\nLend thy light when all is dim,\n\nWith leaf and stone, with stream and flame,\nWe walk in harmony, one with the ^green;Green^reset;."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

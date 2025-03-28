@@ -1,0 +1,54 @@
+{
+  "objectName" : "flagviera",
+  "colonyTags" : ["viera"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  "health" : 1.5,
+
+  "description" : "Adorned with the symbol of the beloved Wood.",
+  "shortdescription" : "Viera Flag",
+  "race" : "viera",
+
+  "apexDescription" : "The Viera seem to hold the natural world higher than all things.",
+  "avianDescription" : "The Viera must truly be a nature loving race.",
+  "floranDescription" : "Treeeeees, flowersss! This race is Floran friend!",
+  "glitchDescription" : "Curious. A nation that owes allegiance to forests?",
+  "humanDescription" : "The Viera flag has a spiritual aura to it.",
+  "hylotlDescription" : "Their 'Wood Mother' must be to the Viera as the oceans are to us.",
+  "novakidDescription" : "I can bookmark this Avian flag for quick teleportin'.",
+  "vieraDescription" : "I can mark a location with this flag.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flagvieraicon.png",
+  "orientations" : [
+    {
+      "image" : "flagviera.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagviera.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "vierawardrobe1",
+  "colonyTags" : ["viera","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 150,
+  "description" : "An intricately carved wardrobe, complete with mirror.",
+  "shortdescription" : "Carved Armoire",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "This must hold some beautiful clothing inside.",
+  "avianDescription" : "Valuable clothing may lie inside!",
+  "floranDescription" : "Pretty thingsss!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "This sure is a classy way to keep your clothing.",
+  "hylotlDescription" : "The woodwork here must hold beautiful things within it.",
+  "novakidDescription" : "What could be in this purdy box?",
+  "vieraDescription" : "A large wardrobe for storing a large amount of clothing.",
+
+  "inventoryIcon" : "vierawardrobe1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierawardrobe1.png:<color>",
+      "imagePosition" : [-20, 0],
+	  "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

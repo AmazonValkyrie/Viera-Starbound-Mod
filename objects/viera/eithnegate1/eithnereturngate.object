@@ -1,0 +1,76 @@
+{
+  "objectName" : "eithnereturngate",
+  "colonyTags" : ["viera"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "An unassuming arch holds the way to the Wood.",
+  "shortdescription" : "Return Gate of the Wood",
+  "race" : "viera",
+
+  "apexDescription" : "A well carved archway.",
+  "avianDescription" : "The crystals hanging here emanate with such peaceful energy.",
+  "floranDescription" : "A hidden path liesss here.",
+  "glitchDescription" : "Impressed. A sturdy, carved archway with colorful flowers.",
+  "humanDescription" : "What a pretty arrangement of flowers.",
+  "hylotlDescription" : "I sense there is more than meets the eye here.",
+  "novakidDescription" : "A mighty pretty bunch o' flowers.",
+  "vieraDescription" : "The Wood holds many secrets within her boughs.",
+  
+  "retainObjectParametersInItem" : true,
+  "lightColor" : [131, 168, 168],
+  
+  "flickerPeriod" : 5.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "eithnegate1.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnegate1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-175, 0],
+      "animationPosition" : [17, 125],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "detectArea" : [ [-11, 0], [11, 5] ]
+    },
+    {
+      "imageLayers" : [ { "image" : "eithnegate1.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnegate1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-192, 0],
+      "animationPosition" : [0, 125],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "detectArea" : [ [-9, 0], [13, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/viera/eithnegate1/eithnegate1.animation",
+  "animationParts" : {
+    "bg" : "eithnegate1.png",
+    "fg" : "eithnegate1lit.png",
+
+    // these should never be displayed on this gate
+    "outpost" : "",
+    "portal" : ""
+  },
+  "interactAction" : "OpenTeleportDialog",
+  "scripts" : [ "/objects/viera/eithnegate1/eithnegate.lua" ],
+  "scriptDelta" : 20,
+
+  "returnDoor" : true
+}

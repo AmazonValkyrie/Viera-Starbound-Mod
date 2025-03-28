@@ -1,0 +1,55 @@
+{
+  "itemName" : "vieragreenmagechest",
+  "shortdescription" : "Green Mage Garb",
+  "description" : "The green mage lends support on the battlefield, shielding allies and crippling foes.",
+  
+  "category" : "chestwear",
+  "statSpread" : "greenmage",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 80,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "malesleeve/bsleeve.png",
+    "frontSleeve" : "malesleeve/fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    /* GREEN */
+    { "1AB26E" : "1AB26E", "158C56" : "158C56", "0F663E" : "0F663E", "093F27" : "093F27", "88CC7E" : "88CC7E", "6FA566" : "6FA566", "557F4F" : "557F4F", "F36B31" : "F36B31", "CC582A" : "CC582A", "A54722" : "A54722", "7F371A" : "7F371A" },
+    /* BLACK */
+    { "1AB26E" : "7F7F7F", "158C56" : "595959", "0F663E" : "333333", "093F27" : "000000", "88CC7E" : "9CABB7", "6FA566" : "7D8993", "557F4F" : "646E77", "F36B31" : "D80000", "CC582A" : "AD0000", "A54722" : "840000", "7F371A" : "5E0000" },
+    /* GREY */
+    { "1AB26E" : "9CABB7", "158C56" : "7D8993", "0F663E" : "646E77", "093F27" : "41474C", "88CC7E" : "595959", "6FA566" : "333333", "557F4F" : "000000", "F36B31" : "8565B1", "CC582A" : "775184", "A54722" : "5D4068", "7F371A" : "47314F" },
+    /* WHITE */
+    { "1AB26E" : "FFFFFF", "158C56" : "D6EAFF", "0F663E" : "B8C9DB", "093F27" : "80A1AD", "88CC7E" : "9CABB7", "6FA566" : "7D8993", "557F4F" : "646E77", "F36B31" : "FFD800", "CC582A" : "E0B700", "A54722" : "C19E00", "7F371A" : "A38500" },
+    /* RED */
+    { "1AB26E" : "D80000", "158C56" : "AD0000", "0F663E" : "840000", "093F27" : "5E0000", "88CC7E" : "A04000", "6FA566" : "7F3300", "557F4F" : "592300", "F36B31" : "FFFFFF", "CC582A" : "D6EAFF", "A54722" : "B8C9DB", "7F371A" : "80A1AD" },
+    /* ORANGE */
+    { "1AB26E" : "F2884B", "158C56" : "C8713D", "0F663E" : "A05A31", "093F27" : "7A4425", "88CC7E" : "FFD800", "6FA566" : "E0B700", "557F4F" : "C19E00", "F36B31" : "00DDFF", "CC582A" : "00B9D6", "A54722" : "009FB7", "7F371A" : "007F94" },
+    /* YELLOW */
+    { "1AB26E" : "FFD800", "158C56" : "E0B700", "0F663E" : "C19E00", "093F27" : "A38500", "88CC7E" : "F2884B", "6FA566" : "C8713D", "557F4F" : "A05A31", "F36B31" : "40D65B", "CC582A" : "37B74E", "A54722" : "2D9941", "7F371A" : "267F37"},
+    /* GREEN */
+    { "1AB26E" : "1AB26E", "158C56" : "158C56", "0F663E" : "0F663E", "093F27" : "093F27", "88CC7E" : "88CC7E", "6FA566" : "6FA566", "557F4F" : "557F4F", "F36B31" : "F36B31", "CC582A" : "CC582A", "A54722" : "A54722", "7F371A" : "7F371A" },
+    /* BLUE */
+    { "1AB26E" : "00DDFF", "158C56" : "00B9D6", "0F663E" : "009FB7", "093F27" : "007F94", "88CC7E" : "FFD800", "6FA566" : "E0B700", "557F4F" : "C19E00", "F36B31" : "BC4B00", "CC582A" : "A04000", "A54722" : "7F3300", "7F371A" : "592300" },
+    /* PURPLE */
+    { "1AB26E" : "8565B1", "158C56" : "775184", "0F663E" : "5D4068", "093F27" : "47314F", "88CC7E" : "7F7F7F", "6FA566" : "595959", "557F4F" : "333333", "F36B31" : "9CABB7", "CC582A" : "7D8993", "A54722" : "646E77", "7F371A" : "41474C" },
+    /* PINK */
+    { "1AB26E" : "FF9B88", "158C56" : "E08879", "0F663E" : "C17668", "093F27" : "A36358", "88CC7E" : "9CABB7", "6FA566" : "7D8993", "557F4F" : "646E77", "F36B31" : "FFFFFF", "CC582A" : "D6EAFF", "A54722" : "B8C9DB", "7F371A" : "80A1AD" },
+    /* BROWN */
+    { "1AB26E" : "BC4B00", "158C56" : "A04000", "0F663E" : "7F3300", "093F27" : "592300", "88CC7E" : "FFD800", "6FA566" : "E0B700", "557F4F" : "C19E00", "F36B31" : "FF9B88", "CC582A" : "E08879", "A54722" : "C17668", "7F371A" : "A36358" }
+  ]
+}

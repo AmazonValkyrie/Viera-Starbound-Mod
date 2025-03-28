@@ -1,0 +1,132 @@
+{
+  "type" : "maleveenaravavieravillager",
+  "baseType" : "vierabase",
+
+  "identity" : {
+    "gender" : "male",
+    "race" : "maleveenaravaviera"
+  },
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "behaviorConfig" : {
+	  "greetingChance" : 0.25,
+	  "converseChance" : 1,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+
+      // Every 30 seconds, decide whether to generate a quest and if so, spend
+      // the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+
+      // Don't generate new quests if there are already more than <nearbyQuestLimit>
+      // questmanager stagehands nearby, within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+	  "chance" : 1,
+      "questCountRange" : [1, 4],
+	  
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "vieracrewmember"],
+		  [1, "vieracrewmemberfencer"],
+		  [1, "vieracrewmemberarcher"],
+		  [1, "vieracrewmemberwhitemage"]
+        ],
+        "chance" : 1
+      }
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/viera.config:tagCriteria",
+          "enclosedArea" : "/dialog/viera.config:enclosedArea",
+          "otherDeed" : "/dialog/viera.config:otherDeed",
+          "severe" : "/dialog/viera.config:severe",
+          "final" : "/dialog/viera.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/viera.config:beacon",
+          "rent" : "/dialog/viera.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/viera.config:helpme",
+		"helpthem" : "/dialog/viera.config:helpthem",
+        "encourage" : "/dialog/viera.config:encourage",
+        "safe" : "/dialog/viera.config:safe"
+      },
+      "breakObject" : "/dialog/viera.config:breakObject",
+      "greeting" : "/dialog/viera.config:greeting",
+      "converse" : "/dialog/viera.config:converse",
+      "accuse" : "/dialog/viera.config:accuse",
+      "alert" : "/dialog/viera.config:alert"
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+          "chest" : [
+            { "name" : "freelancer1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer2chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer3chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer4chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer5chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer6chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "salvemakerchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "woodwarderchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+          ],
+          "legs" : [
+            { "name" : "freelancer1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer2legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer3legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer4legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer5legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer6legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "salvemakerlegs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "woodwarderlegs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+          ]
+        }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

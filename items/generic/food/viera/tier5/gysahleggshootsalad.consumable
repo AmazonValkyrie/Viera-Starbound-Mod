@@ -1,0 +1,25 @@
+{
+  "itemName" : "gysahleggshootsalad",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "gysahleggshootsalad.png",
+  "description" : "A simple yet substantial salad of eggshoot and gysahl root.",
+  "shortdescription" : " Gysahl Eggshoot Salad",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "gysahleggshooticecream" ]
+}

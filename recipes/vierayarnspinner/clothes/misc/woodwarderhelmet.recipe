@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "woodwarderhelmet", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

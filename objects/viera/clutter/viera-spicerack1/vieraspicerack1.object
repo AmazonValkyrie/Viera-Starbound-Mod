@@ -1,0 +1,42 @@
+{
+  "objectName" : "vieraspicerack1",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 85,
+  "health" : 1.5,
+  "description" : "A small rack of herbs and spices",
+  "shortdescription" : "Small Spice Rack",
+  "race" : "viera",
+
+  "apexDescription" : "A set of spice jars.",
+  "avianDescription" : "Storage for a variety of herbs.",
+  "floranDescription" : "So many ssscentsss.",
+  "glitchDescription" : "Acknowledgement. Ceramic jars for storing plant items.",
+  "humanDescription" : "Several spice jars.",
+  "hylotlDescription" : "A wide variety of spices may be stored within.",
+  "novakidDescription" : "This must be used fer cookin'.",
+  "vieraDescription" : "Viera store and use lots of herbs and spices.",
+
+  "inventoryIcon" : "vieraspicerack1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieraspicerack1.png:<color>",
+      "imagePosition" : [-8, 0],
+	  "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

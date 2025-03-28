@@ -1,0 +1,32 @@
+{
+    "id": "vierawindowdressings",
+    "title": "Viera Window-Dressings",
+    "description": "A book of patterns for creating Viera window dressings.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and patterns for creating a variety of Viera drapes, shades, and valances. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "extravagantcurtainmed",
+            "extravagantvalancemed",
+            "extravagentcurtainmed2",
+            "ornatescallopedcurtainmed",
+            "ornatescallopedvalancemed",
+            "swagcurtainlg",
+            "swagcurtainmed",
+            "swagcurtainsm",
+            "valancelg",
+            "valancemed",
+            "valancesm",
+            "vierashadelg",
+            "vierashademed",
+            "vierashadesm",
+			"violetswagcurtainmed",
+			"violetswagvalancemed"
+			
+        ],
+        "rarity": "Rare",
+        "price": 275
+    }
+}

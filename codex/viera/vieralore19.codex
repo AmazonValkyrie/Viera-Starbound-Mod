@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore19",
+  "title" : "The Saga of Marpesia: Ch. 4",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Weight of Leadership^reset;\n\nWith the invaders repelled, Marpesia was named Arbiter of the Forest, the first to bear the title in a thousand years. Yet, she felt the weight of each life lost, each leaf fallen. In council, she spoke with the voice of a leader, wise and resolute. But in the silence of the night, she heard the whispers of the fallen, felt the shadow of grief.",
+
+	"To honor her fallen sister, she planted a tree at the heart of Golmore, its blossoms silver as moonlight. Beneath its boughs, she vowed to guard her people, not just with strength but with wisdom, to lead not through fear but through harmony."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

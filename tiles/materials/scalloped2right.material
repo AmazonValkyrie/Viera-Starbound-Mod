@@ -1,0 +1,22 @@
+{
+  "materialId" : 13008,
+  "materialName" : "scalloped2righttile",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "scalloped2righttile",
+  "description" : "A Viera tile with a wide scallop.",
+  "shortdescription" : "Wide Scallop Right",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "scalloped2right.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2875
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanbrick",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanbrickicon.png",
+  "shortdescription" : "Dalmascan Brick",
+  "description" : "Bricks formed using the techniques of molding sandstone.",
+
+  "materialId" : 13083
+}

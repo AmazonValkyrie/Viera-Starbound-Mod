@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore14",
+  "title" : "The Great Sundering",
+  "description" : "Ancient Viera folktale.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Great Sundering^reset;\n\nWhen the world was young and the sky a painted canvas, the First Tree stood tall, its branches touching the heavens. From its leaves fell the seeds of life, and the Viera were born, hearing the song of creation.",
+
+	"But when the Balance was broken, they were given long ears to hear the forest's lament and keen sight to watch for shadows that would threaten the Green. Thus, they became both wardens and wanderers, bound to the earth and sky alike."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

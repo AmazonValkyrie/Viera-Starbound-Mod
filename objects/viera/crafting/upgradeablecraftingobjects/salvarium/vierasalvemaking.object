@@ -1,0 +1,125 @@
+{
+  "objectName" : "vierasalvemaking",
+  "shortdescription" : "^orange;Salvarium^white;",  
+  "colonyTags" : ["viera","crafting"],
+  "race" : "viera",
+  "rarity" : "Uncommon",	
+  "category" : "crafting",
+  "health" : 3.5,
+  "breakDropOptions" : [],
+
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "The Salve Maker's herbal set is used to craft healing items.",
+  "apexDescription" : "The tools of some mysterious healing practice?",
+  "avianDescription" : "This looks like the work station of a spiritual healer.",
+  "floranDescription" : "Such scentsss for the sensesss.",
+  "glitchDescription" : "Curious. Ancient organic healing.",
+  "humanDescription" : "The smell of these herbs are mystifying.",
+  "hylotlDescription" : "These herbs have great healing properties.",
+  "novakidDescription" : "Plants don't do much fer me, but they sure are pretty.",
+  "vieraDescription" : "The herbs of the Wood are mixed her to aid us with Life.",
+
+  "animation" : "vierasalvemaking.animation",  
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "vierasalvemaking1.png:default.default",
+  "placementImagePosition" : [-8, 0], 
+  "animationPosition" : [8, 16],
+
+  "interactData" : { "config" : "/interface/windowconfig/craftingmedical.config" },  
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+  "upgradeStages" : [
+    {
+      "animationState" : "primus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Mender's Salvarium^white;",
+        "inventoryIcon" : "icon1.png",
+        "placementImage" : "vierasalvemaking1.png:default.default",
+
+        "description" : "The Salve Maker's herbal set is used to craft healing items.",
+        "apexDescription" : "The tools of some mysterious healing practice?",
+        "avianDescription" : "This looks like the work station of a spiritual healer.",
+        "floranDescription" : "Such scentsss for the sensesss.",
+        "glitchDescription" : "Curious. Ancient organic healing.",
+        "humanDescription" : "The smell of these herbs are mystifying.",
+        "hylotlDescription" : "These herbs have great healing properties.",
+        "novakidDescription" : "Plants don't do much fer me, but they sure are pretty.",
+        "vieraDescription" : "The herbs of the Wood are mixed her to aid us with Life."
+      },
+      "interactData" : {
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Mender's Salvarium",
+            "subtitle" : " ^#b9b5b2;Health and Protection",
+            "icon" : { "file" : "/interface/crafting/vierasalvemaking.png" }
+          }
+        },
+        "filter" : [ "craftingmedical" ],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+          { "item" : "siliconboard", "count" : 3 },
+          { "item" : "wire", "count" : 5 },
+          { "item" : "battery", "count" : 1 }
+        ]
+      },	  
+      "upgradeParticleEffect" : "finalUpgrade",
+      "upgradeSoundEffect" : "fanfare",
+      "learnBlueprintsOnPickup" : []
+    },
+    {
+      "animationState" : "secundus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Purifying Salvarium^white;",
+        "inventoryIcon" : "icon2.png",
+        "placementImage" : "vierasalvemaking2.png:default.default",
+
+        "description" : "The Salve Maker's table is used for crafting healing items.",
+        "apexDescription" : "The tools of some mysterious healing practice?",
+        "avianDescription" : "This looks like the work station of a spiritual healer.",
+        "floranDescription" : "Such scentsss for the sensesss.",
+        "glitchDescription" : "Curious. Ancient organic healing.",
+        "humanDescription" : "The smell of these herbs are mystifying.",
+        "hylotlDescription" : "These herbs have great healing properties.",
+        "novakidDescription" : "Plants don't do much fer me, but they sure are pretty.",
+        "vieraDescription" : "The herbs of the Wood are mixed her to aid us with Life."
+      },
+      "interactData" : {
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Purifying Salvarium",
+            "subtitle" : " ^#b9b5b2;Health and Protection",
+            "icon" : { "file" : "/interface/crafting/vierasalvemaking.png" }
+          }
+        },
+        "filter" : [ "craftingmedical", "craftingmedical2" ]
+      },
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "vierasalvemaking1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "vierasalvemaking1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ 
+	    { "image" : "vierasalvemaking1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "vierasalvemaking1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ], 
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ]  
+}

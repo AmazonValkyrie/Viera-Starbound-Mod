@@ -1,0 +1,14 @@
+{
+  "id" : "vieralore20",
+  "title" : "Asteria, The Silver Blossom: Prologue",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;The Star the Fell to the Forest^reset;\n\nIn the night's embrace, beneath a sky woven with stars, one fell like a tear of silver. Where it touched the earth, life bloomed anew-a sign, the elders said, of a soul touched by destiny. Thus was Asteria born, a child of light, destined to shape shadows."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

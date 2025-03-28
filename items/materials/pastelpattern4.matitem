@@ -1,0 +1,12 @@
+{
+  "itemName" : "pastelpattern4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "pastelpattern4icon.png",
+  "description" : "Ornate shapes are imprinted into the wall panel.",
+  "shortdescription" : "Devore' Wall Panel",
+
+  "materialId" : 13076,
+  "learnBlueprintsOnPickup" : [ "pastelpattern4" ]
+}

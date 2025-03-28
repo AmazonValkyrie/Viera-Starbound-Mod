@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieraslopedglass",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieraslopedglassicon.png",
+  "shortdescription" : "Sloped Glass",
+  "description" : "Colored, crystal-clear glass.",
+
+  "materialId" : 13110,
+  "learnBlueprintsOnPickup" : [ "vieraslopedglass" ]
+}

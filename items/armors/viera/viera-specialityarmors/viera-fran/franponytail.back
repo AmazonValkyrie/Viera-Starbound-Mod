@@ -1,0 +1,95 @@
+{
+  "itemName" : "franponytail",
+  "shortdescription" : "Flowing Ponytail",
+  "description" : "Long, flowing ponytail.",
+  "itemTags" : [ ],
+  
+  "category" : "backwear",
+  "statSpread" : "cosmetic",
+  "statGrowth" : "standard",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 800,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:back",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  
+  "colorOptions" : [
+    //VIERA WHITE
+    { "D3C9C4" : "CCC2AF", "BAB2AE" : "B2AA97", "AAA3A0" : "999182" }, 
+	//CANDY PINK
+    { "D3C9C4" : "FFBCB2", "BAB2AE" : "FF8E88", "AAA3A0" : "FF6159" }, 
+	//CORAL
+    { "D3C9C4" : "FF7459", "BAB2AE" : "D35E4A", "AAA3A0" : "96201B" }, 
+	//GINGER
+    { "D3C9C4" : "B23929", "BAB2AE" : "991F1B", "AAA3A0" : "7A1916" }, 
+	//CRIMSON
+    { "D3C9C4" : "982441", "BAB2AE" : "69243F", "AAA3A0" : "4C1A2E" },
+	//RUSTY RED
+    { "D3C9C4" : "731A1A", "BAB2AE" : "591414", "AAA3A0" : "380C0C" }, 
+	//LIGHT BROWN
+    { "D3C9C4" : "7A2409", "BAB2AE" : "541D0C", "AAA3A0" : "331107" },
+	//DARK BROWN
+    { "D3C9C4" : "351907", "BAB2AE" : "211004", "AAA3A0" : "000000" }, 
+	//ASH BROWN
+    { "D3C9C4" : "3F2116", "BAB2AE" : "26130D", "AAA3A0" : "000000" }, 
+	//NUTMEG
+    { "D3C9C4" : "743E1D", "BAB2AE" : "592E16", "AAA3A0" : "3A1E0E" }, 
+	//DARK BLONDE
+    { "D3C9C4" : "A05A19", "BAB2AE" : "834012", "AAA3A0" : "602E0D" }, 
+	//PEACH
+    { "D3C9C4" : "AF7634", "BAB2AE" : "93682C", "AAA3A0" : "7C5725" },
+	//BLONDE
+    { "D3C9C4" : "A9882F", "BAB2AE" : "8C6F27", "AAA3A0" : "725B20" },
+	//CREAM BLONDE
+    { "D3C9C4" : "B59A4D", "BAB2AE" : "998141", "AAA3A0" : "7F6C36" }, 
+	//PALE BLONDE
+    { "D3C9C4" : "C2B677", "BAB2AE" : "A89D68", "AAA3A0" : "8E8558" }, 
+	//MOSS GREEN
+    { "D3C9C4" : "6B880B", "BAB2AE" : "586D09", "AAA3A0" : "435407" }, 
+	//EMERALD GREEN
+    { "D3C9C4" : "228A38", "BAB2AE" : "1C702C", "AAA3A0" : "145120" },
+    //FOREST GREEN	
+    { "D3C9C4" : "23512B", "BAB2AE" : "183F21", "AAA3A0" : "0E2614" }, 
+	//CRYSTAL BLUE
+    { "D3C9C4" : "3E8E91", "BAB2AE" : "237082", "AAA3A0" : "134049" },
+	//SEAFOAM
+    { "D3C9C4" : "197C81", "BAB2AE" : "136063", "AAA3A0" : "0E4547" },  
+	//AZURE
+	{ "D3C9C4" : "476EAD", "BAB2AE" : "2C489E", "AAA3A0" : "1B2D63" },
+	//COBALT
+	{ "D3C9C4" : "2E2A73", "BAB2AE" : "201E51", "AAA3A0" : "12102D" },
+	//DARK BLUE
+	{ "D3C9C4" : "242247", "BAB2AE" : "15142B", "AAA3A0" : "07070F" },
+	//BERRY
+	{ "D3C9C4" : "592239", "BAB2AE" : "42192A", "AAA3A0" : "280F1A" },
+	//PURPLE
+	{ "D3C9C4" : "3C2049", "BAB2AE" : "25142D", "AAA3A0" : "100814" },
+	//VIOLET
+	{ "D3C9C4" : "913B86", "BAB2AE" : "722F6A", "AAA3A0" : "4C1F47" },
+	//HOT PINK
+	{ "D3C9C4" : "8C3C5A", "BAB2AE" : "6B2E45", "AAA3A0" : "4C2031" },
+	//LAVENDAR
+	{ "D3C9C4" : "7A3899", "BAB2AE" : "6A2980", "AAA3A0" : "512063" },
+	//ASH GREY
+	{ "D3C9C4" : "36261E", "BAB2AE" : "1E1411", "AAA3A0" : "000000" },
+	//BLACK
+	{ "D3C9C4" : "333333", "BAB2AE" : "191919", "AAA3A0" : "000000" },
+	//CHARCOAL
+	{ "D3C9C4" : "33312F", "BAB2AE" : "231F19", "AAA3A0" : "000000" },
+	//BLUE GREY
+	{ "D3C9C4" : "3E4352", "BAB2AE" : "242730", "AAA3A0" : "0F1014" },
+	//LIGHT GREY
+	{ "D3C9C4" : "606060", "BAB2AE" : "4C4C4C", "AAA3A0" : "333333" },
+	//WHITE
+	{ "D3C9C4" : "B8B8B8", "BAB2AE" : "999999", "AAA3A0" : "828282" },
+	//VIERA WHITE
+	{ "D3C9C4" : "CCC2AF", "BAB2AE" : "B2AA97", "AAA3A0" : "999182" }
+  ]
+}
+

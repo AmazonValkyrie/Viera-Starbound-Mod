@@ -1,0 +1,149 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [102, 30],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [115, 30],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "fImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 7,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "mfImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 6,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "mhImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 5,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "cImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 4,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "mImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 3,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "mlImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 2,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "bImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 1,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "mbImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+	"trim" : false,
+    "centered" : false,
+    "position" : [-3, 91]
+  },
+  "dLabel" : {
+    "type" : "label",
+    "position" : [16, 90],
+    "wrapWidth" : 122,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 179],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [35, 169],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [12, 30],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  },
+  "statusList" : {
+    "scissoring" : false,
+    "type" : "list",
+    "fillDown" : true,
+    "position" : [6, 161],
+    "schema" : {
+      "spacing" : [0, 1],
+      "memberSize" : [999, 15],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [102, 2],
+          "hAnchor" : "left"
+        },
+        "statusImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [62, -1],
+          "file" : "",
+          "zlevel" : 8
+        },
+        "backgroundImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [61, 0],
+          "file" : "/interface/tooltips/statlistback.png"
+        }
+      }
+    }
+  }
+}

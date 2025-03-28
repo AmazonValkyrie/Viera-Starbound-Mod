@@ -1,0 +1,35 @@
+{
+  "objectName" : "spiralofeternity",
+  "colonyTags" : ["viera", "femalespawn"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 80,
+  "health" : 1.5,
+  
+  "description" : "A symbol of the Life-giving forces of Creation.",
+  "shortdescription" : "The Spiral of Eternity",
+  "race" : "viera",
+
+  "apexDescription" : "An unfamiliar symbol is embroidered on this banner.",
+  "avianDescription" : "What symbol could this be?",
+  "floranDescription" : "????",
+  "glitchDescription" : "????. This symbol is not in my database.",
+  "humanDescription" : "A spiral?",
+  "hylotlDescription" : "The spiral is noted in most philosophies as a symbol of Creation.",
+  "novakidDescription" : "What's with this coil-shape?",
+  "vieraDescription" : "The symbol of the Life-giver.",
+
+  "inventoryIcon" : "spiralofeternityicon.png",
+  "orientations" : [
+    {
+      "image" : "spiralofeternity.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

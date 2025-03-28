@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sharpenedclaw", "count" : 1 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vierasummonerhead", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

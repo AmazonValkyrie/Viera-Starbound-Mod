@@ -1,0 +1,55 @@
+{
+  "objectName" : "carvedvierabed1",
+  "colonyTags" : ["viera"],
+  "rarity" : "Uncommon",
+  "description" : "An intricately carved wooden, Viera bed.",
+  "shortdescription" : "Carved Viera Bed",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 90,
+
+  "apexDescription" : "The intricate craftsmanship is incredible!",
+  "avianDescription" : "Such a beautifully carved bed.",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. Power levels low. Sleep mode required.",
+  "humanDescription" : "I could sleep for days in a bed like this.",
+  "hylotlDescription" : "A beautiful place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "vieraDescription" : "I am cradled by The Wood Herself in a bed such as this.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/viera/bedroom/carvedvierabed1/cover.png",
+   "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed2"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "carvedvierabed1.png:<color>",
+      "imagePosition" : [-24, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-2, 15],
+	  "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "carvedvierabed1.png:<color>",
+      "imagePosition" : [-24, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-10, 15],
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

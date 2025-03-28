@@ -1,0 +1,63 @@
+{
+  "objectName" : "mooglebunk",
+  "colonyTags" : ["moogle", "moogleship"],
+  "rarity" : "Uncommon",
+  "description" : "Sleep tucked away with this bedding built into the wall.",
+  "shortdescription" : "Moogle Ship Bunk",
+  "race" : "moogle",
+  "category" : "furniture",
+  "price" : 175,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "mooglebunk" ],
+
+  "apexDescription" : "The intricate craftsmanship is incredible!",
+  "avianDescription" : "Such a beautifully carved bed.",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. Power levels low. Sleep mode required.",
+  "humanDescription" : "I could sleep for days in a bed like this.",
+  "hylotlDescription" : "A beautiful place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "vieraDescription" : "Comfortable bedding for a traveling crew.",
+  "moogleDescription" : "A cozy space for restful sleep, kupo.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/moogle/ship/mooglebunk/mooglebunkcover.png",
+  "sitEmote" : "sleep",
+  
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "sitStatusEffects" : [
+    "bed1",
+	"invisible"
+  ],
+  "lightColor" : [247, 239, 210],
+
+  "inventoryIcon" : "mooglebunkicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mooglebunk1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mooglebunk1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-3, 10],
+	  "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  "collision" : "platform"
+    },
+	{
+      "imageLayers" : [ { "image" : "mooglebunk1.png:<color>.<frame>", "fullbright" : true }, { "image" : "mooglebunk1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-11, 10],
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  "collision" : "platform"
+    }
+  ]
+}

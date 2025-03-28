@@ -1,0 +1,187 @@
+{
+  "kind" : "moogle",
+  "playerSpecies" : true,
+    "charCreationTooltip" : {
+      "title" : "Moogle",
+      "subTitle" : "vSpecies",
+      "description" : "A race of rabbitoid-bat beings from Ivalice."
+  },
+  "humanoidConfig" : "/species/mooglenoid.config",
+  "nameGen" : [ "/species/mooglenamegen.config:names", "/species/mooglenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/mooglehurt.ogg", "/sfx/humanoid/mooglehurt.ogg" ],
+  "charGenTextLabels" : [ "Fur colour", "", "Shirt", "Legwear", "Wing/Pom colour", "Hair style", "Shirt colour", "Legwear colour", "MOOGLE", "Stance" ],
+  "skull" : "/humanoid/moogle/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FEFFFFFF?replace=9bd4ffFF=9EFFFFFF?replace=31a6ffFF=00FFFFFF",
+  
+  "defaultBlueprints" : {
+    "tier1" : [
+	// Empty Hands
+      { "item" : "flagmoogle" },
+	// Campfire
+      { "item" : "cookedgysahlroot" },
+	  
+      // Anvil
+      { "item" : "moogletier1head" },
+      { "item" : "moogletier1chest" },
+      { "item" : "moogletier1pants" },
+	  { "item" : "viera_chocobobardingtier1heavy" },
+      { "item" : "moogletier2head" },
+      { "item" : "moogletier2chest" },
+      { "item" : "moogletier2pants" },
+	  { "item" : "viera_chocobobardingtier2heavy" },
+	  
+	  { "item" : "mooglemagiciteairaura" },	  
+
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+      // Anvil2
+      { "item" : "moogletier3head" },
+      { "item" : "moogletier3chest" },
+      { "item" : "moogletier3pants" },
+	  { "item" : "viera_chocobobardingtier3heavy" },
+      { "item" : "moogletier4head" },
+      { "item" : "moogletier4chest" },
+      { "item" : "moogletier4pants" },
+	  { "item" : "viera_chocobobardingtier4heavy" },
+	  
+	  { "item" : "mooglemagicitediffusionaura" },
+
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+
+      // Anvil3
+      { "item" : "moogletier5ahead" },
+	  { "item" : "moogletier5aheadhood" },
+      { "item" : "moogletier5achest" },
+      { "item" : "moogletier5apants" },
+	  { "item" : "viera_chocobobardingtier5light" },
+      { "item" : "moogletier6ahead" },
+      { "item" : "moogletier6achest" },
+      { "item" : "moogletier6apants" },
+	  { "item" : "viera_chocobobardingtier6light" },
+
+      { "item" : "moogletier5mhead" },
+      { "item" : "moogletier5mchest" },
+      { "item" : "moogletier5mpants" },
+	  { "item" : "viera_chocobobardingtier5basic" },
+      { "item" : "moogletier6mhead" },
+      { "item" : "moogletier6mchest" },
+      { "item" : "moogletier6mpants" },
+	  { "item" : "viera_chocobobardingtier6basic" },
+
+      { "item" : "moogletier5shead" },
+      { "item" : "moogletier5schest" },
+      { "item" : "moogletier5spants" },
+	  { "item" : "viera_chocobobardingtier5heavy" },
+      { "item" : "moogletier6shead" },
+      { "item" : "moogletier6schest" },
+      { "item" : "moogletier6spants" },
+	  { "item" : "viera_chocobobardingtier6heavy" },
+	  
+	  { "item" : "mooglemagiciteheatingaura" },
+	  { "item" : "mooglemagicitecoolingaura" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+	  
+      // Crafting 
+	  { "item" : "woodworkingtable" },
+	  { "item" : "vieratinkerstable" },
+	  { "item" : "vierayarnspinner" },
+	  { "item" : "vierawoodwarding" },
+	  { "item" : "vierasalvemaking" },
+	  { "item" : "stonehearth" },
+	  { "item" : "vieracraftinganvil" }
+
+	]
+  },
+  
+  "headOptionAsFacialhair" : true,
+  "altOptionAsUndyColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/mooglemale.png",
+      "characterImage" : "/interface/title/mooglemale.png",
+	  "hairGroup" : "ear",
+      "hair" : [ 
+	    "up/01"	
+	  ],
+      "shirt" : [ "moogle_freelancer1chest", "moogle_freelancer2chest" ],
+      "pants" : [ "moogle_freelancer1legs", "moogle_freelancer2legs" ],
+      "facialHairGroup" : "hair",
+      "facialHair" : [ 
+	    "blank", 
+		"auburn1", "auburn2", "auburn3", "auburn4", "auburn5", "auburn6", "auburn7", "auburn8", "auburn9", "auburn10", 		
+		"ginger1", "ginger2", "ginger3", "ginger4", "ginger5", "ginger6", "ginger7", "ginger8", "ginger9", "ginger10"
+	  ],
+      "facialMaskGroup" : "",
+      "facialMask" : [  ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/mooglefemale.png",
+      "characterImage" : "/interface/title/mooglefemale.png",
+	  "hairGroup" : "ear",
+      "hair" : [ 
+	    "up/01"	
+	  ],
+      "shirt" : [ "moogle_freelancer1chest", "moogle_freelancer2chest" ],
+      "pants" : [ "moogle_freelancer1legs", "moogle_freelancer2legs" ],
+      "facialHairGroup" : "hair",
+      "facialHair" : [ 
+	    "blank", 
+		"auburn1", "auburn2", "auburn3", "auburn4", "auburn5", "auburn6", "auburn7", "auburn8", "auburn9", "auburn10", 		
+		"ginger1", "ginger2", "ginger3", "ginger4", "ginger5", "ginger6", "ginger7", "ginger8", "ginger9", "ginger10"
+	  ],
+      "facialMaskGroup" : "",
+      "facialMask" : [  ]
+    }
+  ],
+  "bodyColor" : [ 
+    //BODY
+    { "FEFED5" : "FEFED5", "D5D5A4" : "D5D5A4", "ACA46A" : "ACA46A", "938349" : "938349", "524929" : "524929", "808080" : "808080", "606060" : "606060" },
+	{ "FEFED5" : "E5BC8E", "D5D5A4" : "B99972", "ACA46A" : "7F684F", "938349" : "63513D", "524929" : "4C3E2F", "808080" : "604C35", "606060" : "261E15" },
+	{ "FEFED5" : "E5C1A9", "D5D5A4" : "B29785", "ACA46A" : "7F6C5F", "938349" : "605249", "524929" : "493E37", "808080" : "B29785", "606060" : "7F6C5F" },
+	{ "FEFED5" : "FFCBBB", "D5D5A4" : "CCA396", "ACA46A" : "997B72", "938349" : "7F655E", "524929" : "66514B", "808080" : "B2B2B2", "606060" : "808080" },
+	{ "FEFED5" : "E5D6C3", "D5D5A4" : "B2A697", "ACA46A" : "8C8377", "938349" : "776F65", "524929" : "665F56", "808080" : "CCA396", "606060" : "997B72" },
+	{ "FEFED5" : "FFC1A0", "D5D5A4" : "D8A388", "ACA46A" : "B28670", "938349" : "9E7663", "524929" : "8C6958", "808080" : "D8A388", "606060" : "B28670" },
+	{ "FEFED5" : "E5D7BE", "D5D5A4" : "B2A794", "ACA46A" : "8C8374", "938349" : "776F63", "524929" : "665F54", "808080" : "B2A794", "606060" : "8C8374" },
+	{ "FEFED5" : "B2A68E", "D5D5A4" : "7F7666", "ACA46A" : "4C473D", "938349" : "38332C", "524929" : "26231E", "808080" : "4C473D", "606060" : "26231E" }
+  ],  
+  "undyColor" : [ 
+    //POM AND WINGS 
+	//RED
+    { "DB0000" : "DB0000", "990000" : "990000", "510000" : "510000"  }, 
+	//ORANGE            
+	{ "DB0000" : "FF6A00", "990000" : "CC5100", "510000" : "8C3800"  }, 
+	//YELLOW
+	{ "DB0000" : "FFD800", "990000" : "CCAA00", "510000" : "997F00"  }, 
+	//GREEN
+	{ "DB0000" : "61D900", "990000" : "449900", "510000" : "337200"  }, 
+	//BLUE
+	{ "DB0000" : "0094FF", "990000" : "006FBF", "510000" : "00518C"  }, 
+	//PURPLE
+	{ "DB0000" : "9F00FF", "990000" : "6E00B2", "510000" : "460072"  }, 
+	//PINK
+	{ "DB0000" : "FF7FB6", "990000" : "CC6692", "510000" : "994C6D"  }, 
+	//BROWN
+	{ "DB0000" : "A53C00", "990000" : "722A00", "510000" : "3F1600"  }, 
+	//BLACK
+	{ "DB0000" : "606060", "990000" : "3D3D3D", "510000" : "000000"  }, 
+	//GREY
+	{ "DB0000" : "878787", "990000" : "606060", "510000" : "3D3D3D"  }, 
+	//WHITE
+	{ "DB0000" : "FFFFFF", "990000" : "CCCCCC", "510000" : "7F7F90"  }
+  ],  
+  "hairColor" : [ "" ]
+}

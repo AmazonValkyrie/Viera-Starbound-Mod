@@ -1,0 +1,228 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/viera_chocobo-header.png",
+    "fileBody" : "/interface/tooltips/viera_chocobo-body.png",
+    "fileFooter" : "/interface/tooltips/viera_chocobo-footer.png"
+  },
+  
+  //HEADER
+  "chocoboLabel" : {
+    "type" : "label",
+    "position" : [91, 133],
+    "hAnchor" : "mid",
+    "vAnchor" : "top",
+    "wrapWidth" : 165
+  },
+  "stateLabel" : {
+    "type" : "label",
+    "position" : [91, 122],
+    "hAnchor" : "mid",
+    "vAnchor" : "top",
+    "wrapWidth" : 165
+  },
+  
+  //GEAR INFO
+  "saddleTitle" : {
+    "type" : "label",
+    "position" : [125, 103],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Saddle:"
+  },
+  "saddleLabel" : {
+    "type" : "label",
+    "position" : [245, 103],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 85
+  },
+  "bardingTitle" : {
+    "type" : "label",
+    "position" : [125, 92],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Barding:"
+  },
+  "bardingLabel" : {
+    "type" : "label",
+    "position" : [245, 92],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 85
+  },
+  
+  //STAT INFO  
+  "healthTitle" : {
+    "type" : "label",
+    "position" : [125, 73],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Health:"
+  },
+  "healthLabel" : {
+    "type" : "label",
+    "position" : [245, 73],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 65
+  },
+  "protectionTitle" : {
+    "type" : "label",
+    "position" : [125, 64],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Protection:"
+  },
+  "protectionLabel" : {
+    "type" : "label",
+    "position" : [245, 64],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 65
+  },
+  "moveSpeedTitle" : {
+    "type" : "label",
+    "position" : [125, 55],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Run Speed:"
+  },
+  "moveSpeedLabel" : {
+    "type" : "label",
+    "position" : [245, 55],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 65
+  },
+  "waterSpeedTitle" : {
+    "type" : "label",
+    "position" : [125, 46],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Swim Speed:"
+  },
+  "waterSpeedLabel" : {
+    "type" : "label",
+    "position" : [245, 46],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 65
+  },
+  "jumpLimitTitle" : {
+    "type" : "label",
+    "position" : [125, 37],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : "Flap Count:"
+  },
+  "jumpLimitLabel" : {
+    "type" : "label",
+    "position" : [245, 37],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 65
+  },
+  
+  //DISPLAY IMAGE
+  "errorImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 9,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "bardingfImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 8,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "wingImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 7,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "legfImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 6,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "bustImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 5,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "saddleImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 4,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "bardingImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 3,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "backImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 2,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "legbImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 1,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  "bardingbImage" : {
+    "type" : "image",
+    "file" : "",
+	"zlevel" : 2,
+	"trim" : false,
+    "centered" : true,
+    "position" : [60, 64]
+  },
+  
+  //FOOTER DETAILS
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [9, 13],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [64, 13],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [77, 13],
+    "hAnchor" : "left",
+    "value" : "0"
+  }
+}

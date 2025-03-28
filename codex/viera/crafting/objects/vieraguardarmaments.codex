@@ -1,0 +1,24 @@
+{
+    "id": "vieraguardarmaments",
+    "title": "Viera Guard Weapon Racks",
+    "description": "A book of schematics and plans for crafting Viera guard weapons racks.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating weapons racks to accomodate Viera guards--the Wood Warders. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "bowrack",
+			"swordrack",
+            "greatswordracktier2",
+            "spearracktier2",
+            "swordracktier3",
+            "spearracktier3",
+            "swordracktier4",
+            "halberdracktier4"
+			
+        ],
+        "rarity": "Rare",
+        "price": 225
+    }
+}

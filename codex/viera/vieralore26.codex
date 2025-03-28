@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore26",
+  "title" : "Origins of the Wood: Trials of the Green Word",
+  "description" : "Writings of ancient Viera spirituality.",
+  "icon" : "vieracover6.png",
+  "contentPages" : [
+    "^yellow;Journeys of Spirit and Shadow^reset;\n\nTo prove their connection to The Wood, young warriors and seers undergo the ^yellow;Trials of the Green Word^reset;. These trials are not merely tests of skill but of spirit, meant to attune them to the rhythm of life itself.",
+	
+	"The first trial is ^yellow;The Path of Echoes^reset;, where they must traverse a hidden glade that exists between the physical world and the spiritual realm. Here, the wind carries not just the present but the voices of ancestors, echoes of lives long passed. Those who lose themselves to the voices are never seen again, their spirits joining the echoes. But those who emerge do so with the wisdom of ages.",
+	
+	"The second trial is ^yellow;The Shadow's Embrace^reset;, a journey into the darkest part of the forest where no light reaches. Here, the spirit of The Wood is said to be the strongest, her shadows alive and watching. To pass, one must confront their fears, for the shadows reflect the darkness within. Only by accepting their own flaws can they emerge whole, marked by a silver scar-a blessing from The Wood, proof of survival and acceptance.",
+	
+	"The final trial is ^yellow;The Dance of Leaves and Wind^reset;, a ritual combat where the initiate must move with the wind's flow, becoming one with The Wood's breath. It is a dance of harmony, of surrendering control and trusting in The Wood's guidance. Those who succeed are given the title ^green;Wind Listener^reset;, marked as those who can truly hear Her voice."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

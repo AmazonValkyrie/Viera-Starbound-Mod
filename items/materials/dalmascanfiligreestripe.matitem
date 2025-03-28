@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfiligreestripe",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfiligreestripeicon.png",
+  "shortdescription" : "Dalmascan Filigree",
+  "description" : "Worn gold and painted stone create an ornate moulding.",
+
+  "materialId" : 13102
+}

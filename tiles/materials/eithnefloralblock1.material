@@ -1,0 +1,22 @@
+{
+  "materialId" : 13071,
+  "materialName" : "eithnefloralblock1",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "eithnefloralblock1",
+  "description" : "A bundle of fragrant flowers.",
+  "shortdescription" : "Flowers of the Wood",
+
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "eithnefloralblock1.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3980
+  }
+}

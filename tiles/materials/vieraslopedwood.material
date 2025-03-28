@@ -1,0 +1,22 @@
+{
+  "materialId" : 13122,
+  "materialName" : "vieraslopedwood",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieraslopedwood",
+  "shortdescription" : "Sloped Wood Planks",
+  "description" : "Smooth, cut wood planks.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieraslopedwood.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 4998
+  }
+}

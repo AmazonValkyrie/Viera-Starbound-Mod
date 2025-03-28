@@ -1,0 +1,50 @@
+{
+  "itemName" : "vieraarcherhead",
+  "shortdescription" : "Archer's Headband",
+  "description" : "The skills of the Archer do not call for brute force, but deadly accuracy to fell a foe.",
+  
+  "category" : "headwear",
+  "statSpread" : "archer",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 25,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* YELLOW */
+    { "FFB970" : "FFB970", "E69E50" : "E69E50", "C18443" : "C18443", "996835" : "996835" },
+    /* BLACK */
+    { "FFB970" : "7F7F7F", "E69E50" : "595959", "C18443" : "333333", "996835" : "000000" },
+    /* GREY */
+    { "FFB970" : "AFBFCC", "E69E50" : "7D8993", "C18443" : "646E77", "996835" : "41474C" },
+    /* WHITE */
+    { "FFB970" : "FFFFFF", "E69E50" : "C9DBED", "C18443" : "95BBC9", "996835" : "728F99" },
+    /* RED */
+    { "FFB970" : "D80000", "E69E50" : "840000", "C18443" : "680000", "996835" : "300000" },
+    /* ORANGE */
+    { "FFB970" : "FFA477", "E69E50" : "FF8C4F", "C18443" : "C8713D", "996835" : "844929" },
+    /* YELLOW */
+    { "FFB970" : "FFB970", "E69E50" : "E69E50", "C18443" : "C18443", "996835" : "996835" },
+    /* GREEN */
+    { "FFB970" : "40D65B", "E69E50" : "2D9941", "C18443" : "267F37", "996835" : "13421C" },
+    /* BLUE */
+    { "FFB970" : "00C2E0", "E69E50" : "0094AA", "C18443" : "007B8E", "996835" : "004B56" },
+    /* PURPLE */
+    { "FFB970" : "9A76CC", "E69E50" : "8565B1", "C18443" : "5D4068", "996835" : "302135" },
+    /* PINK */
+    { "FFB970" : "FF9B88", "E69E50" : "E08879", "C18443" : "C17668", "996835" : "A36358" },
+    /* BROWN */
+    { "FFB970" : "BC4B00", "E69E50" : "7F3300", "C18443" : "592300", "996835" : "3F1800" }
+
+  ]
+}
+

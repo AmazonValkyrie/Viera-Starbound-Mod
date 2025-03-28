@@ -1,0 +1,56 @@
+{
+  "objectName" : "argocrystal1",
+  "rarity" : "Uncommon",
+  "description" : "Glowing magicite crystal enwrapped in a scroll work design.",
+  "shortdescription" : "Magicite Crystal Deco",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image": "top.png:<color>.<frame>", "fullbright": true }, { "image": "toplit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "imageLayers" : [ { "image": "top.png:<color>.<frame>", "fullbright": true }, { "image": "toplit.png:<color>.<frame>" } ],
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image": "bottom.png:<color>.<frame>", "fullbright": true }, { "image": "bottomlit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,4],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+	{
+      "imageLayers" : [ { "image": "bottom.png:<color>.<frame>", "fullbright": true }, { "image": "bottomlit.png:<color>.<frame>" } ],
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,4],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

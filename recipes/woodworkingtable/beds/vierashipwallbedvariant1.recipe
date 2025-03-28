@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 40 },
+	{ "item" : "goldbar", "count" : 4 },
+	{ "item" : "fabric", "count" : 35 },
+	{ "item" : "refinedmagicitecrystal", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "vierashipwallbedvariant1",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "beds", "all" ]
+}

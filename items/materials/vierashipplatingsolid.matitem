@@ -1,0 +1,11 @@
+{
+  "itemName" : "vierashipplatingsolid",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vierashipplatingsolidicon.png",
+  "shortdescription" : "Ship Plating Solid",
+  "description" : "Colored ship plating.",
+
+  "materialId" : 13109,
+  "learnBlueprintsOnPickup" : [ "vierashipplatingsolid" ]
+}

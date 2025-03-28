@@ -1,0 +1,11 @@
+{
+  "name" : "crystallanternglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "crystallanternglow.lua"
+  ],
+
+  "animationConfig" : "crystallanternglow.animation"
+}

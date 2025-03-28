@@ -1,0 +1,10 @@
+{
+  "itemName" : "smoothborderedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "smoothborderedicon.png",
+  "description" : "Smooth, bordered mahogany.",
+  "shortdescription" : "Bordered Mahogany",
+
+  "materialId" : 13013
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "thief",
+  "category" : "petchocobo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "thief.png"
+  }
+}

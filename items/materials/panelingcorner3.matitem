@@ -1,0 +1,10 @@
+{
+  "itemName" : "panelingcorner3",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "panelingcorner3icon.png",
+  "description" : "Carved, mahogany paneling. Lower left corner.",
+  "shortdescription" : "Mahogany Paneling",
+
+  "materialId" : 13054
+}

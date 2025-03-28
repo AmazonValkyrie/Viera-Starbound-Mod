@@ -1,0 +1,17 @@
+{
+    "id": "freelancer1pattern",
+    "title": "Pattern : Treerunner's Vestments",
+    "description": "Sewing patterns and instructions for crafting Viera clothing.",
+    "icon": "armorpattern1.png",
+    "contentPages": [
+        "This Sew-plicity pattern is patented by the honorable Lydea of the Scribes Guild in the discreet distribution of Viera cultural garb."
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "freelancer1chest",
+            "freelancer1legs"
+        ],
+        "rarity": "Uncommon",
+        "price": 150
+    }
+}

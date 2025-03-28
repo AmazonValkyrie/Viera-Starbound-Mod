@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 12 },
+    { "item" : "logblock", "count" : 4 },
+    { "item" : "ironbar", "count" : 2} 
+  ],
+  "output" : {
+    "item" : "woodworkingtable",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ],
+  "duration" : 5
+}

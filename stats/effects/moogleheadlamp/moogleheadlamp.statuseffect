@@ -1,0 +1,11 @@
+{
+  "name" : "moogleheadlamp",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "moogleheadlamp.lua"
+  ],
+
+  "animationConfig" : "moogleheadlamp.animation"
+}

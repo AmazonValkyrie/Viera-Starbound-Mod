@@ -1,0 +1,75 @@
+{
+  "uniqueId" : "techstation",
+  "objectName" : "vieratechstationTier0",
+  "shortdescription" : "Echo of Eithne",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "race" : "viera",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  
+  "description" : "A seed, a part of a greater whole.",
+  "apexDescription"    : "When it's working, I can talk to SAIL through this console.",
+  "avianDescription"   : "Rebooting this station should enable me to talk to SAIL.",
+  "floranDescription"  : "Floran fix thisss panel to wake ship up!",
+  "glitchDescription"  : "Distressed. I first need to reboot this station to communicate with SAIL.",
+  "humanDescription"   : "If I can reboot this station SAIL should come back online!",
+  "hylotlDescription"  : "This console will allow me to communicate with SAIL. I need to reboot it first.",
+  "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
+  "vieraDescription"   : "The Wood Herself powers this Viera technology.",
+  
+  "inventoryIcon" : "icon.png",
+  "animation" : "viera_sailbroken.animation",
+  "animationPosition" : [-64, 0],
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "viera_sailbroken.png:<color>", "fullbright" : true }, { "image" : "viera_sailbrokenlit.png:<color>" } ],
+      "imagePosition" : [-64, 0],
+      "frames" : 1,
+      "animationCycle" : 9.5,
+      "spaceScan" : 0.1,
+      "anchors" : [],
+	  "collision" : "platform",
+      "collisionSpaces" : [ [-8,-1], [-7,0], [-6,1], [-5,1], [-4,1], [-3,1], [-2,1], [-1,1], [0,1], [1,1], [2,1], [3,1] ]
+    }
+  ],	  
+  "lightColor" : [110, 119, 65],
+  "lightPosition" : [-0.75, 3.5],  
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+  
+  "interactAction" : "OpenAiInterface",
+  "scripts" : [ "viera_sailbroken.lua" ],  
+  "portraitTalk" : {
+    "mode"  : "object",
+    "next"  : 0,
+	"count" : 0,
+    "timer" : 0.0,
+    "delay" : 0.0,
+	"speakerID" : 0,
+    "portraits" : [
+      "/ai/portraits/vieraportrait.png:unique.1",
+	  "/ai/portraits/vieraportrait.png:yell.1",
+      "/ai/portraits/vieraportrait.png:talk.0",
+      "/ai/portraits/vieraportrait.png:talk.1"
+    ],
+	"conversation" : "wait",
+    "conversations" : {
+      "announceErrors" : {
+		"startDelay" : 14.0,
+		"endDelay" : 0.0,
+	    "text" : [
+	      "^red;Magicite asymmetry disruption. . .^reset;",  
+	      "^orange;Magicite crystal asymmetry^reset; preventing connection to root framework. . . .",
+          "Please, ^green;reset the crystal chassis^reset;.",
+		  "Connection to the root framework must be made for the ship to regain full function. . .",
+		  "Preparing for user input - rerouting power from dialogue executable to input function. . . .",
+		  "Please, ^green;proceed when ready^reset;. . . . ."
+	    ],
+        "cooldowns" : [ 4.0, 5.0, 4.0, 6.0, 6.0, 0.0 ],
+        "image" : [ 2, 1, 1, 1, 1, 1 ]
+      }
+	}
+  }
+}

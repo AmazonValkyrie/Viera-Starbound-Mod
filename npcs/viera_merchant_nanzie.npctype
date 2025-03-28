@@ -1,0 +1,156 @@
+{
+    "type": "viera_merchant_nanzie",
+    "baseType": "vieramerchant",
+	"npcname" : "Nanzie",
+    "identity": {
+        "gender": "female",
+        "hairType": "fem46",
+        "race": "femaleveenaravaviera"
+    },
+    "persistent": true,
+    "damageTeamType": "friendly",
+    "dropPools": [
+        "basicTreasure"
+    ],
+    "scripts": [
+        "/npcs/bmain.lua"
+    ],
+    "initialScriptDelta": 5,
+    "scriptConfig": {
+        "behavior": "merchant",
+        "behaviorConfig": {
+            "noticePlayersRadius": 20,
+            "hostileDamageTeam": {
+                "type": "enemy",
+                "team": 1
+            }
+        },
+        "questGenerator": {
+            "pools": [
+                "common",
+                "merchant"
+            ],
+            "enableParticipation": true,
+            "timeLimit": 30,
+            "chance": 0.02,
+            "nearbyQuestLimit": 2,
+            "nearbyQuestRange": 50
+        },
+    "reactions" : {
+      "spontaneous" : [
+        [1.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [5.0, "sit", { "timeRange" : [0.6,0.2]}]
+      ]
+    },
+        "merchant": {
+            "waitTime": 40,
+            "storeRadius": 16,
+            "poolsFile": "/npcs/merchantpools.config",
+            "categories": {
+                "femaleveenaravaviera": [
+                    "nanziecuriosities",
+                    "nanziewigs",
+					"nanziewigdye",
+                    "vieraarmorpatterns",
+					"vieramaterialsmanual",
+					"vieraobjectsmanual"
+                ]
+            },
+            "buyFactorRange": [
+                0.9,
+                1.2
+            ],
+            "sellFactorRange": [
+                0.2,
+                0.2
+            ],
+            "numItems": 60,
+            "paneLayoutOverride": {
+                "windowtitle": {
+                    "title": "Nanzie's Shop",
+                    "subtitle": "  Viera wigs and curiosities!",
+                    "icon": {
+                        "file": "/interface/merchant/nanzieicon.png"
+                    }
+                }
+            }
+        },
+        "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Welcome to my shop! I sell a variety of Viera goods."
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "Welcome to Nanzie's! I have a variety of wigs and more on sale.",
+              "I have a plethora of Viera goods available.",
+              "Wigs, rarities, and curiosities!",
+              "Welcome to my shop! Feel free to browse."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "Welcome to Nanzie's! I have a variety of wigs and more on sale.",
+              "I have a plethora of Viera goods available.",
+              "Wigs, rarities, and curiosities!",
+              "Welcome to my shop! Feel free to browse."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Come back anytime!"
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "Come see me again sometime!",
+              "Check back again soon! My inventory circulates!",
+              "New goods every day at Nanzie's!"
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "Come see me again sometime!",
+              "Check back again soon! My inventory circulates!",
+              "New goods every day at Nanzie's!"
+            ]
+          }
+        }
+      }
+    }
+    },
+    "items": {
+        "femaleveenaravaviera": [
+            [
+                0,
+                [
+                    {
+                        "chest": [
+                            {
+                                "name": "freelancer1chest",
+                                "parameters": {
+                                    "colorIndex":
+                                        0
+                                }
+                            }
+                        ],
+                        "legs": [
+                            {
+                                "name": "freelancer1legs",
+                                "parameters": {
+                                    "colorIndex":
+                                        0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    }
+}

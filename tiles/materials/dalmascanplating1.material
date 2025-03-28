@@ -1,0 +1,22 @@
+{
+  "materialId" : 13092,
+  "materialName" : "dalmascanplating1",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanplating1",
+  "shortdescription" : "Dalmascan Striped Plating",
+  "description" : "Colored stone and metalwork form this plating.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanplating1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2890
+  }
+}

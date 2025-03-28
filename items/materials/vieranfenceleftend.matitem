@@ -1,0 +1,10 @@
+{
+  "itemName" : "vieranfenceleftend",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieranfenceleftendcapicon.png",
+  "description" : "A left end-cap to a Vieran fence.",
+  "shortdescription" : "Vieran Fence Left",
+
+  "materialId" : 13001
+}

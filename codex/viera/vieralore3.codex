@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore3",
+  "title" : "Paths of the Moon and Sun",
+  "description" : "Viera philosophical musings.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Paths of the Moon and Sun^reset;\n\nWalk neither in shadow nor in light, but on the blade that divides them. It is here, in the twilight of choice, that the soul is truly seen. Day seeks to blind with its brilliance, night to deceive with its shade, but the dawn and dusk are honest.",
+
+    "There, you shall find the balance the whisper of truth in the space between breaths."
+
+  ],
+  "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

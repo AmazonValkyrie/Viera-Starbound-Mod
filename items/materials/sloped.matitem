@@ -1,0 +1,10 @@
+{
+  "itemName" : "slopedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "slopedicon.png",
+  "description" : "Sloped Vieran whitewood.",
+  "shortdescription" : "Sloped Whitewood",
+
+  "materialId" : 13024
+}

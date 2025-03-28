@@ -1,0 +1,55 @@
+{
+  "objectName" : "vierabuildingfoundation3",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "Carved, wooden support for Viera buildings.",
+  "shortdescription" : "Foundation",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+
+  "apexDescription" : "Never abandon the dream of living among the tree canopy.",
+  "avianDescription" : "This is ideal for living high in the trees.",
+  "floranDescription" : "Treeee homessss.",
+  "glitchDescription" : "Query. Such strides to live high in the trees.",
+  "humanDescription" : "They've mastered the art of building high in the trees.",
+  "hylotlDescription" : "What a grand way to live closer to nature.",
+  "novakidDescription" : "Who'd wanna live way up yonder in the trees anyhow?",
+  "vieraDescription" : "These foundations are built around majestic trees to support our homes.",
+
+  "inventoryIcon" : "vierabuildingfoundation3.png",
+  "orientations" : [
+    {
+      "image" : "vierabuildingfoundation3.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-2, 1], [-1, 1], [-0, 1], [1, 1]
+	  ]
+	    
+    },
+	{
+      "image" : "vierabuildingfoundation3.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "direction" : "right",
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-2, 1], [-1, 1], [-0, 1], [1, 1]
+	  ]
+	   
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "columnbase1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "columnbase1icon.png",
+  "description" : "Vieran mahogany column base.",
+  "shortdescription" : "Column Base II",
+
+  "materialId" : 13047
+}

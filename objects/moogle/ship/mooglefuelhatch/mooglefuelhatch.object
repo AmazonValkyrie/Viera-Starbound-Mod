@@ -1,0 +1,74 @@
+{
+  "objectName" : "mooglefuelhatch",
+  "colonyTags" : ["moogle", "moogleship"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "description" : "A receptacle where magicite crystals are fired, producing energy for the ship.",
+  "shortdescription" : "Magicite Firebox ",
+  "race" : "moogle",
+  "lightColor" : [0, 122, 122],
+
+  "apexDescription" : "This must be a fuel receptacle of some kind.",
+  "avianDescription" : "This must be the fuel system!",
+  "floranDescription" : "Ssshhip fuelss.",
+  "glitchDescription" : "Wonder. Never have I seen fuel of this kind.",
+  "humanDescription" : "A crystal stone that provides fuel. Interesting.",
+  "hylotlDescription" : "A peaceful energy resonates in this liquid.",
+  "novakidDescription" : "Don't tell me this is fer fuel?!",
+  "vieraDescription" : "Essence of the magicite is what gives this ship it's energies.",
+  "moogleDescription" : "This magicite furnace is the ship's receptable for energy and fuel, kupo.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mooglefuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "mooglefuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/magicitefirebox.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "magicitefuel",
+  "particleEmitter" : {
+    "emissionRate" : 1,
+    "emissionVariance" : 0.65,
+
+    "particle" :
+    {
+	    "type" : "animated",
+	    "animation" : "/animations/energy/energy.animation",
+	    "position" : [-1.5, 2.5],
+	    "finalVelocity" : [0, 0],
+	    "approach" : [0, 2],
+	    "destructionAction" : "shrink",
+	    "destructionTime" : 2.4,
+	    "fade" : 1,
+	    "size" : 0.5,
+	    "layer" : "back",
+	    "timeToLive" : 2.5,
+	    "variance" : {}
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0, 0.5]
+    }
+  }
+}

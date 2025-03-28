@@ -1,0 +1,54 @@
+{
+  "itemName" : "casualvierachest",
+  "shortdescription" : "Casual bodice",
+  "description" : "Casual garb for the relaxing Viera.",
+  
+  "style" : "Viera - Cosmetic",
+  "category" : "chestwear",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 75,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    /* PURPLE */
+    { "CAA8FF" : "CAA8FF", "776396" : "776396", "57486D" : "57486D", "493C5B" : "493C5B" },
+    /* BLACK */
+    { "CAA8FF" : "838383", "776396" : "555555", "57486D" : "383838", "493C5B" : "151515" },
+    /* GREY */
+    { "CAA8FF" : "b5b5b5", "776396" : "808080", "57486D" : "555555", "493C5B" : "303030" },
+    /* WHITE */
+    { "CAA8FF" : "e6e6e6", "776396" : "b6b6b6", "57486D" : "7b7b7b", "493C5B" : "373737" },
+    /* RED */
+    { "CAA8FF" : "f4988c", "776396" : "d93a3a", "57486D" : "932625", "493C5B" : "601119" },
+    /* ORANGE */
+    { "CAA8FF" : "ffd495", "776396" : "ea9931", "57486D" : "af4e00", "493C5B" : "6e2900" },
+    /* YELLOW */
+    { "CAA8FF" : "ffffa7", "776396" : "e2c344", "57486D" : "a46e06", "493C5B" : "642f00" },
+    /* GREEN */
+    { "CAA8FF" : "b2e89d", "776396" : "51bd3b", "57486D" : "247824", "493C5B" : "144216" },
+    /* BLUE */
+    { "CAA8FF" : "96CBE7", "776396" : "5588D4", "57486D" : "344495", "493C5B" : "1A1C51" },
+    /* PURPLE */
+    { "CAA8FF" : "CAA8FF", "776396" : "776396", "57486D" : "57486D", "493C5B" : "493C5B" },
+    /* PINK */
+    { "CAA8FF" : "eab3db", "776396" : "d35eae", "57486D" : "97276d", "493C5B" : "59163f" },
+    /* BROWN */
+    { "CAA8FF" : "ccae7c", "776396" : "a47844", "57486D" : "754c23", "493C5B" : "472b13" }
+
+  ]
+}

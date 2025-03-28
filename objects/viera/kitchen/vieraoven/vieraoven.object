@@ -1,0 +1,52 @@
+ {
+  "objectName" : "vieraoven",
+  "colonyTags" : ["viera","cooking","light","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "health" : 1.5,
+  "price" : 90,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+        "config" : "/interface/windowconfig/craftingcampfire.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Wood Fired Oven",
+            "subtitle" : " ^#b9b5b2;Viera Cooking",
+            "icon" : {
+              "file" : "/interface/crafting/vieracookingicon.png"
+            }
+          }
+        },
+
+        "filter" : [ "campfire" ]
+      },
+  "description" : "A wood fired Viera oven.",
+  "shortdescription" : "Wood Fired Oven",
+  "printable" : false,
+  "race" : "viera",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A natural oven harnessing the power of fire.",
+  "avianDescription" : "An oven that uses fire instead of electricity.",
+  "floranDescription" : "Heaaaaaat.",
+  "glitchDescription" : "Observation. An oven without electricity?",
+  "humanDescription" : "I remember seeing ancient ovens like this.",
+  "hylotlDescription" : "It uses fire and stone to cook?",
+  "novakidDescription" : "A toasty fire for cookin'. What more d'ya need?",
+  "vieraDescription" : "Viera foods taste best when cooked here.",
+
+  "inventoryIcon" : "vieraovenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieraoven.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

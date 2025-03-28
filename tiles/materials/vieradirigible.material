@@ -1,0 +1,22 @@
+{
+  "materialId" : 13128,
+  "materialName" : "vieradirigible",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieradirigible",
+  "shortdescription" : "Cloped rope cabling.",
+  "description" : "Sloped Cabling.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieradirigible.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3000
+  }
+}

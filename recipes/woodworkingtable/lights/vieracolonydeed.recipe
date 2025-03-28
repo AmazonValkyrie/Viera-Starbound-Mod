@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "tungstenbar", "count" : 1 },
+	{ "item" : "refinedmagicitecrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vieracolonydeed",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

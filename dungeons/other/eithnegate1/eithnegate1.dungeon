@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "eithnegate1",
+    "species" : "viera",
+    "rules" : [
+    ],
+    "protected" : true,
+    "anchor" : [ "eithnegate1" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "eithnegate1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ]
+      ],
+      "def" : [ "tmx", "eithnegate1.json" ]
+    }
+  ]
+}

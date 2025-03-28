@@ -1,0 +1,12 @@
+{
+  "itemName" : "greenwordpastel1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "greenwordpastel1icon.png",
+  "description" : "The language of the Viera contained in symbols.",
+  "shortdescription" : "The Green Word",
+
+  "materialId" : 13072,
+  "learnBlueprintsOnPickup" : [ "greenwordpastel1" ]
+}

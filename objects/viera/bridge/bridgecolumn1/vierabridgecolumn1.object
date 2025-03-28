@@ -1,0 +1,56 @@
+{
+  "objectName" : "vierabridgecolumn1",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "A sturdy, intricately cut wooden column.",
+  "shortdescription" : "Carved Column",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+
+  "apexDescription" : "This is quite a sturdy structure.",
+  "avianDescription" : "I must admire the quality of these wood carvings.",
+  "floranDescription" : "Tallllll columnnnn.",
+  "glitchDescription" : "Admiration. Much care went into this construction.",
+  "humanDescription" : "Quite the majestic architecture.",
+  "hylotlDescription" : "This exquisite carving must've taken so much time.",
+  "novakidDescription" : "Pretty flashy decor.",
+  "vieraDescription" : "Viera wood carvers take much pride in building strong structures.",
+
+  "inventoryIcon" : "vierabridgecolumn1.png",
+  "orientations" : [
+    {
+      "image" : "vierabridgecolumn1.png:<color>",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+18",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-5, 16], [-4, 16], [-3, 16], [-2, 16], [-1, 16], [0, 16], [1, 16], [2, 16], [3, 16], [4, 16]
+	  ]
+	    
+    },
+	{
+      "image" : "vierabridgecolumn1.png:<color>",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+18",
+	  "direction" : "right",
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-5, 16], [-4, 16], [-3, 16], [-2, 16], [-1, 16], [0, 16], [1, 16], [2, 16], [3, 16], [4, 16]
+	  ]
+	   
+    }
+  ]
+}

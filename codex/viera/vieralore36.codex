@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore36",
+  "title" : "The Seonha Scrolls: Prologue",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "In an age of whispering leaves and ancient spirits, when shadows threatened the sacred groves and warlords defied the ^green;Green Word^reset;, the Wood cried out for a champion. She was ^yellow;Seonha^reset;, a mighty ^#6A2284;Fencer^reset; forged in the heat of battle. The power of the Wood Herself flowed through her, the passion of the wilds burned within her, and the skill of her blade was unmatched. Her courage would echo through the ages, and her destiny would shape the universe.",
+	
+	" - Written and compiled by the wandering scribe Gavrael."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

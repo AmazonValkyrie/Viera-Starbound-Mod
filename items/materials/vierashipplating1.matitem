@@ -1,0 +1,11 @@
+{
+  "itemName" : "vierashipplating1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vierashipplating1icon.png",
+  "shortdescription" : "Edged Ship Plate I",
+  "description" : "Ship plating with etched gold edge.",
+
+  "materialId" : 13106,
+  "learnBlueprintsOnPickup" : [ "vierashipplating1" ]
+}

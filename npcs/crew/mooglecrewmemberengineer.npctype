@@ -1,0 +1,53 @@
+{
+  "type" : "mooglecrewmemberengineer",
+  "baseType" : "mooglecrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "engineer",
+        "name" : "Engineer",
+        "field" : "Engineering",
+        "uniformColorIndex" : 5,
+
+        "benefits" : [
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "shipSpeed",
+            "value" : 3.75
+          }
+        ]
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "The magicite engine is running efficiently, kupo!",
+			  "I'll keep the airship's engine running at peak efficiency, kupopo!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "moogle_freelancer2head" } ],
+			"chest" : [ { "name" : "moogle_freelancer2chest" } ],
+            "legs" : [ { "name" : "moogle_freelancer2legs" } ],
+            "sheathedprimary" : [ "npcwrench" ]
+          }
+        ] ]
+    ]
+  }
+}

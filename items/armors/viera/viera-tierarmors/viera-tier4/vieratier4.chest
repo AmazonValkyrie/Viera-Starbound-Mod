@@ -1,0 +1,57 @@
+{
+  "itemName" : "vieratier4chest",
+  "shortdescription" : "Pathfinder's Breastplate",
+  "description" : "Durasteel breastplate and pauldrons of Viera design.",
+  "itemTags" : [ "tier4armour" ],
+  
+  "category" : "chestarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 4000,
+  "level" : 4,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    // DURASTEEL GREY BLUE
+    { "A0B5D4" : "A0B5D4", "7887B3" : "7887B3", "4B4D8C" : "4B4D8C", "211E55" : "211E55" },
+    // BLACK
+    { "A0B5D4" : "BFCCC0", "7887B3" : "6F7068", "4B4D8C" : "3B3F3B", "211E55" : "000000" },
+    // GREY
+    { "A0B5D4" : "EBE1DC", "7887B3" : "ADA197", "4B4D8C" : "696F67", "211E55" : "433539" },
+    // WHITE
+    { "A0B5D4" : "FFFFFF", "7887B3" : "C7F2F2", "4B4D8C" : "C4C4C4", "211E55" : "8C8C8C" },
+    // RED
+    { "A0B5D4" : "FFC6C6", "7887B3" : "EA0000", "4B4D8C" : "AD0000", "211E55" : "660000" },
+    // ORANGE
+    { "A0B5D4" : "FFF8B9", "7887B3" : "F3A74A", "4B4D8C" : "CA6613", "211E55" : "6F382D" },
+    // YELLOW
+    { "A0B5D4" : "FFFBD8", "7887B3" : "FFD84D", "4B4D8C" : "E2AF20", "211E55" : "B97C01" },
+    // GREEN
+    { "A0B5D4" : "9BFFD2", "7887B3" : "1AB26E", "4B4D8C" : "137F4E", "211E55" : "0A472C" },
+    // BLUE
+    { "A0B5D4" : "D8FFFC", "7887B3" : "4FACC8", "4B4D8C" : "39747F", "211E55" : "233C43" },
+    // PURPLE
+    { "A0B5D4" : "E8D8FF", "7887B3" : "906EBF", "4B4D8C" : "60497F", "211E55" : "392C4C" },
+    // PINK
+    { "A0B5D4" : "FFD3CC", "7887B3" : "FF9B88", "4B4D8C" : "BF7467", "211E55" : "7F4D44" },
+    // BROWN
+    { "A0B5D4" : "FFD0B5", "7887B3" : "C6672F", "4B4D8C" : "8C4821", "211E55" : "4C2712" }
+  ]
+}
+

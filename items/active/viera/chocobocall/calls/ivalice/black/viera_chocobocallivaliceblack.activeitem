@@ -1,0 +1,40 @@
+{
+  "itemName" : "viera_chocobocallivaliceblack",
+
+  // Chocobo-specific Info  
+  "imageColor" : "black",
+  "imageBreed" : "ivalice",
+  "chocoboBreed" : "Black Ivalician",
+  "vehicleType" : "viera_chocoboivaliceblack",  
+  "itemTags" : ["chocobocall", "ivaliceblack"],
+  "description" : "^yellow;[Flying]^reset;\nSummon a black chocobo mount from Ivalice!",  
+  "music" : [ "/music/viera/chocobo/chocobo_theme_01.ogg" ],
+  "tandem" : false,
+  "waterSpeed": 20,
+  "moveSpeed" : 25,
+  "jumpSpeed" : 35,
+  "jumpDelay" : 0.2,
+  "jumpLimit" : 0,
+  "maxHealth" : 250,
+  "protection" : 30,
+  "materialKind" : "organic",
+  "shortdescription" : "Whisperweed",
+    
+  // Generic-call Info
+  "level" : 1,
+  "price" : 25000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "respawnTime" : 1.0,
+  "category" : "chocobocall",
+  "tooltipKind" : "viera_chocobo",
+  "inventoryIcon" : "icon.png:full",  
+  "vehicleBoundingBox" : [-3, -3, 3, 3],
+  "builder" : "/items/buildscripts/viera/buildchocobocall.lua",
+  "scripts" : ["/items/active/viera/chocobocall/chocobocall.lua"],
+  "animationScripts" : ["/items/active/viera/chocobocall/chocobocursor.lua"],
+  "animation" : "/items/active/viera/chocobocall/chocobocall.animation",
+  "animationParts" : { "casing" : "icon.png" },
+  "animationCustom" : { "sounds" : { "placeBad" : ["/sfx/viera/vehicles/chocobo/deathkweh.ogg"] } }
+}

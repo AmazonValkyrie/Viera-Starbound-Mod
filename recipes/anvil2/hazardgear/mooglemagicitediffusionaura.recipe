@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "mooglemagiciteairaura", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "goldbar", "count" : 4 },
+	{ "item" : "refinedmagicitecrystal", "count" : 20 },
+    { "item" : "venomsample", "count" : 1 }
+  ],
+  "output" : { "item" : "mooglemagicitediffusionaura", "count" : 1 },
+  "groups" : [ "craftinganvil2", "hazardgear", "all" ]
+}

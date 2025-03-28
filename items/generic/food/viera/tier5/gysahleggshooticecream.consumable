@@ -1,0 +1,25 @@
+{
+  "itemName" : "gysahleggshooticecream",
+  "rarity" : "Common",
+  "price" : 315,
+  "category" : "preparedFood",
+  "inventoryIcon" : "gysahleggshooticecream.png",
+  "description" : "Ice cream with the delightful taste of custard and minty gysahl.",
+  "shortdescription" : " Gysahl Eggshoot Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "gysahlchilicurry" ]
+}

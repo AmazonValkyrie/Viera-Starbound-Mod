@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore18",
+  "title" : "The Saga of Marpesia: Ch. 3",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;Trial of the Bloodmoon^reset;\n\nYet, destiny is not without its trials. A human kingdom from beyond the mountains sought to conquer the jungle, drawn by whispers of magical herbs and ancient power. They called themselves civilizers, but Marpesia knew them as destroyers. Under the blood-red moon, they marched, steel and fire gleaming in the darkness.",
+	
+	"In the shadow of the eldest tree, Marpesia gathered her warriors. Her voice was steady, her eyes cold as winter's dawn. 'They seek to cut the roots of the First Tree, to shatter the Balance. We shall show them the cost of hubris.",
+	
+	"The battle raged beneath the blood-stained sky, arrows falling like rain, blades whispering through the mist. Marpesia moved like a shadow, her presence felt only when her enemies fell, eyes wide with terror. It was said she danced with the wind, her silver eyes blazing like twin moons.",
+
+	"Yet, victory bore a bitter price. Her closest sister-in-arms, Asteria, fell to a blade meant for Marpesia. Kneeling by her side, Marpesia whispered a prayer to the Green Word, tears mingling with the earth. It was then that the burden of leadership weighed heaviest, for the price of peace was paid in blood."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

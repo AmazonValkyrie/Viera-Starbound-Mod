@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 35 }
+  ],
+  "output" : {
+    "item" : "vieradualitystorage",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

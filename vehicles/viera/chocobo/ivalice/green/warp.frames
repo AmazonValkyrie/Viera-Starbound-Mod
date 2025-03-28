@@ -1,0 +1,30 @@
+{
+  "frameGrid" : {
+    "size" : [104, 92],
+    "dimensions" : [8, 1],
+    "names" : [
+	  [ "warp.1", "warp.2", "warp.3", "warp.4", "warp.5", "warp.6", "warp.7", "warp.8" ]
+	]
+  },
+  "aliases" : {
+    "inEnergy.1"  : "warp.1",
+    "inEnergy.2"  : "warp.2",
+    "inEnergy.3"  : "warp.3",
+    "inEnergy.4"  : "warp.4",
+	
+    "inMatter.1"  : "warp.5",
+    "inMatter.2"  : "warp.6",
+    "inMatter.3"  : "warp.7",
+    "inMatter.4"  : "warp.8",
+	
+    "outMatter.1" : "warp.8",
+    "outMatter.2" : "warp.7",
+    "outMatter.3" : "warp.6",
+    "outMatter.4" : "warp.5",
+	
+    "outEnergy.1" : "warp.4",
+    "outEnergy.2" : "warp.3",
+    "outEnergy.3" : "warp.2",
+    "outEnergy.4" : "warp.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "refinedmagicitecrystal",
+  "price" : 20,
+  "rarity" : "Uncommon",
+  "category" : "fuel",
+  "inventoryIcon" : "refinedmagicitecrystal.png",
+  "description" : "Pure, blue magicite, cut and refined for crystal crafting.",
+  "shortdescription" : "Refined Magicite",
+  "fuelAmount" : 18,
+  "itemTags" : [ "reagent" ]
+}

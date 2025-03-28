@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "refinedmagicitecrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "seonhaspawner",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

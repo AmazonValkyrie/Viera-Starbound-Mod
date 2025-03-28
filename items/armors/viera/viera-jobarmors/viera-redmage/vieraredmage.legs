@@ -1,0 +1,47 @@
+{
+  "itemName" : "vieraredmagepants",
+  "shortdescription" : "Red Mage Boots",
+  "description" : "The Red Mage commands not only white and black magicks, but also those uniquely her own.",
+  
+  "category" : "legwear",
+  "statSpread" : "redmage",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 65,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+    /* RED */
+    { "CC3622" : "CC3622", "A52C1C" : "A52C1C", "7A2014" : "7A2014", "4C140D" : "4C140D", "B24A3C" : "B24A3C", "8C3A2F" : "8C3A2F", "662A22" : "662A22", "3F1A15" : "3F1A15" },
+    /* BLACK */
+    { "CC3622" : "7F7F7F", "A52C1C" : "595959", "7A2014" : "333333", "4C140D" : "000000", "B24A3C" : "AFBFCC", "8C3A2F" : "7D8993", "662A22" : "646E77", "3F1A15" : "41474C" },
+    /* GREY */
+    { "CC3622" : "AFBFCC", "A52C1C" : "7D8993", "7A2014" : "646E77", "4C140D" : "41474C", "B24A3C" : "7F7F7F", "8C3A2F" : "595959", "662A22" : "333333", "3F1A15" : "000000" },
+    /* WHITE */
+    { "CC3622" : "FFFFFF", "A52C1C" : "C9DBED", "7A2014" : "95BBC9", "4C140D" : "728F99", "B24A3C" : "AFBFCC", "8C3A2F" : "7D8993", "662A22" : "646E77", "3F1A15" : "41474C" },
+    /* RED */
+    { "CC3622" : "CC3622", "A52C1C" : "A52C1C", "7A2014" : "7A2014", "4C140D" : "4C140D", "B24A3C" : "B24A3C", "8C3A2F" : "8C3A2F", "662A22" : "662A22", "3F1A15" : "3F1A15" },
+    /* ORANGE */
+    { "CC3622" : "FFA477", "A52C1C" : "FF8C4F", "7A2014" : "C8713D", "4C140D" : "844929", "B24A3C" : "BC4B00", "8C3A2F" : "7F3300", "662A22" : "592300", "3F1A15" : "3F1800" },
+    /* YELLOW */
+    { "CC3622" : "FFB970", "A52C1C" : "E69E50", "7A2014" : "C18443", "4C140D" : "996835", "B24A3C" : "BC4B00", "8C3A2F" : "7F3300", "662A22" : "592300", "3F1A15" : "3F1800" },
+    /* GREEN */
+    { "CC3622" : "40D65B", "A52C1C" : "2D9941", "7A2014" : "267F37", "4C140D" : "13421C", "B24A3C" : "BC4B00", "8C3A2F" : "7F3300", "662A22" : "592300", "3F1A15" : "3F1800" },
+    /* BLUE */
+    { "CC3622" : "00C2E0", "A52C1C" : "0094AA", "7A2014" : "007B8E", "4C140D" : "004B56", "B24A3C" : "BC4B00", "8C3A2F" : "7F3300", "662A22" : "592300", "3F1A15" : "3F1800" },
+    /* PURPLE */
+    { "CC3622" : "9A76CC", "A52C1C" : "8565B1", "7A2014" : "5D4068", "4C140D" : "302135", "B24A3C" : "AFBFCC", "8C3A2F" : "7D8993", "662A22" : "646E77", "3F1A15" : "41474C" },
+    /* PINK */
+    { "CC3622" : "FF9B88", "A52C1C" : "E08879", "7A2014" : "C17668", "4C140D" : "A36358", "B24A3C" : "FFFFFF", "8C3A2F" : "C9DBED", "662A22" : "95BBC9", "3F1A15" : "728F99" },
+    /* BROWN */
+    { "CC3622" : "BC4B00", "A52C1C" : "7F3300", "7A2014" : "592300", "4C140D" : "3F1800", "B24A3C" : "FFA477", "8C3A2F" : "FF8C4F", "662A22" : "C8713D", "3F1A15" : "844929" }
+  ]
+}

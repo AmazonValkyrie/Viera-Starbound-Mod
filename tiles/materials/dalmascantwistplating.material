@@ -1,0 +1,22 @@
+{
+  "materialId" : 13100,
+  "materialName" : "dalmascantwistplating",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascantwistplating",
+  "shortdescription" : "Dalmascan Twist Plate",
+  "description" : "Metals and stone create a twist motif.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascantwistplating.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2890
+  }
+}

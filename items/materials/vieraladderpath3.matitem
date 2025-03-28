@@ -1,0 +1,10 @@
+{
+  "itemName" : "vieraladderpath3",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieraladderpath3icon.png",
+  "shortdescription" : "Ladder Path III",
+  "description" : "Recessed material for ladder.",
+
+  "materialId" : 13114
+}

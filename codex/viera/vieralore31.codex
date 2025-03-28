@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore31",
+  "title" : "Marpesia, The Chosen Leader: Ch. 4",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Bloodmoon Prophecy^reset;\n\nEithne's whispers grew urgent as shadows gathered at the forest's edge. Marpesia saw visions of flame and steel, of blood upon the earth. The wind howled with warnings, but the words were fragmented, broken. Desperate, Marpesia knelt beneath the Heart Tree and spoke the forbidden name. 'Eithne, Mother of Life, Keeper of Shadows, hear me. Guide me in this hour of need.",
+	
+	"The air stilled, the forest holding its breath. Then, the wind surged, swirling around her in a tempest of voices. Eithne's voice was sorrowful, Her words heavy with destiny.' The bloodmoon shall rise, and with it, shadows shall march. You must stand against them, Marpesia...but the price may be great.",
+	
+	"Marpesia's heart clenched, but her voice did not waver. I will pay it, whatever it may be. For You, for Golmore, for those I love. Eithne's presence enveloped her, warm and comforting.' Then go, my child. Go and fulfill your destiny. I walk with you."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "seonhashelf",
+  "colonyTags" : ["Seonha"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 45,
+  "printable" : false,
+  "description" : "A wall shelf with Seonha's gear.",
+  "shortdescription" : "Seonha's Wall Shelf",
+  "race" : "viera",
+
+  "apexDescription" : "A shelf of sturdy design with accoutrements.",
+  "avianDescription" : "A shelf holding a warrior's arms.",
+  "floranDescription" : "Sssshelfff.",
+  "glitchDescription" : "Observant. This shelf holds curious goods.",
+  "humanDescription" : "It's a wall shelf with someone else's things.",
+  "hylotlDescription" : "An elegant shelf with the weapons of a warrior.",
+  "novakidDescription" : "A shelf with stuff 'n things.",
+  "vieraDescription" : "These are the ship captain's weaponry.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "seonhashelf.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

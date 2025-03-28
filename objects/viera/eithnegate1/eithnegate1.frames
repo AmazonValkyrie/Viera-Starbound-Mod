@@ -1,0 +1,19 @@
+{
+  "frameGrid" : {
+    "size" : [384, 250],
+    "dimensions" : [11, 5],
+    "names" : [
+      [ "default.turnon.1", "default.turnon.2", "default.turnon.3", "default.turnon.4", "default.turnon.5", "default.turnon.6", "default.turnon.7", "default.turnon.8", "default.turnon.9", "default.turnon.10", "default.turnon.11" ],
+	  [ "default.turnon.12", "default.turnon.13", "default.turnon.14", "default.turnon.15", "default.turnon.16", "default.turnon.17", "default.turnon.18", "default.turnon.19", "default.turnon.20", "default.turnon.21", "default.turnon.22" ],
+	  [ "default.turnon.23", "default.turnon.24", "default.turnon.25", "default.turnon.26", "default.turnon.27", "default.turnon.28", "default.turnon.29", "default.turnon.30", "default.turnon.31", "default.turnon.32", "default.turnon.33" ],
+	  [ "default.turnon.34", "default.turnon.35", "default.turnon.36", "default.turnon.37", "default.turnon.38", "default.turnon.39", "default.turnon.40", "default.turnon.41", "default.turnon.42", "default.turnon.43", "default.turnon.44" ],
+	  [ "default.turnoff.1", "default.turnoff.2", "default.turnoff.3", "default.turnoff.4", "default.turnoff.5", "default.turnoff.6", "default.turnoff.7", "default.turnoff.8", "default.turnoff.9", "default.turnoff.10", "default.turnoff.11" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.off",
+    "default.off" : "default.turnon.1",
+	"default.on" : "default.turnon.44"
+  }
+}

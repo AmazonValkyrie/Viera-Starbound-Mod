@@ -1,0 +1,536 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stall" : {
+        "default" : "stall",
+        "states" : {
+          "stall" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  }
+		}
+	  },
+      "movement_stall_1" : {
+        "default" : "idle",
+        "states" : {
+          "hide" : {},
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+	      },
+          "idleShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "crouch" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  },
+          "crouchShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "crouch"
+          },
+          "inEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "inMatter"
+          },
+          "inMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "outMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "outEnergy"
+          },
+          "outEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "hide"
+          }
+        }
+      },
+      "movement_stall_2" : {
+        "default" : "idle",
+        "states" : {
+          "hide" : {},
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+	      },
+          "idleShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "crouch" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  },
+          "crouchShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "crouch"
+          },
+          "inEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "inMatter"
+          },
+          "inMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "outMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "outEnergy"
+          },
+          "outEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "hide"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "stablef" : {
+        "properties" : { "zLevel" : 25, "offset" : [5.5, 5] },
+        "partStates" : {
+          "stall" : {
+            "stall" : { "properties" : { "image" : "/objects/viera/chocobostable2/stablef.png" } }
+          }
+        }
+      },
+      "warp_stall_1" : {
+        "properties" : { "zLevel" : 24, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : {  } },
+            "crouchShrug" : { "properties" : {  } },
+            "idle"        : { "properties" : {  } },
+            "idleShrug"   : { "properties" : {  } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inMatter.<frame>" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outMatter.<frame>" } },
+            "inEnegry"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inEnegry.<frame>" } },
+            "outEnergy"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outEnergy.<frame>" } }
+          }
+        }
+      },
+      "bardingf_stall_1" : {
+        "properties" : { "zLevel" : 24, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "wing_stall_1" : {
+        "properties" : { "zLevel" : 23, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddlef_stall_1" : {
+        "properties" : { "zLevel" : 22, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legf_stall_1" : {
+        "properties" : { "zLevel" : 21, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bust_stall_1" : {
+        "properties" : { "zLevel" : 20, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddle_stall_1" : {
+        "properties" : { "zLevel" : 19, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "barding_stall_1" : {
+        "properties" : { "zLevel" : 18, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "back_stall_1" : {
+        "properties" : { "zLevel" : 17, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legb_stall_1" : {
+        "properties" : { "zLevel" : 16, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddleb_stall_1" : {
+        "properties" : { "zLevel" : 15, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bardingb_stall_1" : {
+        "properties" : { "zLevel" : 14, "offset" : [3.75, 4.25] },
+        "partStates" : {
+          "movement_stall_1" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "stablem" : {
+        "properties" : { "zLevel" : 13, "offset" : [5.5, 5] },
+        "partStates" : {
+          "stall" : {
+            "stall" : { "properties" : { "image" : "/objects/viera/chocobostable2/stablem.png" } }
+          }
+        }
+      },
+      "shadowb" : {
+        "properties" : { "zLevel" : 12, "offset" : [5.5, 5] },
+        "partStates" : {
+          "stall" : {
+            "stall" : { "properties" : { "image" : "/objects/viera/chocobostable2/shadowb.png" } }
+          }
+        }
+      },
+      "warp_stall_2" : {
+        "properties" : { "zLevel" : 12, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : {  } },
+            "crouchShrug" : { "properties" : {  } },
+            "idle"        : { "properties" : {  } },
+            "idleShrug"   : { "properties" : {  } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inMatter.<frame>" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outMatter.<frame>" } },
+            "inEnegry"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inEnegry.<frame>" } },
+            "outEnergy"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outEnergy.<frame>" } }
+          }
+        }
+      },
+      "bardingf_stall_2" : {
+        "properties" : { "zLevel" : 11, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "wing_stall_2" : {
+        "properties" : { "zLevel" : 10, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddlef_stall_2" : {
+        "properties" : { "zLevel" : 9, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legf_stall_2" : {
+        "properties" : { "zLevel" : 8, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bust_stall_2" : {
+        "properties" : { "zLevel" : 7, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddle_stall_2" : {
+        "properties" : { "zLevel" : 6, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "barding_stall_2" : {
+        "properties" : { "zLevel" : 5, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "back_stall_2" : {
+        "properties" : { "zLevel" : 4, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legb_stall_2" : {
+        "properties" : { "zLevel" : 3, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddleb_stall_2" : {
+        "properties" : { "zLevel" : 2, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bardingb_stall_2" : {
+        "properties" : { "zLevel" : 1, "offset" : [7, 4.25] },
+        "partStates" : {
+          "movement_stall_2" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idleShrug.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "stableb" : {
+        "properties" : { "zLevel" : 0, "offset" : [5.5, 5] },
+        "partStates" : {
+          "stall" : {
+            "stall" : { "properties" : { "image" : "/objects/viera/chocobostable2/stableb.png" } }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : { },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "particleEmitters" : { },
+
+  "sounds" : {
+    "return"  : [ "/sfx/tech/vehicle_disappear1.ogg" ],
+    "warp"    : [ "/sfx/viera/vehicles/chocobo/warpkweh.ogg" ],
+    "talk1"   : [ "/sfx/viera/vehicles/chocobo/talkkweh1.ogg" ], 
+    "talk2"   : [ "/sfx/viera/vehicles/chocobo/talkkweh2.ogg" ]
+  },
+
+  "lights" : { }
+}

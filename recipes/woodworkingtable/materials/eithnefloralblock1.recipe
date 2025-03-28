@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "eithnefloralblock1",
+    "count" : 4
+  },
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "vieravillagegoods",
+    "title": "Viera Village Goods I",
+    "description": "A book of plans detailing how to craft Viera village goods.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating Viera village goods, furniture, and more to build settlements. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "crystallinelamppost",
+            "heartofthewood",
+            "spiritofthewood",
+            "crestofwingsf",
+            "crestofwingsm",
+            "magicitevillageteleporter",
+            "streetlight1",
+			"vieraarcherscreen",
+			"vierabanner3",
+			"vieravillagepedestal",
+			"vieravillagepedestal2",
+			"viera_marketstallc1",
+			"viera_marketstall_nanzie",
+			"viera_marketstallp1",
+			"viera_marketstallp2",
+			"viera_marketstallw1"
+			
+        ],
+        "rarity": "Rare",
+        "price": 300
+    }
+}

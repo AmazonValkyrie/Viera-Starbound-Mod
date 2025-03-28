@@ -1,0 +1,14 @@
+{
+	"itemName" : "mechbodyviera",
+	"price" : 9600,
+	"maxStack" : 1,
+	"rarity" : "Rare",
+	"category" : "mechPart",
+	"tooltipKind" : "mechbody",
+	"builder" : "/items/buildscripts/buildmechpart.lua",
+	"inventoryIcon" : "mechbodyviera.png",
+	"description" : "An enhanced mech body, designed by Cida.",
+	"shortdescription" : "Wayfarer Mech Body",
+	"itemTags" : [],
+	"mechPart" : ["body", "viera"]
+}

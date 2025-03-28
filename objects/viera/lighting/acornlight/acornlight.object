@@ -1,0 +1,112 @@
+{
+  "objectName" : "acornlight",
+  "colonyTags" : ["viera","light","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 45,
+  "description" : "An acorn shaped light.",
+  "shortdescription" : "Acorn Light",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A small electrical acorn shaped light.",
+  "avianDescription" : "Electricity harnessed to produce light through natural resources.",
+  "floranDescription" : "Sssmall acorn with lighhhhht.",
+  "glitchDescription" : "Label. A light.",
+  "humanDescription" : "A cute acorn light.",
+  "hylotlDescription" : "A peculiar wooden light.",
+  "novakidDescription" : "What a pretty fire.",
+  "vieraDescription" : "Light given from the Wood.",
+
+  "lightColor" : [179, 178, 161],
+
+  "inventoryIcon" : "acornlighticon.png",
+  "orientations" : [
+    {
+      "image" : "acornlightceiling.png:<color>.<frame>",
+      "direction" : "right",
+	  "renderLayer" : "Player+12",
+      "animationParts" : {
+        "bg" : "acornlightceiling.png",
+        "fg" : "acornlightceilinglit.png"
+      },
+
+      "imagePosition" : [0, -1],
+      "animationPosition" : [0, -1],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "anchors" : [ "top" ]
+    },
+    
+    {
+      "image" : "acornlightleft.png:<color>.<frame>",
+      "direction" : "right",
+	  "renderLayer" : "Player+12",
+      "animationParts" : {
+        "bg" : "acornlightleft.png",
+        "fg" : "acornlightleftlit.png"
+      },
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "acornlightright.png:<color>.<frame>",
+      "direction" : "right",
+	  "renderLayer" : "Player+12",
+      "animationParts" : {
+        "bg" : "acornlightright.png",
+        "fg" : "acornlightrightlit.png"
+      },
+
+      "imagePosition" : [-1, 0],
+      "animationPosition" : [-1, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "acornlightground.png:<color>.<frame>",
+      "direction" : "right",
+	  "renderLayer" : "Player+12",
+      "animationParts" : {
+        "bg" : "acornlightground.png",
+        "fg" : "acornlightgroundlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "acornlightbg.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "acornlightbg.png",
+        "fg" : "acornlightbglit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}

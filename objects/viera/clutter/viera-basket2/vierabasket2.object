@@ -1,0 +1,35 @@
+{
+  "objectName" : "vierabasket2",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+  "description" : "Don't forget to bring a towel!",
+  "shortdescription" : "Basket of Towels",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "How formal to store linens this way.",
+  "avianDescription" : "A fluffy towel to dry one's feathers.",
+  "floranDescription" : "Cloth in basketsss?",
+  "glitchDescription" : "Statement. A basket of drying cloths.",
+  "humanDescription" : "A basket full of rolled, fluffy towels.",
+  "hylotlDescription" : "These fluffy cotton towels must soak of lots of water .",
+  "novakidDescription" : "I don't think towels have much use fer me.",
+  "vieraDescription" : "A set of woven, fluffy towels for drying.",
+
+  "inventoryIcon" : "vierabasket2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierabasket2.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

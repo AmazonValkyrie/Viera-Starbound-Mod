@@ -1,0 +1,35 @@
+{
+    "id": "vieratreetopgoods",
+    "title": "Viera Treetop Village Goods",
+    "description": "A book of plans detailing how to craft Viera treetop bridges and elevators.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating a variety of Viera treetop bridges, platforms, and elevators. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+			"vierabridgecolumn1",
+			"vierabridgedivision",
+			"vierabridgegate2front",
+			"vierabridgegate2rear",
+			"vierabridgegatefront",
+			"vierabridgegaterear",
+			"vierabridgelighting1",
+			"vierabridgeplatform1",
+			"vierabridgeplatform2",
+			"vierabridgeplatform3",
+			"vierabridgeplatform4",
+			"vierabridgeplatform5",
+			"vierabridgeplatform6",
+			"vierabridgeplatformelevatorlong",
+			"vierabridgeplatformelevatorshort",
+			"vierabuildingfoundation1",
+			"vierabuildingfoundation2",
+			"vierabuildingfoundation3",
+			"vierabuildingfoundation4"
+			
+        ],
+        "rarity": "Rare",
+        "price": 450
+    }
+}

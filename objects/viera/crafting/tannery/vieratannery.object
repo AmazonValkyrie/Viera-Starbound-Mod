@@ -1,0 +1,53 @@
+{
+  "objectName" : "vieratannery",
+  "colonyTags" : ["viera","crafting"],
+  "rarity" : "Uncommon",
+  "price" : 175,  
+  "description" : "Superior and supple leathers and dried and conditioned.",
+  "shortdescription" : "^green;Viera Tannery Rack",  
+  "race" : "viera",
+  "category" : "crafting",  
+  "printable" : false,
+  "health" : 1.5,
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniture.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Viera Tannery Rack",
+        "subtitle" : "  Tanning and Leather Conditioning",
+        "icon" : {
+          "file" : "/interface/crafting/vieratanneryicon.png"
+        }
+      }
+    },
+    "filter" : [ "vieratannery" ]
+  },
+
+  "apexDescription" : "Looks like a leather worker's rack.",
+  "avianDescription" : "A tanning rack for various leathers.",
+  "floranDescription" : "Strong skinsss for battlesss.",
+  "glitchDescription" : "Statement. Leather can be used for lightweight gear.",
+  "humanDescription" : "Useful for tanning leathers to craft with.",
+  "hylotlDescription" : "These leathers can be used to make wondrous gear.",
+  "novakidDescription" : "Sure is some high quality leather.",
+  "vieraDescription" : "Viera use leathers for making swift moving gear.",
+  
+  "animation" : "vieratannery.animation",
+  "inventoryIcon" : "vieratanneryicon.png",
+  "animationPosition" : [-4, 20],
+  "orientations" : [
+    {
+      "dualImage" : "vieratannery.png:default.<frame>",
+
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "vieratannery"
+}

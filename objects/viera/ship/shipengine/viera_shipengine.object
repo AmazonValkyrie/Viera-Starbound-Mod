@@ -1,0 +1,45 @@
+{
+  "objectName" : "viera_shipengine",
+  "shortdescription" : "Magicite Crystal",
+  "colonyTags" : ["viera", "prism", "vieraship", "argo"],
+  "race" : "viera",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "learnBlueprintsOnPickup" : [ "viera_shipengine" ],
+
+  "description" : "The ship's main source of power.",
+  "apexDescription" : "Light is refracted as it passes through this prism.",
+  "avianDescription" : "This crystal refracts light into pretty patterns.",
+  "floranDescription" : "Colours burssst out of this rock. Makes Floran curious.",
+  "glitchDescription" : "Bewildered. I find these rocks to be quite mesmerising.",
+  "humanDescription" : "These rocks are responsible for the impressive light show.",
+  "hylotlDescription" : "Prisms are a true wonder of the natural world.",
+  "novakidDescription" :  "I enjoy a good light show!",
+  "vieraDescription" : "This dazzling magicite crystal channels power to the ship.",
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "viera_shipengine.png:<frame>", "fullbright" : true }, 
+		{ "image" : "viera_shipenginelit.png:<frame>" } ],
+      "imagePosition" : [0, 0],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/viera/viera_unwiredlightsensor.lua" ],
+  "scriptDelta" : 5,
+  "detectThresholdMed" : 10,
+  "detectThresholdMax" : 50,
+  
+  "animation" : "viera_shipengine.animation",
+  "animationParts" : {
+    "main" : "viera_shipengine.png"
+  },
+  "animationPosition" : [0, 0]
+}

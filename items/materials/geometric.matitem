@@ -1,0 +1,10 @@
+{
+  "itemName" : "geometric",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "geometricicon.png",
+  "description" : "Geometric carving on ochre mahogany.",
+  "shortdescription" : "Geometric Trim I",
+
+  "materialId" : 13039
+}

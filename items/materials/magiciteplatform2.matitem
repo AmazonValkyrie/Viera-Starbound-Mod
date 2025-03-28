@@ -1,0 +1,10 @@
+{
+  "itemName" : "magiciteplatform2",
+  "rarity" : "Uncommon",
+  "price" : 60,
+  "inventoryIcon" : "magiciteplatform1.png",
+  "shortdescription" : "Magicite Platform",
+  "description" : "Gold and magicite shaped into platforms.",
+
+  "materialId" : 13118
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "vieralore38",
+  "title" : "The Seonha Scrolls: Ch. 2",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;Journey to the Heart Tree^reset;\n\nWe journeyed to the ^blue;Heart Tree^reset;, the ancient guardian, ^yellow;The Cradle of Eithne^reset;. Its branches loomed above us, whispering with the voices of ages past. If there were answers to be found, they would be here. Seonha stood before the tree, her jaw set, eyes fierce. I placed my hand on the bark first, beseeching the Wood for guidance. But the wind was silent, the leaves unmoving.",
+	
+	"Seonha stepped forward, her fingers brushing the rough bark. A shiver ran through her, and suddenly, the grove was alive with motion. The branches trembled, a gust of wind swirling around us, carrying a whisper only she could hear. Her eyes flooded silver-blue, the color of magicite, glowing with the Wood's ancient power. Her body tensed, shoulders rigid as if bearing the weight of the world.",
+	
+	"Her past weighed heavily on her, and here, in the boughs of the Heart Tree, she could not hide from it. But she did not break. Her fingers curled against the bark, steadying herself as whispers hung in the air.",
+	
+	"In a flash Seonha could see everything at once in dancing light from the view of the universe itself. For the Cradle of Eithne connects to the lifestream of creation, or so the Elders say. Its energies gave Seonha clarity of mind and spirit.",
+	
+	"She was not who she used to be, Seonha knew that now. She knew that the Wood needed her, and that she was just as able to be saved as the sacred lands around her. Her pain had not vanished, but her purpose was clear. Our homeland was in danger and now needed us most."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

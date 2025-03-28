@@ -1,0 +1,22 @@
+{
+  "materialId" : 13094,
+  "materialName" : "dalmascanquadtile",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanquadtile",
+  "shortdescription" : "Dalmascan Tile",
+  "description" : "Vibrantly colored tiles arranged on mortar.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanquadtile.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

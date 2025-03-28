@@ -1,0 +1,187 @@
+{
+  "objectName" : "vierawoodwarding",
+  "colonyTags" : ["viera","crafting"],
+  "rarity" : "Uncommon",
+  "race" : "viera",
+  "category" : "crafting",
+  "health" : 1.5,
+
+  //this is handled by the lua
+  "breakDropOptions" : [],
+
+  "price" : 110,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "vierawoodwarding.animation",
+  "animationPosition" : [0, 20],
+  
+  "inventoryIcon" : "vierawoodwardingicon.png",
+  "placementImage" : "vierawoodwarding.png:default.default",
+  "placementImagePosition" : [-16, 0],    
+
+  "description" : "The Wood Warders craft items for hunting, mining and farming.",
+  "shortdescription" : "^orange;Wood Warder's Table^white;",
+
+  "apexDescription" : "These look like the tools of agriculture and hunting.",
+  "avianDescription" : "A chance to display one's ability to survive in the wild.",
+  "floranDescription" : "Floran ussse table. Floran like to hunt!",
+  "glitchDescription" : "Intrigued. Survival module activated.",
+  "humanDescription" : "This table will allow me to do plenty of field work",
+  "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
+  "novakidDescription" : "This table'd be great for farmin' some crops and huntin'.",
+  "vieraDescription" : "Viera Wood Warders use this for reforesting and protecting the Wood.",
+  
+  "particleEmitter" : {
+  "emissionRate" : 0.7,
+  "emissionVariance" : 0.3,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [0.5, 3.0],
+      "size" : 1.0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.5,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [-0.1, -0.1],
+      "approach" : [0.65, 0.65],
+      "timeToLive" : 5,
+      "light" : [194, 235, 235],
+      "layer" : "back"
+	  },
+	  "particleVariance" : {
+	    "initialVelocity" : [1.0, 1.0],
+	    "finalVelocity" : [1.0, 1.0],
+        "position" : [0.5, 3.0] 
+		}
+    },
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "vierawoodwarding",
+      
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "vierawoodwardingicon.png",
+        "placementImage" : "vierawoodwarding.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "The Wood Warders craft items for hunting, mining and farming.",
+        "shortdescription" : "^orange;Wood Warder's Table^white;",
+
+        "apexDescription" : "These look like the tools of agriculture and hunting.",
+        "avianDescription" : "A chance to display one's ability to survive in the wild.",
+        "floranDescription" : "Floran ussse table. Floran like to hunt!",
+        "glitchDescription" : "Intrigued. Survival module activated.",
+        "humanDescription" : "This table will allow me to do plenty of field work",
+        "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
+        "novakidDescription" : "This table'd be great for farmin' some crops and huntin'.",
+        "vieraDescription" : "Viera Wood Warders use this for reforesting and protecting the Wood."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingfarming.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Wood Warder's Table",
+            "subtitle" : " ^#b9b5b2;Botany & Hunting",
+            "icon" : {
+              "file" : "/interface/crafting/vierawoodwardericon.png"
+            }
+          }
+        },
+
+        "filter" : [ "craftingfarm" ],
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 5 },
+          { "item" : "refinedmagicitecrystal", "count" : 12 },
+          { "item" : "liquidwater", "count" : 6 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "vierawoodwarding2",
+      
+      "itemSpawnParameters" : {
+        "price" : 750,
+        "inventoryIcon" : "vierawoodwarding2icon.png",
+        "placementImage" : "vierawoodwarding2.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+         "description" : "The Wood Warders craft items for survival and exploration.",
+         "shortdescription" : "^orange;Wood Warden Table^white;",
+
+        "apexDescription" : "These look like the tools of agriculture and hunting.",
+        "avianDescription" : "A chance to display one's ability to survive in the wild.",
+        "floranDescription" : "Floran ussse table. Floran like to hunt!",
+        "glitchDescription" : "Intrigued. Survival module activated.",
+        "humanDescription" : "This table will allow me to do plenty of field work",
+        "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
+        "novakidDescription" : "This table'd be great for farmin' some crops and huntin'.",
+        "vieraDescription" : "Viera Wood Warders use this for reforesting and protecting the Wood."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingfarming.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Wood Warden Table",
+            "subtitle" : " ^#b9b5b2;Botany & Hunting",
+            "icon" : {
+              "file" : "/interface/crafting/vierawoodwardericon.png"
+            }
+          }
+        },
+        "filter" : [ "craftingfarm", "craftingfarm2" ],
+        "initialRecipeUnlocks" : [ ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "vierawoodwarding.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [0, 20],    
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [
+        [-2, 3], [-1, 3], [0, 3], [1, 3],
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vierawoodwarding.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [0, 20],
+      "direction" : "right",
+      "spaces" : [
+        [-2, 3], [-1, 3], [0, 3], [1, 3],
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

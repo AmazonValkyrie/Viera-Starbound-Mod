@@ -1,0 +1,36 @@
+{
+  "id" : "vierabootship",
+  "title" : "^orange;Awaking the Wood...^reset;",
+  "text" : "You don't know who this ^cyan;Seonha^reset; person is, but she seems to have her wits about her. Better hurry and do as she says! ^green;Interact with the Magicite Core^reset; to power ^orange;the Argo^reset; back up!",
+  "completionText" : "Far below us a new world breathes, teaming with life. Crippled like this, ^green;we are unable to slip free of this celestial body's embrace^rest;. I have restored power to the Argo's ^orange; magicite teleporter^reset; - ^green;travel to this planet's surface^reset;, and search for a means to repair Us.",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "vierawakeup" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [  ] ],
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/vierabootship.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/captainseonha.png"} ],
+        "title" : "Cpt. Seonha"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/thewood.png"} ],
+        "title" : "The Wood"
+      }
+    },
+    "descriptions" : {
+      "wakeSail" : "^green;Realign^reset; the ^orange;Magicite Core^reset;."
+    },
+    "compassUpdate" : 0.2,
+    "techstationUid" : "techstation",
+    "shipUpgrade" : { "shipLevel" : 1 },
+    "followUp" : "gaterepair"
+  }
+}

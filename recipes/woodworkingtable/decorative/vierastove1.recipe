@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 18 },	
+    { "item" : "campfire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "vierastove1",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

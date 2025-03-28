@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+	{ "item" : "goldbar", "count" : 4 },
+	{ "item" : "fabric", "count" : 20 },
+	{ "item" : "refinedmagicitecrystal", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "mooglebunk",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "beds", "all" ]
+}

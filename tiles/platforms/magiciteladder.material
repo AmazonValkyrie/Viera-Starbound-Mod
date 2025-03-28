@@ -1,0 +1,22 @@
+{
+  "materialId" : 13115,
+  "materialName" : "magiciteladder",
+  "collisionKind" : "platform",
+  "itemDrop" : "magiciteladder",
+  "shortdescription" : "Magicite Ladder",
+  "description" : "Gold and magicite shaped into platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "magiciteladder.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+	"radiantLight" : [195, 204, 204],
+    "platform" : true
+  }
+}

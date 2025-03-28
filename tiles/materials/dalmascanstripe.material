@@ -1,0 +1,23 @@
+{
+  "materialId" : 13081,
+  "materialName" : "dalmascanstripe",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "dalmascanstripe",
+  "description" : "Painted white stone with stripes.",
+  "shortdescription" : "Striped Moulding",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstripe.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "vieracaptainsconsolecrewchairs",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "itemTags" : ["crewchairs"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "loungeable",
+  
+  "learnBlueprintsOnPickup" : [ "vieracaptainsconsolecrewchairs" ],
+
+  "description" : "The Captain and crew navigate the ship from here.",
+  "shortdescription" : "Viera Crew Seating",
+  "race" : "viera",
+  "category" : "furniture",
+
+  "apexDescription" : "These look quite comfortable for crew seating.",
+  "avianDescription" : "This must be extra seating for the ship's crew.",
+  "floranDescription" : "Floran fly with companyyy!",
+  "glitchDescription" : "Excited. Incentive for crew members!",
+  "humanDescription" : "This is all the convincing I need to recruit a crew!",
+  "hylotlDescription" : "It's always pleasant to not have to travel alone.",
+  "novakidDescription" : "No use in having empty seats on this here ship. Let's find a crew!",
+  "vieraDescription" : "Having fellow travelers would make this ship feel like home, yes?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieracaptainsconsolecrewchairs.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPositions" : [ [-5.5, 18.25], [6, 18.25] ]
+    }
+  ],
+
+  "sitCoverImage" : "/objects/viera/ship/vieracaptainsconsolecrewchairs/vieracaptainsconsolecrewchairscover.png"
+}

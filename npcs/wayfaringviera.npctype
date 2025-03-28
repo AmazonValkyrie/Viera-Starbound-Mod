@@ -1,0 +1,170 @@
+{
+  "type" : "wayfaringviera",
+  "baseType" : "vierabase",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.25,
+	  "converseChance" : 1,
+      "patrolTime" : 3,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+    
+    "personalities" : [
+        [1.0, { 
+		  "personality" : "cheerful",
+          "additiveReactions" : ["spontaneous"],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}],
+		[1.0, { 
+		  "personality" : "jerk",
+          "additiveReactions" : [],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}],
+		[1.0, { 
+		  "personality" : "jerk",
+          "additiveReactions" : [],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}],
+		[1.0, { 
+		  "personality" : "flirty",
+          "additiveReactions" : ["default"],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}],
+		[1.0, { 
+		  "personality" : "anxious",
+          "additiveReactions" : ["default", "love", "wink", "cry"],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}],
+		[1.0, { 
+		  "personality" : "easilyspooked",
+          "additiveReactions" : ["spontaneous", "videogameComplete", "gongComplete", "drumComplete",
+          "music", "musicFinished", "cry", "vomit", "default"],
+		  "reactions" : {
+		    "furnace" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"]
+            ],
+            "furnaceComplete" : [
+              [1.0, "vierawarmhands"],
+              [1.0, "vieracrouchwarm"],
+              [1.0, "pokefire"]
+            ]
+		  } 
+		}]
+		
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/viera.config:tagCriteria",
+          "enclosedArea" : "/dialog/viera.config:enclosedArea",
+          "otherDeed" : "/dialog/viera.config:otherDeed",
+          "severe" : "/dialog/viera.config:severe",
+          "final" : "/dialog/viera.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/viera.config:beacon",
+          "rent" : "/dialog/viera.config:rent"
+        }
+      },
+
+      "greeting" : "/dialog/viera.config:wayfaringvieragreeting",
+      "converse" : "/dialog/viera.config:wayfaringvieraconverse",
+      
+      "accuse" : "/dialog/viera.config:accuse",
+
+      "attack" : "/dialog/viera.config:attack",
+      "reattack" : "/dialog/viera.config:reattack",
+      "killedTarget" : "/dialog/viera.config:killedTarget",
+      "lostTarget" : "/dialog/viera.config:lostTarget",
+      "outOfSight" : "/dialog/viera.config:outOfSight",
+      "cheerOn" : "/dialog/viera.config:cheerOn",
+      "cantReach" : "/dialog/viera.config:cantReach"
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "femaleveenaravaviera" : [
+      [0, [
+          {
+            "head" : [ { "name" : "salvemakercirclet", "parameters" : { "colorIndex" : [4, 5, 6, 7, 8, 9, 10, 11] } } ],
+            "chest" : [ { "name" : "salvemakervillagerchest", "parameters" : { "colorIndex" : [4, 5, 6, 7, 8, 9, 10, 11] } } ],
+            "legs" : [ { "name" : "salvemakervillagerlegs", "parameters" : { "colorIndex" : [4, 5, 6, 7, 8, 9, 10, 11] } } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

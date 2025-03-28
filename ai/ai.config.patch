@@ -1,0 +1,18 @@
+[
+	{ "op" : "add",
+		"path" : "/species/viera",
+		"value" : {
+			"aiFrames" : "vieraai.png",
+			"portraitFrames" : "portraits/vieraportrait.png",
+			"staticFrames" : "staticviera.png"
+      }
+    },
+	{ "op" : "add",
+		"path" : "/species/moogle",
+		"value" : {
+			"aiFrames" : "moogleai.png",
+			"portraitFrames" : "portraits/moogleportrait.png",
+			"staticFrames" : "staticmoogle.png"
+      }
+    }
+]

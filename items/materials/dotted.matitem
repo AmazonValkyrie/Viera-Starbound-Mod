@@ -1,0 +1,10 @@
+{
+  "itemName" : "dottedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dottedicon.png",
+  "description" : "Three spherical carvings on ochre wood.",
+  "shortdescription" : "Sphere Carvings",
+
+  "materialId" : 13011
+}

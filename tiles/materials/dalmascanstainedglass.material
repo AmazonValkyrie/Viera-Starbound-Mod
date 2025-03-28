@@ -1,0 +1,22 @@
+{
+  "materialId" : 13096,
+  "materialName" : "dalmascanstainedglass",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanstainedglass",
+  "shortdescription" : "Dalmascan Stained Glass",
+  "description" : "Colored stainedglass for ornate windows.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstainedglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2000
+  }
+}

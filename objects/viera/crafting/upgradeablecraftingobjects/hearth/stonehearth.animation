@@ -1,0 +1,194 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "primus",
+        "states" : {
+          "primus" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "secundus", "tertius" ],
+              "lightsOn" : [ "primus" ],
+			  "particleEmittersOff" : [ "secundus", "tertius" ],
+			  "particleEmittersOn" : [ "primus" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.50
+            }
+          },
+          "secundus" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "primus", "tertius" ],
+              "lightsOn" : [ "secundus" ],
+			  "particleEmittersOff" : [ "primus", "tertius" ],
+			  "particleEmittersOn" : [ "secundus" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.75
+            }
+          },
+          "tertius" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "primus", "secundus" ],
+              "lightsOn" : [ "tertius" ],
+			  "particleEmittersOff" : [ "primus", "secundus" ],
+			  "particleEmittersOn" : [ "tertius" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 1.25
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "primus" : {
+              "properties" : {
+                "image" : "stonehearth1lit.png:<color>.<frame>"
+              }
+            },
+
+            "secundus" : {
+              "properties" : {
+                "image" : "stonehearth2lit.png:<color>.<frame>"
+              }
+            },
+
+            "tertius" : {
+              "properties" : {
+                "image" : "stonehearth3lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "lit" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "primus" : {
+              "properties" : {
+                "image" : "stonehearth1.png:<color>.<frame>"
+              }
+            },
+
+            "secundus" : {
+              "properties" : {
+                "image" : "stonehearth2.png:<color>.<frame>"
+              }
+            },
+
+            "tertius" : {
+              "properties" : {
+                "image" : "stonehearth3.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "lights" : {
+    "primus" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [153, 128, 92],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    },
+    "secundus" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [153, 128, 92],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    },
+    "tertius" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [153, 128, 92],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }
+  },
+  
+  "particleEmitters" : {
+    "upgrade" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [ 
+	    { "particle" : "dust2"} 
+	  ]
+    },
+    "finalUpgrade" : {
+      "emissionRate" : 500,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [ 
+	    { "particle" : "dust2" },
+	    { "particle" : "viera_confettidriftingred" },
+	    { "particle" : "viera_confettidriftinggreen" },
+	    { "particle" : "viera_confettidriftingblue" },
+	    { "particle" : "viera_confettidriftingwhite" },
+	    { "particle" : "viera_confettifallingred" },
+	    { "particle" : "viera_confettifallinggreen" },
+	    { "particle" : "viera_confettifallingblue" },
+	    { "particle" : "viera_confettifallingwhite" }
+	  ]
+    },
+	"primus" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "particles" : [
+        { "particle" : "stonehearthember", "offset" : [0, 1.5] }
+      ]
+    },
+	"secundus" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "particles" : [
+        { "particle" : "stonehearthember", "offset" : [0, 2.0] },
+        { "particle" : "stonehearthember", "offset" : [0, 2.0] }
+      ]
+    },
+	"tertius" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "particles" : [
+        { "particle" : "stonehearthember", "offset" : [0, 4.5] },
+        { "particle" : "stonehearthember", "offset" : [0, 4.5] },
+        { "particle" : "stonehearthember", "offset" : [0, 4.5] }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/viera/vieraupgradefanfare.ogg"]
+  }
+}

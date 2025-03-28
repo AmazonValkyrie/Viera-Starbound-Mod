@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstainedglass2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstainedglass2icon.png",
+  "shortdescription" : "Dalmascan Multicolored Glass",
+  "description" : "Multicolored stainedglass on lattice for ornate windows.",
+
+  "materialId" : 13097
+}

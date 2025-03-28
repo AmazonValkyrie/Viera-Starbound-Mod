@@ -1,0 +1,22 @@
+{
+  "materialId" : 13097,
+  "materialName" : "dalmascanstainedglass2",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanstainedglass2",
+  "shortdescription" : "Dalmascan Multicolored Glass",
+  "description" : "Multicolored stainedglass on lattice for ornate windows.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstainedglass2.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

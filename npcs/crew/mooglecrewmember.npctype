@@ -1,0 +1,311 @@
+{
+  "type" : "mooglecrewmember",
+  "baseType" : "mooglebase",
+
+  "dropPools" : [ "villagertreasure" ],
+
+  "damageTeamType" : "friendly",
+
+  // Remove protection and powermultiplier gained from being level 1 as scaling is from player armor
+  "innateStatusEffects" : [ { "stat" : "protection", "amount": -25 }, {"stat" : "powerMultiplier", "amount" : -0.5} ], 
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "crewmember",
+    "behaviorConfig" : {
+      "emptyHands" : false,
+
+      // Wander behavior config
+      "wanderTime" : 1,
+      "idleTime" : 10,
+      "outerHomeRange" : 20,
+      "innerHomeRange" : 15,
+
+      "hostileDamageTeam" : {"type" : "friendly", "team" : 1}
+    },
+
+    "crew" : {
+      "recruitable" : true,
+
+      "recruitInteractAction" : {
+        "messageType" : "recruits.offerRecruit",
+        "messageArgs" : []
+      },
+
+      "powerMultiplierExponent" : 1.0,
+
+      "role" : {
+        "type" : "fusilier",
+        "name" : "Fusilier",
+        "field" : "Protection",
+        "uniformColorIndex" : 0
+      },
+
+      "ranks" : [
+        "Second-to-Last Pom-Pom <role>",
+        "3rd Prototype Tinkerer <field> Officer",
+        "Assistant Deputy Kupo <role> Supervisor",
+        "Gadgeteer Apprentice <role>",
+        "Temporary Airship Patchwork <role>",
+        "3rd Rear Sky-Sailing <role>",
+        "64th Cog-Master <role>",
+        "Standing Mogworks <field> Engineer",
+        "Sitting On-the-Job <field> Expert",
+        "Executive Kupo-Nut Procurement <role>",
+        "Chief Master of Tiny Tools <field> Officer",
+        "Independent Kupo-Keeper <field> Auditor",
+        "Officially Unofficial <field> Examiner",
+        "Dreadnought-Class Sky Captain <field> Officer",
+        "Trainee Moogle Machinist <field> Mastermind",
+        "Head of Petty Pom-Pom Disputes <field> Arguments",
+        "Backup Airship Rigging <role>",
+        "Reliable Gear-Turner <field> Lackey",
+        "Theoretical Wind-Current <field> Advisor",
+        "Certified Pom-Fixer <field> Lackey",
+        "Lead Kupo-Nut Logistics Coordinator <field> Operations",
+        "Mog-Wild Card <role>",
+        "Diplomatic Representative of MogNet <field> Relations",
+        "Last-Minute Jury-Rigged <role>",
+        "Self-Proclaimed Expert in Unstable Magitek <field> Diplomacy",
+        "<field> Innovation Mogul",
+        "Loose Cannon Sky-Pilot <role>",
+        "Regional Pom-Polisher <field> Director",
+        "Private Mog-Vestigator <field> Investigator",
+        "Temporal Airship Navigator <field> Surveyor",
+        "Radical Magitek Inventor <field> Innovator",
+        "Independent Head of Airborne <field> Operations",
+        "Just Your Average Skyfaring <role>",
+        "Hobbyist Wind-Glider <role>",
+        "Master of Kupo Nut Hoarding <field> Matters",
+        "Alternative Mog-Based <field> Advisory Representative",
+        "Runner-Up in the Great Airship Crash of ‘02 <field> Officer",
+        "Emergency Magitek Stabilization <field> Officer",
+        "First Mate's Second-Cousin's Third Kupo-Nut Hoarder <role>",
+        "Unpaid MogNet Letter Carrier <field> Intern",
+        "<field> Student (Still Paying Off Airship Repairs)",
+        "<field> Forum Moderator (Currently in a Flame War)",
+        "Rogue Kupo-Swindler <field> Profiteer",
+        "Neutral Third Party Arbiter (Will Accept Bribes in Kupo-Nuts) <role>",
+        "Low Quality Pom-Pom Styling <field> Negotiations",
+        "Armchair Airship Engineer <field> Expert"
+
+      ],
+	  "defaultUniform" : {
+	    "head" : "moogle_freelancer2head",
+        "chest" : "moogle_freelancer2chest",
+        "legs" : "moogle_freelancer2legs"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "questGenerator" : {
+      // Disable participation of crewmembers in generated quests until the
+      // generated quest system knows how to deal with entities that can
+      // disappear from the world and/or change uniqueId.
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "default" : {
+            "default" : [
+              "May I join your party, kupo?",
+              "My name is <selfname>, and I'd love to join your party on your airship, kupopo!",
+              "I would love to join you and your party on your airship, kupo!",
+              "I'd be happy to join your party if you'll have me, kupo!",
+              "If there is space in your party, I'd love to join you, kupopo!"
+            ]
+          },
+		  "moogle" : {
+            "default" : [
+              "May I join your party, kupo?",
+              "My name is <selfname>, and I'd love to join your party on your airship, kupopo!",
+              "I would love to join you and your party on your airship, kupo!",
+              "I'd be happy to join your party if you'll have me, kupo!",
+              "If there is space in your party, I'd love to join you, kupopo!"
+            ]
+          } 
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "If you are in need of assistance, I will be here, kupo.",
+              "If you need help, let me know, kupopo.",
+              "I'll be here if you need help in battle.",
+			  "Let me know if you need aid, kupo!",
+			  "I'm here if you need, kupopo!"
+            ]
+          },
+          "moogle" : {
+            "default" : [
+              "If you are in need of assistance, I will be here, kupo.",
+              "If you need help, let me know, kupopo.",
+              "I'll be here if you need help in battle.",
+			  "Let me know if you need aid, kupo!",
+			  "I'm here if you need, kupopo!"
+            ]
+          }
+        },
+        "respawned" : {
+          "default" : {
+            "default" : [
+              "Thank you for that Phoenix Down, kupo.",
+              "I didn't realize you knew how to cast Raise, kupopo.",
+              "I've been restored, kupo!",
+              "My health is restored, kupopo!",
+              "I'm happy to be back, kupo.",
+              "I hope that wasn't our last Phoenix Down, kupo.",
+              "I'm back and at full health, kupo!",
+              "Thank you for restoring me, kupopo."
+            ]
+          },
+		  "moogle" : {
+            "default" : [
+              "Thank you for that Phoenix Down, kupo.",
+              "I didn't realize you knew how to cast Raise, kupopo.",
+              "I've been restored, kupo!",
+              "My health is restored, kupopo!",
+              "I'm happy to be back, kupo.",
+              "I hope that wasn't our last Phoenix Down, kupo.",
+              "I'm back and at full health, kupo!",
+              "Thank you for restoring me, kupopo."
+            ]
+          }
+        },
+        "unfollow" : {
+          "default" : {
+            "default" : [
+              "Understood, kupo! I will wait here.",
+              "I will stand guard here, kupopo.",
+              "I will stay put here, kupo.",
+              "I can guard this location, kupo.",
+              "I'll stay here if you prefer, kupopo.",
+              "I will hold position here, kupo."
+            ]
+          },
+		  "moogle" : {
+            "default" : [
+              "Understood, kupo! I will wait here.",
+              "I will stand guard here, kupopo.",
+              "I will stay put here, kupo.",
+              "I can guard this location, kupo.",
+              "I'll stay here if you prefer, kupopo.",
+              "I will hold position here, kupo."
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+              "Understood, kupo! I am ready to follow.",
+              "I am pleased to rejoin the party, kupopo.",
+              "I am happy to follow the party again, kupo.",
+              "I'm ready to get moving when you are, kupopo.",
+              "Where are we off to, kupo?"
+            ]
+          },
+		  "moogle" : {
+            "default" : [
+              "Understood, kupo! I am ready to follow.",
+              "I am pleased to rejoin the party, kupopo.",
+              "I am happy to follow the party again, kupo.",
+              "I'm ready to get moving when you are, kupopo.",
+              "Where are we off to, kupo?"
+            ]
+          }          
+        },
+        "cantreach" : {
+          "default" : {
+            "default" : [
+              "I can't reach you, kupo!",
+              "You are unreachable from here, kupopo.",
+              "I can't catch up to you, kupo.",
+              "We've been split up, kupopo!",
+              "I'm unable to reach you, kupo."
+            ]
+          },
+          "moogle" : {
+            "default" : [
+              "I can't reach you, kupo!",
+              "You are unreachable from here, kupopo.",
+              "I can't catch up to you, kupo.",
+              "We've been split up, kupopo!",
+              "I'm unable to reach you, kupo."
+            ]
+          }
+		  }
+      },
+
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+
+      "converse" : "/dialog/crewmember.config:converse",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
+    }
+  },
+
+  "movementParameters" : {
+    // Run at the same speed as the player
+    "runSpeed" : 16.0
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "moogle_freelancer2head" } ],
+			"chest" : [ { "name" : "moogle_freelancer2chest" } ],
+            "legs" : [ { "name" : "moogle_freelancer2legs" } ],
+            "primary" : [ "npcmachinepistol" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "hitInvulnerability" : true,
+      "hitInvulnerabilityThreshold" : 0.0333,
+      "hitInvulnerabilityTime" : 1,
+      "hitInvulnerabilityFlash" : 0.15,
+      "damageFlashOnDirectives" : "",
+      "damageFlashOffDirectives" : ""
+    },
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 350.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 2.0
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodenbase",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "woodenbaseicon.png",
+  "description" : "Carved, wooden foundation.",
+  "shortdescription" : "Wood Foundation",
+
+  "materialId" : 13019
+}

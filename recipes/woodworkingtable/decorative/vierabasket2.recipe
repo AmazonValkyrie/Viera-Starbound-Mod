@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 20 },
+	{ "item" : "fabric", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "vierabasket2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

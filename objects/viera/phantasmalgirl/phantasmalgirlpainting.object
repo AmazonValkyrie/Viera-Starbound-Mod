@@ -1,0 +1,35 @@
+{
+  "objectName" : "phantasmalgirlpainting",
+  "colonyTags" : ["viera","pretty", "valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 2500,
+  "health" : 1.5,
+
+  "description" : "A mysterious young woman, born with the gift of magic...",
+  "shortdescription" : "The Phantasmal Girl",
+  "race" : "viera",
+
+  "apexDescription" : "She seems intriguing.",
+  "avianDescription" : "Such an interesting girl.",
+  "floranDescription" : "Floran so confusssed.",
+  "glitchDescription" : "Cataloguing. Art possibly significant. Capturing snapshot.",
+  "humanDescription" : "I feel as though I've seen her face before...",
+  "hylotlDescription" : "Ahh... I understand.",
+  "novakidDescription" : "Ah wonder who she could be?",
+  "vieraDescription" : "This girl feels familiar to me...",
+
+  "inventoryIcon" : "phantasmalgirlicon.png",
+  "orientations" : [
+    {
+      "image" : "phantasmalgirl.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+
+    }
+  ]
+}

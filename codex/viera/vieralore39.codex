@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore39",
+  "title" : "The Seonha Scrolls: Ch. 3",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;The Battle of the Echoing Caves^reset;\n\nWe ventured deep into the ^green;Caves of Mourning Echoes^reset;, where the voices of the lost wail upon the winds. The villagers feared the spirits that howled within, claiming they were souls trapped by a powerful curse. Seonha faced the darkness without hesitation, her eyes gleaming with the resolve of one who has faced her own shadows...",
+	
+	"The spirits clawed at us, their cries bitter and mournful. I could feel their sorrow, each whisper a pang of grief echoing through my very bones. But Seonha's voice cut through the gloom like a blade, commanding the shades to face her wrath. Her courage became our light.",
+	
+	"Together, we discovered the truth-the spirits were guardians, cursed to wander by a malevolent sorceress who sought to harness their power. Seonha faced the sorceress, her blade dancing through shadow and flame, while I wove a spell of Shell, loosening the magicks that held the spirits in agony.",
+	
+	"When the final echo faded, the guardians were free, their whispers turning to blessings. Seonha stood amidst the fading light, victorious and yet solemn, for she had felt their pain. We left the caves behind, our bond forged stronger by the echoes we silenced."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

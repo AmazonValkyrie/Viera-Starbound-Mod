@@ -1,0 +1,48 @@
+{
+  "itemName" : "vieratier3pants",
+  "shortdescription" : "Voyager's Legplates",
+  "description" : "Titanium legplates and pleated skirt of Viera design.",
+  "itemTags" : [ "tier3armour" ],
+  
+  "category" : "legarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 1280,
+  "level" : 3,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  
+  "colorOptions" : [
+    // TITANIUM
+    { "E6E6E6" : "E6E6E6", "B6B6B6" : "B6B6B6", "7B7B7B" : "7B7B7B", "373737" : "373737", "8565B1" : "8565B1", "5D4068" : "5D4068", "47314F" : "47314F" },
+    // BLACK
+    { "E6E6E6" : "BFCCC0", "B6B6B6" : "6F7068", "7B7B7B" : "3B3F3B", "373737" : "000000", "8565B1" : "D80000", "5D4068" : "840000", "47314F" : "5E0000" },
+    // GREY
+    { "E6E6E6" : "E6E6E6", "B6B6B6" : "B6B6B6", "7B7B7B" : "7B7B7B", "373737" : "373737", "8565B1" : "8565B1", "5D4068" : "5D4068", "47314F" : "47314F" },
+    // WHITE
+    { "E6E6E6" : "FFFFFF", "B6B6B6" : "C7F2F2", "7B7B7B" : "C4C4C4", "373737" : "8C8C8C", "8565B1" : "FFD800", "5D4068" : "E0B700", "47314F" : "A38500" },
+    // RED
+    { "E6E6E6" : "FFC6C6", "B6B6B6" : "EA0000", "7B7B7B" : "AD0000", "373737" : "660000", "8565B1" : "FFFFFF", "5D4068" : "B8C9DB", "47314F" : "80A1AD" },
+    // ORANGE
+    { "E6E6E6" : "FFF8B9", "B6B6B6" : "F3A74A", "7B7B7B" : "CA6613", "373737" : "6F382D", "8565B1" : "00B9D6", "5D4068" : "009FB7", "47314F" : "007F94" },
+    // YELLOW
+    { "E6E6E6" : "FFFBD8", "B6B6B6" : "FFD84D", "7B7B7B" : "E2AF20", "373737" : "B97C01", "8565B1" : "37B74E", "5D4068" : "2D9941", "47314F" : "267F37" },
+    // GREEN
+    { "E6E6E6" : "9BFFD2", "B6B6B6" : "1AB26E", "7B7B7B" : "137F4E", "373737" : "0A472C", "8565B1" : "C8713D", "5D4068" : "A05A31", "47314F" : "7A4425" },
+    // BLUE
+    { "E6E6E6" : "D8FFFC", "B6B6B6" : "4FACC8", "7B7B7B" : "39747F", "373737" : "233C43", "8565B1" : "BC4B00", "5D4068" : "7F3300", "47314F" : "592300" },
+    // PURPLE
+    { "E6E6E6" : "FFFFFF", "B6B6B6" : "DAD8ED", "7B7B7B" : "C6A5CD", "373737" : "685DA0", "8565B1" : "9CABB7", "5D4068" : "646E77", "47314F" : "41474C" },
+    // PINK
+    { "E6E6E6" : "FFD3CC", "B6B6B6" : "FF9B88", "7B7B7B" : "BF7467", "373737" : "7F4D44", "8565B1" : "FFFFFF", "5D4068" : "B8C9DB", "47314F" : "80A1AD" },
+    // BROWN
+    { "E6E6E6" : "FFD0B5", "B6B6B6" : "C6672F", "7B7B7B" : "8C4821", "373737" : "4C2712", "8565B1" : "FF9B88", "5D4068" : "C17668", "47314F" : "A36358" }
+  ]
+}

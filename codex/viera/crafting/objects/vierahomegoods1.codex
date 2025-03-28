@@ -1,0 +1,37 @@
+{
+    "id": "vierahomegoods1",
+    "title": "Expanded Viera Home Goods",
+    "description": "A book of plans detailing how to craft more expansive Viera home goods.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating more intricate Viera home goods and furniture. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "carvedvierabed1",
+            "triskelewalllight",
+            "vierabath2",
+            "vieracabinet2",
+            "vieracanopybed",
+            "vierachair2",
+            "vieracupboard2",
+			"vieraextravagantbed",
+			"vierapatterndoor",
+			"vierasettee1",
+			"vierasettee2",
+			"vierasettee3",
+			"vierasettee4",
+			"vierasink3",
+			"vierastove1",
+			"vierastrungmagicitelight",
+			"vieratoilet2",
+			"vierawardrobe1",
+			"warrenholedoor",
+			"warrenholedoor2",
+			"vieravillagedoor"
+			
+        ],
+        "rarity": "Rare",
+        "price": 250
+    }
+}

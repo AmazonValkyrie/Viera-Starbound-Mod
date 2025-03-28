@@ -1,0 +1,42 @@
+{
+  "objectName" : "vierajars1",
+  "colonyTags" : ["viera", "storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 65,
+  "health" : 1.5,
+  "description" : "Jars for storing herbs and spices",
+  "shortdescription" : "Spice Jars",
+  "race" : "viera",
+
+  "apexDescription" : "A set of spice jars.",
+  "avianDescription" : "Storage for a variety of herbs.",
+  "floranDescription" : "So many ssscentsss.",
+  "glitchDescription" : "Acknowledgement. Ceramic jars for storing plant items.",
+  "humanDescription" : "Several spice jars.",
+  "hylotlDescription" : "A wide variety of spices may be stored within.",
+  "novakidDescription" : "This must be used fer cookin'.",
+  "vieraDescription" : "Viera store and use lots of herbs and spices.",
+
+  "inventoryIcon" : "vierajars1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierajars1.png:<color>",
+      "imagePosition" : [-8, 0],
+	  "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open_fast.ogg" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close_fast.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "ovular2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "ovular2icon.png",
+  "description" : "White, ovular carving on mahogany.",
+  "shortdescription" : "Ovular Mahogany",
+
+  "materialId" : 13038
+}

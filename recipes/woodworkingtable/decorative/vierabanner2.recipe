@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 4 },
+	{ "item" : "string", "count" : 3 }	
+  ],
+  "output" : {
+    "item" : "vierabanner2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

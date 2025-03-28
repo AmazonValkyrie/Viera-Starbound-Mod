@@ -1,0 +1,10 @@
+{
+  "itemName" : "vieranfence",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieranfenceicon.png",
+  "description" : "A wooden, Vieran fence.",
+  "shortdescription" : "Vieran Fence I",
+
+  "materialId" : 13000
+}

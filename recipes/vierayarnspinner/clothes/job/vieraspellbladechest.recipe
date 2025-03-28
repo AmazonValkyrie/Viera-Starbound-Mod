@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 18 },
+    { "item" : "string", "count" : 1 },
+	{ "item" : "leather", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vieraspellbladechest", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

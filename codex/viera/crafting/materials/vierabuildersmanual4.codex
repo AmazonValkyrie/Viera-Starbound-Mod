@@ -1,0 +1,21 @@
+{
+    "id": "vierabuildersmanual4",
+    "title": "Viera Builder's Manual - Natural Flora",
+    "description": "A book of schematics for crafting building materials.",
+    "icon": "vieracoverb4.png",
+    "contentPages": [
+        "This book details the process and schematics for crafting natural flora. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "eithnefloralblock1",
+            "eithnenaturalfoliage",
+            "vierafoliage1",
+            "livingmahogany",
+            "livingmossymahogany"
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 250
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieravisiondust",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "vieravisiondust.png",
+  "description" : "Crafted from the tail feathers of the Vorpal Bunny.", 
+  "shortdescription" : "Vision Dust",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupvisiondust" ]
+}

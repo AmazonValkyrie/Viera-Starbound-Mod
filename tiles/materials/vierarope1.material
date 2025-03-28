@@ -1,0 +1,22 @@
+{
+  "materialId" : 13125,
+  "materialName" : "vierarope1",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vierarope1",
+  "shortdescription" : "Rope wrappings in a horizontal direction.",
+  "description" : "Rope Wrapping.",
+
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vierarope1.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 5002
+  }
+}

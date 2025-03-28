@@ -1,0 +1,48 @@
+{
+    "id": "argofurniture1",
+    "title": "Argo Furniture I",
+    "description": "A book of crafting instructions for the Argo's furniture.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the process and recipes for crafting a series of furniture designed specifically for the ship. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "viera_shipengine",
+            "vierashiparmchair",
+            "vierashipbookcase",
+            "vierashipboothleft",
+            "vierashipboothright",
+            "vierashipcupboard1",
+            "vierashipcupboard2",
+            "vierashipdoor",
+            "vierashiphatch",
+            "vierashipendtable",
+            "vierashipfoodstorage",
+            "vierashiplight",
+            "vierastoragelocker",
+            "vierashipsink",
+            "vierashipstove",
+            "vierashipsofa",
+            "vierashipvalance",
+            "vierashipwallbed",
+			"vierashipwallbedvariant1",
+            "waystoneteleporter",
+			"vierashipplating1",
+			"vierashipplating2",
+			"vierashipplating3",
+			"vierashipplatingsolid",
+			"vieraslopedglass",
+			"vieraslopedinsetplating",
+			"vieraslopedinsetpanel",
+			"vieraladderpath1",
+			"vieraladderpath2",
+			"vieraladderpath3",
+			"seonhaspawner",
+			"seonhashelf"
+			
+        ],
+        "rarity": "Rare",
+        "price": 25
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "dotted1tile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dotted1tileicon.png",
+  "description" : "Vieran whitewood with circular carving.",
+  "shortdescription" : "Circular Carving",
+
+  "materialId" : 13029
+}

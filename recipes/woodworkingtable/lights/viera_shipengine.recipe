@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 20 },
+	{ "item" : "goldbar", "count" : 8 },
+	{ "item" : "refinedmagicitecrystal", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "viera_shipengine",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

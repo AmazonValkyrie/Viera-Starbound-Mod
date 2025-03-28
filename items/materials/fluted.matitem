@@ -1,0 +1,10 @@
+{
+  "itemName" : "flutedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "flutedicon.png",
+  "description" : "Fluted carvings adorn this mahogany column.",
+  "shortdescription" : "Fluted Mahogany",
+
+  "materialId" : 13015
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "blackwigdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "blackwigdye.png",
+  "description" : "This dye can be applied to Viera wigs/wig back items only.",
+  "shortdescription" : "Black Wig Dye",
+
+  "dyeColorIndex" : 29,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

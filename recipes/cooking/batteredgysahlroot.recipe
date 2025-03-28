@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "viera_gysahlroot", "count" : 1 }
+  ],
+  "output" : { "item" : "batteredgysahlroot", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

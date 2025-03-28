@@ -1,0 +1,35 @@
+{
+  "objectName" : "violetswagcurtainmed",
+  "shortdescription" : "Violet Drapery",
+  "colonyTags" : ["viera", "vieravillage", "pretty"],
+  "race" : "viera",
+  "rarity" : "Uncommon",
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 105,
+  "health" : 1.5,
+
+  "description" : "Violet swag curtain with sheer shade.",
+  "apexDescription" : "Beautiful window decor.",
+  "avianDescription" : "Such elegant window dressings.",
+  "floranDescription" : "Fabricccc on windowsss!",
+  "glitchDescription" : "Observation. Window dressings.",
+  "humanDescription" : "Such gorgeous curtains.",
+  "hylotlDescription" : "These Viera know how to decorate.",
+  "novakidDescription" : "Such purdy window dressin's.",
+  "vieraDescription" : "Such lovely silken curtains.",
+
+ "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "violetswagcurtainmed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "anchors" : [ ]
+    }
+  ]
+
+}
+
+

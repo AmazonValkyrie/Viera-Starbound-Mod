@@ -1,0 +1,10 @@
+{
+  "itemName" : "rabbitholecenter",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "rabbitholecentericon.png",
+  "description" : "Carved whitewood for Vieran entryways.",
+  "shortdescription" : "Rabbit-Hole Center",
+
+  "materialId" : 13017
+}

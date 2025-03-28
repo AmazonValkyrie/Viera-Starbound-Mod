@@ -1,0 +1,48 @@
+{
+    "id": "vierabuildersmanual1",
+    "title": "Viera Builder's Manual - Basics",
+    "description": "A book of schematics for crafting building materials.",
+    "icon": "vieracoverb1.png",
+    "contentPages": [
+        "This book details the process and schematics for crafting Viera building materials for basic building. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "angledtile",
+            "carvedtile",
+            "flooring",
+            "intricateroof",
+            "intricateroof1",
+            "ovulartile",
+            "ovular2",
+            "rabbitholecenter",
+            "rabbitholeleft",
+            "rabbitholeright",
+            "rooftile",
+            "roofcenter",
+            "roofrightend",
+            "roofleftend",
+            "slopedtile",
+            "smoothtile",
+            "smoothborderedtile",
+            "vieranwall1",
+			"vieranwall",
+            "vieraslopedtrimming",
+			"walltopper",
+			"windowlattice",
+			"woodenbase",
+			"woodenbase1",
+			"woodenbase2",
+			"woodenslats1",
+			"woodenslats",
+			"mahoganyroof",
+			"magiciteplatform1",
+			"magiciteladder",
+			"mahoganyplatform"
+			
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 475
+    }
+}

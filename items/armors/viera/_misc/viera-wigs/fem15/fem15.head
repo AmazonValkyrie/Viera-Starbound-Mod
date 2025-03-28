@@ -1,0 +1,95 @@
+{
+  "itemName" : "fem15wig",
+  "shortdescription" : "Viera Wig",
+  "description" : "A soft wig of Viera locks, cut in a short style with bangs hugging the face.",
+  "itemTags" : [ "wig" ],
+  
+  "style" : "Viera - Cosmetic",
+  "category" : "headwear",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 250,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+  
+  "hidefacialMask": false,  
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+  	//VIERA WHITE
+	{ "d9c189" : "FCFCF7", "B29F72" : "E5DAC3", "a38d59" : "CCC2AF", "8C7147" : "B2AA97", "735e3a" : "999182" },
+    //CANDY PINK
+    { "d9c189" : "FFEFED", "B29F72" : "FFD7D1", "a38d59" : "FFBCB2", "8C7147" : "FF8E88", "735e3a" : "FF6159" }, 
+	//CORAL
+    { "d9c189" : "FFD3CC", "B29F72" : "FF9F8C", "a38d59" : "FF7459", "8C7147" : "D35E4A", "735e3a" : "96201B" },
+    //GINGER	
+    { "d9c189" : "E86D46", "B29F72" : "D1422E", "a38d59" : "B23929", "8C7147" : "991F1B", "735e3a" : "7A1916" }, 
+	//CRIMSON
+    { "d9c189" : "CC2844", "B29F72" : "AD294A", "a38d59" : "982441", "8C7147" : "69243F", "735e3a" : "4C1A2E" }, 
+	//RUSTY RED
+    { "d9c189" : "AD2716", "B29F72" : "8F1F1B", "a38d59" : "731A1A", "8C7147" : "591414", "735e3a" : "380C0C" },
+	//LIGHT BROWN
+    { "d9c189" : "BE471B", "B29F72" : "9B2F0C", "a38d59" : "7A2409", "8C7147" : "541D0C", "735e3a" : "331107" }, 
+	//DARK BROWN
+    { "d9c189" : "7D3C1C", "B29F72" : "4D240B", "a38d59" : "351907", "8C7147" : "211004", "735e3a" : "000000" },
+	//ASH BROWN
+    { "d9c189" : "7F5A39", "B29F72" : "5B3523", "a38d59" : "3F2116", "8C7147" : "26130D", "735e3a" : "000000" }, 
+	//NUTMEG
+    { "d9c189" : "A6671D", "B29F72" : "915622", "a38d59" : "743E1D", "8C7147" : "592E16", "735e3a" : "3A1E0E" }, 
+	//DARK BLONDE
+    { "d9c189" : "EFA838", "B29F72" : "BE6D1D", "a38d59" : "A05A19", "8C7147" : "834012", "735e3a" : "602E0D" }, 
+	//PEACH
+    { "d9c189" : "EAA758", "B29F72" : "CD8B3D", "a38d59" : "AF7634", "8C7147" : "93682C", "735e3a" : "7C5725" }, 
+	//BLONDE
+    { "d9c189" : "E6E756", "B29F72" : "C7AC3F", "a38d59" : "A9882F", "8C7147" : "8C6F27", "735e3a" : "725B20" }, 
+	//CREAM BLONDE
+    { "d9c189" : "F1D992", "B29F72" : "DABA5E", "a38d59" : "B59A4D", "8C7147" : "998141", "735e3a" : "7F6C36" },
+	//PALE BLONDE
+    { "d9c189" : "F2EBA3", "B29F72" : "DCD28C", "a38d59" : "C2B677", "8C7147" : "A89D68", "735e3a" : "8E8558" },
+	//MOSS GREEN
+    { "d9c189" : "A7D13D", "B29F72" : "83AD22", "a38d59" : "6B880B", "8C7147" : "586D09", "735e3a" : "435407" }, 
+	//EMERALD GREEN
+    { "d9c189" : "4ECE61", "B29F72" : "34AE47", "a38d59" : "228A38", "8C7147" : "1C702C", "735e3a" : "145120" }, 
+	//FOREST GREEN
+    { "d9c189" : "3B7F44", "B29F72" : "2E6A38", "a38d59" : "23512B", "8C7147" : "183F21", "735e3a" : "0E2614" },
+	//CRYSTAL BLUE
+    { "d9c189" : "5BD5B6", "B29F72" : "4AA9AD", "a38d59" : "3E8E91", "8C7147" : "237082", "735e3a" : "134049" },
+	//SEAFOAM
+    { "d9c189" : "49E193", "B29F72" : "3BA380", "a38d59" : "197C81", "8C7147" : "136063", "735e3a" : "0E4547" }, 
+	//AZURE
+    { "d9c189" : "61BCDE", "B29F72" : "5381CC", "a38d59" : "476EAD", "8C7147" : "2C489E", "735e3a" : "1B2D63" }, 
+	//COBALT
+	{ "d9c189" : "5D8BC7", "B29F72" : "4D55B0", "a38d59" : "2E2A73", "8C7147" : "201E51", "735e3a" : "12102D" },
+	//DARK BLUE
+	{ "d9c189" : "425879", "B29F72" : "343965", "a38d59" : "242247", "8C7147" : "15142B", "735e3a" : "07070F" },
+	//BERRY
+	{ "d9c189" : "7F3B6D", "B29F72" : "6A2E53", "a38d59" : "592239", "8C7147" : "42192A", "735e3a" : "280F1A" },
+	//PURPLE
+	{ "d9c189" : "653B7F", "B29F72" : "502B63", "a38d59" : "3C2049", "8C7147" : "25142D", "735e3a" : "100814" },
+	//VIOLET
+	{ "d9c189" : "CD72D9", "B29F72" : "AC4DA6", "a38d59" : "913B86", "8C7147" : "722F6A", "735e3a" : "4C1F47" },
+	//HOT PINK
+	{ "d9c189" : "D26BA4", "B29F72" : "A54669", "a38d59" : "8C3C5A", "8C7147" : "6B2E45", "735e3a" : "4C2031" },
+	//LAVENDAR
+	{ "d9c189" : "AD68E2", "B29F72" : "8D41B0", "a38d59" : "7A3899", "8C7147" : "6A2980", "735e3a" : "512063" },
+	//ASH GREY
+	{ "d9c189" : "68553D", "B29F72" : "50422F", "a38d59" : "36261E", "8C7147" : "1E1411", "735e3a" : "000000" },
+	//BLACK
+	{ "d9c189" : "636363", "B29F72" : "494949", "a38d59" : "333333", "8C7147" : "191919", "735e3a" : "000000" },
+	//CHARCOAL
+	{ "d9c189" : "74726F", "B29F72" : "53504D", "a38d59" : "33312F", "8C7147" : "231F19", "735e3a" : "000000" },
+	//BLUE GREY
+	{ "d9c189" : "6F6D85", "B29F72" : "525269", "a38d59" : "3E4352", "8C7147" : "242730", "735e3a" : "0F1014" },
+	//LIGHT GREY
+	{ "d9c189" : "B8B8B8", "B29F72" : "828282", "a38d59" : "606060", "8C7147" : "4C4C4C", "735e3a" : "333333" },
+	//WHITE
+	{ "d9c189" : "EAEAEA", "B29F72" : "D3D3D3", "a38d59" : "B8B8B8", "8C7147" : "999999", "735e3a" : "828282" },
+	//VIERA WHITE
+	{ "d9c189" : "FCFCF7", "B29F72" : "E5DAC3", "a38d59" : "CCC2AF", "8C7147" : "B2AA97", "735e3a" : "999182" }
+  ]
+}

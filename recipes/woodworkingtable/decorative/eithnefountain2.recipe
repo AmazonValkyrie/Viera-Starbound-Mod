@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 25 },
+	{ "item" : "plantfibre", "count" : 20 },
+    { "item" : "cobblestonematerial", "count" : 20 },	
+    { "item" : "liquidwater", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "eithnefountain2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

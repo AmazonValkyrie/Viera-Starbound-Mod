@@ -1,0 +1,20 @@
+{
+  "materialId" : 13070,
+  "materialName" : "whitewoodplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "whitewoodplatform",
+  "shortdescription" : "Whitewood Platform",
+  "description" : "Vieran platform crafted of whitewood.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "whitewoodplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0
+  }
+}

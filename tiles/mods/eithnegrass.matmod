@@ -1,0 +1,15 @@
+{
+  "modId" : 13120,
+  "modName" : "eithnegrass",
+  "description" : "Dense forest grass.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.ogg",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "eithnegrass.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfence4",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfence4icon.png",
+  "shortdescription" : "Dalmascan Iron Fence III",
+  "description" : "A molded iron fence with spokes.",
+
+  "materialId" : 13087
+}

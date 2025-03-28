@@ -1,0 +1,21 @@
+{
+  "itemName" : "viera_chocobobardingtier1heavy",
+  "shortdescription" : "Wayfarer's Barding",
+  "description" : "Use this to learn how to equip chocobo with Wayfarer Armor!",
+  "unlock" : "tier1heavy",
+  
+  "category" : "chocobobarding",
+  "rarity" : "Legendary",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "price" : 0,
+  "level" : 1,  
+
+  "inventoryIcon" : "icon.png",
+  "tooltipKind" : "viera_chocobogear",
+  "builder" : "/items/buildscripts/viera/buildchocobogear.lua",
+  "animation" : "/items/active/viera/chocobogear/viera_chocobogear.animation",
+  "scripts" : ["/items/active/viera/chocobogear/viera_chocobogear.lua"],
+  "fireOffset" : [1.0, 0.0],
+  "fireTime" : 2.0
+}

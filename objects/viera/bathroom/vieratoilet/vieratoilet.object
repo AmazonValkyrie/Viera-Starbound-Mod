@@ -1,0 +1,40 @@
+{
+  "objectName" : "vieratoilet",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Uncommon",
+  "description" : "Small Viera toilet.",
+  "shortdescription" : "Viera Toilet",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 65,
+  "health" : 1.5,
+
+  "apexDescription" : "A wooden toilet.",
+  "avianDescription" : "What an adorable place to drop trots!",
+  "floranDescription" : "Pooooooops.",
+  "glitchDescription" : "Observation. A wooden receptacle of some sort.",
+  "humanDescription" : "A cute wooden toilet.",
+  "hylotlDescription" : "Those who swim in the sea have no need for this.",
+  "novakidDescription" : "Wonder where it goes...",
+  "vieraDescription" : "A carved mahogany toilet.",
+
+  "inventoryIcon" : "vieratoileticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieratoilet.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [3, 20]
+
+}

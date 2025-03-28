@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore37",
+  "title" : "The Seonha Scrolls: Ch. 1",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;Sins of Yore^reset;\n\nSeeking redemption from her war-like past, Seonha journeyed on pilgrimage to pay tribute to the ^blue;Heart Tree^reset;, in hopes of cleansing within the Wood's sacred embrace. Drawn by the echoes of Seonha's turmoil, our paths first crossed when I came upon the masterful Fencer. My home in the warren of ^yellow;Otidaia^reset; had just been overtaken by similar shades of corruption in the form of a great beast of shadow and void.",
+	
+	"After exchanging guarded words, our fates became intertwined when we were beset upon by another beast in the forest, manipulated by the same corruption that had taken my home; spreading within the canopy. Before I could cast a protection spell, the mighty warrior Seonha leapt into action, quickly subduing the foe.",
+	
+	"Though cunning, she was, I could sense the weight of her spirit. I knew we both needed to seek answers, so I offered to journey with her to the sacred Heart Tree. Perhaps the sacred glade of the Wood will give us insight on the root of this corruption."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

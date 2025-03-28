@@ -1,0 +1,32 @@
+{
+  "objectName" : "vierashipsink",
+  "colonyTags" : ["viera","cooking", "vieraship", "argo"],
+  "rarity" : "Common",
+  "description" : "A compact sink for a ship.",
+  "shortdescription" : "Industrial Kitchen Sink",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+  
+  "learnBlueprintsOnPickup" : [ "vierashipsink" ],
+
+  "apexDescription" : "This sink is a little small, but gets the job done.",
+  "avianDescription" : "A tiny wash basin.",
+  "floranDescription" : "Place for Floran to wasssh up.",
+  "glitchDescription" : "Intrigued. A small basin for washing.",
+  "humanDescription" : "What a cute sink!",
+  "hylotlDescription" : "Limiting in space, but efficient in design.",
+  "novakidDescription" : "Sure is a tiny sink.",
+  "vieraDescription" : "A clean space to wash up in.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipsink.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

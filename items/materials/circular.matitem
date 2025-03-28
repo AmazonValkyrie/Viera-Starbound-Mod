@@ -1,0 +1,10 @@
+{
+  "itemName" : "circulartile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "circularicon.png",
+  "description" : "Circular carvings adorn this wood.",
+  "shortdescription" : "Circular Carving",
+
+  "materialId" : 13006
+}

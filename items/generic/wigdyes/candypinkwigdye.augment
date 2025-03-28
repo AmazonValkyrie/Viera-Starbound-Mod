@@ -1,0 +1,15 @@
+{
+  "itemName" : "candypinkwigdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "candypinkwigdye.png",
+  "description" : "This dye can be applied to Viera wigs/wig back items only.",
+  "shortdescription" : "Candy Pink Wig Dye",
+
+  "dyeColorIndex" : 1,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

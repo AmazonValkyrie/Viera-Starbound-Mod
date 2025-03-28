@@ -1,0 +1,132 @@
+{
+  "type" : "friendlyvieraguard",
+  "baseType" : "vieraguard",
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+	  "greetingChance" : 0.25,
+	  "converseChance" : 1,
+
+      "hostileDamageTeam" : { "type" : "friendly", "team" : 1 }
+    },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "idleTimeRange" : [1, 2],
+
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 10,
+      "nearbyQuestLimit" : 6,
+      "nearbyQuestRange" : 50,
+      "chance" : 1,
+      "questCountRange" : [1, 4]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/viera.config:tagCriteria",
+          "enclosedArea" : "/dialog/viera.config:enclosedArea",
+          "otherDeed" : "/dialog/viera.config:otherDeed",
+          "severe" : "/dialog/viera.config:severe",
+          "final" : "/dialog/viera.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/viera.config:beacon",
+          "rent" : "/dialog/viera.config:rent"
+        }
+      },
+	  "hail" : {
+        "default" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    },
+	    "viera" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    },
+	    "femaleveenaravaviera" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    },
+	    "maleveenaravaviera" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    },
+	    "femalefeolviera" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    },
+	    "malefeolviera" : {
+          "default" : [
+            "Bring only peace to the Wood, and you are welcome here.",
+		    "Do not bring chaos to our land.",
+		    "The Wood watches you.",
+		    "We must remain cautious of all outsiders.",
+		    "The Wood welcomes only friends in this land.",
+		    "Cause us no trouble here.",
+		    "The Wood protects this village, as we protect Her.",
+		    "The Viera are trained in all weaponry from birth, no matter what position one has in our society.",
+		    "Raise a weapon here, and you will invite the wrath of the Viera.",
+		    "The Green Word will speak of your deeds. Make no missteps in this village."
+      ]
+    }
+  }
+    }
+  }
+}

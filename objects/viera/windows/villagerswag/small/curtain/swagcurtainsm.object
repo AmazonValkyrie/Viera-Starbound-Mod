@@ -1,0 +1,31 @@
+{
+  "objectName" : "swagcurtainsm",
+  "shortdescription" : "Small Swag Curtain",
+  "colonyTags" : ["viera", "vieravillage", "pretty"],
+  "race" : "viera",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 75,
+  "health" : 1.5,
+
+  "description" : "Swag curtain for smaller windows.",
+  "apexDescription" : "Beautiful window decor.",
+  "avianDescription" : "Such elegant window dressings.",
+  "floranDescription" : "Fabricccc on windowsss!",
+  "glitchDescription" : "Observation. Window dressings.",
+  "humanDescription" : "Such gorgeous curtains.",
+  "hylotlDescription" : "These Viera know how to decorate.",
+  "novakidDescription" : "Some well tailored curt'ins!",
+  "vieraDescription" : "Such lovely silken curtains.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "swagcurtainsm.png:<color>",
+      "imagePosition" : [-16, 8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "anchors" : [ ]
+    }
+  ]
+}

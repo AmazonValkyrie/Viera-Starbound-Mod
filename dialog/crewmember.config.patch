@@ -1,0 +1,80 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/viera",
+		"value": {
+			"default": [
+				"This airship is quite a spectacle, isn't it?",
+				"Our party is onward to adventure aboard this airship!",
+				"This airship will have us ahead on our way!",
+				"I'm happy to be a part of this party of adventurers.",
+				"Great adventure awaits us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"This airship is quite a spectacle, isn't it?",
+				"Our party is onward to adventure aboard this airship!",
+				"This airship will have us ahead on our way!",
+				"I'm happy to be a part of this party of adventurers.",
+				"Great adventure awaits us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/maleveenaravaviera",
+		"value": {
+			"default": [
+				"This airship is quite a spectacle, isn't it?",
+				"Our party is onward to adventure aboard this airship!",
+				"This airship will have us ahead on our way!",
+				"I'm happy to be a part of this party of adventurers.",
+				"Great adventure awaits us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/femalefeolviera",
+		"value": {
+			"default": [
+				"This airship is quite a spectacle, isn't it?",
+				"Our party is onward to adventure aboard this airship!",
+				"This airship will have us ahead on our way!",
+				"I'm happy to be a part of this party of adventurers.",
+				"Great adventure awaits us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/malefeolviera",
+		"value": {
+			"default": [
+				"This airship is quite a spectacle, isn't it?",
+				"Our party is onward to adventure aboard this airship!",
+				"This airship will have us ahead on our way!",
+				"I'm happy to be a part of this party of adventurers.",
+				"Great adventure awaits us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/moogle",
+		"value": {
+			"default": [
+				"What great adventure lies ahead, kupo?",
+				"This airship can take us anywhere in the universe, kupopo!",
+				"Life aboard this airship is bound to be exciting, kupo!",
+				"There is so much to see out in the universe, kupo!",
+				"A great adventure surely lies on the road ahead, kupo!"
+			]
+		}
+	}
+]

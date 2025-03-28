@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "teleportercore", "count" : 1 },
+	{ "item" : "goldbar", "count" : 3 },
+	{ "item" : "refinedmagicitecrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "tinywaystoneteleporter",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

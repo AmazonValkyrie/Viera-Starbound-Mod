@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascansilverpatterns",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascansilverpatternsicon.png",
+  "shortdescription" : "Dalmascan Silver Patterns",
+  "description" : "Change color for different patterns.",
+
+  "materialId" : 13095
+}

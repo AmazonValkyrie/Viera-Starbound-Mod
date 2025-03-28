@@ -1,0 +1,15 @@
+{
+  "id" : "argoshipdeed",
+  "title" : "Deed of Ownership",
+  "description" : "A formal deed of ownership the Argo.",
+  "icon" : "argoshipdeed.png",
+  "contentPages" : [
+"At the Common Warren of the noble Airleas, Chieftain of Ennea Hodoi in the month of Branca, as writ with allowance from the Scribes Guild, this deed signifies ownership as follows.\n
+It is certified that Seonha of Amphipoli is granted ownership of the vessel known as the Argo.\n
+By the will of the Chieftain of Ennea Hodoi, this vessel and its contents are thereby protected for both the ships owner and its designated heirs forever."
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 25
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "curvedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "curvedicon.png",
+  "description" : "Curved carvings adorn this wood.",
+  "shortdescription" : "Curved Carving",
+
+  "materialId" : 13010
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "vierabridgegatefront",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "An intricately carved gate.",
+  "shortdescription" : "Bridge Gate Outer",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+
+  "apexDescription" : "A way to traverse the trees, I see.",
+  "avianDescription" : "Building things like this upon the trees makes travel easier.",
+  "floranDescription" : "Floating foresssst bridgeee.",
+  "glitchDescription" : "Admiration. An intricate path of decoration.",
+  "humanDescription" : "Nifty way to travel in the trees.",
+  "hylotlDescription" : "What an unassuming mode of travel.",
+  "novakidDescription" : "Is this bridge safe?",
+  "vieraDescription" : "Pathways strung upon the trees make it easier to traverse the canopy.",
+
+  "inventoryIcon" : "vierabridgegatefront.png",
+  "orientations" : [
+    {
+      "image" : "vierabridgegatefront.png:<color>",
+
+      "imagePosition" : [-103, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ]
+	    
+    },
+	{
+      "image" : "vierabridgegatefront.png:<color>",
+
+      "imagePosition" : [-103, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "direction" : "right",
+      "anchors" : [ ]
+	   
+    }
+  ]
+}

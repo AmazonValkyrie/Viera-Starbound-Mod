@@ -1,0 +1,50 @@
+{
+  "itemName" : "vierasalvemakerhead",
+  "shortdescription" : "Salve Maker's Circlet",
+  "description" : "A blessed circlet crafted by a salve maker at the end of her apprenticeship.",
+  
+  "category" : "headarmour",
+  "statSpread" : "lightweight",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 30,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    /* WHITE */
+    { "FFFFFF" : "FFFFFF", "E5E1DC" : "E5E1DC", "CCC2B7" : "CCC2B7", "AFA69A" : "AFA69A", "8C8377" : "8C8377" },
+    /* BLACK */
+    { "FFFFFF" : "8E988F", "E5E1DC" : "6F7068", "CCC2B7" : "454A44", "AFA69A" : "30332F", "8C8377" : "0E0E0E" },
+    /* GREY */
+    { "FFFFFF" : "BFBFBF", "E5E1DC" : "999999", "CCC2B7" : "808080", "AFA69A" : "636363", "8C8377" : "444444" },
+    /* WHITE */
+    { "FFFFFF" : "FFFFFF", "E5E1DC" : "DBDBDB", "CCC2B7" : "A8978D", "AFA69A" : "716358", "8C8377" : "4F453D" },
+    /* RED */
+    { "FFFFFF" : "D14949", "E5E1DC" : "B23E3E", "CCC2B7" : "8C3131", "AFA69A" : "6D2626", "8C8377" : "4C1A1A" },
+    /* ORANGE */
+    { "FFFFFF" : "FF9047", "E5E1DC" : "FF7519", "CCC2B7" : "CC5D14", "AFA69A" : "A54C10", "8C8377" : "7C390C" },
+    /* YELLOW */
+    { "FFFFFF" : "FFCE6D", "E5E1DC" : "FFB91B", "CCC2B7" : "E5A000", "AFA69A" : "A57412", "8C8377" : "895E0F" },
+    /* GREEN */
+    { "FFFFFF" : "92994E", "E5E1DC" : "7A7F41", "CCC2B7" : "665D37", "AFA69A" : "BCB0A4", "8C8377" : "4C4629" },
+    /* BLUE */
+    { "FFFFFF" : "A4E1E8", "E5E1DC" : "90C6CC", "CCC2B7" : "5E9E9D", "AFA69A" : "CE9C31", "8C8377" : "497A79" },
+    /* PURPLE */
+    { "FFFFFF" : "994796", "E5E1DC" : "70346E", "CCC2B7" : "562855", "AFA69A" : "421F41", "8C8377" : "2D152D" },
+    /* PINK */
+    { "FFFFFF" : "FF99A4", "E5E1DC" : "F27986", "CCC2B7" : "BF5F6A", "AFA69A" : "8C464F", "8C8377" : "663339" },
+    /* BROWN */
+    { "FFFFFF" : "A57578", "E5E1DC" : "875F4B", "CCC2B7" : "644743", "AFA69A" : "493532", "8C8377" : "332422" }
+
+
+  ]
+}

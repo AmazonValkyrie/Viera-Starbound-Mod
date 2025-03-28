@@ -1,0 +1,12 @@
+{
+  "name" : "vieratitanic",
+  "states" : ["idle","sit","walk"],
+  "cycle" : 0.25,
+  "cyclic" : true,
+  "duration" : 2.0,
+  "steps" : [
+    {
+      "frontArmFrame" : "run.2","backArmFrame" : "jump.3"
+    }
+  ]
+}

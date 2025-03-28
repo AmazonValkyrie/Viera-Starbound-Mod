@@ -1,0 +1,14 @@
+{
+  "id" : "vieralore27",
+  "title" : "Marpesia, The Chosen Leader: Prologue",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Whispered Name^reset;\n\nThere is a name carried on the oldest winds, spoken only by those whom She deems worthy. ^green;'Eithne'^reset;-the Seed from which all life springs. To know this name is to bear the weight of destiny, for it binds the speaker to the pulse of the world. Marpesia was one such bearer, her fate intertwined with the breath of the forest."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

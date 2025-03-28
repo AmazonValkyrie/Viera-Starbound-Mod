@@ -1,0 +1,18 @@
+{
+    "id": "vieraspellbladepattern",
+    "title": "Job Armor Pattern : Spellblade",
+    "description": "Sewing patterns and instructions for crafting Viera job armor.",
+    "icon": "armorpattern1.png",
+    "contentPages": [
+        "This Sew-plicity pattern is patented by the honorable Lydea of the Scribes Guild in the discreet distribution of Viera cultural garb. This pattern is specifically for the aspiring Viera Spellblade."
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "vieraspellbladehead",
+            "vieraspellbladechest",
+			"vieraspellbladepants"
+        ],
+        "rarity": "Rare",
+        "price": 200
+    }
+}

@@ -1,0 +1,650 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "hide" : {},
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+	      },
+          "idleShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "crouch" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+		  },
+          "crouchShrug" : {
+            "frames" : 7,  
+            "cycle" : 0.625,
+            "mode" : "transition",
+            "transition" : "crouch"
+          },
+          "swim" : {
+            "frames" : 8,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "walk" : {
+            "frames" : 8,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "backstep" : {
+            "frames" : 8,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "run" : {
+            "frames" : 8,
+            "cycle" : 0.375,
+            "mode" : "loop"
+          },
+          "jump" : {
+            "frames" : 4,
+            "cycle" : 0.1
+          },
+          "fall" : {
+            "frames" : 4,
+            "cycle" : 0.1
+          },
+          "inEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "inMatter"
+          },
+          "inMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "outMatter" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "outEnergy"
+          },
+          "outEnergy" : {
+            "frames" : 4,  
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "hide"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bardingf" : {
+        "properties" : { "zLevel" : 4, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingf_<head>.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "wing" : {
+        "properties" : { "zLevel" : 3, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocowing.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddlef" : {
+        "properties" : { "zLevel" : 2, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddlef.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legf" : {
+        "properties" : { "zLevel" : 1, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegf.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bust" : {
+        "properties" : { "zLevel" : 0, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_<head>_<eyes>.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocobust_noisy_blink.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddle" : {
+        "properties" : {
+          "zLevel" : -1,
+          "driverOffset" : [-0.4375, 0.375],
+          "passengerOffset" : [-1.4375, 0.375],
+          "transformationGroups" : ["rotation"]
+        },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddle.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "barding" : {
+        "properties" : { "zLevel" : -2, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/barding_<head>.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "back" : {
+        "properties" : { "zLevel" : -3, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_<tail>.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_<head>_still.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocoback_noisy_still.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "saddleb" : {
+        "properties" : { "zLevel" : -4, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobosaddle/<saddle>/saddleb.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "legb" : {
+        "properties" : { "zLevel" : -5, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/chocolegb.png:idle.1" } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "bardingb" : {
+        "properties" : { "zLevel" : -6, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouch.<frame>" } },
+            "crouchShrug" : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:crouchShrug.<frame>" } },
+            "idle"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idle.<frame>" } },
+            "idleShrug"   : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:idleShrug.<frame>" } },
+            "swim"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:walk.<frame>" } },
+            "walk"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:walk.<frame>" } },
+            "backstep"    : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:backstep.<frame>" } },
+            "run"         : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:run.<frame>" } },
+            "jump"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:jump.<frame>" } },
+            "fall"        : { "properties" : { "image" : "/items/active/viera/chocobogear/chocobobarding/<barding>/bardingb_<head>.png:fall.<frame>" } },
+            "inMatter"    : { "properties" : {  } },
+            "outMatter"   : { "properties" : {  } },
+            "inEnegry"    : { "properties" : {  } },
+            "outEnergy"   : { "properties" : {  } }
+          }
+        }
+      },
+      "warp" : {
+        "properties" : { "zLevel" : 3, "transformationGroups" : ["rotation"] },
+        "partStates" : {
+          "movement" : {
+            "crouch"      : { "properties" : {  } },
+            "crouchShrug" : { "properties" : {  } },
+            "idle"        : { "properties" : {  } },
+            "idleShrug"   : { "properties" : {  } },
+            "swim"        : { "properties" : {  } },
+            "walk"        : { "properties" : {  } },
+            "backstep"    : { "properties" : {  } },
+            "run"         : { "properties" : {  } },
+            "jump"        : { "properties" : {  } },
+            "fall"        : { "properties" : {  } },
+            "inMatter"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inMatter.<frame>" } },
+            "outMatter"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outMatter.<frame>" } },
+            "inEnegry"    : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:inEnegry.<frame>" } },
+            "outEnergy"   : { "properties" : { "image" : "/vehicles/viera/chocobo/<breed>/<color>/warp.png:outEnergy.<frame>" } }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "rotation" : { "interpolated" : true }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "particleEmitters" : {
+    "icedamage1"  : { "particles" : [ { "particle" :  "1-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage2"  : { "particles" : [ { "particle" :  "2-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage3"  : { "particles" : [ { "particle" :  "3-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage4"  : { "particles" : [ { "particle" :  "4-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage5"  : { "particles" : [ { "particle" :  "5-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage6"  : { "particles" : [ { "particle" :  "6-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage7"  : { "particles" : [ { "particle" :  "7-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage8"  : { "particles" : [ { "particle" :  "8-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage9"  : { "particles" : [ { "particle" :  "9-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage10" : { "particles" : [ { "particle" : "10-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage11" : { "particles" : [ { "particle" : "11-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage12" : { "particles" : [ { "particle" : "12-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage13" : { "particles" : [ { "particle" : "13-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage14" : { "particles" : [ { "particle" : "14-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage15" : { "particles" : [ { "particle" : "15-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage16" : { "particles" : [ { "particle" : "16-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage17" : { "particles" : [ { "particle" : "17-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage18" : { "particles" : [ { "particle" : "18-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage19" : { "particles" : [ { "particle" : "19-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage20" : { "particles" : [ { "particle" : "20-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage21" : { "particles" : [ { "particle" : "21-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage22" : { "particles" : [ { "particle" : "22-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage23" : { "particles" : [ { "particle" : "23-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage24" : { "particles" : [ { "particle" : "24-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage25" : { "particles" : [ { "particle" : "25-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage26" : { "particles" : [ { "particle" : "26-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage27" : { "particles" : [ { "particle" : "27-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage28" : { "particles" : [ { "particle" : "28-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage29" : { "particles" : [ { "particle" : "29-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "icedamage30" : { "particles" : [ { "particle" : "30-ice" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    
+    "firedamage1"  : { "particles" : [ { "particle" :  "1-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage2"  : { "particles" : [ { "particle" :  "2-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage3"  : { "particles" : [ { "particle" :  "3-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage4"  : { "particles" : [ { "particle" :  "4-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage5"  : { "particles" : [ { "particle" :  "5-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage6"  : { "particles" : [ { "particle" :  "6-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage7"  : { "particles" : [ { "particle" :  "7-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage8"  : { "particles" : [ { "particle" :  "8-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage9"  : { "particles" : [ { "particle" :  "9-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage10" : { "particles" : [ { "particle" : "10-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage11" : { "particles" : [ { "particle" : "11-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage12" : { "particles" : [ { "particle" : "12-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage13" : { "particles" : [ { "particle" : "13-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage14" : { "particles" : [ { "particle" : "14-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage15" : { "particles" : [ { "particle" : "15-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage16" : { "particles" : [ { "particle" : "16-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage17" : { "particles" : [ { "particle" : "17-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage18" : { "particles" : [ { "particle" : "18-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage19" : { "particles" : [ { "particle" : "19-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage20" : { "particles" : [ { "particle" : "20-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage21" : { "particles" : [ { "particle" : "21-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage22" : { "particles" : [ { "particle" : "22-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage23" : { "particles" : [ { "particle" : "23-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage24" : { "particles" : [ { "particle" : "24-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage25" : { "particles" : [ { "particle" : "25-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage26" : { "particles" : [ { "particle" : "26-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage27" : { "particles" : [ { "particle" : "27-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage28" : { "particles" : [ { "particle" : "28-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage29" : { "particles" : [ { "particle" : "29-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "firedamage30" : { "particles" : [ { "particle" : "30-fire" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+        
+    "poisondamage1"  : { "particles" : [ { "particle" :  "1-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage2"  : { "particles" : [ { "particle" :  "2-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage3"  : { "particles" : [ { "particle" :  "3-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage4"  : { "particles" : [ { "particle" :  "4-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage5"  : { "particles" : [ { "particle" :  "5-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage6"  : { "particles" : [ { "particle" :  "6-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage7"  : { "particles" : [ { "particle" :  "7-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage8"  : { "particles" : [ { "particle" :  "8-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage9"  : { "particles" : [ { "particle" :  "9-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage10" : { "particles" : [ { "particle" : "10-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage11" : { "particles" : [ { "particle" : "11-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage12" : { "particles" : [ { "particle" : "12-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage13" : { "particles" : [ { "particle" : "13-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage14" : { "particles" : [ { "particle" : "14-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage15" : { "particles" : [ { "particle" : "15-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage16" : { "particles" : [ { "particle" : "16-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage17" : { "particles" : [ { "particle" : "17-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage18" : { "particles" : [ { "particle" : "18-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage19" : { "particles" : [ { "particle" : "19-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage20" : { "particles" : [ { "particle" : "20-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage21" : { "particles" : [ { "particle" : "21-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage22" : { "particles" : [ { "particle" : "22-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage23" : { "particles" : [ { "particle" : "23-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage24" : { "particles" : [ { "particle" : "24-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage25" : { "particles" : [ { "particle" : "25-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage26" : { "particles" : [ { "particle" : "26-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage27" : { "particles" : [ { "particle" : "27-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage28" : { "particles" : [ { "particle" : "28-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage29" : { "particles" : [ { "particle" : "29-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "poisondamage30" : { "particles" : [ { "particle" : "30-poison" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    
+    "electricdamage1"  : { "particles" : [ { "particle" :  "1-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage2"  : { "particles" : [ { "particle" :  "2-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage3"  : { "particles" : [ { "particle" :  "3-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage4"  : { "particles" : [ { "particle" :  "4-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage5"  : { "particles" : [ { "particle" :  "5-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage6"  : { "particles" : [ { "particle" :  "6-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage7"  : { "particles" : [ { "particle" :  "7-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage8"  : { "particles" : [ { "particle" :  "8-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage9"  : { "particles" : [ { "particle" :  "9-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage10" : { "particles" : [ { "particle" : "10-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage11" : { "particles" : [ { "particle" : "11-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage12" : { "particles" : [ { "particle" : "12-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage13" : { "particles" : [ { "particle" : "13-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage14" : { "particles" : [ { "particle" : "14-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage15" : { "particles" : [ { "particle" : "15-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage16" : { "particles" : [ { "particle" : "16-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage17" : { "particles" : [ { "particle" : "17-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage18" : { "particles" : [ { "particle" : "18-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage19" : { "particles" : [ { "particle" : "19-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage20" : { "particles" : [ { "particle" : "20-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage21" : { "particles" : [ { "particle" : "21-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage22" : { "particles" : [ { "particle" : "22-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage23" : { "particles" : [ { "particle" : "23-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage24" : { "particles" : [ { "particle" : "24-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage25" : { "particles" : [ { "particle" : "25-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage26" : { "particles" : [ { "particle" : "26-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage27" : { "particles" : [ { "particle" : "27-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage28" : { "particles" : [ { "particle" : "28-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage29" : { "particles" : [ { "particle" : "29-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "electricdamage30" : { "particles" : [ { "particle" : "30-electric" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+	
+    "standarddamage1"  : { "particles" : [ { "particle" :  "1-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage2"  : { "particles" : [ { "particle" :  "2-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage3"  : { "particles" : [ { "particle" :  "3-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage4"  : { "particles" : [ { "particle" :  "4-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage5"  : { "particles" : [ { "particle" :  "5-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage6"  : { "particles" : [ { "particle" :  "6-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage7"  : { "particles" : [ { "particle" :  "7-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage8"  : { "particles" : [ { "particle" :  "8-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage9"  : { "particles" : [ { "particle" :  "9-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage10" : { "particles" : [ { "particle" : "10-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage11" : { "particles" : [ { "particle" : "11-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage12" : { "particles" : [ { "particle" : "12-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage13" : { "particles" : [ { "particle" : "13-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage14" : { "particles" : [ { "particle" : "14-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage15" : { "particles" : [ { "particle" : "15-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage16" : { "particles" : [ { "particle" : "16-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage17" : { "particles" : [ { "particle" : "17-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage18" : { "particles" : [ { "particle" : "18-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage19" : { "particles" : [ { "particle" : "19-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage20" : { "particles" : [ { "particle" : "20-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage21" : { "particles" : [ { "particle" : "21-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage22" : { "particles" : [ { "particle" : "22-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage23" : { "particles" : [ { "particle" : "23-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage24" : { "particles" : [ { "particle" : "24-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage25" : { "particles" : [ { "particle" : "25-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage26" : { "particles" : [ { "particle" : "26-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage27" : { "particles" : [ { "particle" : "27-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage28" : { "particles" : [ { "particle" : "28-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage29" : { "particles" : [ { "particle" : "29-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "standarddamage30" : { "particles" : [ { "particle" : "30-standard" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    
+    "healdamage1"  : { "particles" : [ { "particle" :  "1-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage2"  : { "particles" : [ { "particle" :  "2-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage3"  : { "particles" : [ { "particle" :  "3-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage4"  : { "particles" : [ { "particle" :  "4-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage5"  : { "particles" : [ { "particle" :  "5-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage6"  : { "particles" : [ { "particle" :  "6-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage7"  : { "particles" : [ { "particle" :  "7-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage8"  : { "particles" : [ { "particle" :  "8-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage9"  : { "particles" : [ { "particle" :  "9-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage10" : { "particles" : [ { "particle" : "10-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage11" : { "particles" : [ { "particle" : "11-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage12" : { "particles" : [ { "particle" : "12-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage13" : { "particles" : [ { "particle" : "13-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage14" : { "particles" : [ { "particle" : "14-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage15" : { "particles" : [ { "particle" : "15-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage16" : { "particles" : [ { "particle" : "16-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage17" : { "particles" : [ { "particle" : "17-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage18" : { "particles" : [ { "particle" : "18-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage19" : { "particles" : [ { "particle" : "19-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage20" : { "particles" : [ { "particle" : "20-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage21" : { "particles" : [ { "particle" : "21-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage22" : { "particles" : [ { "particle" : "22-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage23" : { "particles" : [ { "particle" : "23-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage24" : { "particles" : [ { "particle" : "24-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage25" : { "particles" : [ { "particle" : "25-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage26" : { "particles" : [ { "particle" : "26-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage27" : { "particles" : [ { "particle" : "27-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage28" : { "particles" : [ { "particle" : "28-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage29" : { "particles" : [ { "particle" : "29-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    "healdamage30" : { "particles" : [ { "particle" : "30-heal" } ], "active" : false, "emissionRate" : 0.0, "burstCount" : 1, "offsetRegion" : [-2.5, -1.875, 2.5, 0.5] },
+    
+	"heal" : {
+      "active" : false,
+      "emissionRate" : 0.0,
+      "burstCount"  : 3,
+      "offsetRegion" : [-2.5, -1.875, 2.5, 0.5],
+      "particles" : [
+        { "particle" : "healthcross" },
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboemberyellow"},
+        { "particle" : "viera_chocoboemberyellow"}
+      ]
+    },
+	"damage" : {
+      "active" : false,
+      "emissionRate" : 0.0,
+      "burstCount"  : 2,
+      "offsetRegion" : [-2.5, -1.875, 2.5, 0.5],
+      "particles" : [
+        { "particle" : "viera_chocobofeather" },
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboemberyellow"},
+        { "particle" : "viera_chocoboemberyellow"}
+      ]
+    },
+	"death" : {
+      "active" : false,
+      "emissionRate" : 0.0,
+      "burstCount"  : 15,
+      "offsetRegion" : [-2.5, -1.875, 2.5, 0.5],
+      "particles" : [
+        { "particle" : "viera_chocobofeather" },
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboemberpink"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboembergreen"},
+        { "particle" : "viera_chocoboemberyellow"},
+        { "particle" : "viera_chocoboemberyellow"}
+      ]
+    },
+    "bowWater" : {
+      "active" : false,
+      "emissionRate" : 25.0,
+      "offsetRegion" : [ 5, -1.5, 5.1, 1.5],
+      "particles" : [{ "particle" : "splashwater"}]
+    },
+    "bowLava" : {
+      "active" : false,
+      "emissionRate" : 25.0,
+      "offsetRegion" : [ 5, -1.5, 5.1, 1.5],
+      "particles" : [{ "particle" : "fireshard"}]
+    },
+    "bowPoison" : {
+      "active" : false,
+      "emissionRate" : 25.0,
+      "offsetRegion" : [ 5, -1.5, 5.1, 1.5],
+      "particles" : [{ "particle" : "splashpoison"}]
+    },
+    "splashWater" : {
+      "active" : false,
+      "emissionRate" : 0,
+      "burstCount" : 30,
+      "offsetRegion" : [ -5, -1.5, 5.0, -1.2],
+      "particles" : [{ "particle" : "splashwater"}]
+    },
+    "splashLava" : {
+      "active" : false,
+      "emissionRate" : 0,
+      "burstCount" : 30,
+      "offsetRegion" : [ -5, -1.5, 5.0, -1.2],
+      "particles" : [{ "particle" : "fireshard"}]
+    },
+    "splashPoison" : {
+      "active" : false,
+      "emissionRate" : 0,
+      "burstCount" : 30,
+      "offsetRegion" : [ -5, -1.5, 5.0, -1.2],
+      "particles" : [{ "particle" : "splashpoison"}]
+    }
+  },
+
+  "sounds" : {
+    "flap"    : [ "/sfx/npc/boss/dragonboss_flap2.ogg" ],
+    "step"    : [ "/sfx/blocks/footstep_gravel.ogg" ],
+    "swim"    : [ "/sfx/blocks/water_swim.ogg" ],
+    "splash"  : [ "/sfx/blocks/water_splash_normal.ogg" ],
+    "landing" : [ "/sfx/npc/monsters/peblit_drop1.ogg" ],
+    "return"  : [ "/sfx/tech/vehicle_disappear1.ogg" ],
+    "poof"    : [ "/sfx/projectiles/fireball_poof.ogg" ],
+    "death"   : [ "/sfx/viera/vehicles/chocobo/deathkweh.ogg" ],
+    "warp"    : [ "/sfx/viera/vehicles/chocobo/warpkweh.ogg" ],
+    "talk1"   : [ "/sfx/viera/vehicles/chocobo/talkkweh1.ogg" ], 
+    "talk2"   : [ "/sfx/viera/vehicles/chocobo/talkkweh2.ogg" ],
+    "mount"   : [ "/sfx/viera/vehicles/chocobo/mountkweh.ogg" ],
+    "music"   : [ "/music/viera/chocobo/chocobo_theme_01.ogg" ]
+  },
+
+  "lights" : {
+  }
+}

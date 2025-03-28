@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 4 },
+	{ "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "dalmascanstainedglass2",
+    "count" : 12
+  },
+  "duration" : 0.1,
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

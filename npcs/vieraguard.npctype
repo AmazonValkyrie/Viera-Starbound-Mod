@@ -1,0 +1,188 @@
+{
+  "type" : "vieraguard",
+  "baseType" : "vierabase",
+  
+  "identity" : {
+    "gender" : "female"
+  },
+  
+  "levelVariance" : [3, 3],
+  "damageTeamType" : "friendly",
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+	  "converseChance" : 1,
+      "patrolTime" : 3,
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "enableParticipation" : true,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "vieracrewmember"],
+		  [1, "vieracrewmemberfencer"],
+		  [1, "vieracrewmemberarcher"],
+		  [1, "vieracrewmemberwhitemage"]
+        ]
+      }
+    },
+    
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    }
+  },
+
+  "items" : {
+    "default" : [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "woodwarderchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+	"viera" : [
+      [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "woodwarderchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ]
+    ],
+    "femaleveenaravaviera" : [
+      [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "woodwarderchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet2" } ],
+            "chest" : [ { "name" : "woodwarderchest2", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs2" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet3" } ],
+            "chest" : [ { "name" : "woodwarderchest3", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs3" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+		[4, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet4" } ],
+            "chest" : [ { "name" : "woodwarderchest4", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs4" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ]
+    ],
+	"femalefeolviera" : [
+      [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+            "chest" : [ { "name" : "woodwarderchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet2" } ],
+            "chest" : [ { "name" : "woodwarderchest2", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs2" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet3" } ],
+            "chest" : [ { "name" : "woodwarderchest3", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs3" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ],
+		[4, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet4" } ],
+            "chest" : [ { "name" : "woodwarderchest4", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "woodwarderlegs4" } ],
+            "sheathedprimary" : [
+              "npcspear",
+              "npcbroadsword",
+              "npcshortsword",
+			  "npcbow"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

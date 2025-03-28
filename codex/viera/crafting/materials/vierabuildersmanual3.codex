@@ -1,0 +1,40 @@
+{
+    "id": "vierabuildersmanual3",
+    "title": "Viera Builder's Manual - Panels & Fences",
+    "description": "A book of schematics for crafting building materials.",
+    "icon": "vieracoverb3.png",
+    "contentPages": [
+        "This book details the process and schematics for crafting Viera building materials for panelling and fencing. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "panelingbottom",
+            "panelingcenter",
+            "panelingcorner1",
+            "panelingcorner2",
+            "panelingcorner3",
+			"panelingcorner4",
+			"panelingleftside",
+			"panelingrightside",
+			"panelingtop",
+			"wwpanelingbottom",
+			"wwpanelingcenter",
+			"wwpanelingcorner1",
+			"wwpanelingcorner2",
+			"wwpanelingcorner3",
+			"wwpanelingcorner4",
+			"wwpanelingleftside",
+			"wwpanelingrightside",
+			"wwpanelingtop",
+			"vieranfence",
+			"vieranfencerightend",
+			"vieranfenceleftend",
+			"vieranfence1"
+			
+			
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 275
+    }
+}

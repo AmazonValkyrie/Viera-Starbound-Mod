@@ -1,0 +1,52 @@
+{
+  "objectName" : "Viera_Waterfall_Natural_96",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "race" : "viera",
+  "price" : 0,
+  "printable" : false,
+
+
+  "shortdescription" : "Natural Stone Waterfall",
+  "description" : "When trapped water finds a new path.",
+
+
+  "apexDescription" : "Impressive to see a natural waterfall.",
+  "avianDescription" : "Natural waterfalls are rarities to find.",
+  "floranDescription" : "Waterrrrr.",
+  "glitchDescription" : "Fear. Must not get wet. Internal components in danger!",
+  "humanDescription" : "The sound and look of falling water is such an escape.",
+  "hylotlDescription" : "Nothing is as soft as water. Yet who can withstand the raging flood?",
+  "novakidDescription" : "Mighty purdy sight to see and rest by.",
+  "vieraDescription" : "The element of life is alive in all of the Wood's splendor.",
+
+
+  "inventoryIcon" : "Viera_Waterfall_Natural_Icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "Viera_Waterfall_Natural_96.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+	  "frames" : 96,
+	  "animationCycle" : 0.96,
+      "spaces" : [ [0, 0] ],
+      "anchors" : [],
+	  "renderLayer" : "player+1"
+    },
+    {
+      "image" : "Viera_Waterfall_Natural_96.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+	  "frames" : 96,
+	  "animationCycle" : 0.96,
+      "spaces" : [ [0, 0] ],
+      "anchors" : [],
+	  "renderLayer" : "player+1"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg"
+
+}

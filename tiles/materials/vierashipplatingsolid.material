@@ -1,0 +1,22 @@
+{
+  "materialId" : 13109,
+  "materialName" : "vierashipplatingsolid",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vierashipplatingsolid",
+  "shortdescription" : "Ship Plating Solid",
+  "description" : "Colored ship plating.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vierashipplatingsolid.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

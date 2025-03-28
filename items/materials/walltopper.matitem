@@ -1,0 +1,10 @@
+{
+  "itemName" : "walltopper",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "walltoppericon.png",
+  "description" : "Viera wall upper moulding.",
+  "shortdescription" : "Upper Moulding.",
+
+  "materialId" : 13009
+}

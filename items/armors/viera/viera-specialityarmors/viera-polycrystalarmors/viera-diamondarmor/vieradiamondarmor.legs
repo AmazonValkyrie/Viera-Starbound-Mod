@@ -1,0 +1,48 @@
+{
+  "itemName" : "vieradiamondarmorpants",
+  "shortdescription" : "Diamond Greaves",
+  "description" : "An experiment in Viera metallurgy - made of countless compressed diamonds, these stunning greaves make up for their bulk with extra defense.",
+  "itemTags" : [ "tier4armour" ],
+  
+  "category" : "legarmour",
+  "statSpread" : "polycrystal",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 5000,
+  "level" : 4,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pants.png",
+  
+  "colorOptions" : [
+    // BLUE
+    { "F0FFFF" : "F0FFFF", "B0FFFF" : "B0FFFF", "3ACFFE" : "3ACFFE", "1278CF" : "1278CF" },
+    // BLACK
+    { "F0FFFF" : "F2F4FF", "B0FFFF" : "7B7B7F", "3ACFFE" : "49494C", "1278CF" : "202021" },
+    // GREY
+    { "F0FFFF" : "F2F4FF", "B0FFFF" : "A7A7AA", "3ACFFE" : "7B7B7F", "1278CF" : "49494C" },
+    // WHITE
+    { "F0FFFF" : "F0FFFF", "B0FFFF" : "CBD6D6", "3ACFFE" : "94BECC", "1278CF" : "576F77" },
+    // RED
+    { "F0FFFF" : "F2F4FF", "B0FFFF" : "FFADAD", "3ACFFE" : "EA0000", "1278CF" : "660000" },
+    // ORANGE
+    { "F0FFFF" : "FFFBE2", "B0FFFF" : "F29C32", "3ACFFE" : "CA5713", "1278CF" : "6F382D" },
+    // YELLOW
+    { "F0FFFF" : "FFFBD8", "B0FFFF" : "FFDF77", "3ACFFE" : "E2AF20", "1278CF" : "AD7401" },
+    // GREEN
+    { "F0FFFF" : "9BFFD2", "B0FFFF" : "1AB26E", "3ACFFE" : "137F4E", "1278CF" : "0A472C" },
+    // BLUE
+    { "F0FFFF" : "F0FFFF", "B0FFFF" : "B0FFFF", "3ACFFE" : "3ACFFE", "1278CF" : "1278CF" },
+    // PURPLE
+    { "F0FFFF" : "FAF7FF", "B0FFFF" : "E8D8FF", "3ACFFE" : "906EBF", "1278CF" : "60497F" },
+    // PINK
+    { "F0FFFF" : "FFF8F7", "B0FFFF" : "FFD3CC", "3ACFFE" : "FF9B88", "1278CF" : "BF7467" },
+    // BROWN
+    { "F0FFFF" : "FFEEE5", "B0FFFF" : "FFAC7C", "3ACFFE" : "C6672F", "1278CF" : "6B3619" }
+  ]
+}

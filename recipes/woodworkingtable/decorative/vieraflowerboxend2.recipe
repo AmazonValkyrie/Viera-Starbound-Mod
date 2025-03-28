@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 18 },
+	{ "item" : "plantfibre", "count" : 13 }
+  ],
+  "output" : {
+    "item" : "vieraflowerboxend2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

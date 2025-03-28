@@ -1,0 +1,18 @@
+{
+    "id": "vieraredmagepattern",
+    "title": "Job Armor Pattern : Red Mage",
+    "description": "Sewing patterns and instructions for crafting Viera job armor.",
+    "icon": "armorpattern1.png",
+    "contentPages": [
+        "This Sew-plicity pattern is patented by the honorable Lydea of the Scribes Guild in the discreet distribution of Viera cultural garb. This pattern is specifically for the aspiring Viera Red Mage."
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "vieraredmagehead",
+            "vieraredmagechest",
+			"vieraredmagepants"
+        ],
+        "rarity": "Rare",
+        "price": 200
+    }
+}

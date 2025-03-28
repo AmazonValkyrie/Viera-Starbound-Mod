@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 15 },
+    { "item" : "string", "count" : 1 },
+	{ "item" : "leather", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "freelancer2chest", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

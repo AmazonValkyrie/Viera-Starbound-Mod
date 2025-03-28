@@ -1,0 +1,96 @@
+{
+  "type" : "moogle_armsmerchant",
+  "baseType" : "mooglebase",
+  
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "basicTreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 20,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "merchant"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "chance" : 0.02,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [1.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [5.0, "sit", { "timeRange" : [0.6,0.2]}]
+      ]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 16,
+      "poolsFile" : "/npcs/merchantpools.config",
+      "categories" : {
+        "default" : ["oremerchant", "randomswords"],
+        "moogle" : ["oremerchant", "randomswords"]
+      },
+      "buyFactorRange" : [ 0.9, 1.2 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 30
+    },
+    "dialog" : {
+      "merchant" : {
+        "start" : "/dialog/merchant.config:merchantStart",
+        "end" : "/dialog/merchant.config:merchantEnd",
+        "follow" : "/dialog/merchant.config:follow",
+        "welcome" : "/dialog/merchant.config:welcome",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      },
+      "accuse" : "/dialog/thief.config:accuse",
+      "alert" : "/dialog/thief.config:alert"
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "moogle" : [
+      [0, [{
+        "head": [{"name": "moogle_freelancer1head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "chest": [{"name": "moogle_freelancer1chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "moogle_freelancer1legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "head" : [ { "name" : "moogle_freelancer2head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+		"chest" : [ { "name" : "moogle_freelancer2chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+        "legs" : [ { "name" : "moogle_freelancer2legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ]
+          }]]
+    ]
+  }
+}

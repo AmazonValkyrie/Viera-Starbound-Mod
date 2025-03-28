@@ -1,0 +1,55 @@
+{
+  "objectName" : "vieraarcherscreen",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "Viera archers use this defense mechanism as a means for shielding themselves.",
+  "shortdescription" : "Archer Screen",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+
+  "apexDescription" : "Such a garish screen. What is it's use?",
+  "avianDescription" : "What ornate shapings of metals and wood.",
+  "floranDescription" : "Sssseeee throughhhh.",
+  "glitchDescription" : "Query. A screen that is see through, yet blocks the way.",
+  "humanDescription" : "I'm sure it has it's uses.",
+  "hylotlDescription" : "The gentle curves give one the impression it is delicate. It is however sturdy in construction.",
+  "novakidDescription" : "Sure is a lot to look at.",
+  "vieraDescription" : "Viera archers use this as a minor shield through which one may fire arrows.",
+
+  "inventoryIcon" : "vieraarcherscreen.png",
+  "orientations" : [
+    {
+      "image" : "vieraarcherscreen.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player-2",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[3, 6], [3, 5], [3, 4], [3, 3], [3, 2], [3, 1]
+	  ]
+	    
+    },
+	{
+      "image" : "vieraarcherscreen.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player-2",
+	  "direction" : "right",
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-4, 6], [-4, 5], [-4, 4], [-4, 3], [-4, 2], [-4, 1]
+	  ]
+	   
+    }
+  ]
+}

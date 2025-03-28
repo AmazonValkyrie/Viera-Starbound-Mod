@@ -1,0 +1,66 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "confetti" ]
+            }
+          },
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "confetti",
+            "properties" : {
+              "immediateSound" : "/sfx/viera/vieraupgradefanfare.ogg",
+              "particleEmittersOff" : [ "confetti" ]
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [-0.125, 0], [0, 0] ]
+            }
+          },
+          "confetti" : {
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "confetti" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "item" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "/items/active/viera/chocobogear/<category>/<unlock>/icon.png",
+          "offset" : [0.0, 0.0]
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "confetti" : {
+      "emissionRate" : 500.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_chocobofeather" },
+        { "particle" : "viera_confettifallingred" },
+        { "particle" : "viera_confettidriftingred" },
+        { "particle" : "viera_confettifallingblue" },
+        { "particle" : "viera_confettidriftingblue" },
+        { "particle" : "viera_confettifallinggreen" },
+        { "particle" : "viera_confettidriftinggreen" },
+        { "particle" : "viera_confettifallingwhite" },
+        { "particle" : "viera_confettidriftingwhite" }
+      ]
+    }
+  }
+}

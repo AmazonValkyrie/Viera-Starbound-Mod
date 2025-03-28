@@ -1,0 +1,50 @@
+{
+  "objectName" : "vierastool",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "category" : "furniture",
+  "price" : 50,
+  "description" : "A cute cushioned wooden stool.",
+  "shortdescription" : "Viera Stool",
+  "race" : "viera",
+  "health" : 1.5,
+
+
+  "apexDescription" : "A small wooden stool.",
+  "avianDescription" : "A stool. Perhaps for one to rest one's talons.",
+  "floranDescription" : "Tiny ssseat.",
+  "glitchDescription" : "Observation. A very small stool.",
+  "humanDescription" : "A cute little stool.",
+  "hylotlDescription" : "A charming stool.",
+  "novakidDescription" : "A comfy stool!",
+  "vieraDescription" : "A soft and pretty stool.",
+
+  "inventoryIcon" : "vierastoolicon.png",
+  "orientations" : [
+    {
+      "image" : "vierastool.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [5, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vierastool.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "sitPosition" : [0, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true
+
+}

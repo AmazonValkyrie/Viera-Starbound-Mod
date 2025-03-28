@@ -1,0 +1,22 @@
+{
+  "materialId" : 13108,
+  "materialName" : "vierashipplating3",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vierashipplating3",
+  "shortdescription" : "Edged Ship Plate III",
+  "description" : "Ship plating with encased wiring.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vierashipplating3.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

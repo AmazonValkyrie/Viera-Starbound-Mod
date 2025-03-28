@@ -1,0 +1,11 @@
+{
+  "itemName" : "viera_gysahlgreens",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "viera_gysahlgreens.png",
+  "description" : "Crunchy, but bitter. Chocobos love it!",
+  "shortdescription" : "Gysahl Greens",
+  "maxStack" : 1000
+}

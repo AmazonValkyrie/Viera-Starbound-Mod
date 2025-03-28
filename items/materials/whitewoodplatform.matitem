@@ -1,0 +1,9 @@
+{
+  "itemName" : "whitewoodplatform",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "whitewoodplatformicon.png",
+  "shortdescription" : "Whitewood Platform",
+
+  "materialId" : 13070
+}

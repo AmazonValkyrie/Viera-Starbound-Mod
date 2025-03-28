@@ -1,0 +1,14 @@
+{
+  "id" : "vieralore9",
+  "title" : "Petals on the Wind",
+  "description" : "An ancient song celebrating nature's harmony.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Petals on the Wind^reset;\n\nI watched the petal dance, a whisper upon the breeze.\nUnanchored, unfettered, free as my heart longed to be,\n\nYet, a petal knows not the pain of rootless wandering,\nNor the ache of branches that yearn for sky."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

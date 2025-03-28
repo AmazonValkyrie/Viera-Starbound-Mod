@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore17",
+  "title" : "The Saga of Marpesia: Ch. 2",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;Rise of the Moonshadow^reset;\n\nWhen shadows lengthened and whispers of outsiders encroaching upon the sacred groves grew louder, Marpesia called the warriors of her kin. 'We are the shadows beneath the boughs, the guardians of root and leaf. The forest lives because we live. If it falls, so too shall we.",
+
+	"Thus was born the Order of the Moonshadow, an elite cadre of Viera warriors sworn to protect Golmore from those who would defile its sanctity. Marpesia led them with a heart both fierce and just, her tactics unmatched, her wisdom unquestioned. Under her guidance, the Moonshadow Warriors became legends-phantoms in the mist, striking swift and unseen."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

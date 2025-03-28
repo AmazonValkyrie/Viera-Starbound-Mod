@@ -1,0 +1,10 @@
+{
+  "itemName" : "carvedtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "carvedicon.png",
+  "description" : "Carved Vieran whitewood.",
+  "shortdescription" : "Carved Whitewood",
+
+  "materialId" : 13025
+}

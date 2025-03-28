@@ -1,0 +1,10 @@
+{
+  "itemName" : "wwpanelingbottom",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "wwpanelingbottomicon.png",
+  "description" : "Carved, whitewood paneling. Bottom center.",
+  "shortdescription" : "Whitewood Paneling",
+
+  "materialId" : 13068
+}

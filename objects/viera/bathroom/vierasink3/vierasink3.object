@@ -1,0 +1,53 @@
+{
+  "objectName" : "vierasink3",
+  "colonyTags" : ["viera", "storage", "vieravillage"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 30,
+  "description" : "Carved stone and mahogany make up this sink with mirror.",
+  "shortdescription" : "Extravagant Carved Sink",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A sink with a cabinet.",
+  "avianDescription" : "A water basin with an intricately carved cabinet.",
+  "floranDescription" : "Waterrr.",
+  "glitchDescription" : "Observation. Cabinet with sink.",
+  "humanDescription" : "A sink with storage!.",
+  "hylotlDescription" : "Water pours forth..?",
+  "novakidDescription" : "It's a sink!",
+  "vieraDescription" : "A lovely sink for washing.",
+
+  "inventoryIcon" : "vierasink3icon.png",
+  "orientations" : [
+    {
+      "image" : "vierasink3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },    
+    {
+      "image" : "vierasink3.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

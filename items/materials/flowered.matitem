@@ -1,0 +1,10 @@
+{
+  "itemName" : "floweredtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "floweredicon.png",
+  "description" : "Vieran mahogany with flower motif.",
+  "shortdescription" : "Flower Motif",
+
+  "materialId" : 13014
+}

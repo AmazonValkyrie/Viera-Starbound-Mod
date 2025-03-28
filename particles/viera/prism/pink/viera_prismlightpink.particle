@@ -1,0 +1,17 @@
+{
+  "kind" : "viera_prismlightpink",
+  "definition" : {
+    "type" : "animated",
+    "looping" : true,
+    "animation" : "/particles/viera/prism/pink/viera_prismlightpink.animation",
+    "size" : 0.8,
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "timeToLive" : 4.02,
+    "fullbright" : true,
+    "light" : [50, 0, 0],
+    "layer" : "middle",
+    "collidesLiquid" : true,
+    "collidesForeground" : true
+  }
+} 

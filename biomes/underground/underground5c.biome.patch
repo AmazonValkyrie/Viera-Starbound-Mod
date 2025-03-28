@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/2/objectSets/0/pool/0",
+    "value": [
+      1,
+      "magicitecrystalrocksmall"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/2/objectSets/0/pool/1",
+    "value": [
+      1,
+      "magicitecrystalrock"
+    ]
+  }
+]

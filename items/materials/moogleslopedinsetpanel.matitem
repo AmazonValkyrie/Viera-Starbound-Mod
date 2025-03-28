@@ -1,0 +1,11 @@
+{
+  "itemName" : "moogleslopedinsetpanel",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "moogleslopedinsetpanelicon.png",
+  "shortdescription" : "Sloped Plating",
+  "description" : "Sloped, layered metal plating for sturdy building.",
+
+  "materialId" : 13131,
+  "learnBlueprintsOnPickup" : [ "moogleslopedinsetpanel" ]
+}

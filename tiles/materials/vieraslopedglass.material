@@ -1,0 +1,22 @@
+{
+  "materialId" : 13110,
+  "materialName" : "vieraslopedglass",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieraslopedglass",
+  "shortdescription" : "Sloped Glass",
+  "description" : "Colored, crystal-clear glass.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieraslopedglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2650
+  }
+}

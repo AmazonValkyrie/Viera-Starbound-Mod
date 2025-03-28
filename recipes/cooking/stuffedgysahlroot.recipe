@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "carrot", "count" : 1 },
+    { "item" : "viera_gysahlroot", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "bread", "count" : 1 }
+  ],
+  "output" : { "item" : "stuffedgysahlroot", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

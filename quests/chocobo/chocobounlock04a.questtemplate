@@ -1,0 +1,60 @@
+{
+  "id" : "chocobounlock04a",
+  "title" : "^orange;Well Traveled.^reset;",
+  "text" : "^cyan;Seonha's^reset; offered you her old chocobo's ^orange;barding and saddle^reset;. They should ^green;fit your new chocobo^reset; perfectly - you just have to show it to her first!",
+  "completionText" : "^cyan;Seonha's^reset; given you her own chocobo's ^orange;old barding and saddle^reset;. They should ^green;fit your new chocobo^reset; perfectly - take good care of them!",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : false,
+  "prerequisites" : [ "chocobounlock03" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "viera_chocobosaddletravelerspack", 1 ], [ "viera_chocobobardingtravelersharness", 1 ] ] ],
+
+  "script" : "/quests/scripts/chocobo/chocobounlock04a.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/captainseonha.png"} ],
+        "title" : "Cpt. Seonha"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherChocobo",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+	    "items" : [ 
+		  [ "viera_chocobocallivaliceyellow", "Your Chocobo", 1 ]
+		],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startChocoboUnlock04a",
+		  "interim" : "continueChocoboUnlock04a" 
+		}		  
+	  },
+	  {
+	    "state" : "returnToSeonha",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+		"needPreviousItems" : true,
+		"descriptions" : [ 
+		  "^green;Return to ^cyan;Seonha^reset; with ^orange;your chocobo^reset;!" 
+		],
+		"portraitTalks" : {
+		  "cleared" : "finishChocoboUnlock04a" 
+		}	
+	  }
+	],
+    "giveBlueprints" : [ "viera_chocobosaddletravelerspack", "viera_chocobobardingtravelersharness" ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 24 },
+    { "item" : "liquidwater", "count" : 20 }	
+  ],
+  "output" : {
+    "item" : "vierabath",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

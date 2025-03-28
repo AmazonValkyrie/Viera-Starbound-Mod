@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/vieravillages",
+    "value": {
+      "primaryDungeon": "vieravillages",
+	  "weatherPool" : [
+        [1.0, "storm"]
+    ],
+      "threatLevel": 1,
+      "gravity": 80,
+      "worldSize": [
+        2000,
+        2000
+      ],
+      "dungeonBaseHeight": 1000,
+      "dungeonSurfaceHeight": 810,
+      "ambientLightLevel": [
+        32,
+        32,
+        32
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/woodechoes.ogg",
+      "environmentStatusEffects": [
+        "dontstarve"
+      ]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "whitewoodcolumnbase",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "whitewoodcolumnbaseicon.png",
+  "description" : "Whitewood column base with floral motif.",
+  "shortdescription" : "Floral Whitewood",
+
+  "materialId" : 13049
+}

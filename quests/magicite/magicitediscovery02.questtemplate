@@ -1,0 +1,32 @@
+{
+  "id" : "magicitediscovery02",
+  "title" : "^orange;Much Ado About Magicite^reset;",
+  "text" : "",
+  "completionText" : "",
+  "canBeAbandoned" : false,
+  "prerequisites" : [ "magicitediscovery01" ],
+  "moneyRange" : [50, 50],
+  "rewards" : [ [  ] ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/seonha.png"} ],
+        "title" : "Cpt. Seonha"
+      }
+    },
+    "requireTurnIn" : true,
+	
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "refinedmagicite",
+        "count" : 3,
+        "consume" : false
+      }
+    ],
+    "followUp" : "magicitediscovery03"
+  }
+}

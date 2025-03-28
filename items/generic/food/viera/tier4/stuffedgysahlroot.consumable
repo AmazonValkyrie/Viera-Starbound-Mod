@@ -1,0 +1,25 @@
+{
+  "itemName" : "stuffedgysahlroot",
+  "rarity" : "Common",
+  "price" : 290,
+  "category" : "preparedFood",
+  "inventoryIcon" : "stuffedgysahlroot.png",
+  "description" : "A gysahl root stuffed with shaved carrots, bread and cheese.",
+  "shortdescription" : "Stuffed Gysahl Root",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 405
+    }
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "gysahlrisotto" ]
+}

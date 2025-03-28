@@ -1,0 +1,38 @@
+{
+  "objectName" : "viera_marketstallc1",
+  "colonyTags" : ["viera","vieravillage","commerce","vieraclothesmerchant"],
+  "rarity" : "Common",
+  "description" : "A large market stall displaying fabrics and Viera clothing.",
+  "shortdescription" : "Clothing Market Stall",
+  "race" : "viera",
+  "objectType" : "loungeable",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "Fabrics of excessive colour.",
+  "avianDescription" : "Wow, what a variety of fabrics.",
+  "floranDescription" : "Pretty colourssss.",
+  "glitchDescription" : "Interested. Such intricate materials.",
+  "humanDescription" : "Ooooh lots of bright colored fabrics.",
+  "hylotlDescription" : "Quite a display of exotic fabrics.",
+  "novakidDescription" : "Nothin' here in my size.",
+  "vieraDescription" : "A good selection of fabrics and clothing.",
+
+  "inventoryIcon" : "marketstalliconc1.png",
+  "orientations" : [
+    {
+      "dualImage" : "viera_marketstallc1.png",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "sitPosition" : [ 0, 18.25 ]
+
+    }
+  ],
+  "sitCoverImage" : "/objects/viera/viera_marketstall/viera_marketstallc1cover.png"
+}

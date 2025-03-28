@@ -1,0 +1,63 @@
+{
+  "objectName" : "tinywaystoneteleporterTier0",
+  "colonyTags" : ["moogle", "moogleship"],
+  "printable" : false,
+  "rarity" : "Uncommon",  
+  "description" : "Restore power to use the waystone.",
+  "shortdescription" : "Magicite Waystone",
+  "race" : "moogle",
+
+  "apexDescription" : "The ship's teleporter. I need to power it up.",
+  "avianDescription" : "The teleporter! If only this one was powered up.",
+  "floranDescription" : "Ship teleporter. This one dead.",
+  "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
+  "humanDescription" : "The teleporter! Too bad it isn't powered up.",
+  "hylotlDescription" : "This teleporter is off.",
+  "novakidDescription" : "Ship's teleporter. I need to power her up!",
+  "vieraDescription" : "Power must be restored before the waystone will work.",
+  "moogleDescription" : "This teleporter isn't functioning, kupo.",
+  
+  "category" : "decorative",
+  "lightColor" : [99, 132, 153],
+  "flickerDistance" : 0.25,
+  "flickerStrength" : 3.5,
+  "flickerTiming" : 8,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 1,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "iconTier0.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image": "tinywaystoneteleporterTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "tinywaystoneteleporterTier0lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ],
+
+      "sitPosition" : [-8, 8]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 1.5
+}

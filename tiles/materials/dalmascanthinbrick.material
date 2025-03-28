@@ -1,0 +1,22 @@
+{
+  "materialId" : 13104,
+  "materialName" : "dalmascanthinbrick",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanthinbrick",
+  "shortdescription" : "Dalmascan Thin Brick",
+  "description" : "Narrow bricks packed together on mortar.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanthinbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

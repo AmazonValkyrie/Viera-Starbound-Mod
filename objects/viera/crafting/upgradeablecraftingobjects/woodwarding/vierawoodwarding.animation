@@ -1,0 +1,98 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "vierawoodwarding",
+        "states" : {
+          "vierawoodwarding" : {
+		    "properties" : {
+              "lightsOn" : [ "farm2glow" ]
+            }
+			},
+          "vierawoodwarding2" : {
+		    "frames" : 48,
+			"cycle" : 4.8,
+			"mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "farm2glow" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "lights" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+          "zLevel" : 0
+        },
+        "partStates" : {
+          "stage" : {
+            "vierawoodwarding" : {
+			  "properties" : {
+			    "image" : "vierawoodwarding.png:<color>.<frame>"
+				}
+			},
+
+            "vierawoodwarding2" : {
+              "properties" : {
+                "image" : "vierawoodwarding2.png:<color>.<frame>"
+			  }
+			}
+          }
+        }
+      },
+
+      "chassis" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "stage" : {
+            "vierawoodwarding" : {
+              "properties" : {
+                "image" : "vierawoodwardinglit.png:<color>.<frame>"
+              }
+            },
+
+            "vierawoodwarding2" : {
+              "properties" : {
+                "image" : "vierawoodwarding2lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+	}
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/viera/vieraupgradefanfare.ogg"]
+  },
+
+  "lights" : {
+    "farm2glow" : {
+      "active" : false,
+      "color" : [40, 80, 60],
+      "position" : [0, 0],
+
+      "flickerPeriod" : 1.0,
+      "flickerMinIntensity" : 0.9,
+      "flickerMaxIntensity" : 1.0,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

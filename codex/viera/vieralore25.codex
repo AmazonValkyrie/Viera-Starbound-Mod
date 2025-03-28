@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore25",
+  "title" : "Origins of the Wood: Rituals and Practices",
+  "description" : "Viera writings on communing with the Wood.",
+  "icon" : "vieracover6.png",
+  "contentPages" : [
+    "^yellow;Communion with the Canopy^reset;\n\nTo honor The Wood and to attune themselves to Her whispers, the Viera perform sacred rites known as the ^yellow;Communion of the Canopy^reset;. These rituals are held beneath the oldest trees, whose roots are said to touch Her heart and whose branches cradle Her voice.",
+	
+	"The most revered of these rites is the ^yellow;Whispering Vigil^reset;. Under the full moon's silver light, the Elders gather, their ears adorned with woven vines, symbolizing their bond to The Wood. They sit in silent meditation, their breaths synchronized with the rhythm of the wind. They listen-not with their ears, but with their spirits. It is during this vigil that the Green Word is heard most clearly, guiding the Elders in matters of fate and duty.",
+	
+	"Another rite is the ^yellow;Dance of the Falling Leaves^reset;, performed during the autumn equinox. Young Viera who come of age participate, their movements mirroring the graceful descent of golden leaves. It is a dance of acceptance, of embracing change, for just as leaves fall to nourish the earth, so too must the old give way to the new. This dance is both a farewell and a welcoming, a celebration of the cycle of life and death."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

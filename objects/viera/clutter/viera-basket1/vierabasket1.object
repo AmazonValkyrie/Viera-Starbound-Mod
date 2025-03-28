@@ -1,0 +1,35 @@
+{
+  "objectName" : "vierabasket1",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 30,
+  "description" : "Don't put all of them in one basket!",
+  "shortdescription" : "Basket of Eggs",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A basket of eggs.",
+  "avianDescription" : "Waiiiit, what kind of eggs?",
+  "floranDescription" : "Eggssshhhhh.",
+  "glitchDescription" : "Curious. What's inside this shell?",
+  "humanDescription" : "A basket of eggs.",
+  "hylotlDescription" : "A basket full of large eggs.",
+  "novakidDescription" : "I'd love to fry them suckers up good.",
+  "vieraDescription" : "A basket full of eggs to nurture.",
+
+  "inventoryIcon" : "vierabasket1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierabasket1.png:<color>",
+
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

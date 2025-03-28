@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieraslopedinsetpanel",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieraslopedinsetpanelicon.png",
+  "description" : "Viera ship plating with inset panelling.",
+  "shortdescription" : "Sloped Inset Plating",
+
+  "materialId" : 13121,
+  "learnBlueprintsOnPickup" : [ "vieraslopedinsetpanel" ]
+}

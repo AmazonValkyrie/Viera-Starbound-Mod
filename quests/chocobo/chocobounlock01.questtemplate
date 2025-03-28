@@ -1,0 +1,60 @@
+{
+  "id" : "chocobounlock01",
+  "title" : "^orange;A Seedy Start...^reset;",
+  "text" : "Seems this moogle, ^cyan;Wallace^reset;, can help you aquire a ^orange;mount of sorts^reset; - you just need to ^green;gather a few things^reset; first!",
+  "completionText" : "You found the tools needed to ^green;do some gardening^reset; - now, you just need to grow the ^orange;gysahl root^reset; ^cyan;Wallace^reset; was asking for!",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "viera_gysahlrootseed", 20 ] ] ],
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/chocobo/chocobounlock01.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/chocoboknightwallace.png"} ],
+        "title" : "Sir Wallace"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherGardeningTools",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+	    "items" : [ 
+		  [ "hoe", "Hoe", 1 ],
+          [ "woodenwateringcan", "Wooden Watering Can", 1 ]
+		],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startChocoboUnlock01",
+		  "interim" : "continueChocoboUnlock01" 
+		}		  
+	  },
+	  {
+	    "state" : "returnToWallace",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+		"needPreviousItems" : true,
+		"descriptions" : [ 
+		  "^green;Return to Wallace^reset; with the ^orange;tools^reset; you've gathered." 
+		]
+	  }
+	],	
+    "giveBlueprints" : [ "viera_chocobostand" ],
+    "followUp" : "chocobounlock02"
+  }
+}

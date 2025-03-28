@@ -1,0 +1,10 @@
+{
+  "itemName" : "rooftile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "rooficon.png",
+  "description" : "Vieran whitewood roofing.",
+  "shortdescription" : "Whitewood Roofing",
+
+  "materialId" : 13031
+}

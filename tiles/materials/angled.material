@@ -1,0 +1,22 @@
+{
+  "materialId" : 13030,
+  "materialName" : "angledtile",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "angledtile",
+  "description" : "Vieran Whitewood with angled carving.",
+  "shortdescription" : "Angled Whitewood",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "angled.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 2875
+  }
+}

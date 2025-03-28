@@ -1,0 +1,10 @@
+{
+  "itemName" : "wwpanelingcorner2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "wwpanelingcorner2icon.png",
+  "description" : "Carved, whitewood paneling. Upper right corner.",
+  "shortdescription" : "Whitewood Paneling",
+
+  "materialId" : 13062
+}

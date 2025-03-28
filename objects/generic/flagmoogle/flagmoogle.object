@@ -1,0 +1,49 @@
+{
+  "objectName" : "flagmoogle",
+  "colonyTags" : ["moogle"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The flag of the Moogle. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Moogle Flag",
+  "race" : "moogle",
+  
+  "apexDescription" : "Moogle.",
+  "avianDescription" : "Moogle.",
+  "floranDescription" : "Moogle!",
+  "glitchDescription" : "Moogle?",
+  "humanDescription" : "Moogle.",
+  "hylotlDescription" : "Moogle.",
+  "novakidDescription" : "Moogle.",
+  "vieraDescription" : "Moogle.",
+  
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagmoogleicon.png",
+  "orientations" : [
+    {
+      "image" : "flagmoogle.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagmoogle.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

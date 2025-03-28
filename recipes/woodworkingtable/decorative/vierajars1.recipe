@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "clay", "count" : 18 }
+  ],
+  "output" : {
+    "item" : "vierajars1",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

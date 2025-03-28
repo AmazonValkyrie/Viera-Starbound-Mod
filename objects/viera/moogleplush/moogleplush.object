@@ -1,0 +1,35 @@
+{
+  "objectName" : "moogleplush",
+  "colonyTags" : ["viera","misc", "moogle"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 3000,
+  "description" : "A decorative plush of the moogles of yore!",
+  "shortdescription" : "Moogle Plushie",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A little stuffed...cat?",
+  "avianDescription" : "...A cat with wings?",
+  "floranDescription" : "Tassty little bat thingggg.",
+  "glitchDescription" : "Cute. It's adorable.",
+  "humanDescription" : "An adorable little cat...bat?",
+  "hylotlDescription" : "What a strange creature.",
+  "novakidDescription" : "This is one strange kitty.",
+  "vieraDescription" : "An earlier species of the mogry that we now know.",
+
+  "inventoryIcon" : "moogleplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moogleplush.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

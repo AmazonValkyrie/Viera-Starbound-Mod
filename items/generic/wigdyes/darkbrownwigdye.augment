@@ -1,0 +1,15 @@
+{
+  "itemName" : "darkbrownwigdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "darkbrownwigdye.png",
+  "description" : "This dye can be applied to Viera wigs/wig back items only.",
+  "shortdescription" : "Dark Brown Wig Dye",
+
+  "dyeColorIndex" : 7,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

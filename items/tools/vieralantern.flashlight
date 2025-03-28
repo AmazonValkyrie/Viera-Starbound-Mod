@@ -1,0 +1,18 @@
+{
+  "itemName" : "vieralantern",
+  "price" : 2000,
+  "inventoryIcon" : "vieralanternicon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A light for you in dark places, when all other lights go out.",
+  "shortdescription" : "Crystal Lantern",
+  "largeImage" : "vieralanternlarge.png",
+  "tooltipKind" : "tool",
+  "pointable" : false,
+  "image" : "vieralantern.png",
+  "handPosition" : [0, 6],
+  "lightPosition" : [5, 0],
+  "lightColor" : [214, 255, 255],
+  "beamLevel" : 0,
+  "beamAmbience" : 0
+}

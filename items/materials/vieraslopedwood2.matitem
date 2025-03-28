@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieraslopedwood2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieraslopedwood2icon.png",
+  "shortdescription" : "Sloped Wood Planks",
+  "description" : "Smooth, cut wood planks.",
+
+  "materialId" : 13123,
+  "learnBlueprintsOnPickup" : [ "vieraslopedwood2" ]
+}

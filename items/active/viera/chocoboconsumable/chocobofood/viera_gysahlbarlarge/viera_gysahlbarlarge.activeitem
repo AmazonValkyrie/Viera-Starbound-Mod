@@ -1,0 +1,18 @@
+{
+  "itemName" : "viera_gysahlbarlarge",
+  "shortdescription" : "Large Gysahl Bar",
+  "description" : "Feed and heal your Chocobo a lot!",
+  "healAmount" : 80,
+  
+  "category" : "chocobofood",
+  "rarity" : "Uncommon",
+  "twoHanded" : false,
+  "maxStack" : 99,
+  "price" : 0,
+  "level" : 1,
+  
+  "inventoryIcon" : "icon.png",
+  "builder" : "/items/buildscripts/viera/buildchocoboconsumable.lua",
+  "animation" : "/items/active/viera/chocoboconsumable/viera_chocoboconsumable.animation",
+  "scripts" : ["/items/active/viera/chocobogear/viera_chocoboconsumable.lua"]
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "vieralore29",
+  "title" : "Marpesia, The Chosen Leader: Ch. 2",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;Trials of the Green Word^reset;\n\nBefore she could lead, Marpesia had to prove herself to Eithne, undergoing the ^yellow;Trials of the Green Word^reset;. Guided by Elowyn, she ventured to the ^green;Path of Echoes^reset;, a place where the voices of the past lingered like mist. The air was heavy with whispers, memories of ancient Viera whose spirits danced between realms.",
+	
+	"As she walked, the voices grew louder, calling to her with familiarity and longing. 'Stay...stay with us...' They were the voices of loved ones lost, of warriors who had fallen to protect Golmore's heart. Marpesia's feet faltered, her heart aching with grief. She felt the pull, the temptation to stay with them, to surrender to the echoes.",
+	
+	"But then, the wind shifted, carrying a new voice-gentle and firm. 'Do not tarry, my child. You are needed beyond this place.' It was Eithne, Her voice a thread of light that cut through the shadows. Marpesia's resolve hardened, her steps growing steady as she followed the voice out of the glade, leaving the echoes behind.",
+	
+	"Her next trial was The Shadow's Embrace. In the darkest part of the forest, Marpesia confronted the shadows of her own fears-doubt, failure, loss. The shadows danced around her, their whispers cruel and unrelenting. 'You will fail them...you are not strong enough...they will fall because of you...",
+	
+	"But Marpesia stood firm, her spirit anchored by the name she carried. 'I am Marpesia, chosen of Eithne. I am Her sword and shield. Begone, shadows. You hold no power over me.' Her words became light, driving the darkness away.",
+	
+	"Emerging from the shadows, she bore a silver scar upon her wrist-a blessing from Eithne, proof of her courage and strength."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

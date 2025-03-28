@@ -1,0 +1,24 @@
+{
+  "kind" : "viera_magicitewhite",
+  "definition" : {
+    "type" : "ember",
+    "position" : [0, 0],
+    "size" : 1.625,
+    "color" : [255, 255, 255, 255],
+    "light" : [0, 0, 0],
+    "fade" : 0.9,
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "initialVelocity" : [0.0, 4],
+    "finalVelocity" : [0.0, 1],
+    "approach" : [0, 1],
+    "timeToLive" : 1,
+    "layer" : "back",
+    "variance" : {
+      "initialVelocity" : [0, 7],
+      "finalVelocity" : [0, 1],
+      "position" : [1, 4.5],
+      "size" : 1.0
+	}
+  }
+} 

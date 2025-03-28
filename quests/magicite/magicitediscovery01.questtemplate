@@ -1,0 +1,104 @@
+{
+  "id" : "magicitediscovery01",
+  "title" : "^orange;Crystal Chronicles^reset;",
+  "text" : "^cyan;Captain Seonha^reset; has proven herself to be a ^orange;reliable ally^reset; - perhaps you'd do well ^green;following her advice^reset; for a bit.",
+  "completionText" : "The prospect of meeting another refugee from Ivalice is exicting - you'd better ^green;construct the management stand^reset; and meet with this ^orange;mystery moogle^reset;.",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "vierabootship" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [  ] ],
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/magicite/magicitediscovery01.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/captainseonha.png"} ],
+        "title" : "Cpt. Seonha"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherMagicite",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+	    "items" : [ [ "magicitecrystalore", "Magicite Ore", 9 ] ],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startMagiciteDiscovery01",
+		  "interim" : "continueMagiciteDiscovery01" 
+		}		  
+	  },
+	  {
+	    "state" : "refineMagicite",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+	    "items" : [ [ "refinedmagicitecrystal", "Refined Magicite", 3 ] ],
+		"descriptions" : [ 
+		  "^green;Refine^reset; the ^orange;Magicite Ore^reset; you found at a ^orange;stone hearth^reset;." 
+		],
+		"radioMessages" : {
+		  "initial" : [ "magicitediscovery01-refineMagicite-initial" ],
+		  "interim" : [ "magicitediscovery01-refineMagicite-interim" ],
+		  "cleared" : [ 
+		    "magicitediscovery01-refineMagicite-cleared-a", 
+		    "magicitediscovery01-refineMagicite-cleared-b", 
+		    "magicitediscovery01-refineMagicite-cleared-c"
+		  ]	
+        }		
+	  },
+	  {
+	    "state" : "gatherMaterial",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+	    "items" : [ 
+		  [ "darkwoodmaterial", "Timber", 40 ],
+          [ "cobblestonebrick", "Cobblestone Brick", 20 ],
+	      [ "refinedmagicitecrystal", "Refined Magicite", 3 ],
+          [ "fabric", "Woven Fabric", 6 ]  
+		],
+		"descriptions" : [ 
+		  "^orange;Seonha^reset; needs you to ^green;gather^reset; the following:"
+		]
+	  },
+	  {
+	    "state" : "returnToSeonha",
+	    "speakers" : {
+		  "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "target"  : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+		  "cleared" : { "uid" : "captainseonha", "name" : "Captain Seonha" }
+		},
+		"needPreviousItems" : true,
+		"descriptions" : [ 
+		  "^green;Return to Seonha^reset; with the ^orange;materials^reset; you've gathered." 
+		],
+		"radioMessages" : {
+		  "initial" : [ 
+		    "magicitediscovery01-returnToSeonha-initial-a", 
+		    "magicitediscovery01-returnToSeonha-initial-b"
+		  ],
+		  "interim" : [ "magicitediscovery01-returnToSeonha-interim" ]
+		}
+	  }
+	],	
+    "giveBlueprints" : [ "viera_chocobostand" ],
+    "followUp" : "chocobounlock00"
+  }
+}

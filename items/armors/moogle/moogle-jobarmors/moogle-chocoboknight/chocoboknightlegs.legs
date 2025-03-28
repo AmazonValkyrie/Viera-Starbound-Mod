@@ -1,0 +1,68 @@
+{
+  "itemName" : "chocoboknightlegs",
+  "price" : 320,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legarmour",
+  "description" : "Chocobo Knights harness the innate abilities of their feathered mounts.",
+  "shortdescription" : "Chocobo Knight Pants",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+
+  "colorOptions" : [
+    /* BLACK */
+    { "8E988F" : "8E988F", "6F7068" : "6F7068", "454A44" : "454A44", "303133" : "303133", "262825" : "262825", "0E0E0E" : "0E0E0E", "000000" : "000000", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "B52E34", "7A292D" : "7A292D" },
+    /* BLACK */
+    { "8E988F" : "8E988F", "6F7068" : "6F7068", "454A44" : "454A44", "303133" : "303133", "262825" : "262825", "0E0E0E" : "0E0E0E", "000000" : "000000", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "B52E34", "7A292D" : "7A292D" },
+    /* GREY */
+    { "8E988F" : "CCCCCC", "6F7068" : "A5A5A5", "454A44" : "7F7F7F", "303133" : "6B6B6B", "262825" : "565656", "0E0E0E" : "333333", "000000" : "1C1C1C", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "0094FF", "7A292D" : "0069B5" },
+    /* WHITE */
+    { "8E988F" : "EAEAEA", "6F7068" : "CCCCCC", "454A44" : "BABABA", "303133" : "A5A5A5", "262825" : "919191", "0E0E0E" : "7F7F7F", "000000" : "606060", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "006FBF", "BFBDBD" : "004A7F", "A5A4A4" : "003860", "B52E34" : "E0BB00", "7A292D" : "BF9F00" },
+    /* RED */
+    { "8E988F" : "E23B43", "6F7068" : "BC3138", "454A44" : "A0292F", "303133" : "842227", "262825" : "6B1B1F", "0E0E0E" : "4C1316", "000000" : "300C0E", "565658" : "A55022", "37383A" : "86421B", "17191E" : "592B12", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "E0BB00", "7A292D" : "BF9F00" },
+    /* ORANGE */
+    { "8E988F" : "FF9047", "6F7068" : "E07F3E", "454A44" : "BF6C35", "303133" : "A35C2D", "262825" : "915228", "0E0E0E" : "824924", "000000" : "60351B", "565658" : "86421B", "37383A" : "592B12", "17191E" : "33180A", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "B52E34", "7A292D" : "7A292D" },
+    /* YELLOW */
+    { "8E988F" : "FFD57C", "6F7068" : "FFB91B", "454A44" : "D19617", "303133" : "AD7C13", "262825" : "8C640F", "0E0E0E" : "75520C", "000000" : "543B09", "565658" : "86421B", "37383A" : "592B12", "17191E" : "33180A", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "B52E34", "7A292D" : "7A292D" },
+    /* GREEN */
+    { "8E988F" : "9CC000", "6F7068" : "87A500", "454A44" : "728C00", "303133" : "5D7200", "262825" : "485900", "0E0E0E" : "343F00", "000000" : "1F2600", "565658" : "86421B", "37383A" : "592B12", "17191E" : "33180A", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "E0BB00", "7A292D" : "BF9F00" },
+    /* BLUE */
+    { "8E988F" : "00BCBC", "6F7068" : "00A3A3", "454A44" : "007F7F", "303133" : "005E5E", "262825" : "004444", "0E0E0E" : "002D2D", "000000" : "001616", "565658" : "86421B", "37383A" : "592B12", "17191E" : "33180A", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "8E988F", "7A292D" : "6F7068" },
+    /* PURPLE */
+    { "8E988F" : "9E59C1", "6F7068" : "8349A0", "454A44" : "693A7F", "303133" : "512D63", "262825" : "422551", "0E0E0E" : "301A3A", "000000" : "170C1C", "565658" : "8E988F", "37383A" : "6F7068", "17191E" : "454A44", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "EAEAEA", "7A292D" : "CCCCCC" },
+    /* PINK */
+    { "8E988F" : "B5009C", "6F7068" : "930080", "454A44" : "720063", "303133" : "59004D", "262825" : "3F0037", "0E0E0E" : "280023", "000000" : "0C000B", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "00A3A3", "7A292D" : "007F7F" },
+    /* BROWN */
+    { "8E988F" : "CC5100", "6F7068" : "A53F00", "454A44" : "7F3300", "303133" : "602600", "262825" : "4C1E00", "0E0E0E" : "331400", "000000" : "160800", "565658" : "565658", "37383A" : "37383A", "17191E" : "17191E", "E8E6E5" : "E8E6E5", "BFBDBD" : "BFBDBD", "A5A4A4" : "A5A4A4", "B52E34" : "B52E34", "7A292D" : "7A292D" }
+
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "type" : "captainseonha",
+  "baseType" : "vierabase",
+
+  "npcname" : "Seonha\n^white;<Captain of the Argo>^reset;",
+  "identity" : {
+    "gender" : "female",
+    "hairType"  : "unique/captainseonha",
+    "facialMaskType"  : "unique/captainseonha",
+	"hairDirectives" : "",
+	"bodyDirectives" : "?replace=683639=4D8989?replace=8C484D=6CC1C2?replace=A97F67=B48156?replace=8E6E59=A56542?replace=5B4839=7A4930",
+	"personalityIdle"    : "idle.4",
+	"personalityArmIdle" : "idle.4"
+  },
+  
+  "damageTeamType" : "friendly",
+  "levelVariance" : [0, 0],
+  "persistent" : false,
+  "keepAlive" : false,
+  
+  "scripts" : [ "/npcs/vNPC.lua","/npcs/seonha.lua" ],
+  "scriptConfig" : {
+    "uniqueId" : "captainseonha", 
+    "behavior" : "guard",		
+    "personalities" : [
+	  [1.0, {
+        "personality" : "seonhadefault",
+        "behaviorConfig" : { "noticePlayersRadius" : 20 },
+        "reactions" : {
+          "spontaneous" : [
+            [8.0, "sit"],
+            [8.0, "wander"],
+            [1.0, "sleep", { "timeRange" : [0.7, 0.9] }]
+          ],
+          "hasquest" : [
+            [4.0, "sit"],
+            [8.0, "wander"],
+            [2.0, "vierawave"],
+            [1.0, "smile"],
+            [1.0, "neutral"],
+            [0.5, "laugh"],
+            [0.3, "wink"],
+            [0.5, "bored"],
+            [0.3, "annoyed"]
+          ],
+          "default" : [
+            [4.0, "sit"],
+            [4.0, "wander"],
+            [1.0, "smile"],
+            [2.0, "neutral"],
+            [0.5, "laugh"],
+            [0.3, "wink"],
+            [0.5, "bored"],
+            [0.3, "annoyed"],
+
+            // Chat-ending behaviors:
+            [0.5, "quit"],
+            [0.5, "gohome"],
+            [0.5, "follow"]
+          ],
+          "campfire" : [
+            [1.0, "vierawarmhands"],
+            [1.0, "vieracrouchwarm"]
+          ],
+		  "furnace" : [
+            [1.0, "vierawarmhands"],
+            [1.0, "vieracrouchwarm"]
+          ],
+          "furnaceComplete" : [
+            [1.0, "vierawarmhands"],
+            [1.0, "vieracrouchwarm"],
+            [1.0, "pokefire"]
+          ]
+        }
+      }]
+	],
+	
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+    "offeredQuests" : [ "magicitediscovery01", "chocobounlock00", "chocobounlock04a" ],
+    "turnInQuests" : [ "magicitediscovery01", "chocobounlock04a" ],
+	
+    "chatPortrait" : "/interface/chatbubbles/seonhadefaulttalk.png:<frame>",
+    "portraitTalk" : {
+	  "mode" : "npc",
+      "next"  : 0,
+	  "count" : 0,
+      "timer" : 0.0,
+      "delay" : 0.0,
+	  "speakerID" : 0,
+      "portraits" : [
+        "/interface/chatbubbles/seonhadefaulttalk.png:<frame>"		
+      ],
+	  "conversation" : "wait",
+      "conversations" : {
+        "wakePlayer" : {
+		  "startDelay" : 2.0,
+		  "endDelay" : 0.0,
+    	  "text" : [
+	        "^green;Rise and shine-^reset;", 
+	        "My name is ^orange;Seonha^reset;, and this is my ship - ^orange;the Argo^reset;...",
+			"Welcome aboard.",
+		    "Consider yourself lucky. ^green;We barely escaped^reset; the explosion of ^orange;Naar'edla^reset;....",
+			"But, we did manage to ^green;save a piece of the Wood^reset; and bring Her along with us.",
+			"The Argo is powered by ^orange;one of Her seeds^reset;... Unfortunately, ^green;they were both damaged^reset; in our escape.",
+		    "We'll need to ^green;repair the connection^reset; to the root framework for the ship to ^orange;regain full function^reset;...",
+		    "^green;Give me a hand^reset; with the ^orange;main crystal chassis^reset; so we can restore power to the ship."
+	      ],
+    	  "cooldowns" : [ 8.0, 10.0, 8.0, 12.0, 12.0, 16.0, 16.0, 2.0 ],
+          "image" : [ 1, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "startMagiciteDiscovery01" : {
+		  "startDelay" : 0.0,
+		  "endDelay" : 0.0,
+    	  "text" : [
+	        "Thanks for the help - ^cyan;<player>^reset;, was it?", 
+	        "I heard you're ^green;headed to the surface^reset;...",
+			"Listen, there's something I'd like you to ^green;keep an eye out for^reset;.",
+		    "The majority of our technical and magical equipment are powered by a crystal called ^orange;Magicite^reset;.",
+			"While relatively common on ^orange;Naar'edla^reset;, there's no telling how rare it might be here.",
+			"If you can ^green;locate^reset; any ^orange;magicite ore^reset;, it'll really come in handy."
+	      ],
+    	  "cooldowns" : [ 8.0, 8.0, 8.0, 16.0, 10.0, 10.0 ],
+          "image" : [ 1, 1, 1, 1, 1, 1 ]
+        },
+        "continueMagiciteDiscovery01" : {
+		  "startDelay" : 0.0,
+		  "endDelay" : 0.0,
+    	  "text" : [
+	        "Welcome back, ^green;found^reset; any ^orange;magicite^reset; yet?"
+	      ],
+    	  "cooldowns" : [ 8.0 ],
+          "image" : [ 1 ]
+        },
+        "startChocoboUnlock00" : {
+		  "startDelay" : 0.0,
+		  "endDelay" : 0.0,
+    	  "text" : [
+	        "Welcome back ^cyan;<player>^reset;.", 
+	        "Looks like you've got everything we'll need...",
+			"So, I guess I can fill you in on the details.",
+		    "Have you ever met a ^orange;Moogle^reset; in your travels?",
+			"They're a funny bunch - expert craftsman and often as valorous as they are off-kilter.",
+			"While ^green;searching for other Ivalician Refugees^reset;, I made contact with a ^orange;moogle knight^reset; of sorts...",
+		    "I'll ^green;give you the blueprints^reset; ^orange;for what they need to ply their trade^reset;.",
+		    "^green;Craft what you need^reset; at a ^orange;woodworking table^reset; and place it wherever you'd like to rendevous...",
+		    "And make sure to introduce yourself once they arrive!"
+	      ],
+    	  "cooldowns" : [ 8.0, 8.0, 8.0, 12.0, 10.0, 16.0, 12.0, 12.0, 12.0 ],
+          "image" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "continueChocoboUnlock00" : {
+		  "startDelay" : 0.0,
+		  "endDelay" : 0.0,
+    	  "text" : [
+	        "Welcome back ^cyan;<player>^reset;, ^green;have you met^reset; our ^orange;fuzzy friend^reset; yet?"
+	      ],
+    	  "cooldowns" : [ 8.0 ],
+          "image" : [ 1 ]
+        },
+		"startChocoboUnlock04a" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+            "I hear from our new aquaintance that you've made another new friend of your own!",
+			"Chocobo can be some of the most reliable and stalwart of companions - I know first hand.",
+			"...",
+			"I'll tell you what, let me take a look at that Chocobo you have and I'll give you a my old traveling gear!"
+          ],
+		  "cooldowns" : [ 8.0, 8.0, 6.0, 12.0 ],
+		  "image" : [ 1, 1, 1, 1 ]
+		},
+		"continueChocoboUnlock04a" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Whenever you have a chance to ^green;show me your Chocobo^reset;, I've got ^orange;something for you!^reset;"
+		  ],
+		  "cooldowns" : [ 8.0 ],
+		  "image" : [ 1 ]
+		},
+		"finishChocoboUnlock04a" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Smooth, sharp beak...",
+			"Strong legs...",
+			"Excellent plumage...",
+			"You've got yourself an beautiful bird here, ^cyan;<player>^reset;.",
+			"Take care of my old gear - and take care of your Chocobo!"
+          ],
+		  "cooldowns" : [ 6.0, 6.0, 8.0, 10.0, 8.0 ],
+		  "image" : [ 1, 1, 1, 1, 1 ]
+		}
+	  }
+    },
+	
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Can I help you?"
+          ]
+        }
+      }
+    }
+  },
+  
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "seonhadefaultchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs"  : [ { "name" : "seonhadefaultpants", "parameters" : { "colorIndex" : 0 } } ],
+			"back"  : [ { "name" : "seonhadefaultback", "parameters" : { "colorIndex" : 0 } } ],
+			"sheathedprimary" : [ "chakram" ]
+          }
+      ] ]
+    ]
+  }
+}

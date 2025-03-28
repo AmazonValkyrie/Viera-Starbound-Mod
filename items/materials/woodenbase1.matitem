@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodenbase1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "woodenbase1icon.png",
+  "description" : "Vieran whitewood foundation.",
+  "shortdescription" : "Whitewood Foundation I",
+
+  "materialId" : 13026
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/pickupvisiondust",
+    "value": {
+      "type": "tutorial",
+      "text": "Vision dust is used to unlock the way to hidden Viera lands. Cultivated from the tail feathers of the elusive Vorpal Bunny, only Viera know how to create this material, and only they know where and how to use it."
+    }
+  },
+  {
+    "op": "add",
+    "path": "/pickupmagicitecrystalore",
+    "value": {
+      "type": "tutorial",
+      "text": "You just found a magicite vein! Glowing magicite, once refined at a hearth can be crafted into various objects, and can even be placed into the fueling system of Viera ships!"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/pickuprefinedmagicitecrystal",
+    "value": {
+      "type": "tutorial",
+      "text": "Refined magicite crystal is magicite in it's most diluted form. Use it to craft various objects and can even be placed into the fueling system of Viera ships!"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/magicitefuel",
+    "value": {
+      "type": "tutorial",
+      "text": "The myrrh of refined Magicite crystal is channeled through my framework to provide this vessel with energy. Follow the blue glow deep beneath planet surfaces to find it whenever you need it's mystical energy."
+    }
+  }
+]

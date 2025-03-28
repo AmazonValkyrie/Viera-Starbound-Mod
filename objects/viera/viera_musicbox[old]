@@ -1,0 +1,42 @@
+function init()
+  self.track = 0
+  self.tracks = maxTracks()
+  self.previousTrack = self.tracks
+  self.interactive = config.getParameter("interactive", true)
+  self.onColor = config.getParameter("lightColorOn", { 0, 0, 0})
+  self.offColor = config.getParameter("lightColorOff", { 0, 0, 0})
+
+  object.setInteractive(self.interactive)
+  animator.setAnimationState("image", "off")
+  setTrack()
+end
+
+function onInteraction(args)	
+  -- sb.logInfo("INTERACTION!")
+  -- sb.logInfo("last track: %s", self.track)
+  if self.track == 0 then switch("on") end
+  self.previousTrack = self.track
+  self.track = (self.tracks > self.track) and (self.track + 1) or 0
+  setTrack()
+  if self.track == 0 then switch("off") end
+  -- sb.logInfo("current track: %s", self.track)
+  -- sb.logInfo("[******** DEBUG DATA END ********]")
+end
+
+function setTrack()
+  if animator.hasSound(self.track) then animator.playSound(self.track, -1) end
+  if self.previousTrack > 0 then animator.stopAllSounds(self.previousTrack) end
+end
+
+function switch(o)
+  local oc = (o == "on") and self.onColor or self.offColor
+  animator.setAnimationState("image", o)
+  object.setLightColor(oc)
+end
+
+function maxTracks()
+  local c = 0
+  local s = config.getParameter("animationCustom.sounds")
+  for _,_ in pairs(s) do c=c+1 end
+  return c
+end

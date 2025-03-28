@@ -1,0 +1,57 @@
+{
+  "objectName" : "rabbitholebed",
+  "colonyTags" : ["viera", "vieravillage", "tier2"],
+  "rarity" : "Uncommon",
+  "description" : "Sleep tucked away with this bedding built into the wall.",
+  "shortdescription" : "Rabbit Hole Bed",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 175,
+  "health" : 1.5,
+
+  "apexDescription" : "The intricate craftsmanship is incredible!",
+  "avianDescription" : "Such a beautifully carved bed.",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. Power levels low. Sleep mode required.",
+  "humanDescription" : "I could sleep for days in a bed like this.",
+  "hylotlDescription" : "A beautiful place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "vieraDescription" : "I am cradled by The Wood Herself in a bed such as this.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/viera/bedroom/rabbitholebed/rabbitholebedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed2"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "lightColor" : [247, 239, 210],
+
+  "inventoryIcon" : "rabbitholebedicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "rabbitholebed.png:<color>.<frame>", "fullbright" : true }, { "image" : "rabbitholebedlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-6, 15],
+	  "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "imageLayers" : [ { "image" : "rabbitholebed.png:<color>.<frame>", "fullbright" : true }, { "image" : "rabbitholebedlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-14, 15],
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

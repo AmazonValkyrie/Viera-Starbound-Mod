@@ -1,0 +1,40 @@
+{
+    "id": "vierabuildersmanual5",
+    "title": "Viera Builder's Manual - Dalmascan",
+    "description": "A book of schematics for crafting building materials.",
+    "icon": "vieracoverb5.png",
+    "contentPages": [
+        "This book details the process and schematics for crafting materials of Dalmascan aesthetics. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "dalmascanbrick",
+            "dalmascanfence1",
+            "dalmascanfence2",
+            "dalmascanfence3",
+            "dalmascanfence4",
+            "dalmascanfiligreestripe",
+            "dalmascanfiligreestripe2",
+            "dalmascangoldpatterns",
+            "dalmascanmarble",
+            "dalmascanmarbleedging",
+            "dalmascanmarbleedging2",
+            "dalmascanplating1",
+            "dalmascanplating2",
+            "dalmascanquadtile",
+            "dalmascansilverpatterns",
+            "dalmascanstainedglass",
+            "dalmascanstainedglass2",
+            "dalmascanstone",
+			"dalmascanstonescallop",
+            "dalmascanstripe",
+			"dalmascanstripe2",
+			"dalmascanthinbrick",
+			"dalmascantwistplating",
+			"dalmascantwistplatingvert"
+			
+        ],
+        "rarity": "Rare",
+        "price": 450
+    }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/viera",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vierafurniture", "vieraingredients", "vieraclothes"]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/femaleveenaravaviera",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vierafurniture", "vieraingredients", "vieraclothes"]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/maleveenaravaviera",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vierafurniture", "vieraingredients", "vieraclothes"]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/femalefeolviera",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vierafurniture", "vieraingredients", "vieraclothes"]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/malefeolviera",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vierafurniture", "vieraingredients", "vieraclothes"]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/moogle",
+    "value": ["basicmerchant", "oremerchant", "randomswords", "vieraingredients"]
+  },
+  
+  {
+    "op": "add",
+    "path": "/items/viera",
+    "value": [
+      [0, [{
+        "chest" : [
+            { "name" : "freelancer1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer2chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer3chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer4chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer5chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer6chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "salvemakerchest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } }
+          ],
+          "legs" : [
+            { "name" : "freelancer1legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer2legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer3legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+            { "name" : "freelancer4legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer5legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "freelancer6legs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } },
+			{ "name" : "salvemakerlegs", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] } }
+        ]
+      }]]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/items/femaleveenaravaviera",
+    "value": [[0, [
+      {
+        "chest": [{"name": "femalecasualvillagervierachest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "femalecasualvillagervieralegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "chest": [{"name": "femalesalvemakervillagerchest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "femalesalvemakervillagerlegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      }
+    ]]]
+  },
+  {
+    "op": "add",
+    "path": "/items/maleveenaravaviera",
+    "value": [[0, [
+      {
+        "chest": [{"name": "malecasualvillagervierachest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "malecasualvillagervieralegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "chest": [{"name": "malesalvemakervillagerchest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "malesalvemakervillagerlegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      }
+    ]]]
+  },
+  {
+    "op": "add",
+    "path": "/items/femalefeolviera",
+    "value": [[0, [
+      {
+        "chest": [{"name": "femalecasualvillagervierachest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "femalecasualvillagervieralegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "chest": [{"name": "femalesalvemakervillagerchest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "femalesalvemakervillagerlegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      }
+    ]]]
+  },
+  {
+    "op": "add",
+    "path": "/items/malefeolviera",
+    "value": [[0, [
+      {
+        "chest": [{"name": "malecasualvillagervierachest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "malecasualvillagervieralegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "chest": [{"name": "malesalvemakervillagerchest", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "malesalvemakervillagerlegs", "parameters": { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      }
+    ]]]
+  },
+  {
+    "op": "add",
+    "path": "/items/moogle",
+    "value": [
+      [0, [{
+        "head": [{"name": "moogle_freelancer1head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "chest": [{"name": "moogle_freelancer1chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "moogle_freelancer1legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "head" : [ { "name" : "moogle_freelancer2head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+		"chest" : [ { "name" : "moogle_freelancer2chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+        "legs" : [ { "name" : "moogle_freelancer2legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ]
+          }]]
+    ]
+  }
+]

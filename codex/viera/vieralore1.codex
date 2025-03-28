@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore1",
+  "title" : "The Green Word: Whisperings of the Wood",
+  "description" : "A Viera scholar's writings on spiritual connections.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Whispers of the Wood^reset;\n\nTo listen is to live. The forest speaks in the rustle of leaves, in the whisper of the wind between ancient branches. Those who walk the verdant paths in silence shall hear the counsel of the roots and the murmur of the canopy.",
+
+	"Close your eyes and feel the pulse of life beneath your feet; this is the rhythm of the Green Word, echoing from the First Tree to the last leaf that falls."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

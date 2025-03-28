@@ -1,0 +1,30 @@
+{
+    "id": "vierawaterfalls",
+    "title": "Viera Waterfalls",
+    "description": "A book of schematics for creating waterfalls with Viera aesthetics.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the process and schematics for setting up many different types and heights of waterfalls in Viera style. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "Viera_Waterfall_Natural_16",
+            "Viera_Waterfall_Natural_32",
+            "Viera_Waterfall_Natural_48",
+            "Viera_Waterfall_Natural_64",
+            "Viera_Waterfall_Natural_80",
+            "Viera_Waterfall_Natural_96",
+            "Viera_Waterfall_Natural_112",
+            "Viera_Waterfall_Statue_16",
+            "Viera_Waterfall_Statue_32",
+            "Viera_Waterfall_Statue_48",
+            "Viera_Waterfall_Statue_64",
+            "Viera_Waterfall_Statue_80",
+            "Viera_Waterfall_Statue_96",
+            "Viera_Waterfall_Statue_112"
+			
+        ],
+        "rarity": "Rare",
+        "price": 275
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "moogleshipsink",
+  "colonyTags" : ["moogle","cooking", "moogleship"],
+  "rarity" : "Common",
+  "description" : "A compact sink for a ship.",
+  "shortdescription" : "Moogle Kitchen Sink",
+  "race" : "moogle",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+  "learnBlueprintsOnPickup" : [ "moogleshipsink" ],
+
+  "apexDescription" : "This sink is a little small, but gets the job done.",
+  "avianDescription" : "A tiny wash basin.",
+  "floranDescription" : "Place for Floran to wasssh up.",
+  "glitchDescription" : "Intrigued. A small basin for washing.",
+  "humanDescription" : "What a cute sink!",
+  "hylotlDescription" : "Limiting in space, but efficient in design.",
+  "novakidDescription" : "Sure is a tiny sink.",
+  "vieraDescription" : "A clean space to wash up in.",
+  "moogleDescription" : "A wash basin I can reach, kupopo!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moogleshipsink.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1
+    }
+  ]
+}

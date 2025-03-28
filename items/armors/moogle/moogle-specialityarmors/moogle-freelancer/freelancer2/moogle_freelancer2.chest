@@ -1,0 +1,57 @@
+{
+  "itemName" : "moogle_freelancer2chest",
+  "shortdescription" : "Moogle Mechanic Jumpsuit",
+  "description" : "Comfortable jumpsuit typically worn by Moogle mechanics.",
+  "itemTags" : [  ],
+  
+  "category" : "chestarmour",
+  "statSpread" : "lightweight",
+  "statGrowth" : "standard",
+  "species" : "moogle",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 800,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+  
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  
+  "colorOptions" : [
+    /* GREEN */
+    { "7CBF61" : "7CBF61", "63994E" : "63994E", "4A733A" : "4A733A", "345129" : "345129" },
+    /* BLACK */
+    { "7CBF61" : "8C8C8C", "63994E" : "666666", "4A733A" : "3F3F3F", "345129" : "3F3F3F" },
+    /* GREY */
+    { "7CBF61" : "D8D8D8", "63994E" : "BCBCBC", "4A733A" : "8C8C8C", "345129" : "666666" },
+    /* WHITE */
+    { "7CBF61" : "FFFFFF", "63994E" : "E5E5E5", "4A733A" : "C4C4C4", "345129" : "999999" },
+    /* RED */
+    { "7CBF61" : "DB0000", "63994E" : "990000", "4A733A" : "720000", "345129" : "4C0000" },
+    /* ORANGE */
+    { "7CBF61" : "FF6A00", "63994E" : "D85600", "4A733A" : "B24700", "345129" : "933B00" },
+    /* YELLOW */
+    { "7CBF61" : "FDC752", "63994E" : "D8AA47", "4A733A" : "B28C3A", "345129" : "997832" },
+    /* GREEN */
+    { "7CBF61" : "7CBF61", "63994E" : "63994E", "4A733A" : "4A733A", "345129" : "345129" },
+    /* BLUE */
+    { "7CBF61" : "448ECE", "63994E" : "3874A5", "4A733A" : "2B597F", "345129" : "1E3E59" },
+    /* PURPLE */
+    { "7CBF61" : "BF4A88", "63994E" : "993B6D", "4A733A" : "7A2F57", "345129" : "54203C" },
+    /* PINK */
+    { "7CBF61" : "FF7FB6", "63994E" : "CC6692", "4A733A" : "A55276", "345129" : "54203C" },
+    /* BROWN */
+    { "7CBF61" : "B23800", "63994E" : "7F2800", "4A733A" : "591C00", "345129" : "331000" }
+  ]
+}

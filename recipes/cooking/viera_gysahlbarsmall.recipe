@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "viera_gysahlroot", "count" : 2 },
+    { "item" : "viera_gysahlgreens", "count" : 20 }
+  ],
+  "output" : { "item" : "viera_gysahlbarsmall", "count" : 1 },
+  "groups" : [ "craftingfood", "chocobofood" ]
+}

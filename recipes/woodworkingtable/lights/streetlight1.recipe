@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "torch", "count" : 1 },
+	{ "item" : "glass", "count" : 3 }
+  ],
+  "output" : { "item" : "streetlight1", "count" : 1 },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

@@ -1,0 +1,57 @@
+{
+  "itemName" : "vieratier6achest",
+  "shortdescription" : "Huntmaster's Breastplate",
+  "description" : "Aegisalt and Solarium breastplate and pauldron of Viera design.",
+  "itemTags" : [ "tier6armour" ],
+  
+  "category" : "chestarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "accelerator",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "price" : 6400,
+  "level" : 6,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    /* LEAFY GREEN */
+    { "D1E160" : "D1E160", "9BBA3D" : "9BBA3D", "48832F" : "48832F", "1B4C2A" : "1B4C2A", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLACK */
+    { "D1E160" : "BFCCC0", "9BBA3D" : "6F7068", "48832F" : "3B3F3B", "1B4C2A" : "000000", "F2DBA9" : "D80000", "D6B155" : "AD0000", "917948" : "840000", "6D5B36" : "5E0000" },
+    /* GREY */
+    { "D1E160" : "EBE1DC", "9BBA3D" : "ADA197", "48832F" : "696F67", "1B4C2A" : "433539", "F2DBA9" : "8565B1", "D6B155" : "775184", "917948" : "5D4068", "6D5B36" : "47314F" },
+    /* WHITE */
+    { "D1E160" : "FFFFFF", "9BBA3D" : "C7F2F2", "48832F" : "C4C4C4", "1B4C2A" : "8C8C8C", "F2DBA9" : "00DDFF", "D6B155" : "00B9D6", "917948" : "009FB7", "6D5B36" : "007F94" },
+    /* RED */
+    { "D1E160" : "FFC6C6", "9BBA3D" : "EA0000", "48832F" : "AD0000", "1B4C2A" : "660000", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* ORANGE */
+    { "D1E160" : "FFF8B9", "9BBA3D" : "F3A74A", "48832F" : "CA6613", "1B4C2A" : "6F382D", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* YELLOW */
+    { "D1E160" : "FFFBD8", "9BBA3D" : "FFD84D", "48832F" : "E2AF20", "1B4C2A" : "B97C01", "F2DBA9" : "40D65B", "D6B155" : "37B74E", "917948" : "2D9941", "6D5B36" : "267F37" },
+    /* LEAFY GREEN */
+    { "D1E160" : "D1E160", "9BBA3D" : "9BBA3D", "48832F" : "48832F", "1B4C2A" : "1B4C2A", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLUE */
+    { "D1E160" : "D8FFFC", "9BBA3D" : "4FACC8", "48832F" : "39747F", "1B4C2A" : "233C43", "F2DBA9" : "BC4B00", "D6B155" : "A04000", "917948" : "7F3300", "6D5B36" : "592300" },
+    /* PURPLE */
+    { "D1E160" : "E8D8FF", "9BBA3D" : "906EBF", "48832F" : "60497F", "1B4C2A" : "392C4C", "F2DBA9" : "9CABB7", "D6B155" : "7D8993", "917948" : "646E77", "6D5B36" : "41474C" },
+    /* PINK */
+    { "D1E160" : "FFD3CC", "9BBA3D" : "FF9B88", "48832F" : "BF7467", "1B4C2A" : "7F4D44", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* BROWN */
+    { "D1E160" : "FFD0B5", "9BBA3D" : "C6672F", "48832F" : "8C4821", "1B4C2A" : "4C2712", "F2DBA9" : "FF9B88", "D6B155" : "E08879", "917948" : "C17668", "6D5B36" : "A36358" }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "materialId" : 13039,
+  "materialName" : "geometric",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "geometric",
+  "description" : "Geometric carving on ochre mahogany.",
+  "shortdescription" : "Geometric Trim I",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "geometric.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2875
+  }
+}

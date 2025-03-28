@@ -1,0 +1,40 @@
+{
+  "objectName" : "vierasettee3",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "description" : "A cushioned mahogany settee.",
+  "shortdescription" : "Cushioned Settee III",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 115,
+  "health" : 1.5,
+
+  "apexDescription" : "An ornate wooden seating area with decorative cushions.",
+  "avianDescription" : "The soft fabrics make this great seating.",
+  "floranDescription" : "Sssilky chairrr.",
+  "glitchDescription" : "Inspired. Perhaps I should decorate myself with fabric.",
+  "humanDescription" : "A beautiful piece of furniture. Looks so soft.",
+  "hylotlDescription" : "A good spot for meditation.",
+  "novakidDescription" : "What a nice couch!",
+  "vieraDescription" : "A lovely cushioned sofa.",
+
+  "inventoryIcon" : "vierasettee3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierasettee3.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 22]
+
+}

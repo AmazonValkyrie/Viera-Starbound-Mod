@@ -1,0 +1,84 @@
+{
+  "objectName" : "eithnegate1",
+  "colonyTags" : ["viera"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "An unassuming arch holds the way to the Wood.",
+  "shortdescription" : "Gate of the Wood",
+  "offeredQuests" : [ ],
+  "race" : "viera",
+
+  "apexDescription" : "A well carved archway.",
+  "avianDescription" : "The crystals hanging here emanate with such peaceful energy.",
+  "floranDescription" : "A hidden path liesss here.",
+  "glitchDescription" : "Impressed. A sturdy, carved archway with colorful flowers.",
+  "humanDescription" : "What a pretty arrangement of flowers.",
+  "hylotlDescription" : "I sense there is more than meets the eye here.",
+  "novakidDescription" : "A mighty pretty bunch o' flowers.",
+  "vieraDescription" : "The Wood holds many secrets within her boughs.",
+
+  "lightColor" : [131, 168, 168],
+  
+  "flickerPeriod" : 5.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "eithnegate1.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnegate1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-192, 0],
+      "animationPosition" : [0, 125],
+	  
+    //Player Facing Left
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "detectArea" : [ [-11, 0], [11, 5] ]
+    },
+    {
+      "imageLayers" : [ { "image" : "eithnegate1.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnegate1lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-192, 0],
+      "animationPosition" : [1, 125],
+	  
+    //Player Facing Right
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "detectArea" : [ [-9, 0], [13, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/viera/eithnegate1/eithnegate1.animation",
+  "animationParts" : {
+    "bg" : "eithnegate1.png",
+    "fg" : "eithnegate1lit.png"
+  },
+
+  "scripts" : [ "/objects/viera/eithnegate1/eithnegate.lua" ],
+  "scriptDelta" : 20,
+  
+  "inputNodes" : [ [-1, 0], [2, 0] ],
+  "retainObjectParametersInItem" : true,
+
+  // standard behavior on terrestrial worlds; this is magically replaced for non-terrestrial
+  // world (i.e. floating dungeon gates)
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/eithnegatewarp.config",
+
+  "inactiveInteractAction" : "ScriptPane",
+  "inactiveInteractData" : "/interface/scripted/eithnegate/eithnegategui.config"
+}

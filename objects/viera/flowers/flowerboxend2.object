@@ -1,0 +1,34 @@
+{
+  "objectName" : "vieraflowerboxend2",
+  "colonyTags" : ["viera","nature","pretty", "vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 50,
+  "health" : 1.5,
+  "description" : "A lovely carved box of flowers.",
+  "shortdescription" : "Flower Box End II",
+  "race" : "viera",
+
+  "apexDescription" : "A bunch of colorful flowers.",
+  "avianDescription" : "A lovely arrangement of flora.",
+  "floranDescription" : "Bloom scentsss.",
+  "glitchDescription" : "Enamoured. A beautiful grouping of flowers.",
+  "humanDescription" : "Quite a lovely bunch of flowers.",
+  "hylotlDescription" : "So many colorful blooms grouped together.",
+  "novakidDescription" : "A bunch o' flowers.",
+  "vieraDescription" : "These bright blooms color the land of the Wood.",
+
+  "inventoryIcon" : "flowerboxend2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerboxend2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

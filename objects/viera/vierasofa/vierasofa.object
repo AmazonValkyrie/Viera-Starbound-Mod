@@ -1,0 +1,41 @@
+{
+  "objectName" : "vierasofa",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "description" : "A cushioned mahogany sofa.",
+  "shortdescription" : "Viera Sofa",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 85,
+  "health" : 1.5,
+
+  "apexDescription" : "An ornate wooden sofa with decorative cushions.",
+  "avianDescription" : "The pillows make this couch comfortable.",
+  "floranDescription" : "Ssoft pillows.",
+  "glitchDescription" : "Inspired. Perhaps I should decorate myself with fabric.",
+  "humanDescription" : "A gorgeously carved couch with silken cushions.",
+  "hylotlDescription" : "A good spot for meditation.",
+  "novakidDescription" : "What a nice couch!",
+  "vieraDescription" : "A lovely cushioned sofa.",
+
+  "inventoryIcon" : "vierasofaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierasofa.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [5, 22],
+  "sitCoverImage" : "/objects/viera/vierasofa/vierasofacover.png"
+
+}

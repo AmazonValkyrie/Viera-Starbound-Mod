@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore16",
+  "title" : "The Saga of Marpesia: Ch. 1",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;Birth Beneath the Bloodmoon^reset;\n\nMarpesia was born when the moon hung low and red above the Golmore Jungle, its light dappled by the ancient canopy. The elders whispered of omens, of a child marked by destiny. Her ears were long even by Viera standards, and her eyes gleamed silver-reflecting not just the moon's light but the wisdom of ages past.",
+
+	"From her first steps, she was drawn to the bow and the blade, her movements graceful as the deer and swift as the coursing stream. By her twentieth summer, she had bested every hunter in the village, her arrows finding their mark even in the darkened undergrowth. Yet, it was not her strength but her mind that set her apart. She listened to the Green Word with a depth beyond her years, hearing not just the voice of the forest, but the echoes of those who walked it long before."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

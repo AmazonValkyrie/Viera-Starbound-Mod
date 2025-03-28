@@ -1,0 +1,34 @@
+{
+  "objectName" : "crestofwingsm",
+  "colonyTags" : ["malefeol", "pretty", "valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 80,
+  "description" : "A symbol of the male Feol Viera.",
+  "shortdescription" : "The Crest of Wings",
+  "race" : "malefeolviera",
+  "health" : 1.5,
+
+  "apexDescription" : "It's carved entirely from one piece of wood.",
+  "avianDescription" : "This emblem...I've never seen it's equal in carving.",
+  "floranDescription" : "Leafffff?",
+  "glitchDescription" : "Analyse. A soaring bird carved out of wood.",
+  "humanDescription" : "What a beautifully carved crest.",
+  "hylotlDescription" : "The carvings on this wood are smooth and precise.",
+  "novakidDescription" : "Another bird symbol?",
+  "vieraDescription" : "The Feol crest of Wings. It's the symbol of the forgotten children of Feolthanos.",
+
+  "inventoryIcon" : "crestofwingsmicon.png",
+  "orientations" : [
+    {
+      "image" : "crestofwingsm.png:<color>",
+      "imagePosition" : [-24, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

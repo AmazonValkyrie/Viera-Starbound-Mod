@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/majesticChest",
+    "value": [
+      {
+        "containers": [
+          "vieratreasureurn1",
+          "vieratreasureurn2"
+        ],
+        "treasurePool": "jungleChestTreasure",
+        "minimumLevel": 1
+      }
+    ]
+  }
+]

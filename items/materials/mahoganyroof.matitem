@@ -1,0 +1,10 @@
+{
+  "itemName" : "mahoganyroof",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "mahoganyrooficon.png",
+  "description" : "Vieran mahogany roofing.",
+  "shortdescription" : "Mahogany Roofing",
+
+  "materialId" : 13028
+}

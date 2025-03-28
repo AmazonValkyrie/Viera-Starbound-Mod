@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstonescallop",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstonescallopicon.png",
+  "shortdescription" : "Dalmascan Scalloped Stone",
+  "description" : "Smooth sandstone, painted with scallop motif.",
+
+  "materialId" : 13099
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 13050,
+  "materialName" : "whitewoodcolumnfluting",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "whitewoodcolumnfluting",
+  "description" : "Fluted, whitewood column.",
+  "shortdescription" : "Fluted Whitewood",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "whitewoodcolumnfluting.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2890
+  }
+}

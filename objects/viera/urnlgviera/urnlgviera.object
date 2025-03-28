@@ -1,0 +1,40 @@
+{
+  "objectName" : "urnlgviera",
+  "colonyTags" : ["viera","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 750,
+  "description" : "A large storage urn sculpted by the Viera.",
+  "shortdescription" : "Large Viera Urn",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A clay urn for storage.",
+  "avianDescription" : "An urn for storing items.",
+  "floranDescription" : "Itemsss inssside!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A clay storage urn.",
+  "hylotlDescription" : "What could be inside?",
+  "novakidDescription" : "A huge storage container.",
+  "vieraDescription" : "Crafted by my people to store our intricate wares.",
+
+  "inventoryIcon" : "urnlgvieraicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "urnlgviera.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open_fast.ogg" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close_fast.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "vieraspiritwoodwall2",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "A heavily carved, wooden pillar.",
+  "shortdescription" : "Spiritwood Pillar",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 110,
+  "health" : 3.5,
+  "zlevel" : 2,
+
+  "apexDescription" : "A garish way to line a path.",
+  "avianDescription" : "These structures seem to line the road.",
+  "floranDescription" : "Woodennnn pathwayssss.",
+  "glitchDescription" : "Admiration. An intricate path of decoration.",
+  "humanDescription" : "These walls are pretty impressive.",
+  "hylotlDescription" : "A minor decoration for containing a path.",
+  "novakidDescription" : "Sure is a purdy wall.",
+  "vieraDescription" : "We line many areas of our villages with walls such as these.",
+
+  "inventoryIcon" : "vieraspiritwoodwall2.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieraspiritwoodwall2.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "anchors" : [ ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[0, 4], [-1, 4]
+	  ]	 
+	    
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 10 },
+	{ "item" : "string", "count" : 3 },
+    { "item" : "ironbar", "count" : 3 },
+	{ "item" : "goldbar", "count" : 3 },
+    { "item" : "refinedmagicitecrystal", "count" : 10 }	
+  ],
+  "output" : {
+    "item" : "vierabanner3",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

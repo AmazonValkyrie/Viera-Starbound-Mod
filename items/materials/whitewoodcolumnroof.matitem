@@ -1,0 +1,10 @@
+{
+  "itemName" : "whitewoodcolumnroof",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "whitewoodcolumnrooficon.png",
+  "description" : "Carved whitewood column topper.",
+  "shortdescription" : "Column Topper",
+
+  "materialId" : 13051
+}

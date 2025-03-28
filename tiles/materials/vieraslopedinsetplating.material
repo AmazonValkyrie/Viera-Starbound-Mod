@@ -1,0 +1,22 @@
+{
+  "materialId" : 13111,
+  "materialName" : "vieraslopedinsetplating",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieraslopedinsetplating",
+  "shortdescription" : "Sloped Plating",
+  "description" : "Sloped, metal plating for sturdy building.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieraslopedinsetplating.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 5002
+  }
+}

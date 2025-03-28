@@ -1,0 +1,80 @@
+{
+  "objectName" : "vierabath2",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Uncommon",
+  "printable" : false,
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Mahogany, carved stone and gold make up this ornate bath.",
+  "shortdescription" : "Extravagant Carved Bath",
+  "race" : "viera",
+  "health" : 1.5,
+  
+  "apexDescription" : "An exquisitely carved bath tub.",
+  "avianDescription" : "I've never seen a basin such as this.",
+  "floranDescription" : "Waterrrr.",
+  "glitchDescription" : "Observation. A superbly carved tub.",
+  "humanDescription" : "A tub made of wood..?",
+  "hylotlDescription" : "The carvings of waves remind me of home.",
+  "novakidDescription" : "I do enjoy a hot bath every once in a while.",
+  "vieraDescription" : "A lovely tub for washing.",
+
+  "inventoryIcon" : "vierabath2icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vierabath2.png:<color>.<frame>", "fullbright" : true }, { "image" : "vierabath2lit.png:<color>.<frame>" } ],
+      "sitCoverImage" : "/objects/viera/bathroom/vierabath2/vierabath2overlay.png",
+      "flipImages" : true,
+	  "frames" : 3,
+	  "animationCycle" : 1.0,
+      "imagePosition" : [-32, 0],
+	  "sitPosition" : [-6, 16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "vierabath2.png:<color>.<frame>", "fullbright" : true }, { "image" : "vierabath2lit.png:<color>.<frame>" } ],
+      "sitCoverImage" : "/objects/viera/bathroom/vierabath2/vierabath2overlay.png",
+      "imagePosition" : [-32, 0],
+	  "frames" : 3,
+	  "animationCycle" : 1.0,
+	  "sitPosition" : [-6, 16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+  "particleEmitter" : {
+    "emissionRate" : 0.25,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "animated",
+          "image" : "/animations/transparentpoof/transparentpoof.animation",
+          "size" : 0.75,
+          "opacity":0.1,
+          "color" : [244, 244, 244, 255],
+          "destructionAction" : "fade",
+          "destructionTime" : 4,
+          "initialVelocity" : [0, 2],
+          "timeToLive" : 20,
+          "layer" : "front",
+          "position" : [1.75, 3],
+          "collidesForeground" : false
+        }
+  },
+  "animationPosition" : [-32, 0],
+
+
+   "objectType" : "loungeable",
+   "lightColor" : [247, 239, 210],
+  "sitFlipDirection" : true,
+  "sitEmote" : "happy",
+  "sitStatusEffects" : [
+    "nude"
+  ],
+  "soundEffect" : "/sfx/objects/fountain1.ogg"
+}
+

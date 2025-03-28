@@ -1,0 +1,22 @@
+{
+  "type" : "friendlyvieraguardtenant",
+  "baseType" : "friendlyvieraguard",
+  
+  "levelVariance" : [0, 0],
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "guard"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 10,
+      "nearbyQuestLimit" : 6,
+      "nearbyQuestRange" : 50,
+      "chance" : 1,
+      "flags" : {
+        "guard" : true
+      }
+    }
+  }
+}

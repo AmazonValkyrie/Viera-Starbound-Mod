@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "plantfibre", "count" : 20 },
+    { "item" : "cobblestonematerial", "count" : 20 },	
+    { "item" : "liquidwater", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "Viera_Waterfall_Statue_80",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

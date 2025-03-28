@@ -1,0 +1,41 @@
+{
+  "objectName" : "vierachair2",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "description" : "A soft cushioned chair with open sides.",
+  "shortdescription" : "Cushioned Chair",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 85,
+  "health" : 1.5,
+
+  "apexDescription" : "A soft, and intricately carved wooden chair.",
+  "avianDescription" : "A lovely dark wood chair with a soft cushion.",
+  "floranDescription" : "Pillow make chair sssoft.",
+  "glitchDescription" : "Curious. Who requires so much cushion?",
+  "humanDescription" : "An ornate little chair.",
+  "hylotlDescription" : "A well crafted wooden chair.",
+  "novakidDescription" : "It's a pretty chair.",
+  "vieraDescription" : "Such a soft and beautiful chair.",
+
+  "inventoryIcon" : "vierachair2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierachair2.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/viera/vierachair2/vierachair2cover.png",
+  "sitPosition" : [2, 22]
+
+}

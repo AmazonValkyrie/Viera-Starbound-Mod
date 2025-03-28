@@ -1,0 +1,23 @@
+{
+  "materialId" : 13082,
+  "materialName" : "dalmascanstripe2",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "dalmascanstripe2",
+  "description" : "Painted white stone with stripes at edge.",
+  "shortdescription" : "Stripe Edge Stone",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstripe2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2860
+  }
+}

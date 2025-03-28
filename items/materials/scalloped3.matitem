@@ -1,0 +1,10 @@
+{
+  "itemName" : "scalloped3",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "scalloped3icon.png",
+  "description" : "Vieran scallop motif on mahogany.",
+  "shortdescription" : "Scalloped Trim",
+
+  "materialId" : 13037
+}

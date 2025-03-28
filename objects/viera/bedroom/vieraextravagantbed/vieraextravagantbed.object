@@ -1,0 +1,56 @@
+{
+  "objectName" : "vieraextravagantbed",
+  "colonyTags" : ["viera", "vieravillage", "tier3"],
+  "rarity" : "Uncommon",
+  "description" : "A fluffy bed with fine, ornate fabric drapes.",
+  "shortdescription" : "Extravagant Bed",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 575,
+  "health" : 1.5,
+
+  "apexDescription" : "The intricate craftsmanship is incredible!",
+  "avianDescription" : "Such a beautifully carved bed.",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. Power levels low. Sleep mode required.",
+  "humanDescription" : "I could sleep for days in a bed like this.",
+  "hylotlDescription" : "A beautiful place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "vieraDescription" : "I am cradled by The Wood Herself in a bed such as this.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/viera/bedroom/vieraextravagantbed/vieraextravagantbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed3"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "vieraextravagantbedicon.png",
+  "orientations" : [
+    {
+      "image" : "vieraextravagantbed.png:<color>",
+      "imagePosition" : [-28, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-2, 15],
+	  "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "vieraextravagantbed.png:<color>",
+      "imagePosition" : [-28, 0],
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [-10, 15],
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

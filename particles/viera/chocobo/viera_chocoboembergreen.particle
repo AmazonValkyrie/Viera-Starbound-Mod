@@ -1,0 +1,20 @@
+{
+  "kind" : "viera_chocoboembergreen",
+  "definition" : {
+    "type" : "ember",
+    "color" : [73, 198, 45, 255],
+    "light" : [73, 198, 45],
+    "size" : 1.0,
+    "fade" : 0.9,
+    "timeToLive" : 1.5,
+    "initialVelocity" : [1.0, 4.0],
+    "finalVelocity" : [0.0, -3.0],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "layer" : "front",
+    "variance" : {
+      "initialVelocity" : [7.0, 7.0],
+      "finalVelocity" : [-0.5, -1.0]
+    }
+  }
+}

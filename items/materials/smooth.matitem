@@ -1,0 +1,10 @@
+{
+  "itemName" : "smoothtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "smoothicon.png",
+  "description" : "Smooth Vieran mahogany wood.",
+  "shortdescription" : "Smooth Mahogany",
+
+  "materialId" : 13012
+}

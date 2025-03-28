@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 8 },	
+    { "item" : "campfire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "vieraoven",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

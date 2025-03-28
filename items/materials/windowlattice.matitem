@@ -1,0 +1,10 @@
+{
+  "itemName" : "windowlattice",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "windowlattice.png",
+  "shortdescription" : "Mahogany Lattice",
+  "description" : "Window lattice made of mahogany.",
+
+  "materialId" : 13045
+}

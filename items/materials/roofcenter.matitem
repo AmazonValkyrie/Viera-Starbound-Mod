@@ -1,0 +1,10 @@
+{
+  "itemName" : "roofcenter",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "roofcentericon.png",
+  "description" : "Vieran whitewood roofing.",
+  "shortdescription" : "Roofing Center",
+
+  "materialId" : 13032
+}

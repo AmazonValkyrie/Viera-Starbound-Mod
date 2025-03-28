@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 4 },
+	{ "item" : "leather", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vieradirigible",
+    "count" : 12
+  },
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

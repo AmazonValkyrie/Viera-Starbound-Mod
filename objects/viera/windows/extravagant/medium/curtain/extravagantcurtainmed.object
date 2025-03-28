@@ -1,0 +1,45 @@
+{
+  "objectName" : "extravagantcurtainmed",
+  "shortdescription" : "Embroidered Blue Drapery",
+  "colonyTags" : ["viera", "vieravillage", "pretty" ],
+  "race" : "viera",
+  "rarity" : "Uncommon",
+  "printable" : false,
+  "category" : "wire",
+  "price" : 105,
+  "health" : 1.5,
+
+  "description" : "Embroidered blue fabrics with shade and wooden topper.",
+  "apexDescription" : "Beautiful window decor.",
+  "avianDescription" : "Such elegant window dressings.",
+  "floranDescription" : "Fabricccc on windowsss!",
+  "glitchDescription" : "Observation. Window dressings.",
+  "humanDescription" : "Such gorgeous curtains.",
+  "hylotlDescription" : "These Viera know how to decorate.",
+  "novakidDescription" : "Such purdy window dressin's.",
+  "vieraDescription" : "Such lovely silken curtains.",
+
+ "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "extravagantcurtainmed.png:<color>.off",
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+      "anchors" : [ ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle4.animation",
+  "animationParts" : {
+    "switch" : "extravagantcurtainmed.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ]
+}
+
+

@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore34",
+  "title" : "The Invocation",
+  "description" : "Writings on ancient, Viera spirituality.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;The Rite of Aithri Eithne^reset;\n\nAn ancient Viera ritual beneath the sacred Heart Tree, whose roots cradle the whispers of Eithne and whose branches cradle the sky. It is said that this tree grew from the first seed Eithne planted, its life force intertwined with Hers. Beneath its boughs, the air is heavy with Her presence, and the wind carries Her voice.",
+	
+	"To invoke the rite, a circle is drawn around the chosen one with magicite dust, forming a seal that binds spirit to flesh. The Elders chant in the Old Tongue, their voices harmonizing with the rustling leaves. Their words call to Eithne, pleading for Her guidance, for Her strength.",
+	
+	"The wind stills, the forest holds its breath. And then, Eithne descends, Her spirit flowing through the air like silver mist. She enters the Vessel, Her power coursing through mortal veins, Her wisdom shining through mortal eyes. For a brief time, She walks among Her children, Her voice carrying the weight of ages, Her gaze seeing all. Those who witness this miracle fall to their knees, for to look upon Eithne is to glimpse eternity itself."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

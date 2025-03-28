@@ -1,0 +1,35 @@
+{
+  "objectName" : "woodemblem",
+  "colonyTags" : ["viera", "vieravillage", "pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 50,
+  "health" : 1.5,
+  
+  "description" : "A symbol of the Wood intricately carved from mahogany.",
+  "shortdescription" : "Emblem of the Wood",
+  "race" : "viera",
+
+  "apexDescription" : "It's carved entirely from one piece wood.",
+  "avianDescription" : "This emblem...I've never seen it's equal in carving.",
+  "floranDescription" : "Leafffff?",
+  "glitchDescription" : "Analyse. A natural leaf carved into this wood.",
+  "humanDescription" : "What a beautifully carved leaf.",
+  "hylotlDescription" : "The carvings on this wood are smooth and precise.",
+  "novakidDescription" : "Fancy carvings on painted wood.",
+  "vieraDescription" : "The ancient symbol of the Wood Herself.",
+ 
+  "inventoryIcon" : "woodemblemicon.png",
+  "orientations" : [
+    {
+      "image" : "woodemblem.png:<color>",
+      "imagePosition" : [-7, -10],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

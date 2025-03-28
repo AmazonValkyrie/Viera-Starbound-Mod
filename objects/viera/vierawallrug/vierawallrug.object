@@ -1,0 +1,35 @@
+{
+  "objectName" : "vierawallrug",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 65,
+  "health" : 1.5,
+
+  "description" : "An intricately woven wall tapestry.",
+  "shortdescription" : "Viera Tapestry",
+  "race" : "viera",
+
+  "apexDescription" : "A tapestry. Splendidly woven.",
+  "avianDescription" : "A lovely tapestry.",
+  "floranDescription" : "Bright colour. Rival Floran flowersss.",
+  "glitchDescription" : "Thoughtful. The colours are deep.",
+  "humanDescription" : "What a wonderful tapestry.",
+  "hylotlDescription" : "The Viera appear to enjoy natural colours.",
+  "novakidDescription" : "What a fancy rug!",
+  "vieraDescription" : "An ancient intricate weave of the colors of the Wood.",
+
+  "inventoryIcon" : "vierawallrugicon.png",
+  "orientations" : [
+    {
+      "image" : "vierawallrug.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "vierahistory1",
+  "title" : "The Sylphs of the Wood",
+  "description" : "A tale of ancient Sylphs and Viera.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Sylphs of the Wood^reset;\n\nIn the deepest groves where sunlight dances with shadows, a melody drifts upon the breeze. It is haunting and beautiful, a harmony of whispers that weave through the branches and leaves. This is the ^blue;Song of the Sylphs^reset;, a hymn sung since the first breath of The Wood. It is a prayer, a blessing, and a warning; its meaning ever changing with the will of Eithne.",
+	
+	"No mortal voice can echo its tune, for it is sung by the ^green;Sylphs^reset;, spirits born of wind and light, whose voices are woven from the very breath of Eithne. They are Her eyes and ears, ever watchful, ever vigilant. To hear their song is to be touched by Her grace; to understand it is to glimpse the truth of life itself."
+    	
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 100
+  }
+}

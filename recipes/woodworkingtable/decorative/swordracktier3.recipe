@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "swordracktier3",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

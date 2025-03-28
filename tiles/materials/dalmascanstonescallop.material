@@ -1,0 +1,22 @@
+{
+  "materialId" : 13099,
+  "materialName" : "dalmascanstonescallop",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanstonescallop",
+  "shortdescription" : "Dalmascan Scalloped Stone",
+  "description" : "Smooth sandstone, painted with scallop motif.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstonescallop.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2890
+  }
+}

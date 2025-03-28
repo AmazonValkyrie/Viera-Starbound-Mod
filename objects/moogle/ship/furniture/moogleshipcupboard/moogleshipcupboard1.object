@@ -1,0 +1,43 @@
+{
+  "objectName" : "moogleshipcupboard1",
+  "colonyTags" : ["moogle", "storage", "moogleship"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 95,
+
+  "description" : "A tiny, yet spacious cupboard.",
+  "shortdescription" : "Moogle Ship Cupboard",
+  "race" : "moogle",
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "moogleshipcupboard1" ],
+
+  "apexDescription" : "Useful for adding additional storage to a room.",
+  "avianDescription" : "A wall cabinet, for storing items up high.",
+  "floranDescription" : "Turn wallss into sstorage. Clever.",
+  "glitchDescription" : "Optimistic. Suspended storage. Useful.",
+  "humanDescription" : "A couple of wall cabinets. Good for saving space.",
+  "hylotlDescription" : "A good way to make use of empty space.",
+  "novakidDescription" : "A handy wall mounted cabinet.",
+  "vieraDescription" : "A high cupboard for storing cookwares.",
+  "moogleDescription" : "Great for storing non-perishables, kupo!",
+
+  "inventoryIcon" : "moogleshipcupboard1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moogleshipcupboard1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

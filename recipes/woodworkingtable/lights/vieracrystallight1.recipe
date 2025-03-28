@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedmagicitecrystal", "count" : 5 },
+    { "item" : "goldbar", "count" : 3 }	
+  ],
+  "output" : {
+    "item" : "vieracrystallight1",
+    "count" : 4
+  },
+  "groups" : [ "woodworkingtable", "lights", "all" ]
+}

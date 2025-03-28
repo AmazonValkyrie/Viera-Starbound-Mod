@@ -1,0 +1,53 @@
+{
+  "objectName" : "vierabath",
+  "colonyTags" : ["viera", "vieravillage"],
+  "rarity" : "Uncommon",
+  "printable" : false,
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Glazed mahogany carved with a scroll work design to embody the waves.",
+  "shortdescription" : "Mahogany Bath Tub",
+  "race" : "viera",
+  "health" : 1.5,
+  
+  "apexDescription" : "An exquisitely carved bath tub.",
+  "avianDescription" : "I've never seen a basin such as this.",
+  "floranDescription" : "Waterrrr.",
+  "glitchDescription" : "Observation. A superbly carved tub.",
+  "humanDescription" : "A tub made of wood..?",
+  "hylotlDescription" : "The carvings of waves remind me of home.",
+  "novakidDescription" : "I do enjoy a hot bath every once in a while.",
+  "vieraDescription" : "A lovely tub for washing.",
+
+  "inventoryIcon" : "vierabathicon.png",
+  "orientations" : [
+    {
+      "image" : "vierabath.png:<color>",
+      "sitCoverImage" : "/objects/viera/bathroom/vierabath/vierabathoverlay.png",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+	  "sitPosition" : [0, 20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "vierabath.png:<color>",
+      "sitCoverImage" : "/objects/viera/bathroom/vierabath/vierabathoverlay.png",
+      "imagePosition" : [-16, 0],
+	  "sitPosition" : [-9, 20],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+
+   "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitEmote" : "happy",
+  "sitStatusEffects" : [
+    "nude"
+  ]
+}
+

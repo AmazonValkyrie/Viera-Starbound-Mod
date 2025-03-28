@@ -1,0 +1,59 @@
+{
+  "objectName" : "triskelewalllight",
+  "colonyTags" : ["viera","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 90,
+  "description" : "An illuminated symbol, carved from crystal.",
+  "shortdescription" : "Triskele Light",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "Three illuminated orbs?",
+  "avianDescription" : "What could this symbol mean?",
+  "floranDescription" : "Shiny stonessss.",
+  "glitchDescription" : "Contemplation. What deeper meaning does this symbol hold?",
+  "humanDescription" : "This symbol is so familiar. Are these crystals?",
+  "hylotlDescription" : "The peaceful energy that echoes from this symbol is food for the spirit.",
+  "novakidDescription" : "Just a couple o' shiny stones.",
+  "vieraDescription" : "An ancient symbol of the Wood, carved from Magicite.",
+  
+  "lightColor" : [107, 208, 208],
+  
+    "particleEmitter" : {
+    "emissionRate" : 0.5,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [0, 8],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/sparkles/sparkle2.animation",
+      "size" : 1.0,
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [0, 0],
+      "timeToLive" : 1,
+      "layer" : "front"
+    },
+
+    "particleVariance" : {
+      "position" : [0.875, 0.875]
+    }
+  }, 
+
+  "inventoryIcon" : "triskelewalllighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "triskelewalllight.png:<color>", "fullbright" : true }, { "image" : "triskelewalllightlit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

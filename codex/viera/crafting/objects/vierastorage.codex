@@ -1,0 +1,31 @@
+{
+    "id": "vierastorage",
+    "title": "Viera Storage",
+    "description": "A book of plans detailing how to craft various Viera storage receptacles.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating a variety of Viera storage for many needs. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "bookcase2",
+            "bookcase3",
+            "bookcase4",
+            "bookcase5",
+            "bookcase6a",
+            "bookcase6b",
+            "bookcase7",
+			"chestlgviera2",
+			"moogleurn1",
+			"moogleurn2",
+			"urnlgviera",
+			"vieradualitystorage",
+			"vierafabricboltdisplay1",
+			"vieratreasureurn1",
+			"vieratreasureurn2"
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 275
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "kind" : "viera_magicitesparkle",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/sparkles/sparkle4.animation",
+    "position" : [0, 0],
+    "size" : 1,
+    "light" : [28, 168, 168],
+    "fade" : 0.5,
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "initialVelocity" : [0.0, 7],
+    "finalVelocity" : [0.0, 1],
+    "approach" : [0, 1],
+    "timeToLive" : 1,
+    "layer" : "front",
+    "variance" : {
+      "initialVelocity" : [0, 7],
+      "finalVelocity" : [0, 1],
+      "position" : [1, 0],
+      "size" : 1.375
+    }
+  }
+} 

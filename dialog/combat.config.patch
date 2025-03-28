@@ -1,0 +1,515 @@
+[
+	{
+		"op": "add",
+		"path": "/reattack/viera",
+		"value": {
+			"default": [
+				"So you have returned?",
+				"You invite my wrath again?",
+				"You won't escape this time!",
+				"What have you returned for?",
+				"You will not lose me so easily."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/viera",
+		"value": {
+			"default": [
+				"You will not evade us!",
+				"You shall not perservere!",
+				"Do not let them flee!",
+				"You will be subdued."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/viera",
+		"value": {
+			"default": [
+				"I take no pleasure in this act.",
+				"May the Wood guide your soul onward.",
+				"Forgive me. I did not wish to take your life.",
+				"You left me no choice. I must safeguard my homeland.",
+				"Our home remains safe...for now. Never forget Ivalice."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/viera",
+		"value": {
+			"default": [
+				"You may have lost my sight now, but the Wood watches you!",
+				"We hear all that take place within the trees, we will find you.",
+				"Return to this land, and we will take action!.",
+				"The Wood will find you, should you seek violence here again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/viera",
+		"value": {
+			"default": [
+				"You cannot hide, the Wood will find you!",
+				"We stand on the ready should you show your face again.",
+				"I won't forget your face.",
+				"My eyes and ears will be watching for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/viera",
+		"value": {
+			"default": [
+				"Obstacles stand in my way!",
+				"You are wilier than you look.",
+				"Your cunning will not save you from a Viera.",
+				"You believe you are safe? I will reach you.",
+				"Distance saves you for now, but not forever."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/viera",
+		"value": {
+			"default": [
+				"For the safety of our people!",
+				"I wish no ill against you, but I will protect this land!",
+				"We will not let another overtake our homeland again!",
+				"I will succeed in silencing our enemy."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/reattack/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"So you have returned?",
+				"You invite my wrath again?",
+				"You won't escape this time!",
+				"What have you returned for?",
+				"You will not lose me so easily."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"You will not evade us!",
+				"You shall not perservere!",
+				"Do not let them flee!",
+				"You will be subdued."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I take no pleasure in this act.",
+				"May the Wood guide your soul onward.",
+				"Forgive me. I did not wish to take your life.",
+				"You left me no choice. I must safeguard my homeland.",
+				"Our home remains safe...for now. Never forget Ivalice."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"You may have lost my sight now, but the Wood watches you!",
+				"We hear all that take place within the trees, we will find you.",
+				"Return to this land, and we will take action!.",
+				"The Wood will find you, should you seek violence here again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"You cannot hide, the Wood will find you!",
+				"We stand on the ready should you show your face again.",
+				"I won't forget your face.",
+				"My eyes and ears will be watching for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Obstacles stand in my way!",
+				"You are wilier than you look.",
+				"Your cunning will not save you from a Viera.",
+				"You believe you are safe? I will reach you.",
+				"Distance saves you for now, but not forever."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"For the safety of our people!",
+				"I wish no ill against you, but I will protect this land!",
+				"We will not let another overtake our homeland again!",
+				"I will succeed in silencing our enemy."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/reattack/femalefeolviera",
+		"value": {
+			"default": [
+				"So you have returned?",
+				"You invite my wrath again?",
+				"You won't escape this time!",
+				"What have you returned for?",
+				"You will not lose me so easily."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/femalefeolviera",
+		"value": {
+			"default": [
+				"You will not evade us!",
+				"You shall not perservere!",
+				"Do not let them flee!",
+				"You will be subdued."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/femalefeolviera",
+		"value": {
+			"default": [
+				"I take no pleasure in this act.",
+				"May the Wood guide your soul onward.",
+				"Forgive me. I did not wish to take your life.",
+				"You left me no choice. I must safeguard my homeland.",
+				"Our home remains safe...for now. Never forget Ivalice."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/femalefeolviera",
+		"value": {
+			"default": [
+				"You may have lost my sight now, but the Wood watches you!",
+				"We hear all that take place within the trees, we will find you.",
+				"Return to this land, and we will take action!.",
+				"The Wood will find you, should you seek violence here again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/femalefeolviera",
+		"value": {
+			"default": [
+				"You cannot hide, the Wood will find you!",
+				"We stand on the ready should you show your face again.",
+				"I won't forget your face.",
+				"My eyes and ears will be watching for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/femalefeolviera",
+		"value": {
+			"default": [
+				"Obstacles stand in my way!",
+				"You are wilier than you look.",
+				"Your cunning will not save you from a Viera.",
+				"You believe you are safe? I will reach you.",
+				"Distance saves you for now, but not forever."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/femalefeolviera",
+		"value": {
+			"default": [
+				"For the safety of our people!",
+				"I wish no ill against you, but I will protect this land!",
+				"We will not let another overtake our homeland again!",
+				"I will succeed in silencing our enemy."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/reattack/maleveenaravaviera",
+		"value": {
+			"default": [
+				"So you have returned?",
+				"You invite my wrath again?",
+				"You won't escape this time!",
+				"What have you returned for?",
+				"You will not lose me so easily."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/maleveenaravaviera",
+		"value": {
+			"default": [
+				"You will not evade us!",
+				"You shall not perservere!",
+				"Do not let them flee!",
+				"You will be subdued."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I take no pleasure in this act.",
+				"May the Wood guide your soul onward.",
+				"Forgive me. I did not wish to take your life.",
+				"You left me no choice. I must safeguard my homeland.",
+				"Our home remains safe...for now. Never forget Ivalice."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/maleveenaravaviera",
+		"value": {
+			"default": [
+				"You may have lost my sight now, but the Wood watches you!",
+				"We hear all that take place within the trees, we will find you.",
+				"Return to this land, and we will take action!.",
+				"The Wood will find you, should you seek violence here again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/maleveenaravaviera",
+		"value": {
+			"default": [
+				"You cannot hide, the Wood will find you!",
+				"We stand on the ready should you show your face again.",
+				"I won't forget your face.",
+				"My eyes and ears will be watching for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Obstacles stand in my way!",
+				"You are wilier than you look.",
+				"Your cunning will not save you from a Viera.",
+				"You believe you are safe? I will reach you.",
+				"Distance saves you for now, but not forever."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/maleveenaravaviera",
+		"value": {
+			"default": [
+				"For the safety of our people!",
+				"I wish no ill against you, but I will protect this land!",
+				"We will not let another overtake our homeland again!",
+				"I will succeed in silencing our enemy."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/reattack/malefeolviera",
+		"value": {
+			"default": [
+				"So you have returned?",
+				"You invite my wrath again?",
+				"You won't escape this time!",
+				"What have you returned for?",
+				"You will not lose me so easily."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/malefeolviera",
+		"value": {
+			"default": [
+				"You will not evade us!",
+				"You shall not perservere!",
+				"Do not let them flee!",
+				"You will be subdued."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/malefeolviera",
+		"value": {
+			"default": [
+				"I take no pleasure in this act.",
+				"May the Wood guide your soul onward.",
+				"Forgive me. I did not wish to take your life.",
+				"You left me no choice. I must safeguard my homeland.",
+				"Our home remains safe...for now. Never forget Ivalice."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/malefeolviera",
+		"value": {
+			"default": [
+				"You may have lost my sight now, but the Wood watches you!",
+				"We hear all that take place within the trees, we will find you.",
+				"Return to this land, and we will take action!.",
+				"The Wood will find you, should you seek violence here again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/malefeolviera",
+		"value": {
+			"default": [
+				"You cannot hide, the Wood will find you!",
+				"We stand on the ready should you show your face again.",
+				"I won't forget your face.",
+				"My eyes and ears will be watching for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/malefeolviera",
+		"value": {
+			"default": [
+				"Obstacles stand in my way!",
+				"You are wilier than you look.",
+				"Your cunning will not save you from a Viera.",
+				"You believe you are safe? I will reach you.",
+				"Distance saves you for now, but not forever."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/malefeolviera",
+		"value": {
+			"default": [
+				"For the safety of our people!",
+				"I wish no ill against you, but I will protect this land!",
+				"We will not let another overtake our homeland again!",
+				"I will succeed in silencing our enemy."
+			]
+		}
+	},
+    {
+		"op": "add",
+		"path": "/reattack/moogle",
+		"value": {
+			"default": [
+				"You challenge me again, kupo?",
+		        "You've come back for more, kupo?",
+		        "Don't underestimate me again, kupo!",
+		        "Why do you challenge me again, kupo?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/moogle",
+		"value": {
+			"default": [
+				"Fight it out, kupo!",
+		        "Let me at 'em, kupopo!",
+		        "I'm bristling with moogle moxxy, kupo!",
+		        "I can be fierce when I try, kupo!",
+		        "Kupopo, I'm gonna give 'em what for!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/moogle",
+		"value": {
+			"default": [
+				"Target defeated, kupo!",
+		        "Foe conquered, kupo!",
+		        "The battle is won, kupopo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/moogle",
+		"value": {
+			"default": [
+				"I can't see the enemy, kupo!",
+		        "Is it in hiding or did it flee, kupo?",
+		        "Where did it go, kupo?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/outOfSight/moogle",
+		"value": {
+			"default": [
+				"I lost sight of them, kupo.",
+		        "They must be around here somehwere, kupo.",
+		        "They're gone...or are they, kupopo?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cantReach/moogle",
+		"value": {
+			"default": [
+				"I can't reach them, kupo.",
+		        "The target is too far away, kupopo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cheerOn/moogle",
+		"value": {
+			"default": [
+				"You can win the battle, kupo!",
+		        "You have my support, kupopo!"
+			]
+		}
+	}	
+]

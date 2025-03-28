@@ -1,0 +1,22 @@
+{
+  "materialId" : 13105,
+  "materialName" : "vieraslopedtrimming",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieraslopedtrimming",
+  "shortdescription" : "Sloped Trimming",
+  "description" : "Smooth, carved stone, capable of sloping.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieraslopedtrimming.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 5001
+  }
+}

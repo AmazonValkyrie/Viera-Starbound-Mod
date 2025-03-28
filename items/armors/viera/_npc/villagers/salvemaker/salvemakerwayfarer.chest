@@ -1,0 +1,58 @@
+{
+  "itemName" : "salvemakerwayfarerchest",
+  "shortdescription" : "Salve Maker bodice",
+  "description" : "Viera garb worn by those designated as the salve makers of the Wood.",
+  "itemTags" : [ "salvemakerarmor" ],
+  
+  "style" : "Viera - Cosmetic",
+  "category" : "chestwear",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 75,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "alt/bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "alt/bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  
+  "statusEffects" : ["maxprotection"],
+  
+  "colorOptions" : [
+    /* WHITE */
+    { "FFFFFF" : "FFFFFF", "E5E1DC" : "E5E1DC", "CCC2B7" : "CCC2B7", "AFA69A" : "AFA69A", "8C8377" : "8C8377", "E3E6DF" : "E3E6DF", "C9CCC5" : "C9CCC5", "B2B5AF" : "B2B5AF" },
+    /* BLACK */
+    { "FFFFFF" : "8E988F", "E5E1DC" : "6F7068", "CCC2B7" : "454A44", "AFA69A" : "30332F", "8C8377" : "0E0E0E", "E3E6DF" : "E3E6DF", "C9CCC5" : "C9CCC5", "B2B5AF" : "B2B5AF" },
+    /* GREY */
+    { "FFFFFF" : "BFBFBF", "E5E1DC" : "999999", "CCC2B7" : "808080", "AFA69A" : "636363", "8C8377" : "444444", "E3E6DF" : "E3E6DF", "C9CCC5" : "C9CCC5", "B2B5AF" : "B2B5AF" },
+    /* WHITE */
+    { "FFFFFF" : "FFFFFF", "E5E1DC" : "DBDBDB", "CCC2B7" : "A8978D", "AFA69A" : "716358", "8C8377" : "4F453D", "E3E6DF" : "E8E6E5", "C9CCC5" : "BFBDBD", "B2B5AF" : "A09F9F" },
+    /* RED */
+    { "FFFFFF" : "D14949", "E5E1DC" : "B23E3E", "CCC2B7" : "8C3131", "AFA69A" : "6D2626", "8C8377" : "4C1A1A", "E3E6DF" : "E8E6E5", "C9CCC5" : "BFBDBD", "B2B5AF" : "A09F9F" },
+    /* ORANGE */
+    { "FFFFFF" : "FF9047", "E5E1DC" : "FF7519", "CCC2B7" : "CC5D14", "AFA69A" : "A54C10", "8C8377" : "7C390C", "E3E6DF" : "FFF0AA", "C9CCC5" : "E0D496", "B2B5AF" : "C4B06D" },
+    /* YELLOW */
+    { "FFFFFF" : "FFCE6D", "E5E1DC" : "FFB91B", "CCC2B7" : "E5A000", "AFA69A" : "A57412", "8C8377" : "895E0F", "E3E6DF" : "B23E3E", "C9CCC5" : "8C3131", "B2B5AF" : "6D2626" },
+    /* GREEN */
+    { "FFFFFF" : "92994E", "E5E1DC" : "7A7F41", "CCC2B7" : "BCB0A4", "AFA69A" : "665D37", "8C8377" : "4C4629", "E3E6DF" : "658937", "C9CCC5" : "476026", "B2B5AF" : "384C1E" },
+    /* BLUE */
+    { "FFFFFF" : "A4E1E8", "E5E1DC" : "90C6CC", "CCC2B7" : "CE9C31", "AFA69A" : "5E9E9D", "8C8377" : "497A79", "E3E6DF" : "E5E0C9", "C9CCC5" : "BFBBA8", "B2B5AF" : "A5A291" },
+    /* PURPLE */
+    { "FFFFFF" : "994796", "E5E1DC" : "70346E", "CCC2B7" : "562855", "AFA69A" : "421F41", "8C8377" : "2D152D", "E3E6DF" : "FFF0AA", "C9CCC5" : "E0D496", "B2B5AF" : "C4B06D" },
+    /* PINK */
+    { "FFFFFF" : "FF99A4", "E5E1DC" : "F27986", "CCC2B7" : "BF5F6A", "AFA69A" : "8C464F", "8C8377" : "663339", "E3E6DF" : "F9C6CB", "C9CCC5" : "DDB1B5", "B2B5AF" : "BF999C" },
+    /* BROWN */
+    { "FFFFFF" : "A57578", "E5E1DC" : "875F4B", "CCC2B7" : "644743", "AFA69A" : "493532", "8C8377" : "332422", "E3E6DF" : "AD6183", "C9CCC5" : "844963", "B2B5AF" : "593F4D" }
+
+
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "itemName" : "vieragoldarmorchest",
+  "shortdescription" : "Gold Chestplate",
+  "description" : "An experiment in Viera metallurgy - this stunning golden chestplate makes up for its bulk with extra defense. For the decadent.",
+  "itemTags" : [ "tier3armour" ], 
+  
+  "category" : "chestarmour",
+  "statSpread" : "polycrystal",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 5000,
+  "level" : 3,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+  
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    // GOLD
+    { "FFF48F" : "FFF48F", "FFD84D" : "FFD84D", "E2AF20" : "E2AF20", "B97C01" : "B97C01" },
+    // BLACK
+    { "FFF48F" : "BFCCC0", "FFD84D" : "6F7068", "E2AF20" : "3B3F3B", "B97C01" : "000000" },
+    // GREY
+    { "FFF48F" : "EBE1DC", "FFD84D" : "ADA197", "E2AF20" : "696F67", "B97C01" : "433539" },
+    // WHITE
+    { "FFF48F" : "FFFFFF", "FFD84D" : "C7F2F2", "E2AF20" : "C4C4C4", "B97C01" : "8C8C8C" },
+    // RED
+    { "FFF48F" : "FFC6C6", "FFD84D" : "EA0000", "E2AF20" : "AD0000", "B97C01" : "660000" },
+    // ORANGE
+    { "FFF48F" : "FFF8B9", "FFD84D" : "F3A74A", "E2AF20" : "CA6613", "B97C01" : "6F382D" },
+    // GOLD
+    { "FFF48F" : "FFF48F", "FFD84D" : "FFD84D", "E2AF20" : "E2AF20", "B97C01" : "B97C01" },
+    // GREEN
+    { "FFF48F" : "9BFFD2", "FFD84D" : "1AB26E", "E2AF20" : "137F4E", "B97C01" : "0A472C" },
+    // BLUE
+    { "FFF48F" : "D8FFFC", "FFD84D" : "4FACC8", "E2AF20" : "39747F", "B97C01" : "233C43" },
+    // PURPLE
+    { "FFF48F" : "E8D8FF", "FFD84D" : "906EBF", "E2AF20" : "60497F", "B97C01" : "392C4C" },
+    // PINK
+    { "FFF48F" : "FFD3CC", "FFD84D" : "FF9B88", "E2AF20" : "BF7467", "B97C01" : "7F4D44" },
+    // BROWN
+    { "FFF48F" : "FFD0B5", "FFD84D" : "C6672F", "E2AF20" : "8C4821", "B97C01" : "4C2712" }
+  ]
+}

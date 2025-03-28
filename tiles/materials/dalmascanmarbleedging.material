@@ -1,0 +1,22 @@
+{
+  "materialId" : 13090,
+  "materialName" : "dalmascanmarbleedging",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanmarbleedging",
+  "shortdescription" : "Dalmascan Marble Edge I",
+  "description" : "Finely smoothed marble and metalwork.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanmarbleedging.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3100
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 13029,
+  "materialName" : "dotted1tile",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "dotted1tile",
+  "description" : "Vieran whitewood with circular carving.",
+  "shortdescription" : "Circular Carving",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dotted1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2875 
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "vieragramophone",
+  "shortdescription" : "Gramophone",
+  "colonyTags" : ["viera","vieravillage","pretty"],
+  "race" : "viera",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 150,
+
+  "description" : "A gramophone of Viera design.",
+  "apexDescription" : "An ornate musical device.",
+  "avianDescription" : "What a calming melody, it plays.",
+  "floranDescription" : "Musssic boxxxx.",
+  "glitchDescription" : "Curious. What pleasant music in a place like this.",
+  "humanDescription" : "Haven't seen one of these in a while.",
+  "hylotlDescription" : "A music box of some sort.",
+  "novakidDescription" : "Plays a purdy tune!",
+  "vieraDescription" : "The music of life is carried on the winds.",
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "vieragramophone.animation",
+  "animationPosition" : [-8, 0],
+  "orientations" : [
+    {
+      "image" : "vieragramophone.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vieragramophone.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/viera/viera_musicbox.lua" ],
+  "fadeInTime" : 1.0,
+  "fadeOutTime" : 1.0,
+  "tracks" : [
+    [ "/music/viera/forest/forest_theme_01_noanimals.ogg" ],
+    [ "/music/viera/forest/forest_theme_02_noanimals.ogg" ],
+    [ "/music/viera/forest/forest_theme_03_noanimals.ogg" ],
+    [ "/music/viera/avva/avva_song_01.ogg" ],
+    [ "/music/viera/avva/avva_song_02.ogg" ],
+    [ "/music/viera/chocobo/chocobo_theme_01.ogg" ],
+    [ "/music/viera/chocobo/chocobo_theme_02.ogg" ]
+  ]
+}

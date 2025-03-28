@@ -1,0 +1,140 @@
+{
+  "kind" : "femalefeolviera",
+  
+    "charCreationTooltip" : {
+      "title" : "Feol Viera",
+      "subTitle" : "O2",
+      "description" : "Descendants of the Aegyl leader Feolthanos who fell in love with a full-blooded Viera, giving birth to this race that carries his name."
+  },
+  "humanoidConfig" : "/species/vierahumanoid.config",
+  "nameGen" : [ "/species/vierafemalenamegen.config:names", "/species/vierafemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/vierahurt_female2.ogg", "/sfx/humanoid/vierahurt_female3.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Ear style", "Hair colour", "Shirt colour", "Legwear colour", "VIERA", "Stance" ],
+  "skull" : "/humanoid/viera/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FEFFFFFF?replace=9bd4ffFF=9EFFFFFF?replace=31a6ffFF=00FFFFFF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+
+ 
+    ]
+  },
+  "altOptionAsFacialMask" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/vieraspiral.png",
+      "characterImage" : "/interface/title/vierafemale.png",
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "male6", "male12" ],
+      "shirt" : [ "femalesalvemakervillagerchest", "femalecasualvillagervierachest" ],
+      "pants" : [ "femalesalvemakervillagerlegs", "femalecasualvillagervieralegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [],
+      "facialMaskGroup" : "ear style",
+      "facialMask" : [ "Agile2", "Feol" ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/vieraspiral.png",
+      "characterImage" : "/interface/title/vierafemale.png",
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "male6", "male12" ],
+      "shirt" : [ "femalesalvemakervillagerchest", "femalecasualvillagervierachest" ],
+      "pants" : [ "femalesalvemakervillagerlegs", "femalecasualvillagervieralegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [],
+      "facialMaskGroup" : "ear style",
+      "facialMask" : [ "Agile2", "Feol" ]
+    }
+  ],
+  "bodyColor" : [
+	//FEOL
+    { "D09F7E" : "F4DAC3", "A97F67" : "F7CDAC", "8E6E59" : "CCA98C", "5B4839" : "AA8363" },
+	{ "D09F7E" : "FFD7B2", "A97F67" : "FFB981", "8E6E59" : "D39C6C", "5B4839" : "C7815B" },
+	{ "D09F7E" : "ECD6B1", "A97F67" : "E2BB93", "8E6E59" : "D89361", "5B4839" : "9A5F3D" },
+	{ "D09F7E" : "F1DABB", "A97F67" : "EFBDA7", "8E6E59" : "CF916A", "5B4839" : "A2613B" },
+	{ "D09F7E" : "D8C8BC", "A97F67" : "D8AD8F", "8E6E59" : "D18B67", "5B4839" : "8C5433" },
+	{ "D09F7E" : "DAC0AF", "A97F67" : "D1AD8B", "8E6E59" : "CF957D", "5B4839" : "AC725C" },
+	{ "D09F7E" : "CCB1A3", "A97F67" : "DBA385", "8E6E59" : "B48269", "5B4839" : "996E5A" },
+	{ "D09F7E" : "E5BDA0", "A97F67" : "CC956E", "8E6E59" : "A87B5A", "5B4839" : "89644A" },
+	{ "D09F7E" : "DFD2CA", "A97F67" : "CCACA1", "8E6E59" : "AF8E83", "5B4839" : "956758" },
+	{ "D09F7E" : "D2BBB3", "A97F67" : "D1A292", "8E6E59" : "B78E80", "5B4839" : "99766B" },
+	{ "D09F7E" : "E2BEAA", "A97F67" : "CCA087", "8E6E59" : "BE8C77", "5B4839" : "997866" },
+	{ "D09F7E" : "F6C4B9", "A97F67" : "E4AB97", "8E6E59" : "D9907F", "5B4839" : "936257" },
+	{ "D09F7E" : "D8C1A9", "A97F67" : "D8B48C", "8E6E59" : "B28875", "5B4839" : "96625A" },
+	{ "D09F7E" : "F2BB9D", "A97F67" : "D3AEA1", "8E6E59" : "B27667", "5B4839" : "724543" }
+  ],
+  
+  "undyColor" : [ "" ],
+  
+  "hairColor" : [
+    //CANDY PINK
+    { "d9c189" : "FFEFED", "B29F72" : "FFD7D1", "a38d59" : "FFBCB2", "8C7147" : "FF8E88", "735e3a" : "FF6159" }, 
+	//CORAL
+    { "d9c189" : "FFD3CC", "B29F72" : "FF9F8C", "a38d59" : "FF7459", "8C7147" : "D35E4A", "735e3a" : "96201B" },
+    //GINGER	
+    { "d9c189" : "E86D46", "B29F72" : "D1422E", "a38d59" : "B23929", "8C7147" : "991F1B", "735e3a" : "7A1916" }, 
+	//CRIMSON
+    { "d9c189" : "CC2844", "B29F72" : "AD294A", "a38d59" : "982441", "8C7147" : "69243F", "735e3a" : "4C1A2E" }, 
+	//RUSTY RED
+    { "d9c189" : "AD2716", "B29F72" : "8F1F1B", "a38d59" : "731A1A", "8C7147" : "591414", "735e3a" : "380C0C" },
+	//LIGHT BROWN
+    { "d9c189" : "BE471B", "B29F72" : "9B2F0C", "a38d59" : "7A2409", "8C7147" : "541D0C", "735e3a" : "331107" }, 
+	//DARK BROWN
+    { "d9c189" : "7D3C1C", "B29F72" : "4D240B", "a38d59" : "351907", "8C7147" : "211004", "735e3a" : "000000" },
+	//ASH BROWN
+    { "d9c189" : "7F5A39", "B29F72" : "5B3523", "a38d59" : "3F2116", "8C7147" : "26130D", "735e3a" : "000000" }, 
+	//NUTMEG
+    { "d9c189" : "A6671D", "B29F72" : "915622", "a38d59" : "743E1D", "8C7147" : "592E16", "735e3a" : "3A1E0E" }, 
+	//DARK BLONDE
+    { "d9c189" : "EFA838", "B29F72" : "BE6D1D", "a38d59" : "A05A19", "8C7147" : "834012", "735e3a" : "602E0D" }, 
+	//PEACH
+    { "d9c189" : "EAA758", "B29F72" : "CD8B3D", "a38d59" : "AF7634", "8C7147" : "93682C", "735e3a" : "7C5725" }, 
+	//BLONDE
+    { "d9c189" : "E6E756", "B29F72" : "C7AC3F", "a38d59" : "A9882F", "8C7147" : "8C6F27", "735e3a" : "725B20" }, 
+	//CREAM BLONDE
+    { "d9c189" : "F1D992", "B29F72" : "DABA5E", "a38d59" : "B59A4D", "8C7147" : "998141", "735e3a" : "7F6C36" },
+	//PALE BLONDE
+    { "d9c189" : "F2EBA3", "B29F72" : "DCD28C", "a38d59" : "C2B677", "8C7147" : "A89D68", "735e3a" : "8E8558" },
+	//MOSS GREEN
+    { "d9c189" : "A7D13D", "B29F72" : "83AD22", "a38d59" : "6B880B", "8C7147" : "586D09", "735e3a" : "435407" }, 
+	//EMERALD GREEN
+    { "d9c189" : "4ECE61", "B29F72" : "34AE47", "a38d59" : "228A38", "8C7147" : "1C702C", "735e3a" : "145120" }, 
+	//FOREST GREEN
+    { "d9c189" : "3B7F44", "B29F72" : "2E6A38", "a38d59" : "23512B", "8C7147" : "183F21", "735e3a" : "0E2614" },
+	//CRYSTAL BLUE
+    { "d9c189" : "5BD5B6", "B29F72" : "4AA9AD", "a38d59" : "3E8E91", "8C7147" : "237082", "735e3a" : "134049" },
+	//SEAFOAM
+    { "d9c189" : "49E193", "B29F72" : "3BA380", "a38d59" : "197C81", "8C7147" : "136063", "735e3a" : "0E4547" }, 
+	//AZURE
+    { "d9c189" : "61BCDE", "B29F72" : "5381CC", "a38d59" : "476EAD", "8C7147" : "2C489E", "735e3a" : "1B2D63" }, 
+	//COBALT
+	{ "d9c189" : "5D8BC7", "B29F72" : "4D55B0", "a38d59" : "2E2A73", "8C7147" : "201E51", "735e3a" : "12102D" },
+	//DARK BLUE
+	{ "d9c189" : "425879", "B29F72" : "343965", "a38d59" : "242247", "8C7147" : "15142B", "735e3a" : "07070F" },
+	//BERRY
+	{ "d9c189" : "7F3B6D", "B29F72" : "6A2E53", "a38d59" : "592239", "8C7147" : "42192A", "735e3a" : "280F1A" },
+	//PURPLE
+	{ "d9c189" : "653B7F", "B29F72" : "502B63", "a38d59" : "3C2049", "8C7147" : "25142D", "735e3a" : "100814" },
+	//VIOLET
+	{ "d9c189" : "CD72D9", "B29F72" : "AC4DA6", "a38d59" : "913B86", "8C7147" : "722F6A", "735e3a" : "4C1F47" },
+	//HOT PINK
+	{ "d9c189" : "D26BA4", "B29F72" : "A54669", "a38d59" : "8C3C5A", "8C7147" : "6B2E45", "735e3a" : "4C2031" },
+	//LAVENDAR
+	{ "d9c189" : "AD68E2", "B29F72" : "8D41B0", "a38d59" : "7A3899", "8C7147" : "6A2980", "735e3a" : "512063" },
+	//ASH GREY
+	{ "d9c189" : "68553D", "B29F72" : "50422F", "a38d59" : "36261E", "8C7147" : "1E1411", "735e3a" : "000000" },
+	//BLACK
+	{ "d9c189" : "636363", "B29F72" : "494949", "a38d59" : "333333", "8C7147" : "191919", "735e3a" : "000000" },
+	//CHARCOAL
+	{ "d9c189" : "74726F", "B29F72" : "53504D", "a38d59" : "33312F", "8C7147" : "231F19", "735e3a" : "000000" },
+	//BLUE GREY
+	{ "d9c189" : "6F6D85", "B29F72" : "525269", "a38d59" : "3E4352", "8C7147" : "242730", "735e3a" : "0F1014" },
+	//LIGHT GREY
+	{ "d9c189" : "B8B8B8", "B29F72" : "828282", "a38d59" : "606060", "8C7147" : "4C4C4C", "735e3a" : "333333" },
+	//WHITE
+	{ "d9c189" : "EAEAEA", "B29F72" : "D3D3D3", "a38d59" : "B8B8B8", "8C7147" : "999999", "735e3a" : "828282" },
+	//VIERA WHITE
+	{ "d9c189" : "FCFCF7", "B29F72" : "E5DAC3", "a38d59" : "CCC2AF", "8C7147" : "B2AA97", "735e3a" : "999182" }
+  ]
+}

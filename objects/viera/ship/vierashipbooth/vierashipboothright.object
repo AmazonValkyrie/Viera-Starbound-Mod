@@ -1,0 +1,50 @@
+{
+  "objectName" : "vierashipboothright",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "rarity" : "Uncommon",
+  "objectType" : "loungeable",
+  "description" : "A soft cushioned booth.",
+  "shortdescription" : "Viera Ship Booth",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 90,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "vierashipboothright" ],
+
+  "apexDescription" : "A heavy booth with decorative cushions.",
+  "avianDescription" : "This booth looks comfortable.",
+  "floranDescription" : "Ssoft cushionsss.",
+  "glitchDescription" : "Intrigued. A comfortable booth for dining.",
+  "humanDescription" : "This looks like a great place for a meal.",
+  "hylotlDescription" : "A comfortable space to refresh.",
+  "novakidDescription" : "A nice place for grub!",
+  "vieraDescription" : "A comfortable arrangement for dining.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image": "vierashipboothright.png:<color>",
+	  "sitCoverImage" : "/objects/viera/ship/vierashipbooth/vierashipboothrightcover.png",
+	  "direction": "right",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "sitFlipDirection": true,
+      "sitPositions" : [ [-5.5, 19.25] ]
+
+    },
+	{
+      "image": "vierashipboothright.png:<color>",
+	  "sitCoverImage" : "/objects/viera/ship/vierashipbooth/vierashipboothrightcover.png",
+	  "direction": "left",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "sitFlipDirection": false,
+      "sitPositions" : [ [-5.5, 19.25] ]
+
+    }
+	
+  ]
+  
+}

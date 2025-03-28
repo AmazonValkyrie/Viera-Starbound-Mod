@@ -1,0 +1,82 @@
+[
+  {
+    "op": "add",
+    "path": "/simpleReactions/vierawave",
+    "value": {
+      "emote": "happy",
+      "dance": "vierawave",
+      "duration": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/simpleReactions/vierawarmhands",
+    "value": {
+      "dance": "vierawarmhands",
+      "duration": 4
+    }
+  },
+  {
+    "op": "add",
+    "path": "/simpleReactions/vierahylotldance",
+    "value": {
+      "emote": "happy",
+      "dance": "vierahylotldance",
+      "duration": 2
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviorReactions/vieraflirtwithplayer",
+    "value": {
+      "behavior": "reaction-vieraflirtwithplayer"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviorReactions/vieracrouchwarm",
+    "value": {
+      "behavior": "reaction-vieracrouchwarm"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/simpleReactions/mooglewave",
+    "value": {
+      "emote": "happy",
+      "dance": "mooglewave",
+      "duration": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/simpleReactions/mooglewarmhands",
+    "value": {
+      "dance": "mooglewarmhands",
+      "duration": 4
+    }
+  },
+  {
+    "op": "add",
+    "path": "/simpleReactions/mooglehylotldance",
+    "value": {
+      "emote": "happy",
+      "dance": "mooglehylotldance",
+      "duration": 2
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviorReactions/moogleflirtwithplayer",
+    "value": {
+      "behavior": "reaction-moogleflirtwithplayer"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/behaviorReactions/mooglecrouchwarm",
+    "value": {
+      "behavior": "reaction-mooglecrouchwarm"
+    }
+  }
+]

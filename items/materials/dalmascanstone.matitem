@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstone",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstoneicon.png",
+  "shortdescription" : "Dalmascan Smoothstone",
+  "description" : "Sandstone smoothed, and colored in Dalmascan fashion.",
+
+  "materialId" : 13098
+}

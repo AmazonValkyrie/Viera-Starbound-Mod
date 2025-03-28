@@ -1,0 +1,43 @@
+{
+  "objectName" : "vierashipoverheadstorage",
+  "colonyTags" : ["viera", "vieraship", "argo", "storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "An overhead storage locker .",
+  "shortdescription" : "Overhead Storage",
+  "race" : "viera",
+  "category" : "storage",
+  "price" : 100,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "vierashipoverheadstorage" ],
+
+  "apexDescription" : "Convenient overhead storage.",
+  "avianDescription" : "The perfect place to store some items.",
+  "floranDescription" : "Floran find thingsss here.",
+  "glitchDescription" : "Intrigued. This compartment opens.",
+  "humanDescription" : "A great place to store some items during flight.",
+  "hylotlDescription" : "A moderate amount of storage space for travel.",
+  "novakidDescription" : "I can fit a good amount o' stuff in here!",
+  "vieraDescription" : "Storage in unexpected places.",
+
+  "inventoryIcon" : "vierashipoverheadstorageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipoverheadstorage.png:<color>.<key>",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

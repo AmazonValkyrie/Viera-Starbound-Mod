@@ -1,0 +1,37 @@
+{
+  "objectName" : "vieratable",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "An ornate Viera table.",
+  "shortdescription" : "Viera Mahogany Table",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 65,
+  "health" : 1.5,
+
+  "apexDescription" : "A very ornate wooden table.",
+  "avianDescription" : "The most intricate of tables.",
+  "floranDescription" : "Prrrrettty wood table.",
+  "glitchDescription" : "Observation. A very beautiful table.",
+  "humanDescription" : "A gorgeously carved table.",
+  "hylotlDescription" : "Very beautiful.",
+  "novakidDescription" : "What a sturdy table.",
+  "vieraDescription" : "A beautifully carved table of my people.",
+
+  "inventoryIcon" : "tableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

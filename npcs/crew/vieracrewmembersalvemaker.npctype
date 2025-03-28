@@ -1,0 +1,207 @@
+{
+  "type" : "vieracrewmembersalvemaker",
+  "baseType" : "vieracrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "healer",
+        "name" : "Salve Maker",
+        "field" : "Healing",
+		"uniformColorIndex" : 0,
+
+        "benefits" : [
+          {
+            "type" : "Regeneration",
+            "value" : 1
+          }
+        ]
+      },
+	  "defaultUniform" : {
+	    "head" : "vierasalvemakerhead",
+        "chest" : "vierasalvemakerchest",
+        "legs" : "vierasalvemakerlegs"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I can provide healing when necessary."
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "Let me know if you have any medical needs."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "I will provide you with healing whenever necessary."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "I will provide you with healing whenever necessary."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "I will provide you with healing whenever necessary."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "I will provide you with healing whenever necessary."
+            ]
+          }
+        },
+        "fieldBenefit" : {
+          "default" : {
+            "default" : [
+              "You look hurt. Let me assist you.",
+              "Let me help you out!",
+              "I can heal your wounds.",
+              "Come to me for healing."
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vierasalvemakerhead" } ],
+			"chest" : [ { "name" : "vierasalvemakerchest" } ],
+            "legs" : [ { "name" : "vierasalvemakerlegs" } ],
+            "primary" : [ "medkit" ],
+            "sheathedprimary" : [ "npcbow", "npcshortsword" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 150.0
+      },
+	  "protection" : {
+        "baseValue" : 0.75
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+	  "energyRegenPercentageRate" : {
+        "baseValue" : 2.0
+      },
+      "healthRegen" : {
+        "baseValue" : 2.5
+      }
+    }
+  }
+}

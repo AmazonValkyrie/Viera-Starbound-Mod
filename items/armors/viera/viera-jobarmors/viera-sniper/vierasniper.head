@@ -1,0 +1,49 @@
+{
+  "itemName" : "vierasniperhead",
+  "shortdescription" : "Sniper's Headwrap",
+  "description" : "These elite hunters stalk their prey with immense greatbows.",
+  
+  "category" : "headwear",
+  "statSpread" : "sniper",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 25,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* GREEN */
+    { "9FC4B1" : "9FC4B1", "88A998" : "88A998", "738E80" : "738E80", "5A7065" : "5A7065" },
+    /* BLACK */
+    { "9FC4B1" : "7F7F7F", "88A998" : "595959", "738E80" : "333333", "5A7065" : "000000" },
+    /* GREY */
+    { "9FC4B1" : "AFBFCC", "88A998" : "7D8993", "738E80" : "646E77", "5A7065" : "41474C" },
+    /* WHITE */
+    { "9FC4B1" : "FFFFFF", "88A998" : "C9DBED", "738E80" : "95BBC9", "5A7065" : "728F99" },
+    /* RED */
+    { "9FC4B1" : "D80000", "88A998" : "840000", "738E80" : "680000", "5A7065" : "300000" },
+    /* ORANGE */
+    { "9FC4B1" : "FFA477", "88A998" : "FF8C4F", "738E80" : "C8713D", "5A7065" : "844929" },
+    /* YELLOW */
+    { "9FC4B1" : "FFB970", "88A998" : "E69E50", "738E80" : "C18443", "5A7065" : "996835" },
+    /* GREEN */
+    { "9FC4B1" : "9FC4B1", "88A998" : "88A998", "738E80" : "738E80", "5A7065" : "5A7065" },
+    /* BLUE */
+    { "9FC4B1" : "00C2E0", "88A998" : "0094AA", "738E80" : "007B8E", "5A7065" : "004B56" },
+    /* PURPLE */
+    { "9FC4B1" : "9A76CC", "88A998" : "8565B1", "738E80" : "5D4068", "5A7065" : "302135" },
+    /* PINK */
+    { "9FC4B1" : "FF9B88", "88A998" : "E08879", "738E80" : "C17668", "5A7065" : "A36358" },
+    /* BROWN */
+    { "9FC4B1" : "BC4B00", "88A998" : "7F3300", "738E80" : "592300", "5A7065" : "3F1800" }
+
+  ]
+}

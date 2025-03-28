@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodenslats1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "woodenslats1icon.png",
+  "description" : "Slats of smooth, Vieran mahogany.",
+  "shortdescription" : "Mahogany Slats II",
+
+  "materialId" : 13048
+}

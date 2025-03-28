@@ -1,0 +1,49 @@
+{
+  "itemName" : "vieraelementalisthead",
+  "shortdescription" : "Elementalist Mask",
+  "description" : "The Elementalist calls on spirits of nature to lend her strength.",
+  
+  "category" : "headwear",
+  "statSpread" : "elementalist",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 25,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* GREEN */
+    { "47B250" : "47B250", "337F3A" : "337F3A", "235929" : "235929", "143317" : "143317" },
+    /* BLACK */
+    { "47B250" : "7F7F7F", "337F3A" : "595959", "235929" : "333333", "143317" : "000000" },
+    /* GREY */
+    { "47B250" : "AFBFCC", "337F3A" : "7D8993", "235929" : "646E77", "143317" : "41474C" },
+    /* WHITE */
+    { "47B250" : "FFFFFF", "337F3A" : "C9DBED", "235929" : "95BBC9", "143317" : "728F99" },
+    /* RED */
+    { "47B250" : "D80000", "337F3A" : "840000", "235929" : "680000", "143317" : "300000" },
+    /* ORANGE */
+    { "47B250" : "FFA477", "337F3A" : "FF8C4F", "235929" : "C8713D", "143317" : "844929" },
+    /* YELLOW */
+    { "47B250" : "FFB970", "337F3A" : "E69E50", "235929" : "C18443", "143317" : "996835" },
+    /* GREEN */
+    { "47B250" : "47B250", "337F3A" : "337F3A", "235929" : "235929", "143317" : "143317" },
+    /* BLUE */
+    { "47B250" : "00C2E0", "337F3A" : "0094AA", "235929" : "007B8E", "143317" : "004B56" },
+    /* PURPLE */
+    { "47B250" : "9A76CC", "337F3A" : "8565B1", "235929" : "5D4068", "143317" : "302135" },
+    /* PINK */
+    { "47B250" : "FF9B88", "337F3A" : "E08879", "235929" : "C17668", "143317" : "A36358" },
+    /* BROWN */
+    { "47B250" : "BC4B00", "337F3A" : "7F3300", "235929" : "592300", "143317" : "3F1800" }
+
+  ]
+}

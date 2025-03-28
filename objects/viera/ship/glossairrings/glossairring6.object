@@ -1,0 +1,55 @@
+{
+  "objectName" : "glossairring6",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "scannable" : false,
+  "rarity" : "Common",
+  "description" : "Ivalice technology to make objects light as air for travel.",
+  "shortdescription" : "Gloss Air Ring",
+  "race" : "viera",
+
+  "apexDescription" : "A booster of some sort, I presume.",
+  "avianDescription" : "The rings allow flight somehow.",
+  "floranDescription" : "Sssparkly.",
+  "glitchDescription" : "Analyse. A means of travel with no heat.",
+  "humanDescription" : "This thing seems beyond known technology.",
+  "hylotlDescription" : "Glittering propulsion.",
+  "vieraDescription" : "Technology created by the Humes, adapted for Viera.",
+
+  "category" : "light",
+  "lightColor" : [0, 255, 255],
+  "pointLight" : true,
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "torchicon.png",
+  "orientations" : [
+    {
+      "image" : "glossairring6.png:on.1",
+      "imagePosition" : [-152, -52],
+      "fullbright" : true,
+
+      "collision" : "solid",
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/viera/ship/glossairrings/glossairring.animation",
+  "animationParts" : {
+    "booster" : "glossairring6.png"
+  },
+  "animationPosition" : [-152, -52],
+
+  "soundEffect" : "/sfx/objects/glossairbooster.ogg",
+
+  "scripts" : ["/objects/ship/boosters/boosterflame.lua"],
+  "scriptDelta" : 10,
+
+  "flyingBoosterStates" : {
+    "none" : "off",
+    "disembarking" : "off",
+    "warp" : "turnOn",
+    "arriving" : "turnOff"
+  }
+}

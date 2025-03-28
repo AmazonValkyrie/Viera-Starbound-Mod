@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "vieraladderpath2",
+    "count" : 12
+  },
+  "duration" : 0.1,
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

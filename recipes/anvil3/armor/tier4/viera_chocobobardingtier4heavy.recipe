@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 15 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "silk", "count" : 1 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "viera_chocobobardingtier4heavy", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

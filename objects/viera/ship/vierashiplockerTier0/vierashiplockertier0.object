@@ -1,0 +1,43 @@
+{
+  "objectName" : "vierashiplockerTier0",
+  "colonyTags" : ["viera","storage", "vieraship", "argo"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "viera",
+  
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "This might be useful if it weren't broken.",
+  "avianDescription" : "For storing lots of useful items. It looks broken.",
+  "floranDescription" : "Wont opennn.",
+  "glitchDescription" : "Curious. Something prevents it from opening.",
+  "humanDescription" : "The hatch is stuck.",
+  "hylotlDescription" : "Something is preventing it from opening.",
+  "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
+  "vieraDescription" : "It won't budge until the crystal is reset.",
+
+  "inventoryIcon" : "shiplockericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "vierashiplockerTier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 4,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+  
+}

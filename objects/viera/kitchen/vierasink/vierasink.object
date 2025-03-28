@@ -1,0 +1,44 @@
+{
+  "objectName" : "vierasink",
+  "colonyTags" : ["viera", "storage","vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container", 
+  "race" : "viera",
+  "health" : 1.5,
+  "category" : "decorative",
+  "price" : 65,
+  
+  "description" : "A brass sink with carved mahogany cabinet.",
+  "shortdescription" : "Viera Sink",
+
+  "apexDescription" : "A kitchen sink.",
+  "avianDescription" : "A water basin.",
+  "floranDescription" : "Turn handle water come out!",
+  "glitchDescription" : "Identify. A sink.",
+  "humanDescription" : "A nice sink. I wonder if the water is fresh.",
+  "hylotlDescription" : "Water!",
+  "novakidDescription" : "Nice sink.",
+  "vieraDescription" : "A lovely sink for washing.",
+
+  "inventoryIcon" : "vierasinkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierasink.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

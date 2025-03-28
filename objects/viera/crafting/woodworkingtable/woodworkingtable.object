@@ -1,0 +1,56 @@
+{
+  "objectName" : "woodworkingtable",
+  "colonyTags" : ["viera","crafting"],
+  "rarity" : "Uncommon",
+  "price" : 200,  
+  "description" : "For superior carving of the great Viera Wood",
+  "shortdescription" : "^orange;Viera Woodworking Table^white;",  
+  "race" : "viera",
+  "category" : "crafting",  
+  "printable" : false,
+  "health" : 1.5,
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniture.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Viera Wood Crafting",
+        "subtitle" : "  Create intricate furniture and textiles!",
+        "icon" : {
+          "file" : "/interface/crafting/vierawoodworkingicon.png"
+        }
+      }
+    },
+    "filter" : [ "woodworkingtable", "craftingfurniture", "craftingfurniture2" ]
+  },
+
+  "apexDescription" : "A table with a bunch of tools for a Viera craftsman.",
+  "avianDescription" : "A chance to display one's ability to create with Viera materials.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create beautiful building materials.",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "A great place to make something.",
+  "vieraDescription" : "I can build a splendid Viera home of the Wood Herself.",
+  
+  "animation" : "woodworkingtable.animation",
+  "inventoryIcon" : "woodworkingtableicon.png",
+  "animationPosition" : [4, 20],
+  "orientations" : [
+    {
+      "dualImage" : "woodworkingtable.png:default.<frame>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 77,
+	  "cycle" : 8.5,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "woodworkingtable"
+}

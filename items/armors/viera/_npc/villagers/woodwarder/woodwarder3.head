@@ -1,0 +1,72 @@
+{
+  "itemName" : "woodwarderhelmet3",
+  "shortdescription" : "Wood Warder's Helmet",
+  "description" : "Helmet for those designated as the warders of the Wood.",
+  "itemTags" : [ "woodwarderarmor" ],
+  
+  "style" : "Viera - Functional",
+  "category" : "headarmour",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 30,
+  "level" : 3,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "colorOptions" : [
+    /* BLACK */
+    { "665E5A" : "665E5A", "4C4644" : "4C4644", "383735" : "383735", "262322" : "262322" },
+    /* BLACK */
+    { "665E5A" : "665E5A", "4C4644" : "4C4644", "383735" : "383735", "262322" : "262322" },
+    /* GREY */
+    { "665E5A" : "CCCCCC", "4C4644" : "A5A5A5", "383735" : "7F7F7F", "262322" : "666666" },
+    /* WHITE */
+    { "665E5A" : "FFFFFF", "4C4644" : "D8D8D8", "383735" : "A8B2B2", "262322" : "7F9E9E" },
+    /* RED */
+    { "665E5A" : "B23E3E", "4C4644" : "8C3131", "383735" : "6D2626", "262322" : "4C1A1A" },
+    /* ORANGE */
+    { "665E5A" : "CC5D14", "4C4644" : "A54C10", "383735" : "7C390C", "262322" : "592908" },
+    /* YELLOW */
+    { "665E5A" : "CCB64D", "4C4644" : "AD9B41", "383735" : "8C7D35", "262322" : "6B6028" },
+    /* GREEN */
+    { "665E5A" : "92994E", "4C4644" : "7A7F41", "383735" : "665D37", "262322" : "4C4629" },
+    /* BLUE */
+    { "665E5A" : "009DCA", "4C4644" : "0089AF", "383735" : "007596", "262322" : "00617C" },
+    /* PURPLE */
+    { "665E5A" : "994796", "4C4644" : "70346E", "383735" : "562855", "262322" : "421F41" },
+    /* PINK */
+    { "665E5A" : "F27986", "4C4644" : "BF5F6A", "383735" : "8C464F", "262322" : "663339" },
+    /* BROWN */
+    { "665E5A" : "605525", "4C4644" : "4C431D", "383735" : "332D13", "262322" : "191609" }
+
+  ]
+}

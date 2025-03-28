@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore6",
+  "title" : "Chronicles of the Green Guardians",
+  "description" : "Recounts a warrior's tale in the battle beneath the Bloodmoon.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Unseen Arrow^reset;\n\nLyra, the Unseen Arrow, moved with the wind, a shadow amongst shadows. Her bow sang with the voice of the hawk, swift and true. In the battle beneath the Bloodmoon, she stood alone against the crimson horde, her figure but a whisper in the fog.",
+
+	"When dawn broke, the invaders lay still, arrows blooming like silver petals from their chests. Yet no trace of Lyra remained, save for the rustle of leaves in mourning."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

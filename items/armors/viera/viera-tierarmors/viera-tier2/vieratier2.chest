@@ -1,0 +1,57 @@
+{
+  "itemName" : "vieratier2chest",
+  "shortdescription" : "Journeyer's Breastplate",
+  "description" : "Tungsten breastplate and pauldrons of Viera design.",
+  "itemTags" : [ "tier2armour" ],
+  
+  "category" : "chestarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "standard",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 2400,
+  "level" : 2,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    // TUNGSTEN
+    { "D6D8DA" : "D6D8DA", "B8BABD" : "B8BABD", "72767D" : "72767D", "3B3E42" : "3B3E42", "007F94" : "007F94", "055B75" : "055B75", "002B2B" : "002B2B" },
+    // BLACK
+    { "D6D8DA" : "BFCCC0", "B8BABD" : "6F7068", "72767D" : "3B3F3B", "3B3E42" : "000000", "007F94" : "D80000", "055B75" : "840000", "002B2B" : "5E0000" },
+    // GREY
+    { "D6D8DA" : "D6D8DA", "B8BABD" : "B8BABD", "72767D" : "72767D", "3B3E42" : "3B3E42", "007F94" : "007F94", "055B75" : "055B75", "002B2B" : "002B2B" },
+    // WHITE
+    { "D6D8DA" : "FFFFFF", "B8BABD" : "C7F2F2", "72767D" : "C4C4C4", "3B3E42" : "8C8C8C", "007F94" : "E0B700", "055B75" : "C19E00", "002B2B" : "A38500" },
+    // RED
+    { "D6D8DA" : "FFC6C6", "B8BABD" : "EA0000", "72767D" : "AD0000", "3B3E42" : "660000", "007F94" : "FFFFFF", "055B75" : "D6EAFF", "002B2B" : "B8C9DB" },
+    // ORANGE
+    { "D6D8DA" : "FFF8B9", "B8BABD" : "F3A74A", "72767D" : "CA6613", "3B3E42" : "6F382D", "007F94" : "00B9D6", "055B75" : "009FB7", "002B2B" : "007F94" },
+    // YELLOW
+    { "D6D8DA" : "FFFBD8", "B8BABD" : "FFD84D", "72767D" : "E2AF20", "3B3E42" : "B97C01", "007F94" : "37B74E", "055B75" : "2D9941", "002B2B" : "267F37" },
+    // GREEN
+    { "D6D8DA" : "9BFFD2", "B8BABD" : "1AB26E", "72767D" : "137F4E", "3B3E42" : "0A472C", "007F94" : "C8713D", "055B75" : "A05A31", "002B2B" : "7A4425" },
+    // BLUE
+    { "D6D8DA" : "D8FFFC", "B8BABD" : "4FACC8", "72767D" : "39747F", "3B3E42" : "233C43", "007F94" : "A04000", "055B75" : "7F3300", "002B2B" : "592300" },
+    // PURPLE
+    { "D6D8DA" : "E8D8FF", "B8BABD" : "906EBF", "72767D" : "60497F", "3B3E42" : "392C4C", "007F94" : "7D8993", "055B75" : "646E77", "002B2B" : "41474C" },
+    // PINK
+    { "D6D8DA" : "FFD3CC", "B8BABD" : "FF9B88", "72767D" : "BF7467", "3B3E42" : "7F4D44", "007F94" : "FFFFFF", "055B75" : "D6EAFF", "002B2B" : "B8C9DB" },
+    // BROWN
+    { "D6D8DA" : "FFD0B5", "B8BABD" : "C6672F", "72767D" : "8C4821", "3B3E42" : "4C2712", "007F94" : "FF9B88", "055B75" : "E08879", "002B2B" : "A36358" }
+  ]
+}

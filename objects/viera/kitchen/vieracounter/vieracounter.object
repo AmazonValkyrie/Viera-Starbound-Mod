@@ -1,0 +1,54 @@
+{
+  "objectName" : "vieracounter",
+  "colonyTags" : ["viera","cooking","vieravillage"],
+  "printable" : false,
+  "price" : 85,
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+        "config" : "/interface/windowconfig/craftingfood.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Viera Kitchen Counter",
+            "subtitle" : " ^#b9b5b2;Viera Cooking",
+            "icon" : {
+              "file" : "/interface/crafting/vieracookingicon.png"
+            }
+          }
+        },
+
+        "filter" : [ "craftingfood" ]
+      },
+  "description" : "Mahogany and ochre kitchen counter.",
+  "shortdescription" : "Viera Kitchen Counter",
+  "race" : "viera",
+  "health" : 1.5,
+  "category" : "crafting",
+
+  "apexDescription" : "A kitchen counter.",
+  "avianDescription" : "A lovely kitchen counter.",
+  "floranDescription" : "Eatttttssss.",
+  "glitchDescription" : "Observation. A place for cooking.",
+  "humanDescription" : "A pretty counter for cooking.",
+  "hylotlDescription" : "A cooking counter.",
+  "novakidDescription" : "Ya gotta cook somewhere.",
+  "vieraDescription" : "A place for Viera to prepare foods.",
+
+  "inventoryIcon" : "vieracountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieracounter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+
+  "npcToy" : {}
+}

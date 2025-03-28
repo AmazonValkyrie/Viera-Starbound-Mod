@@ -1,0 +1,77 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "light" : {
+        "default" : "default",
+        "states" : {
+          "default" : {
+            "properties" : {
+              "particleEmittersOn" : [ "crystalenergies" ],
+			  "persistentSound" : "/sfx/objects/crystallineecho.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "light" : {
+            "default" : {
+              "properties" : {
+                "image" : "magicitevillageteleporter.png:<color>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+		  "zLevel" : 1
+        },
+
+        "partStates" : {
+          "light" : {
+            "default" : {
+              "properties" : {
+                "image" : "magicitevillageteleporterlit.png:<color>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "crystalenergies" : {
+      "emissionRate" : 8,
+      "emissionRateVariance" : 0.5,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_magiciteblue", "offset" : [2.50, 8] }, 
+        { "particle" : "viera_magiciteblue", "offset" : [3.75, 8] }, 
+        { "particle" : "viera_magiciteblue", "offset" : [5.00, 8] }, 
+        { "particle" : "viera_magiciteblue", "offset" : [6.25, 8] }, 
+        { "particle" : "viera_magiciteblue", "offset" : [7.50, 8] }, 
+        { "particle" : "viera_magicitewhite", "offset" : [2.50, 8] }, 
+        { "particle" : "viera_magicitewhite", "offset" : [3.75, 8] }, 
+        { "particle" : "viera_magicitewhite", "offset" : [5.00, 8] }, 
+        { "particle" : "viera_magicitewhite", "offset" : [6.25, 8] }, 
+        { "particle" : "viera_magicitewhite", "offset" : [7.50, 8] }, 
+        { "particle" : "viera_magicitesparkle", "offset" : [2.50, 8] }, 
+        { "particle" : "viera_magicitesparkle", "offset" : [3.75, 8] }, 
+        { "particle" : "viera_magicitesparkle", "offset" : [5.00, 8] }, 
+        { "particle" : "viera_magicitesparkle", "offset" : [6.25, 8] }, 
+        { "particle" : "viera_magicitesparkle", "offset" : [7.50, 8] }
+      ]
+    }
+  }
+}

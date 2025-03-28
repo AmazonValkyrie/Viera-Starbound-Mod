@@ -1,0 +1,48 @@
+{
+  "objectName" : "vierafuelhatch",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "description" : "A chalice for containing magicite ship fuel.",
+  "shortdescription" : "Skystone Chalice",
+  "race" : "viera",
+  "lightColor" : [0, 122, 122],
+
+  "apexDescription" : "This must be a fuel receptacle of some kind.",
+  "avianDescription" : "This must be the fuel system!",
+  "floranDescription" : "Ssshhip fuelss.",
+  "glitchDescription" : "Wonder. Never have I seen fuel of this kind.",
+  "humanDescription" : "A crystal stone that provides fuel. Interesting.",
+  "hylotlDescription" : "A peaceful energy resonates in this liquid.",
+  "novakidDescription" : "Don't tell me this is fer fuel?!",
+  "vieraDescription" : "Essence of the magicite is what gives this ship it's energies.",
+
+  "inventoryIcon" : "vierafuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vierafuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "vierafuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/magicitefuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "magicitefuel"
+}

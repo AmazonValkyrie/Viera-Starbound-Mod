@@ -1,0 +1,27 @@
+{
+  "name": "chocoboknight_moogle",
+  "priority": 4,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+	"moogle": 2,
+    "storage": 8,
+    "chocobo": 8
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "moogle",
+      "type": "chocoboknight",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

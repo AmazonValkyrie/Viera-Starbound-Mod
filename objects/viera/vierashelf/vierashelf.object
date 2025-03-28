@@ -1,0 +1,36 @@
+{
+  "objectName" : "vierashelf",
+  "colonyTags" : ["viera","storage","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 65,
+  "health" : 1.5,
+
+  "description" : "A sturdy shelf of mahogany.",
+  "shortdescription" : "Viera Wooden Shelf",
+  "race" : "viera",
+
+  "apexDescription" : "A basic shelf.",
+  "avianDescription" : "A simple shelf.",
+  "floranDescription" : "A ssshelf.",
+  "glitchDescription" : "Identify. A shelf.",
+  "humanDescription" : "A wooden shelf.",
+  "hylotlDescription" : "A shelf of wood.",
+  "novakidDescription" : "A wooden shelf.",
+  "vieraDescription" : "A shelf to store items on.",
+
+
+  "inventoryIcon" : "vierashelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashelf.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

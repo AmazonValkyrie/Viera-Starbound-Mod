@@ -1,0 +1,139 @@
+[   {
+		"op": "add",
+		"path": "/accuse/viera",
+		"value": {
+			"default": [
+				 "Do not take my things!",
+                 "Thievery will not be tolerated!",
+                 "You take what is not yours! How dare you!",
+                 "But...that was mine..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/viera",
+		"value": {
+			"default": [
+				"Someone alert the Wood Warders!",
+                "You should not take what is not yours. Warders of the Wood, please help!",
+                "Someone help! They're taking my things!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/femaleveenaravaviera",
+		"value": {
+			"default": [
+				 "Do not take my things!",
+                 "Thievery will not be tolerated!",
+                 "You take what is not yours! How dare you!",
+                 "But...that was mine..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Someone alert the Wood Warders!",
+                "You should not take what is not yours. Warders of the Wood, please help!",
+                "Someone help! They're taking my things!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/maleveenaravaviera",
+		"value": {
+			"default": [
+				 "Do not take my things!",
+                 "Thievery will not be tolerated!",
+                 "You take what is not yours! How dare you!",
+                 "But...that was mine..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Someone alert the Wood Warders!",
+                "You should not take what is not yours. Warders of the Wood, please help!",
+                "Someone help! They're taking my things!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/femalefeolviera",
+		"value": {
+			"default": [
+				 "Do not take my things!",
+                 "Thievery will not be tolerated!",
+                 "You take what is not yours! How dare you!",
+                 "But...that was mine..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/femalefeolviera",
+		"value": {
+			"default": [
+				"Someone alert the Wood Warders!",
+                "You should not take what is not yours. Warders of the Wood, please help!",
+                "Someone help! They're taking my things!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/malefeolviera",
+		"value": {
+			"default": [
+				 "Do not take my things!",
+                 "Thievery will not be tolerated!",
+                 "You take what is not yours! How dare you!",
+                 "But...that was mine..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/malefeolviera",
+		"value": {
+			"default": [
+				"Someone alert the Wood Warders!",
+                "You should not take what is not yours. Warders of the Wood, please help!",
+                "Someone help! They're taking my things!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/moogle",
+		"value": {
+			"default": [
+				 "Please do not steal, kupo.",
+                 "You are taking my things, kupopo!",
+                 "I thought you were friend, kupo!",
+                 "That was mine, kupo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/moogle",
+		"value": {
+			"default": [
+				"Look out, kupo! Thief!",
+                "They took my things, kupo!",
+                "Watch out, kupopo! There's a thief!"
+			]
+		}
+	},
+]

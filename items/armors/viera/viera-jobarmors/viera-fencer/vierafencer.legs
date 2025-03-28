@@ -1,0 +1,48 @@
+{
+  "itemName" : "vierafencerpants",
+  "shortdescription" : "Fencer Skirt",
+  "description" : "The Fencer fights with attacks that pierce even the hardest steel.",
+  
+  "category" : "legwear",
+  "statSpread" : "fencer",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 65,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+    /* PURPLE */
+    { "8565B1" : "8565B1", "775184" : "775184", "5D4068" : "5D4068", "47314F" : "47314F" },
+    /* BLACK */
+    { "8565B1" : "7F7F7F", "775184" : "595959", "5D4068" : "333333", "47314F" : "000000" },
+    /* GREY */
+    { "8565B1" : "AFBFCC", "775184" : "7D8993", "5D4068" : "646E77", "47314F" : "41474C" },
+    /* WHITE */
+    { "8565B1" : "FFFFFF", "775184" : "C9DBED", "5D4068" : "95BBC9", "47314F" : "728F99" },
+    /* RED */
+    { "8565B1" : "D80000", "775184" : "840000", "5D4068" : "680000", "47314F" : "300000" },
+    /* ORANGE */
+    { "8565B1" : "FFA477", "775184" : "FF8C4F", "5D4068" : "C8713D", "47314F" : "844929" },
+    /* YELLOW */
+    { "8565B1" : "FFB970", "775184" : "E69E50", "5D4068" : "C18443", "47314F" : "996835" },
+    /* GREEN */
+    { "8565B1" : "40D65B", "775184" : "2D9941", "5D4068" : "267F37", "47314F" : "13421C" },
+    /* BLUE */
+    { "8565B1" : "00C2E0", "775184" : "0094AA", "5D4068" : "007B8E", "47314F" : "004B56" },
+    /* PURPLE */
+    { "8565B1" : "8565B1", "775184" : "775184", "5D4068" : "5D4068", "47314F" : "47314F" },
+    /* PINK */
+    { "8565B1" : "FF9B88", "775184" : "E08879", "5D4068" : "C17668", "47314F" : "A36358" },
+    /* BROWN */
+    { "8565B1" : "BC4B00", "775184" : "7F3300", "5D4068" : "592300", "47314F" : "3F1800" }
+
+  ]
+}

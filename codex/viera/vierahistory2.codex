@@ -1,0 +1,16 @@
+{
+  "id" : "vierahistory2",
+  "title" : "The Edge of the Bloodmoon",
+  "description" : "A Viera account of invasion.",
+  "icon" : "vieracover6.png",
+  "contentPages" : [
+    "^yellow;The Descent^reset;\n\nWhen the Hume soldiers came to the Wood, the village took small heed of them. So long as the Wood Herself is safe, the Viera give little care to goings on beyond Her. But in many of us an uneasiness stirred. We had to discover why they had come. With the Wood as our guide, we ventured into the sacred depths of the forest, to seek out the source of what we sensed. We did not know what we might find.",
+	
+	"It is to be remembered that when we came upon the scent of the cloaked Humes in our Wood, we witnessed them conjuring a dark energy from the depths of one of the many ancient trees growing within. The Humes kept calling out into the darkness the word ^#6A2284;Exdeath...Exdeath...^reset;"
+    	
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 100
+  }
+}

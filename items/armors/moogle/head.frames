@@ -1,0 +1,8 @@
+{
+  "frameList" : {
+    "normal" : [0, 0, 44, 44]
+  },
+  "aliases" : {
+    "climb" : "normal"
+  }
+}

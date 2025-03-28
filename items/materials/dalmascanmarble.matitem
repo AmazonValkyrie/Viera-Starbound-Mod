@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanmarble",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanmarbleicon.png",
+  "shortdescription" : "Dalmascan Marble",
+  "description" : "Finely smoothed marble.",
+
+  "materialId" : 13089
+}

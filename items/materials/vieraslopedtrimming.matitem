@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieraslopedtrimming",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieraslopedtrimmingicon.png",
+  "shortdescription" : "Sloped Trimming",
+  "description" : "Smooth, carved stone, capable of sloping.",
+
+  "materialId" : 13105,
+  "learnBlueprintsOnPickup" : [ "vieraslopedtrimming" ]
+}

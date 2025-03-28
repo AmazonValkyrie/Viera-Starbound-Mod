@@ -1,0 +1,36 @@
+{
+  "objectName" : "vieracolumn2",
+  "colonyTags" : ["viera", "nature", "vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 180,
+  "printable" : false,
+  "description" : "A large, fluted column, carved of living whitewood.",
+  "shortdescription" : "Large Fluted Column",
+  "race" : "viera",
+  "health" : 1,
+
+  "apexDescription" : "A large, carved column.",
+  "avianDescription" : "Such reverence for wood carvings.",
+  "floranDescription" : "Shaped treesss.",
+  "glitchDescription" : "Curious. This wood does not wither in the water.",
+  "humanDescription" : "Such a majestic column.",
+  "hylotlDescription" : "How does this majestic wood not warp and wither in the water?",
+  "novakidDescription" : "Sum purdy architecture.",
+  "vieraDescription" : "Living whitewood, even when carved, can never age.",
+
+  "inventoryIcon" : "vieracolumn2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieracolumn2.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

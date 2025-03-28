@@ -1,0 +1,22 @@
+{
+  "materialId" : 13107,
+  "materialName" : "vierashipplating2",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vierashipplating2",
+  "shortdescription" : "Edged Ship Plate II",
+  "description" : "Ship plating with etched gold edge.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vierashipplating2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

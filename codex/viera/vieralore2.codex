@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore2",
+  "title" : "Echoes of the Elders",
+  "description" : "Viera spirituality and philosophy.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Echoes of the Elders^reset;\n\nTime is a spiral, not a line. To age is not merely to wither but to grow deeper into oneself. The Elders do not pass away; they become the forest, their voices now the breeze, their wisdom etched in bark.",
+
+	"Commune with them not in mourning but in stillness, and their guidance will bloom within your heart as surely as spring follows winter."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

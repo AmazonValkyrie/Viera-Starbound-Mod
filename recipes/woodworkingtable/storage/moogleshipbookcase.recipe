@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 20 },
+    { "item" : "leather", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 18 }
+  ],
+  "output" : {
+    "item" : "moogleshipbookcase",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "storage", "all" ]
+}

@@ -1,0 +1,34 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "vieratannery",
+        "states" : {
+          "vieratannery" : {
+            "properties" : {
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "vieratannery" : {
+              "properties" : {
+                "image" : "vieratannery.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

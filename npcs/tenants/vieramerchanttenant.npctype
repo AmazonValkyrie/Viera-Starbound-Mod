@@ -1,0 +1,44 @@
+{
+  "type" : "vieramerchanttenant",
+  "baseType" : "vieramerchant",
+  "identity" : {
+    "gender" : "female",
+    "race" : "femaleveenaravaviera"
+  },
+
+  "matchColorIndices" : true, 
+  "dropPools" : [],
+  "reactions" : {
+      "spontaneous" : [
+        [1.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [5.0, "sit", { "timeRange" : [0.6,0.2]}]
+      ]
+    },
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "merchant"]
+    }
+  },
+  "merchant": {
+            "waitTime": 40,
+            "storeRadius": 16,
+            "poolsFile": "/npcs/merchantpools.config",
+            "categories": {
+                "femaleveenaravaviera": [
+                    "vieraingredients",
+                    "vieraclothes",
+                    "vierafurniture"
+                ]
+            },
+            "buyFactorRange": [
+                0.9,
+                1.2
+            ],
+            "sellFactorRange": [
+                0.2,
+                0.2
+            ],
+            "numItems": 30
+        }
+}

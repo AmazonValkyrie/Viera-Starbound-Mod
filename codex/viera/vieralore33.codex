@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore33",
+  "title" : "The Sign of Silver-Blue Eyes",
+  "description" : "Writings on ancient, Viera spirituality.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;Eyes of Magicite Blue^reset;\n\nOnly those with the purest bond to The Wood may serve as Her vessel. These chosen ones are marked by a singular sign-their eyes turn the color of silver-blue, the hue of pure magicite, the most sacred crystal known to the Viera. This crystal is said to be a fragment of Eithne's heart, pulsing with Her essence, and it is through this resonance that She channels Her power.",
+	
+	"Marpesia was one of these chosen, her eyes shimmering with the light of magicite whenever she communed deeply with The Wood. The Elders spoke of her gaze as if it held the reflection of the stars, as though Eithne Herself watched through her eyes. It was this sign that marked her as a potential Vessel, a destiny she bore with solemn humility."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

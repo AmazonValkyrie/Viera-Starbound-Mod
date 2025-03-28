@@ -1,0 +1,69 @@
+{
+  "objectName" : "fu_vieraftldrivesmall",
+  "colonyTags" : ["viera", "prism", "vieraship", "argo", "science"],
+  "race" : "viera",
+  "rarity" : "essential",
+  "category" : "furniture",
+  "printable" : false,
+
+  "description" : "A magicite FTL crystal for star crafts. Allows interstellar travel and STL travel. ^orange;Ship Speed: +3^reset;. ^red;BYOS Only^reset;",
+  "shortdescription" : "^cyan;Magicite FTL Crystal^reset;",
+  
+  "apexDescription" : "Light is refracted as it passes through this prism.",
+  "avianDescription" : "This crystal refracts light into pretty patterns.",
+  "floranDescription" : "Colours burssst out of this rock. Makes Floran curious.",
+  "glitchDescription" : "Bewildered. I find these rocks to be quite mesmerising.",
+  "humanDescription" : "These rocks are responsible for the impressive light show.",
+  "hylotlDescription" : "Prisms are a true wonder of the natural world.",
+  "novakidDescription" :  "I enjoy a good light show!",
+  "vieraDescription" : "This dazzling magicite crystal channels power to the ship.",
+  "lightColor" : [118, 224, 224],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.0,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "fu_vieraftldrivesmall.png:<frame>", "fullbright" : true }, 
+		{ "image" : "fu_vieraftldrivesmalllit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+	  "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "imageLayers" : [ 
+	    { "image" : "fu_vieraftldrivesmall.png:<frame>", "fullbright" : true }, 
+		{ "image" : "fu_vieraftldrivesmalllit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/ship/fu_shipstatmodifier.lua" ],
+  "scriptDelta" : 60,
+  "detectThresholdMed" : 10,
+  "detectThresholdMax" : 50,
+  
+  "animation" : "/objects/viera/ship/shipengine/viera_shipengine.animation",
+  "animationParts" : {
+    "main" : "fu_vieraftldrivesmall.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "stats" : {
+    "shipSpeed" : 3
+  },
+  "capabilities" : [
+    "systemTravel",
+    "planetTravel"
+  ],
+  "maxAmountGroups" : {
+    "ftlDrive" : 1
+  },
+  "byosOnly" : true
+}

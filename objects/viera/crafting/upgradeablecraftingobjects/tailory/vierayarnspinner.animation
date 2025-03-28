@@ -1,0 +1,136 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "primus",
+        "states" : {
+          "primus" : {
+            "frames" : 2,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              //"lightsOff" : [ "secundus" ],
+              //"lightsOn" : [ "primus" ],
+			  //"particleEmittersOff" : [ "secundus" ],
+			  //"particleEmittersOn" : [ "primus" ],
+              "persistentSound" : "/sfx/objects/craftingwheel_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.25
+            }
+          },
+          "secundus" : {
+            "frames" : 16,
+            "cycle" : 4.125,
+            "mode" : "loop",
+            "properties" : {
+              //"lightsOff" : [ "primus" ],
+              //"lightsOn" : [ "secundus" ],
+			  //"particleEmittersOff" : [ "primus" ],
+			  //"particleEmittersOn" : [ "secundus" ],
+              "persistentSound" : "/sfx/objects/craftingwheel_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.25
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "primus" : {
+              "properties" : {
+                "image" : "vierayarnspinner1lit.png:<color>.<frame>"
+              }
+            },
+            "secundus" : {
+              "properties" : {
+                "image" : "vierayarnspinner2lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "lit" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "primus" : {
+              "properties" : {
+                "image" : "vierayarnspinner1.png:<color>.<frame>"
+              }
+            },
+            "secundus" : {
+              "properties" : {
+                "image" : "vierayarnspinner2.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "lights" : {
+    "primus" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [155, 155, 155]
+    },
+    "sucundus" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [155, 155, 155]
+    }
+  },
+  
+  "particleEmitters" : {
+    "upgrade" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [ 
+	    { "particle" : "dust2" } 
+	  ]
+    },
+    "finalUpgrade" : {
+      "emissionRate" : 500,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [ 
+	    { "particle" : "dust2" },
+	    { "particle" : "viera_confettidriftingred" },
+	    { "particle" : "viera_confettidriftinggreen" },
+	    { "particle" : "viera_confettidriftingblue" },
+	    { "particle" : "viera_confettidriftingwhite" },
+	    { "particle" : "viera_confettifallingred" },
+	    { "particle" : "viera_confettifallinggreen" },
+	    { "particle" : "viera_confettifallingblue" },
+	    { "particle" : "viera_confettifallingwhite" }
+	  ]
+    },
+	"primus" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "particles" : [
+      ]
+    },
+	"secundus" : {
+      "active" : false,
+      "emissionRate" : 1.0,
+      "particles" : [
+      ]
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/viera/vieraupgradefanfare.ogg"]
+  }
+}

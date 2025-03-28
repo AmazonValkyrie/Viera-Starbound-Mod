@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 25 },
+	{ "item" : "string", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "ornatescallopedcurtainmed",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

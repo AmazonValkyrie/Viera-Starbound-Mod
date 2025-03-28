@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore28",
+  "title" : "Marpesia, The Chosen Leader: Ch. 1",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Calling of the Wood^reset;\n\nFrom a young age, Marpesia heard the Wood's whispers clearer than any other. While others caught mere echoes on the breeze, she heard the words as if they were spoken beside her. The Elders watched her with knowing eyes, sensing a power within her that could not be taught, only given.",
+	
+	"One night, beneath the gnarled branches of the ^blue;Great Heart Tree^reset;, Marpesia was visited by the High Elder, ^yellow;Elowyn^reset;, whose ears were long and eyes were heavy with the weight of centuries. Elowyn led her to the ancient glade where the oldest winds were born, a place where the air shimmered with the essence of Eithne.",
+	
+	"Close your eyes, child. Listen not with your ears, but with your soul,' Elowyn whispered, her voice a fragile echo of the wind. Marpesia obeyed, her senses opening to the world around her. The wind caressed her face, warm and gentle, carrying with it a voice-soft and ancient, woven from the very breath of life.",
+	
+	"The name was a sigh, a whisper that resonated within her, a heartbeat echoing her own...^green;'Eithne'^reset;... Marpesia's eyes flew open, her breath catching as the world seemed to pulse around her. Elowyn's gaze was solemn. 'You have heard Her true name. Few are given this gift, for it carries great responsibility. You are chosen, Marpesia."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

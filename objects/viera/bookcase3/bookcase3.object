@@ -1,0 +1,44 @@
+{
+  "objectName" : "bookcase3",
+  "colonyTags" : ["viera","knowledge","storage","vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A beautifully crafted bookcase.",
+  "shortdescription" : "Sectional Bookcase II",
+  "race" : "viera",
+  "price" : 110,
+  "health" : 1.5,
+  
+  "apexDescription" : "An ornate wooden bookcase.",
+  "avianDescription" : "A bookcase. Beautifully carved.",
+  "floranDescription" : "Prrrettty wooden bookcase.",
+  "glitchDescription" : "Interested. A gorgeous bookcase.",
+  "humanDescription" : "A meticulously carved bookcase.",
+  "hylotlDescription" : "A spot to place books.",
+  "novakidDescription" : "A nice place to store your books.",
+  "vieraDescription" : "All of the knowledge of my people and the Wood contained here.",
+
+  "inventoryIcon" : "bookcase3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bookcase3.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

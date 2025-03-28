@@ -1,0 +1,52 @@
+{
+  "objectName" : "Viera_Waterfall_Statue_48",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "race" : "viera",
+  "price" : 0,
+  "printable" : false,
+
+
+  "shortdescription" : "Wings of the Dea",
+  "description" : "The life-giving energies of the Wood pour from this statue.",
+
+
+  "apexDescription" : "I'm curious as to the symbolism.",
+  "avianDescription" : "The symbol is elusive to me, yet familiar.",
+  "floranDescription" : "Sssssspringgg waterssss.",
+  "glitchDescription" : "Envious. Oh to be one who is not harmed by water.",
+  "humanDescription" : "I wonder what this symbol means.",
+  "hylotlDescription" : "I sense this structure forebodes a deep reverence for life.",
+  "novakidDescription" : "The waterfall sure is a mighty pretty sight to see.",
+  "vieraDescription" : "A symbol of Eithne Herself. The Wood's protection must extend from here.",
+
+
+  "inventoryIcon" : "Viera_Waterfall_Statue_Icon.png",
+  
+  "orientations" : [
+    {
+      "image" : "Viera_Waterfall_Statue_48.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+	  "frames" : 48,
+	  "animationCycle" : 0.65,
+      "spaces" : [ [0, 0] ],
+      "anchors" : [],
+	  "renderLayer" : "player+1"
+    },
+    {
+      "image" : "Viera_Waterfall_Statue_48.png:default.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+	  "frames" : 48,
+	  "animationCycle" : 0.65,
+      "spaces" : [ [0, 0] ],
+      "anchors" : [],
+	  "renderLayer" : "player+1"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg"
+
+}

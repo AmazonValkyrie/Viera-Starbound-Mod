@@ -1,0 +1,98 @@
+{
+  "objectName" : "waystoneteleporter",
+  "colonyTags" : ["viera", "vieravillage"],
+  "objectType" : "teleporter",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A Magicite Waystone can teleport you many places.",
+  "shortdescription" : "Magicite Waystone",
+  "price" : 3000,
+  "race" : "viera",
+
+  "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light.",
+  "avianDescription" : "The teleporter! Teleporting feels like flying.",
+  "floranDescription" : "Teleporter. Floran feel confusssed during teleport.",
+  "glitchDescription" : "Smug. A teleporter. I am able to enter a sleep mode during the teleport process.",
+  "humanDescription" : "The teleporter! Teleporting is such a rush.",
+  "hylotlDescription" : "A teleporter. Teleporting feels like diving into the ocean from a mountain top.",
+  "novakidDescription" : "A teleporter. Let's take her for a spin!",
+  "vieraDescription" : "The Way stone can send a party many places.",
+
+  "category" : "teleporter",
+  "lightColor" : [99, 132, 153],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 4.5,
+  "flickerTiming" : 8,
+  "flickerMinIntensity" : 1,
+  "flickerMaxIntensity" : 1.25,
+
+  "particleEmitter" : {
+    "emissionRate" : 3,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 6],
+      "size" : 1.5,
+      "color" : [92, 255, 255, 255],
+      "light" : [0, 0, 0],
+      "fade" : 0.9,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.5,
+      "initialVelocity" : [0.0, 4],
+      "finalVelocity" : [0.0, 1],
+      "approach" : [0, 1],
+      "timeToLive" : 1,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0, 7],
+	  "finalVelocity" : [0, 1],
+	  "position" : [-0.5, 6],
+	  "size" : 1.0
+    }
+  },
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "waystoneteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "waystoneteleporter.png:<color>.<frame>", "fullbright" : true }, { "image" : "waystoneteleporterlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 4,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+  "health" : 10,
+  "rooting" : true,
+
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}

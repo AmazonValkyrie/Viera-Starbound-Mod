@@ -1,0 +1,104 @@
+{
+  "uniqueId" : "techstation",
+  "objectName" : "vieratechstation",
+  "colonyTags" : ["viera", "vieraship", "argo", "misc"],
+  "race" : "viera",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "shipPetType" : "petchocobo", 
+
+  "description" : "A seed, a part of a greater whole.",
+  "shortdescription" : "Echo of Eithne",
+  
+  "apexDescription" : "Is this some sort of communication device?",
+  "avianDescription" : "This crystal and plant emanate with such energy. Does it speak?",
+  "floranDescription" : "Shimmmmeryyy, chattyyyy vinesss!",
+  "glitchDescription" : "Curious. This powering system is somehow more natural than artificial.",
+  "humanDescription" : "This crystal must power the entire ship, but what's with this plant?",
+  "hylotlDescription" : "The flora seems to echo with it's own energy, and coexists with the crystal.",
+  "novakidDescription" : "Is this some sorta contraption for talkin?",
+  "vieraDescription" : "I can commune with the ship's essence here.",
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "vieratechstation.animation",
+  "animationParts" : {
+    "bg" : "vieratechstation.png",
+    "fg" : "vieratechstationlit.png"
+  },
+  "animationPosition" : [-24, 0],
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vieratechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "vieratechstationlit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+      "imagePosition" : [-24, 0],
+      "frames" : 16,
+      "animationCycle" : 9.5,
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "vieratechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "vieratechstationlit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-24, 0],
+      "frames" : 16,
+      "animationCycle" : 9.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  "lightColor" : [107, 208, 208],
+  "lightPosition" : [8, 7],
+  "flickerPeriod" : 4,
+  "flickerMinIntensity" : 1,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 1.075,
+  "flickerIntensityVariance" : 0.025,
+  "interactAction" : "OpenAiInterface",
+  "interactData" : {
+    "paneLayoutOverride" : {
+	  "windowtitle" : {
+	    "title" : "  Echo of Eithne",
+		"subtitle" : "  A part of the Greater Whole"
+	  }
+	}
+  },
+  "scripts" : [ "/objects/viera/ship/vieratechstation2/viera_sail.lua" ],  
+  "portraitTalk" : {
+    "mode"  : "object",
+    "next"  : 0,
+	"count" : 0,
+    "timer" : 0.0,
+    "delay" : 0.0,
+	"speakerID" : 0,
+    "portraits" : [
+      "/ai/portraits/vieraportrait.png:unique.1",
+	  "/ai/portraits/vieraportrait.png:yell.1",
+      "/ai/portraits/vieraportrait.png:talk.0",
+      "/ai/portraits/vieraportrait.png:talk.1"
+    ],
+	"conversation" : "wait",
+    "conversations" : {
+	  "activateShip" : {
+		"startDelay" : 2.0,
+		"endDelay" : 0.0,
+	    "text" : [
+          "Recalibrating magicite symmetry. . .",
+          "I am but a seed, a smaller part of a greater whole. An echo of the Wood, Herself.",
+		  "Through the framework of my roots, this crystal powers this vessel.",
+          "It seems in our escape, our navigation systems were damaged, and will need to be mended.",
+	      "I was able to follow the lifestream of the Wood across the stars to this remote, green planet.",
+	      "I can speak with you planetside, but check the ship's storage for supplies before you depart.",
+	      "Take care, child. When you need guidance most, I will speak to you on the whispering winds."
+        ],
+        "cooldowns" : [ 8.0, 6.0, 6.0, 6.0, 6.0, 6.0, 5.0, 6.0, 6.0, 7.0, 5.0, 8.0 ],
+	    "image" : [ 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4 ]
+	  }
+	}
+  }
+}

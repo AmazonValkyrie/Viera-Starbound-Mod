@@ -1,0 +1,9 @@
+{
+  "name" : "pouch",
+  "category" : "petchocobo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pouch.png"
+  }
+}

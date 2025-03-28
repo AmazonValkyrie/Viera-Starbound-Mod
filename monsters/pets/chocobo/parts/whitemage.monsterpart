@@ -1,0 +1,9 @@
+{
+  "name" : "whitemage",
+  "category" : "petchocobo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "whitemage.png"
+  }
+}

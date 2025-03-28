@@ -1,0 +1,71 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/bodyobject.png",
+    "fileFooter" : "/interface/tooltips/footerobject.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "dLabel" : {
+    "type" : "label",
+    "position" : [7, 69],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 123
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [29, 135],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178],
+    "value" : ""
+  },
+  "fImage" : {
+    "type" : "image",
+    "position" : [70, 106],
+    "centered" : true,
+	"trim" : false,
+	"zlevel" : 3,
+    "file" : ""
+  },
+  "cImage" : {
+    "type" : "image",
+    "position" : [70, 106],
+    "centered" : true,
+	"trim" : false,
+	"zlevel" : 2,
+    "file" : ""
+  },
+  "mImage" : {
+    "type" : "image",
+    "position" : [70, 106],
+    "centered" : true,
+	"trim" : false,
+	"zlevel" : 1,
+    "file" : ""
+  },
+  "bImage" : {
+    "type" : "image",
+    "position" : [70, 106],
+    "centered" : true,
+	"trim" : false,
+    "file" : ""
+  }
+}

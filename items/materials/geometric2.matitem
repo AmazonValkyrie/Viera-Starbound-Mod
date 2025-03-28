@@ -1,0 +1,10 @@
+{
+  "itemName" : "geometric2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "geometric2icon.png",
+  "description" : "Ochre painted mahogany geometric trim.",
+  "shortdescription" : "Geometric Trim II",
+
+  "materialId" : 13040
+}

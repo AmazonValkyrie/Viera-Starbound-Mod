@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "mooglemagiciteheatingaura", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "refinedferozium", "count" : 2 },
+    { "item" : "refinedviolium", "count" : 2 },
+    { "item" : "refinedmagicitecrystal", "count" : 20 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "mooglemagicitecoolingaura", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}

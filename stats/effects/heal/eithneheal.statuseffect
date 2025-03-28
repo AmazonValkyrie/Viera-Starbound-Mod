@@ -1,0 +1,16 @@
+{
+  "name" : "eithneheal",
+  "effectConfig" : {
+    "healTime" : 42
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "eithneheal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

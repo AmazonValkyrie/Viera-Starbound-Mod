@@ -1,0 +1,10 @@
+{
+  "itemName" : "vieranwall1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieranwall1icon.png",
+  "description" : "Carved, wooden Vieran wall.",
+  "shortdescription" : "Carved Wall II",
+
+  "materialId" : 13036
+}

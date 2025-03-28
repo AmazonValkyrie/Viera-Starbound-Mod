@@ -1,0 +1,10 @@
+{
+  "itemName" : "panelingbottom",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "panelingbottomicon.png",
+  "description" : "Carved, mahogany paneling. Bottom center.",
+  "shortdescription" : "Mahogany Paneling",
+
+  "materialId" : 13059
+}

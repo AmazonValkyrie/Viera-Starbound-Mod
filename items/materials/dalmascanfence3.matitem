@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfence3",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfence3icon.png",
+  "shortdescription" : "Dalmascan Iron Fence II",
+  "description" : "A molded iron fence.",
+
+  "materialId" : 13086
+}

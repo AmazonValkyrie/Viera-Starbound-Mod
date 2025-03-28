@@ -1,0 +1,47 @@
+{
+  "objectName" : "vierashipfoodstorage",
+  "colonyTags" : [ "viera", "storage", "cooking", "vieraship", "argo" ],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 130,
+  "printable" : true,
+  "description" : "Compact food storage.",
+  "shortdescription" : "Viera Ship Fridge",
+  "race" : "viera",
+  "learnBlueprintsOnPickup" : [ "vierashipfoodstorage" ],
+
+  "apexDescription" : "A fridge. I wonder what's inside?",
+  "avianDescription" : "This cold box keeps food fresh.",
+  "floranDescription" : "Sssmell food",
+  "glitchDescription" : "Curious. This fridge is powered strangely.",
+  "humanDescription" : "A fridge. There must be some good food inside.",
+  "hylotlDescription" : "An interesting ice box.",
+  "novakidDescription" : "A fridge! Gotta be some food in there.",
+  "vieraDescription" : "A food preservation box powered by magicite.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipfoodstorage.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "vieralore40",
+  "title" : "The Seonha Scrolls: Ch. 4",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;The Dance of the Tempest^reset;\n\nThe winds of Aether's Pass howled with unnatural fury, a tempest conjured by a vengeful sky-spirit seeking to reclaim the land stolen by men. The villagers pleaded with Seonha to end the storm that had claimed so many lives.",
+	
+	"We climbed to the peak, battered by icy gales. Seonha stood firm against the raging winds, her presence defiant and unyielding. I sang the ^green;Song of the Sylphs^reset;, pleading for peace, my voice carried by the very tempests that sought to claim us.",
+	
+	"The sky-spirit descended, a swirling form of lightning and cloud, its voice a roar of grief. It cried for the trees felled, the rivers poisoned, its fury righteous yet blind. Seonha faced the creature without fear, speaking words of understanding and clarity.",
+	
+	"With my song to soothe its anger and Seonha's courage to stand before its wrath, the spirit relented. It demanded a champion to restore balance, and Seonha accepted without hesitation. She fought the wind itself, a duel of honor and will. Her blade sang as she danced upon the cliffs, her movements graceful as the breeze.",
+	
+	"When the tempest stilled, the spirit bowed to her valor, restoring peace to Aether's Pass. As we descended, Seonha's face was serene, touched by the wisdom of the wind. In her, I saw the harmony between warrior and guardian, strength and mercy."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

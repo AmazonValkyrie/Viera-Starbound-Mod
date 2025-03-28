@@ -1,0 +1,63 @@
+{
+  "id" : "chocobounlock04",
+  "title" : "^orange;A Stable Place to Rest...^reset;",
+  "text" : "Sounds like ^cyan;Wallace^reset; thinks you could benefit from ^orange;additional chocobo^reset;. First, you'll need to ^green;gather material for a stable^reset; to keep them in.",
+  "completionText" : "Now that you know how to build a ^orange;chocobo stable^reset;, you'll have a place to ^green;store any additional chocobo^reset; you get.",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "chocobounlock03" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "viera_chocobostable2", 1 ] ] ],
+
+  "script" : "/quests/scripts/chocobo/chocobounlock04.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/chocoboknightwallace.png"} ],
+        "title" : "Sir Wallace"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherMaterials",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+	    "items" : [ 
+		  [ "darkwoodmaterial", "Timber", 75 ],
+		  [ "cobblestonebrick", "Cobblestone Brick", 25 ] ,
+		  [ "fabric", "Woven Fabric", 20 ] 
+		],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startChocoboUnlock04",
+		  "interim" : "continueChocoboUnlock04" 
+		}		  
+	  },
+	  {
+	    "state" : "returnToWallace",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+		"needPreviousItems" : true,
+		"deliverPreviousItems" : [ 1 ],
+		"descriptions" : [ 
+		  "^green;Return to Wallace^reset; with the ^orange;materials^reset; you've gathered." 
+		],
+		"portraitTalks" : {
+		  "cleared" : "finishChocoboUnlock04" 
+		}	
+	  }
+	],
+    "giveBlueprints" : [ "viera_chocobostable2", "viera_chocobobardingclothhowdah" ]
+  }
+}

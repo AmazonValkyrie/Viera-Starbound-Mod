@@ -1,0 +1,49 @@
+{
+  "itemName" : "moogletier6spants",
+  "shortdescription" : "Violium Moogle Helmet",
+  "description" : "Violium and Solarium leg armor of Moogle design.",
+  "itemTags" : [ "tier6armour" ],
+  
+  "category" : "legarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "separator",
+  "species" : "moogle",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "price" : 2560,
+  "level" : 6,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  
+  "colorOptions" : [
+    /* VIOLIUM PURPLE */
+    { "D29CE7" : "D29CE7", "A451C4" : "A451C4", "6A2284" : "6A2284", "320C40" : "320C40", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLACK */
+    { "D29CE7" : "BFCCC0", "A451C4" : "6F7068", "6A2284" : "3B3F3B", "320C40" : "000000", "F2DBA9" : "D80000", "D6B155" : "AD0000", "917948" : "840000", "6D5B36" : "5E0000" },
+    /* GREY */
+    { "D29CE7" : "EBE1DC", "A451C4" : "ADA197", "6A2284" : "696F67", "320C40" : "433539", "F2DBA9" : "8565B1", "D6B155" : "775184", "917948" : "5D4068", "6D5B36" : "47314F" },
+    /* WHITE */
+    { "D29CE7" : "FFFFFF", "A451C4" : "C7F2F2", "6A2284" : "C4C4C4", "320C40" : "8C8C8C", "F2DBA9" : "00DDFF", "D6B155" : "00B9D6", "917948" : "009FB7", "6D5B36" : "007F94" },
+    /* RED */
+    { "D29CE7" : "FFC6C6", "A451C4" : "EA0000", "6A2284" : "AD0000", "320C40" : "660000", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* ORANGE */
+    { "D29CE7" : "FFF8B9", "A451C4" : "F3A74A", "6A2284" : "CA6613", "320C40" : "6F382D", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* YELLOW */
+    { "D29CE7" : "FFFBD8", "A451C4" : "FFD84D", "6A2284" : "E2AF20", "320C40" : "B97C01", "F2DBA9" : "40D65B", "D6B155" : "37B74E", "917948" : "2D9941", "6D5B36" : "267F37" },
+    /* VIOLIUM PURPLE */
+    { "D29CE7" : "D29CE7", "A451C4" : "A451C4", "6A2284" : "6A2284", "320C40" : "320C40", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLUE */
+    { "D29CE7" : "D8FFFC", "A451C4" : "4FACC8", "6A2284" : "39747F", "320C40" : "233C43", "F2DBA9" : "BC4B00", "D6B155" : "A04000", "917948" : "7F3300", "6D5B36" : "592300" },
+    /* PURPLE */
+    { "D29CE7" : "E8D8FF", "A451C4" : "906EBF", "6A2284" : "60497F", "320C40" : "392C4C", "F2DBA9" : "9CABB7", "D6B155" : "7D8993", "917948" : "646E77", "6D5B36" : "41474C" },
+    /* PINK */
+    { "D29CE7" : "FFD3CC", "A451C4" : "FF9B88", "6A2284" : "BF7467", "320C40" : "7F4D44", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* BROWN */
+    { "D29CE7" : "FFD0B5", "A451C4" : "C6672F", "6A2284" : "8C4821", "320C40" : "4C2712", "F2DBA9" : "FF9B88", "D6B155" : "E08879", "917948" : "C17668", "6D5B36" : "A36358" }
+  ]
+}

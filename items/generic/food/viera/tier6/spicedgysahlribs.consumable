@@ -1,0 +1,36 @@
+{
+  "itemName" : "spicedgysahlribs",
+  "rarity" : "Uncommon",
+  "price" : 415,
+  "category" : "preparedFood",
+  "inventoryIcon" : "spicedgysahlribs.png",
+  "description" : "Sweet and spicy ribs. Delicious!",
+  "shortdescription" : "Spiced Gysahl Ribs",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "nova",
+        "duration" : 180
+    },
+    {
+        "effect" : "burning",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

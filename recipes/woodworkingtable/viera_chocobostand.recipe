@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "refinedmagicitecrystal", "count" : 3 },
+    { "item" : "darkwoodmaterial", "count" : 40 },
+    { "item" : "cobblestonebrick", "count" : 30 },
+	{ "item" : "fabric", "count" : 6}
+  ],
+  "output" : {
+    "item" : "viera_chocobostand",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

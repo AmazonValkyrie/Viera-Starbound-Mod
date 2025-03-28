@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedmagicitecrystal", "count" : 1 },
+	{ "item" : "glass", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "vieraslopedglass",
+    "count" : 12
+  },
+  "duration" : 0.1,
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore32",
+  "title" : "The Rite of Eithne's Vessel",
+  "description" : "Descriptions of an ancient, Viera ritual.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;The Embodiment of the Wood Herself^reset;\n\nThere exists an ancient rite even the oldest Elders dare not speak of lightly; the ^yellow;Rite of Eithne's Vessel^reset;. It is a ritual invoked only in the gravest of times, when the balance of life teeters on the edge of destruction. In these moments, Eithne, the spirit of The Wood, may take on mortal form by inhabiting the body of one who shares a bond with Her essence.",
+	
+	"This rite is known as ^yellow;Aithrí Eithne, the Penitence of Eithne^reset;, for it is said that Eithne grieves to borrow the flesh of Her children, even when necessity demands it."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

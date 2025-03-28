@@ -1,0 +1,45 @@
+{
+  "itemName" : "vierascarfwhite",
+  "shortdescription" : "White Viera Scarf",
+  "description" : "A scarf spun of silk from the sacred Wood.",
+  
+  "style" : "Viera - Cosmetic",
+  "category" : "backwear",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 75,
+  
+  "tooltipKind" : "viera_armor",
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "capeicon.png",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  
+  "colorOptions" : [
+    // WHITE
+    { "E5E7DA" : "E5E7DA", "B3B5AB" : "B3B5AB", "5B4839" : "5B4839" },
+    // BLACK
+    { "E5E7DA" : "6D6D7F", "B3B5AB" : "494949", "5B4839" : "000000" },
+    // GREY
+    { "E5E7DA" : "B3B5AB", "B3B5AB" : "808080", "5B4839" : "404040" },
+    // WHITE
+    { "E5E7DA" : "E5E7DA", "B3B5AB" : "B3B5AB", "5B4839" : "5B4839" },
+    // RED
+    { "E5E7DA" : "FF2B2B", "B3B5AB" : "AF1D1D", "5B4839" : "590F0F" },
+    // ORANGE
+    { "E5E7DA" : "FF8432", "B3B5AB" : "E55B00", "5B4839" : "933B00" },
+    // YELLOW
+    { "E5E7DA" : "FFE568", "B3B5AB" : "E5BF00", "5B4839" : "A58700" },
+    // GREEN
+    { "E5E7DA" : "4CFF00", "B3B5AB" : "3DCC00", "5B4839" : "2D9900" },
+    // BLUE
+    { "E5E7DA" : "00FFFF", "B3B5AB" : "00BFBF", "5B4839" : "007F7F" },
+    // PURPLE
+    { "E5E7DA" : "B200FF", "B3B5AB" : "8B00CC", "5B4839" : "57007F" },
+    // PINK
+    { "E5E7DA" : "FF66EA", "B3B5AB" : "FF00DC", "5B4839" : "B2009A" },
+    // BROWN
+    { "E5E7DA" : "BF4C00", "B3B5AB" : "7F3300", "5B4839" : "592300" }
+  ]
+}

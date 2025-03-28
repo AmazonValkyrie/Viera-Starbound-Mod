@@ -1,0 +1,48 @@
+{
+  "itemName" : "seonhadefaultpants",
+  "shortdescription" : "Seonha's Legplates",
+  "description" : "Seonha's silver legeplates.",
+  "itemTags" : [ "seonhaarmor" ],    
+  
+  "style" : "Viera - Functional",  
+  "category" : "legarmour",
+  "rarity" : "Legendary",  
+  "maxStack" : 1,
+  "price" : 250,
+  "level" : 6,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "colorOptions" : [
+    /* GREY */
+    { "8E9993" : "8E9993", "6A726E" : "6A726E", "474C49" : "474C49" },
+    /* BLACK */
+    { "8E9993" : "595959", "6A726E" : "333333", "474C49" : "000000" },
+    /* GREY */
+    { "8E9993" : "8E9993", "6A726E" : "6A726E", "474C49" : "474C49" },
+    /* WHITE */
+    { "8E9993" : "D6EAFF", "6A726E" : "B8C9DB", "474C49" : "80A1AD" },
+    /* RED */
+    { "8E9993" : "AD0000", "6A726E" : "840000", "474C49" : "5E0000" },
+    /* ORANGE */
+    { "8E9993" : "C8713D", "6A726E" : "A05A31", "474C49" : "7A4425" },
+    /* YELLOW */
+    { "8E9993" : "E0B700", "6A726E" : "C19E00", "474C49" : "A38500" },
+    /* GREEN */
+    { "8E9993" : "158C56", "6A726E" : "0F663E", "474C49" : "093F27" },
+    /* BLUE */
+    { "8E9993" : "00B9D6", "6A726E" : "009FB7", "474C49" : "007F94" },
+    /* PURPLE */
+    { "8E9993" : "775184", "6A726E" : "5D4068", "474C49" : "47314F" },
+    /* PINK */
+    { "8E9993" : "E08879", "6A726E" : "C17668", "474C49" : "A36358" },
+    /* BROWN */
+    { "8E9993" : "A04000", "6A726E" : "7F3300", "474C49" : "592300" }
+
+  ]
+}

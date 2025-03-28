@@ -1,0 +1,35 @@
+{
+  "objectName" : "moogleshipladder",
+  "rarity" : "Uncommon",
+  "description" : "Cargo ship ladder of Moogle design.",
+  "shortdescription" : "Cargo Ship Ladder",
+  "race" : "moogle",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+  "learnBlueprintsOnPickup" : [ "moogleshipladder" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image": "left.png:<color>.<frame>", "fullbright": true }, { "image": "left.png:<color>.<frame>" } ],
+      "flipImages" : true,
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "left",
+      "spaceScan" : 0.1
+    },
+	{
+      "imageLayers" : [ { "image": "right.png:<color>.<frame>", "fullbright": true }, { "image": "right.png:<color>.<frame>" } ],
+	  "flipImages" : true,
+	  "lightPosition" : [0, 0],
+      "imagePosition" : [0,0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+      "spaceScan" : 0.1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "rogueurutanflower",
+  "colonyTags" : ["viera","nature", "pretty","vieravillage"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 3000,
+  "health" : 1.5,
+  "description" : "That flower...It's rare to see one blooming in the sandsea.",
+  "shortdescription" : "Rogue Urutan Flower Pot",
+  "race" : "viera",
+
+  "apexDescription" : "An unfamiliar flower.",
+  "avianDescription" : "What a lovely flower.",
+  "floranDescription" : "Flowerssss.",
+  "glitchDescription" : "Pretty. Another plant to catalogue.",
+  "humanDescription" : "A beautiful flower.",
+  "hylotlDescription" : "No such thing grows beneath the waves.",
+  "novakidDescription" : "Flowers are always nice.",
+  "vieraDescription" : "A rare flower from Ivalice.",
+
+  "inventoryIcon" : "rogueurutanpoticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rogueurutanpot.png:<color>",
+      "imagePosition" : [-1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

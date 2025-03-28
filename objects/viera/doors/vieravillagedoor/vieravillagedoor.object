@@ -1,0 +1,61 @@
+{
+  "objectName" : "vieravillagedoor",
+  "colonyTags" : ["viera","door", "vieravillage"],
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 75,
+  "description" : "A lovely door crafted from the Wood Herself",
+  "shortdescription" : "Viera Village Door",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A lavish wooden door.",
+  "avianDescription" : "A lovely wooden door.",
+  "floranDescription" : "Prrrrettty.",
+  "glitchDescription" : "Identify. A colorful door made of foreign woods.",
+  "humanDescription" : "A gorgeously crafted wooden door.",
+  "hylotlDescription" : "A beautifully carved door.",
+  "novakidDescription" : "It's a nice door.",
+  "vieraDescription" : "A lovely door crafted from the Wood Herself.",
+
+  "inventoryIcon" : "vieravillagedooricon.png",
+  
+  "tooltipKind" : "door",
+  "largeImage" : "vieravillagedoor.png:right",
+  
+  "orientations" : [
+    {
+      "image" : "vieravillagedoor.png:default",
+      "imagePosition" : [-16, 0],
+	  "renderLayer" : "Object+5",
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "vieravillagedoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

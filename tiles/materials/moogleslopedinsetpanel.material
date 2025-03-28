@@ -1,0 +1,23 @@
+{
+  "materialId" : 13131,
+  "materialName" : "moogleslopedinsetpanel",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "moogleslopedinsetpanel",
+
+  "shortdescription" : "Sloped Plating",
+  "description" : "Sloped, layered metal plating for sturdy building.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "moogleslopedinsetpanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4999
+  }
+}

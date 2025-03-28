@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore22",
+  "title" : "Asteria, The Silver Blossom: Ch. 2",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;Sisters of Spirit and Sword^reset;\n\nAsteria and Marpesia were inseparable from the moment they first crossed paths. Where Marpesia was fierce and resolute, Asteria was gentle and wise. They trained together beneath the watchful eyes of the elders, their bond growing with each passing season.",
+	
+	"Together, they learned the art of the hunt, their movements in perfect harmony. Marpesia's arrows were swift and unerring, while Asteria’s blades danced like moonlight on water. They became known as the Twin Shadows, protectors of Golmore who moved as one.",
+	
+	"Yet, it was not just in battle that they stood side by side. In the quiet hours beneath the starlit canopy, they spoke of dreams and fears, of hopes and burdens. Asteria shared her visions with Marpesia, warning her of the darkness that loomed on the horizon. 'The bloodmoon will rise, and with it, shadows shall march. You will face them, Marpesia... and you must not falter."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

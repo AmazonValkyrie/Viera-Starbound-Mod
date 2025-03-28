@@ -1,0 +1,40 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "image" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 7,
+            "cycle" : 1.15,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "image" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "image" : {
+            "off" : {
+              "properties" : {
+                "image" : "vieragramophone.png:<color>.off"
+              }
+            },
+            "on" : {
+              "properties" : {
+                "image" : "vieragramophone.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sounds" : {  }
+}

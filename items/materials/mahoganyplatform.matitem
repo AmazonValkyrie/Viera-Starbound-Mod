@@ -1,0 +1,10 @@
+{
+  "itemName" : "mahoganyplatform",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "mahoganyplatformicon.png",
+  "description" : "Vieran platform crafted of mahogany.",
+  "shortdescription" : "Mahogany Platform",
+
+  "materialId" : 13043
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "vieracablingplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "vieracablingplatformicon.png",
+  "shortdescription" : "Cabling Platform",
+  "description" : "Cabling utilized as a platform.",
+  
+  "materialId" : 13127,
+  "learnBlueprintsOnPickup" : [ "vieracablingplatform" ]
+}

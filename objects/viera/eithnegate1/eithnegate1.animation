@@ -1,0 +1,104 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "console" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {},
+          "turnon" : {
+            "frames" : 44,
+            "cycle" : 9.25,
+            "mode" : "transition",
+            "transition" : "on"
+          },
+          "turnoff" : {
+            "frames" : 11,
+            "cycle" : 4.75,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : true
+        },
+
+        "partStates" : {
+          "console" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off",
+                "fullbright" : true
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on",
+                "fullbright" : true
+              }
+            },
+
+            "turnon" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnon.<frame>",
+                "fullbright" : true
+              }
+            },
+
+            "turnoff" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnoff.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "console" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on"
+              }
+            },
+
+            "turnon" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnon.<frame>"
+              }
+            },
+
+            "turnoff" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.turnoff.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "on" : [],
+    "off" : []
+  }
+}

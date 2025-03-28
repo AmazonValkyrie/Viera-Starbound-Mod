@@ -1,0 +1,22 @@
+{
+  "materialId" : 13088,
+  "materialName" : "dalmascangoldpatterns",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascangoldpatterns",
+  "shortdescription" : "Dalmascan Gold Patterns",
+  "description" : "Change color for different patterns.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascangoldpatterns.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2890
+  }
+}

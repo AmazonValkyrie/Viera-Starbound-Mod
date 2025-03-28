@@ -1,0 +1,34 @@
+{
+  "objectName" : "vieragreeble3",
+  "colonyTags" : ["viera", "pretty","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 95,
+  "description" : "A decorative accent for windows, window dressings and doors.",
+  "shortdescription" : "Angled Greeble",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "It certainly adds something to the room.",
+  "avianDescription" : "A beautiful piece to adorn the walls.",
+  "floranDescription" : "Lovely trinketsssss.",
+  "glitchDescription" : "Curious. So much pride is taken in decorating with this object.",
+  "humanDescription" : "A nice way to dress up the walls and windows.",
+  "hylotlDescription" : "A good way to make use of empty space.",
+  "novakidDescription" : "Some mighty purdy greebles.",
+  "vieraDescription" : "The decorations of my people are to celebrate a room.",
+
+  "inventoryIcon" : "vieragreeble3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieragreeble3.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

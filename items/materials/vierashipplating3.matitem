@@ -1,0 +1,11 @@
+{
+  "itemName" : "vierashipplating3",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vierashipplating3icon.png",
+  "shortdescription" : "Edged Ship Plate III",
+  "description" : "Ship plating with encased wiring.",
+
+  "materialId" : 13108,
+  "learnBlueprintsOnPickup" : [ "vierashipplating3" ]
+}

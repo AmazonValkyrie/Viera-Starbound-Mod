@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodenbase2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "woodenbase2icon.png",
+  "description" : "Dark, whitewood foundation.",
+  "shortdescription" : "Whitewood Foundation II",
+
+  "materialId" : 13027
+}

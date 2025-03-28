@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "mooglecrewchairs",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "decoration", "all" ]
+}

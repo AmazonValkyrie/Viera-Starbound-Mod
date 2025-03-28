@@ -1,0 +1,10 @@
+{
+  "itemName" : "ovulartile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "ovularicon.png",
+  "description" : "Ovular carved Vieran whitewood.",
+  "shortdescription" : "Ovular Whitewood",
+
+  "materialId" : 13023
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "brokenvierafuelhatch",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  
+  "description" : "The Magicite has been unseated from the chalice!",
+  "shortdescription" : "Broken Skystone Chalice",
+  "race" : "viera",
+  "lightColor" : [0, 122, 122],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel hatch. I can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "FTL fuel goes in here! When it's fixed...",
+  "vieraDescription" : "The ship's fuel chalice is in need of repair.",
+
+  "inventoryIcon" : "vierafuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "brokenvierafuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenvierafuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

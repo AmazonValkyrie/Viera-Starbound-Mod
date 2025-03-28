@@ -1,0 +1,12 @@
+{
+  "itemName" : "pastelpattern2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "pastelpattern2icon.png",
+  "description" : "Gold filigree on smooth pastel color.",
+  "shortdescription" : "Filigree Wall Panel",
+
+  "materialId" : 13074,
+  "learnBlueprintsOnPickup" : [ "pastelpattern2" ]
+}

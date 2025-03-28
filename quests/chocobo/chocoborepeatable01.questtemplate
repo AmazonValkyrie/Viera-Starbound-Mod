@@ -1,0 +1,61 @@
+{
+  "id" : "chocoborepeatable01",
+  "title" : "^orange;Filling Out Your Feathered Family!^reset;",
+  "text" :  "^cyan;Wallace^reset; says he can get you another ^orange;chocobo^reset; if you just ^green;bring him the requisite gysahl greens^reset;.",
+  "completionText" : "",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : true,
+  "mainQuest" : false,
+  "prerequisites" : [ "chocobounlock04" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "viera_chocobocallivaliceyellow", 1 ] ] ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/chocobo/chocoborepeatable01.lua",
+  "scriptConfig" : {
+    "repeatable" : true,
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/chocoboknightwallace.png"} ],
+        "title" : "Sir Wallace"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherGysahlGreens",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+	    "items" : [ [ "viera_gysahlgreens", "Gysahl Greens", 15 ] ],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startChocoboRepeatable01",
+		  "interim" : "continueChocoboRepeatable01" 
+		}		  
+	  },
+	  {
+	    "state" : "returnToWallace",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+		"needPreviousItems" : true,
+		"deliverPreviousItems" : [ 1 ],
+		"descriptions" : [ 
+		  "^green;Return to ^cyan;Wallace^reset; with the ^orange;greens^reset; you've gathered." 
+		],
+		"portraitTalks" : {
+		  "cleared" : "finishChocoboRepeatable01" 
+		}	
+	  }
+	]
+  }
+}
+ 

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vieradiamondarmorhead", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

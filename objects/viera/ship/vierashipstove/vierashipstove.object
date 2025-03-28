@@ -1,0 +1,42 @@
+{
+  "objectName" : "vierashipstove",
+  "colonyTags" : ["viera","cooking", "vieraship", "argo"],
+  "rarity" : "Common",
+  "description" : "A small, but powerful stove for cooking.",
+  "shortdescription" : "Viera Ship Oven",
+  "race" : "viera",
+  "category" : "crafting",
+  "price" : 130,
+  "printable" : false,
+  "learnBlueprintsOnPickup" : [ "vierashipstove" ],
+
+  "apexDescription" : "A stove of rather decent quality.",
+  "avianDescription" : "Looks like a good space for cooking.",
+  "floranDescription" : "Cooking with thisss might be better than with bare handsss.",
+  "glitchDescription" : "Intrigued. An efficient means for cooking.",
+  "humanDescription" : "What a compact cooker!",
+  "hylotlDescription" : "A stove top worthy of cooking a fine meal.",
+  "novakidDescription" : "This must be fer cookin.",
+  "vieraDescription" : "This magicite powered oven is fast and efficient.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "craftingfood" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Magicite Ship Oven"
+      }
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipstove.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "vierasmallflowerpot1",
+  "colonyTags" : ["viera","nature","pretty","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 30,
+  "health" : 1.5,
+  "description" : "A lovely vase of flowers.",
+  "shortdescription" : "Small Flower Pot I",
+  "race" : "viera",
+
+  "apexDescription" : "A bunch of colorful flowers.",
+  "avianDescription" : "A lovely arrangement of flora.",
+  "floranDescription" : "Bloom scentsss.",
+  "glitchDescription" : "Enamoured. A beautiful grouping of flowers.",
+  "humanDescription" : "Quite a lovely bunch of flowers.",
+  "hylotlDescription" : "So many colorful blooms grouped together.",
+  "novakidDescription" : "A bunch o' flowers.",
+  "vieraDescription" : "These bright blooms color the land of the Wood.",
+
+  "inventoryIcon" : "smallflowerpot1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "smallflowerpot1.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

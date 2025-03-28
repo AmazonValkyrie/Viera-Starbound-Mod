@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore7",
+  "title" : "Herbarium of the Wood: Entry One",
+  "description" : "A Salve Maker's guide to herbs.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Moonshade Blossom^reset;\n\nFound only beneath the ancient oaks where moonlight dappled the forest floor. Its petals, delicate as gossamer, emit a faint luminescence. Used in potions to soothe fevered minds, it must be harvested under a new moon to preserve its potency.",
+
+	"Beware its twin, the Night's Veil, whose touch brings a dreamless sleep from which few awaken."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "scalloped2lefttile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "scalloped2lefttileicon.png",
+  "description" : "Wide scallop carving on Vieran mahogany.",
+  "shortdescription" : "Wide Scallop Left",
+
+  "materialId" : 13007
+}

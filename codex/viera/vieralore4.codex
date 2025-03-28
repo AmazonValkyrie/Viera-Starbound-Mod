@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore4",
+  "title" : "Tales of the Golmore Ancients",
+  "description" : "Viera ancient history.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Ancient Ones^reset;\n\nIn the age when the skies were closer and the earth sang beneath each step, the Firstborn of the Wood awoke. Their ears were attuned to the voice of the land, their eyes to the flow of aether. They walked with beasts as kin and spoke to the rivers as sisters.",
+
+	"But the world changed, and with it, so too did they-cloaked in secrecy, shielded by shadows, they became the guardians of the hidden glades."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

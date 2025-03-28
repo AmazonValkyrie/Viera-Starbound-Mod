@@ -1,0 +1,22 @@
+{
+  "materialId" : 13059,
+  "materialName" : "panelingbottom",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "panelingbottom",
+  "description" : "Carved, mahogany paneling. Bottom center.",
+  "shortdescription" : "Mahogany Paneling",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "panelingbottom.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2860
+  }
+}

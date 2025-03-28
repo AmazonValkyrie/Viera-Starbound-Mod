@@ -1,0 +1,44 @@
+{
+  "objectName" : "vieracabinet2",
+  "colonyTags" : ["viera","storage","vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A sturdy, carved wooden cabinet.",
+  "shortdescription" : "Double Drawer Cabinet",
+  "race" : "viera",
+  "category" : "storage",
+  "price" : 110,
+  "health" : 1.5,
+
+  "apexDescription" : "A small wooden storage unit.",
+  "avianDescription" : "A small amount of storage.",
+  "floranDescription" : "Sstorage. Not much.",
+  "glitchDescription" : "Unimpressed. Not much storage here.",
+  "humanDescription" : "A cute couple of cabinets.",
+  "hylotlDescription" : "Small but useful storage.",
+  "novakidDescription" : "Seems safe enough as far as unlocked storage goes.",
+  "vieraDescription" : "Viera need lots of storage for cooking supplies.",
+
+  "inventoryIcon" : "vieracabinet2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieracabinet2.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

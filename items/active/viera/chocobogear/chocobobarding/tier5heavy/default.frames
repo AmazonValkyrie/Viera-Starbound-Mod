@@ -1,0 +1,24 @@
+{
+  "frameGrid" : {
+    "size" : [104, 80],
+    "dimensions" : [9, 5],
+
+    "names" : [
+      [ "null", "idle.1",   "idleShrug.1",   "idleShrug.2",   "idleShrug.3",   "idleShrug.4",   "idleShrug.5",   "idleShrug.6",   "idleShrug.7"   ],
+      [ "null", "crouch.1", "crouchShrug.1", "crouchShrug.2", "crouchShrug.3", "crouchShrug.4", "crouchShrug.5", "crouchShrug.6", "crouchShrug.7" ],
+      [ "null", "walk.1",   "walk.2",        "walk.3",        "walk.4",        "walk.5",        "walk.6",        "walk.7",        "walk.8"        ],
+      [ "null", "run.1",    "run.2",         "run.3",         "run.4",         "run.5",         "run.6",         "run.7",         "run.8"         ],
+      [ "null", "jump.1",   "jump.2",        "jump.3",        "jump.4",        "fall.1",        "fall.2",        "fall.3",        "fall.4"        ]
+    ]
+  },
+  "aliases" : {
+    "backstep.1" : "walk.8",
+    "backstep.2" : "walk.7",
+    "backstep.3" : "walk.6",
+    "backstep.4" : "walk.5",
+    "backstep.5" : "walk.4",
+    "backstep.6" : "walk.3",
+    "backstep.7" : "walk.2",
+    "backstep.8" : "walk.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "gysahljuice",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "drink",
+  "inventoryIcon" : "gysahljuice.png",
+  "description" : "Surprisingly minty and sweet.",
+  "shortdescription" : "Gysahl Juice",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "gysahlsalad" ]
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 13072,
+  "materialName" : "greenwordpastel1",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "greenwordpastel1",
+  "description" : "The language of the Viera contained in symbols.",
+  "shortdescription" : "The Green Word",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "greenwordpastel1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2710
+  }
+}

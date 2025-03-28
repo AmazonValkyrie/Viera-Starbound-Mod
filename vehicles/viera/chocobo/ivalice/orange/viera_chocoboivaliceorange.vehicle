@@ -1,0 +1,70 @@
+{
+  "name" : "viera_chocoboivaliceorange",
+  "canBeHit" : true,
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "boundBox" : [-5.0, -16.0, 5.0, 5.0],
+  "animation" : "/vehicles/viera/chocobo/viera_chocobo.animation",
+  "script" : "/vehicles/viera/chocobo/viera_chocobo.lua",
+  "scriptDelta" : 1,
+  
+  "immunities" : [ 
+    "liquidlava", "biomeheat"
+  ],
+  
+  "loungePositions" : {
+    "driverSeat" : {
+      "part" : "saddle",
+      "partAnchor" : "driverOffset",
+      "cameraFocus" : true,
+      "dance" : "warmhands",
+      "orientation" : "sit",
+      "statusEffects" : ["invulnerable"],
+      "armorCosmeticOverrides" : {
+        //"back" : "invisibleback"
+      }
+    },
+    "passengerSeat" : {
+      "part" : "saddle",
+      "partAnchor" : "passengerOffset",
+      "cameraFocus" : true, 
+      "dance" : "typing",
+      "orientation" : "sit",
+      "statusEffects" : ["invulnerable"],
+      "armorCosmeticOverrides" : {
+        //"back" : "invisibleback"
+      }
+    }
+  },  
+  "driverRideEmote" : "happy",
+  "driverDamageEmote" : "oooh",
+  "passengerRideEmote" : "neutral",
+  "passengerDamageEmote" : "oooh",
+  "damageEmoteDelay" : 0.5,
+  "damageSources" : {},
+  "physicsForces" : {},
+
+  "movementSettings" : {
+    "collisionPoly" : [ 
+	  [-1.50, -1.00], [-1.50, -2.00], 
+	  [-0.75, -2.00], [-0.75, -2.50], 
+	  [-0.25, -4.25], [ 0.25, -4.25], 
+	  [ 0.75, -2.50], [ 0.75, -2.00],
+	  [ 1.50, -2.00], [ 1.50, -1.00]
+	],
+    "ignorePlatformCollision" : false,
+    "collisionEnabled" : true,
+    "gravityEnabled" : true,
+    "liquidFriction" : 10,
+    "liquidBuoyancy" : 1
+  },
+  "unoccupiedMovementSettings" : {
+    "mass" : 0.5  
+  },
+  "singleOccupiedMovementSettings" : {
+    "mass" : 1.0
+  },
+  "doubleOccupiedMovementSettings" : {
+    "mass" : 1.5
+  }
+}

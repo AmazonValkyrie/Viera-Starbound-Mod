@@ -1,0 +1,56 @@
+{
+  "itemName" : "vierawhitemagechest",
+  "shortdescription" : "White Mage's Robe",
+  "description" : "White mages use curing magicks to mend allies' wounds and restore them to health.",
+  
+  "category" : "chestwear",
+  "statSpread" : "whitemage",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 80,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "malesleeve/bsleeve.png",
+    "frontSleeve" : "malesleeve/fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    /* WHITE */
+    { "F7EEDD" : "F7EEDD", "E5D2BC" : "E5D2BC", "C9B8A5" : "C9B8A5", "B5A594" : "B5A594", "B8341F" : "B8341F", "992A1A" : "992A1A", "7A2214" : "7A2214", "CAE4F3" : "CAE4F3", "ABC0CC" : "ABC0CC" },
+    /* BLACK */
+    { "F7EEDD" : "636363", "E5D2BC" : "4C4C4C", "C9B8A5" : "333333", "B5A594" : "191919", "B8341F" : "932719", "992A1A" : "661C11", "7A2214" : "3F110A", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* GREY */
+    { "F7EEDD" : "CBD8D8", "E5D2BC" : "A7B2B2", "C9B8A5" : "8F9999", "B5A594" : "6B7272", "B8341F" : "4C4C4C", "992A1A" : "333333", "7A2214" : "191919", "CAE4F3" : "962B88", "ABC0CC" : "660058" },
+    /* WHITE */
+    { "F7EEDD" : "F7EEDD", "E5D2BC" : "E5D2BC", "C9B8A5" : "C9B8A5", "B5A594" : "B5A594", "B8341F" : "B8341F", "992A1A" : "992A1A", "7A2214" : "7A2214", "CAE4F3" : "CAE4F3", "ABC0CC" : "ABC0CC" },
+    /* RED */
+    { "F7EEDD" : "B8341F", "E5D2BC" : "992A1A", "C9B8A5" : "7A2214", "B5A594" : "5E1A10", "B8341F" : "661C11", "992A1A" : "3F110A", "7A2214" : "280A06", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* ORANGE */
+    { "F7EEDD" : "FF9047", "E5D2BC" : "CC7037", "C9B8A5" : "AD683A", "B5A594" : "8E5430", "B8341F" : "932719", "992A1A" : "661C11", "7A2214" : "3F110A", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* YELLOW */
+    { "F7EEDD" : "EDDF93", "E5D2BC" : "CCC07E", "C9B8A5" : "AAA169", "B5A594" : "8C8456", "B8341F" : "267F55", "992A1A" : "1E6644", "7A2214" : "154730", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* GREEN */
+    { "F7EEDD" : "699300", "E5D2BC" : "5B7F00", "C9B8A5" : "476300", "B5A594" : "344900", "B8341F" : "1E6644", "992A1A" : "164C32", "7A2214" : "0E3020", "CAE4F3" : "EDDF93", "ABC0CC" : "AAA169" },
+    /* BLUE */
+    { "F7EEDD" : "80B8FF", "E5D2BC" : "71A2DD", "C9B8A5" : "628DC1", "B5A594" : "5980AF", "B8341F" : "004A7F", "992A1A" : "003B66", "7A2214" : "002B49", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* PURPLE */
+    { "F7EEDD" : "9000D8", "E5D2BC" : "7100A5", "C9B8A5" : "57007F", "B5A594" : "3C0059", "B8341F" : "00518C", "992A1A" : "003B66", "7A2214" : "002138", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* PINK */
+    { "F7EEDD" : "BA4F4E", "E5D2BC" : "994140", "C9B8A5" : "7C3434", "B5A594" : "602828", "B8341F" : "E894A6", "992A1A" : "C67F8E", "7A2214" : "A56A77", "CAE4F3" : "F7EEDD", "ABC0CC" : "C9B8A5" },
+    /* BROWN */
+    { "F7EEDD" : "AF6433", "E5D2BC" : "96562B", "C9B8A5" : "7C4724", "B5A594" : "5E351C", "B8341F" : "E0AE4C", "992A1A" : "BF9341", "7A2214" : "997534", "CAE4F3" : "A7B2B2", "ABC0CC" : "6B7272" }
+
+  ]
+}

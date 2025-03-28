@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "roofcenter",
+    "count" : 4
+  },
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

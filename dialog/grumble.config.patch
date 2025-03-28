@@ -1,0 +1,332 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/viera",
+		"value": {
+			"default": [
+				"I feel an uneasiness stir.",
+				"Things are not what they once were...",
+				"I sense something...."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/viera",
+		"value": {
+			"default": [
+				"Not the most suitable surroundings, but it will do.",
+				"This home needs more...space",
+				"If this place were just a bit larger..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/viera",
+		"value": {
+			"default": [
+				"Do you wish me to leave?",
+				"I'm not used to living in such close quarters with another.",
+				"I suppose you wish me to go..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/viera",
+		"value": {
+			"default": [
+				"I will not stand for this.",
+				"I deserve better treatment than this!",
+				"This place should feel more like a home."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/viera",
+		"value": {
+			"default": [
+				"Very well, I shall leave and not look back.",
+				"And here we part ways.",
+				"Perhaps there is a brighter home for me elsewhere."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I feel an uneasiness stir.",
+				"Things are not what they once were...",
+				"I sense something...."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Not the most suitable surroundings, but it will do.",
+				"This home needs more...space",
+				"If this place were just a bit larger..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Do you wish me to leave?",
+				"I'm not used to living in such close quarters with another.",
+				"I suppose you wish me to go..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I will not stand for this.",
+				"I deserve better treatment than this!",
+				"This place should feel more like a home."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Very well, I shall leave and not look back.",
+				"And here we part ways.",
+				"Perhaps there is a brighter home for me elsewhere."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I feel an uneasiness stir.",
+				"Things are not what they once were...",
+				"I sense something...."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Not the most suitable surroundings, but it will do.",
+				"This home needs more...space",
+				"If this place were just a bit larger..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Do you wish me to leave?",
+				"I'm not used to living in such close quarters with another.",
+				"I suppose you wish me to go..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I will not stand for this.",
+				"I deserve better treatment than this!",
+				"This place should feel more like a home."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Very well, I shall leave and not look back.",
+				"And here we part ways.",
+				"Perhaps there is a brighter home for me elsewhere."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/femalefeolviera",
+		"value": {
+			"default": [
+				"I feel an uneasiness stir.",
+				"Things are not what they once were...",
+				"I sense something...."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/femalefeolviera",
+		"value": {
+			"default": [
+				"Not the most suitable surroundings, but it will do.",
+				"This home needs more...space",
+				"If this place were just a bit larger..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/femalefeolviera",
+		"value": {
+			"default": [
+				"Do you wish me to leave?",
+				"I'm not used to living in such close quarters with another.",
+				"I suppose you wish me to go..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/femalefeolviera",
+		"value": {
+			"default": [
+				"I will not stand for this.",
+				"I deserve better treatment than this!",
+				"This place should feel more like a home."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/femalefeolviera",
+		"value": {
+			"default": [
+				"Very well, I shall leave and not look back.",
+				"And here we part ways.",
+				"Perhaps there is a brighter home for me elsewhere."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/malefeolviera",
+		"value": {
+			"default": [
+				"I feel an uneasiness stir.",
+				"Things are not what they once were...",
+				"I sense something...."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/malefeolviera",
+		"value": {
+			"default": [
+				"Not the most suitable surroundings, but it will do.",
+				"This home needs more...space",
+				"If this place were just a bit larger..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/malefeolviera",
+		"value": {
+			"default": [
+				"Do you wish me to leave?",
+				"I'm not used to living in such close quarters with another.",
+				"I suppose you wish me to go..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/malefeolviera",
+		"value": {
+			"default": [
+				"I will not stand for this.",
+				"I deserve better treatment than this!",
+				"This place should feel more like a home."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/malefeolviera",
+		"value": {
+			"default": [
+				"Very well, I shall leave and not look back.",
+				"And here we part ways.",
+				"Perhaps there is a brighter home for me elsewhere."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/moogle",
+		"value": {
+			"default": [
+				"Something doesn't seem right, kupo.",
+		        "Things are different, kupo...",
+		        "This isn't how I left things, kupo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/moogle",
+		"value": {
+			"default": [
+				"Oh no, my home, kupo!",
+		        "Even someone my size needs more space, kupo.",
+		        "My house must be fixed, kupo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/moogle",
+		"value": {
+			"default": [
+				"Do you need me to leave, kupo?",
+		        "Must I find a new place to live, kupo?",
+		        "I can just leave, kupo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/moogle",
+		"value": {
+			"default": [
+				"This doesn't bode well, kupo.",
+		        "The are poor conditions, kupo.",
+		        "If only this felt more like home, kupo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/moogle",
+		"value": {
+			"default": [
+				"Goodbye, friend, kupo.",
+		        "I'll move along, kupo.",
+		        "I'll pack my things, kupo."
+			]
+		}
+	}
+]

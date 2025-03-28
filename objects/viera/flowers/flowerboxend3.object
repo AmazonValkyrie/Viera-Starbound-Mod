@@ -1,0 +1,49 @@
+{
+  "objectName" : "vieraflowerboxend3",
+  "colonyTags" : ["viera","nature","pretty","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 50,
+  "health" : 1.5,
+  "description" : "A lantern to light a path of flowers.",
+  "shortdescription" : "Flower Box End III",
+  "race" : "viera",
+
+  "apexDescription" : "A bunch of colorful flowers.",
+  "avianDescription" : "A lovely arrangement of flora.",
+  "floranDescription" : "Bloom scentsss.",
+  "glitchDescription" : "Enamoured. A beautiful grouping of flowers.",
+  "humanDescription" : "Quite a lovely bunch of flowers.",
+  "hylotlDescription" : "So many colorful blooms grouped together.",
+  "novakidDescription" : "A bunch o' flowers.",
+  "vieraDescription" : "These bright blooms color the land of the Wood.",
+
+  "lightColor" : [247, 239, 210],
+  "inventoryIcon" : "flowerboxend3icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "flowerboxend3.png:<color>", "fullbright" : true }, { "image" : "flowerboxend3lit.png:<color>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "flowerboxend3.png:<color>", "fullbright" : true }, { "image" : "flowerboxend3lit.png:<color>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+	
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascantwistplating",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascantwistplatingicon.png",
+  "shortdescription" : "Dalmascan Twist Plate",
+  "description" : "Metals and stone create a twist motif.",
+
+  "materialId" : 13100
+}

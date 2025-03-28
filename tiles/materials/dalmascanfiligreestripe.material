@@ -1,0 +1,22 @@
+{
+  "materialId" : 13102,
+  "materialName" : "dalmascanfiligreestripe",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanfiligreestripe",
+  "shortdescription" : "Dalmascan Filigree",
+  "description" : "Worn gold and painted stone create an ornate moulding.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanfiligreestripe.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3100
+  }
+}

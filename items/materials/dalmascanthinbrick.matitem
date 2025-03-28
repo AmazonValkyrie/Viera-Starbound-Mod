@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanthinbrick",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanthinbrickicon.png",
+  "shortdescription" : "Dalmascan Thin Brick",
+  "description" : "Narrow bricks packed together on mortar.",
+
+  "materialId" : 13104
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "flooring",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "flooringicon.png",
+  "description" : "Vieran mahogany flooring.",
+  "shortdescription" : "Mahogany Flooring",
+
+  "materialId" : 13041
+}

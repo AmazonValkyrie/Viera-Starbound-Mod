@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieracabinwindow",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieracabinwindowicon.png",
+  "shortdescription" : "Framed Window",
+  "description" : "Windows with a lattice-like frame.",
+
+  "materialId" : 13124,
+  "learnBlueprintsOnPickup" : [ "vieracabinwindow" ]
+}

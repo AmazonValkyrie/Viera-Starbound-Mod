@@ -1,0 +1,39 @@
+{
+  "objectName" : "vierashipsofa",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "rarity" : "Uncommon",
+  "objectType" : "loungeable",
+  "description" : "A soft cushioned sofa.",
+  "shortdescription" : "Viera Ship Sofa",
+  "race" : "viera",
+  "category" : "furniture",
+  "price" : 100,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "vierashipsofa" ],
+
+  "apexDescription" : "A heavy sofa with decorative cushions.",
+  "avianDescription" : "The pillows make this couch comfortable.",
+  "floranDescription" : "Ssoft pillows.",
+  "glitchDescription" : "Inspired. Perhaps I should decorate myself with fabric.",
+  "humanDescription" : "A gorgeous couch with plush cushions.",
+  "hylotlDescription" : "A good spot for meditation.",
+  "novakidDescription" : "What a nice couch!",
+  "vieraDescription" : "A lovely cushioned sofa.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierashipsofa.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPositions" : [ [-5.5, 18.25], [9, 18.25] ]
+
+    }
+  ],
+  "sitCoverImage" : "/objects/viera/ship/vierashipsofa/vierashipsofacover.png"
+}

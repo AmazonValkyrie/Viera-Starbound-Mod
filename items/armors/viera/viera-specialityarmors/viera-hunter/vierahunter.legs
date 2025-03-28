@@ -1,0 +1,49 @@
+{
+  "itemName" : "vierahunterpants",
+  "shortdescription" : "Hunter's Legwear",
+  "description" : "Thigh boots paired with cotton and leather bottoms.",
+  "itemTags" : [  ],
+  
+  "category" : "legarmour",
+  "statSpread" : "offensive",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 65,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "colorOptions" : [
+    /* OCHRE */
+    { "E2B576" : "E2B576", "E8AC54" : "E8AC54", "D59042" : "D59042", "BA7A3B" : "BA7A3B", "A06A33" : "A06A33", "87592B" : "87592B", "6B4522" : "6B4522" },
+    /* BLACK */
+    { "E2B576" : "D1D1D1", "E8AC54" : "B7B7B7", "D59042" : "999999", "BA7A3B" : "7F7F7F", "A06A33" : "595959", "87592B" : "333333", "6B4522" : "000000" },
+    /* GREY */
+    { "E2B576" : "C9DCEA", "E8AC54" : "AFBFCC", "D59042" : "9CABB7", "BA7A3B" : "7D8993", "A06A33" : "646E77", "87592B" : "41474C", "6B4522" : "25282B" },
+    /* WHITE */
+    { "E2B576" : "FFFFFF", "E8AC54" : "D6EAFF", "D59042" : "C9DBED", "BA7A3B" : "B8C9DB", "A06A33" : "95BBC9", "87592B" : "82A4AF", "6B4522" : "728F99" },
+    /* RED */
+    { "E2B576" : "FF0000", "E8AC54" : "D80000", "D59042" : "AD0000", "BA7A3B" : "840000", "A06A33" : "680000", "87592B" : "4C0000", "6B4522" : "300000" },
+    /* ORANGE */
+    { "E2B576" : "FFA477", "E8AC54" : "FF8C4F", "D59042" : "E07B45", "BA7A3B" : "C8713D", "A06A33" : "A05A31", "87592B" : "844929", "6B4522" : "66381F" },
+    /* OCHRE */
+    { "E2B576" : "E2B576", "E8AC54" : "E8AC54", "D59042" : "D59042", "BA7A3B" : "BA7A3B", "A06A33" : "A06A33", "87592B" : "87592B", "6B4522" : "6B4522" },
+    /* GREEN */
+    { "E2B576" : "4CFF6A", "E8AC54" : "40D65B", "D59042" : "37B74E", "BA7A3B" : "2D9941", "A06A33" : "267F37", "87592B" : "1D6029", "6B4522" : "13421C" },
+    /* BLUE */
+    { "E2B576" : "00DDFF", "E8AC54" : "00C2E0", "D59042" : "00ABC1", "BA7A3B" : "0094AA", "A06A33" : "007B8E", "87592B" : "006372", "6B4522" : "004B56" },
+    /* PURPLE */
+    { "E2B576" : "C093FF", "E8AC54" : "9A76CC", "D59042" : "8565B1", "BA7A3B" : "775184", "A06A33" : "5D4068", "87592B" : "47314F", "6B4522" : "302135" },
+    /* PINK */
+    { "E2B576" : "FFC4BA", "E8AC54" : "FF9B88", "D59042" : "E08879", "BA7A3B" : "C17668", "A06A33" : "A36358", "87592B" : "7F4C44", "6B4522" : "663D37" },
+    /* BROWN */
+    { "E2B576" : "D85300", "E8AC54" : "BC4B00", "D59042" : "A04000", "BA7A3B" : "7F3300", "A06A33" : "592300", "87592B" : "3F1800", "6B4522" : "210C00" }
+
+  ]
+}

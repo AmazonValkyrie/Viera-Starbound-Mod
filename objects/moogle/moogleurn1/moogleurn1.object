@@ -1,0 +1,40 @@
+{
+  "objectName" : "moogleurn1",
+  "colonyTags" : ["moogle","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 75,
+  "description" : "A medium sized sculpted storage urn.",
+  "shortdescription" : "Moogle Storage Urn",
+  "race" : "moogle",
+  "health" : 1.5,
+
+  "apexDescription" : "A clay urn for storage.",
+  "avianDescription" : "An urn for storing items.",
+  "floranDescription" : "Itemsss inssside!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A clay storage urn.",
+  "hylotlDescription" : "What could be inside?",
+  "novakidDescription" : "Fer storin' items.",
+  "vieraDescription" : "Crafted to store intricate wares.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moogleurn1.png",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/stonedoor_open_fast.ogg" ],
+  "closeSounds" : [ "/sfx/objects/stonedoor_close_fast.ogg" ],
+  "slotCount" : 12,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "vierafridge",
+  "colonyTags" : ["viera","storage","vieravillage"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 150,
+  "description" : "A wooden ice box for food storage.",
+  "shortdescription" : "Wooden Viera Fridge",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A refrigerator for storing food.",
+  "avianDescription" : "A large cold pantry.",
+  "floranDescription" : "Fooooodssss",
+  "glitchDescription" : "Observation. A large cold food storage facility.",
+  "humanDescription" : "I've never seen a wooden refrigerator...",
+  "hylotlDescription" : "A large cold box.",
+  "novakidDescription" : "So that's how they keep it cold!",
+  "vieraDescription" : "A refrigerator of Viera design.",
+
+  "inventoryIcon" : "vierafridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierafridge.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 40,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+  "itemAgeMultiplier" : 0.0
+
+}
+

@@ -1,0 +1,11 @@
+{
+  "itemName" : "livingmahogany",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "livingmahogany.png",
+  "description" : "Rough and unrefined, this wood looks freshly chopped.",
+  "shortdescription" : "Unrefined Mahogany",
+
+  "materialId" : 13078
+}

@@ -1,0 +1,53 @@
+{
+  "type" : "mooglecrewmembermechanic",
+  "baseType" : "mooglecrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "mechanic",
+        "name" : "Mechanic",
+        "field" : "Technical",
+        "uniformColorIndex" : 8,
+
+        "benefits" : [
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "fuelEfficiency",
+            "value" : 0.1
+          }
+        ]
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll keep the airship's fuel reserves running efficiently, kupo!",
+			  "Magicite fuel efficiency is increased, kupopo!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "moogle_freelancer2head" } ],
+			"chest" : [ { "name" : "moogle_freelancer2chest" } ],
+            "legs" : [ { "name" : "moogle_freelancer2legs" } ],
+            "sheathedprimary" : [ "npcwrench" ]
+          }
+        ] ]
+    ]
+  }
+}

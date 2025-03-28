@@ -1,0 +1,17 @@
+{
+  "kind" : "viera_prismlightgreen",
+  "definition" : {
+    "type" : "animated",
+    "looping" : true,
+    "animation" : "/particles/viera/prism/green/viera_prismlightgreen.animation",
+    "size" : 0.8,
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "timeToLive" : 4.02,
+    "fullbright" : true,
+    "light" : [0, 0, 20],
+    "layer" : "middle",
+    "collidesLiquid" : true,
+    "collidesForeground" : true
+  }
+} 

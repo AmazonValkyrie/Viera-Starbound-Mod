@@ -1,0 +1,10 @@
+{
+  "itemName" : "magiciteladder",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "magiciteladdericon.png",
+  "shortdescription" : "Magicite Ladder",
+  "description" : "Gold and magicite shaped into platforms.",
+
+  "materialId" : 13115
+}

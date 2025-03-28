@@ -1,0 +1,31 @@
+[
+{ "op": "add", "path": "/gysahlHarvestSeed", "value": [
+[ 0, {
+"pool": [
+{ "weight": 0.23, "item": [ "viera_gysahlrootseed", 2 ] },
+{ "weight": 0.50, "item": [ "viera_gysahlrootseed", 3 ] },
+{ "weight": 0.23, "item": [ "viera_gysahlrootseed", 4 ] },
+{ "weight": 0.04, "item": [ "viera_gysahlrootseed", 5 ] }
+]
+} ] ]
+},
+{ "op": "add", "path": "/gysahlHarvestGreen", "value": [
+[ 0, {
+"pool": [
+{ "weight": 0.50, "item": [ "viera_gysahlgreens", 1 ] },
+{ "weight": 0.30, "item": [ "viera_gysahlgreens", 2 ] },
+{ "weight": 0.19, "item": [ "viera_gysahlgreens", 3 ] },
+{ "weight": 0.01, "item": [ "viera_gysahlgreens", 5 ] }
+]
+} ] ]
+},
+{ "op": "add", "path": "/gysahlHarvest", "value": [
+[ 0, {
+"fill" : [
+{ "pool": "gysahlHarvestSeed" },
+{ "pool": "gysahlHarvestGreen" },
+{ "item": "viera_gysahlroot" }
+]
+} ] ]
+}
+]

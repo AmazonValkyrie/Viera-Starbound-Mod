@@ -1,0 +1,22 @@
+{
+  "materialId" : 13117,
+  "materialName" : "livingmossymahogany",
+  "particleColor" : [102, 73, 41, 255],
+  "itemDrop" : "livingmossymahogany",
+  "description" : "Rough and unrefined, this moss-covered wood looks freshly chopped.",
+  "shortdescription" : "Mossy Mahogany",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "livingmossymahogany.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 2800
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "vierabanner4",
+  "colonyTags" : ["viera", "vieravillage" ],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 90,
+  "health" : 1.5,
+
+  "description" : "A heavily embroidered banner with Viera symbols.",
+  "shortdescription" : "Viera Banner",
+  "race" : "viera",
+
+  "apexDescription" : "A bright woven banner. I wonder what the symbols mean.",
+  "avianDescription" : "An ornately embroidered banner.",
+  "floranDescription" : "Trinketsss.",
+  "glitchDescription" : "Interest. What manner of symbols are these?",
+  "humanDescription" : "I wonder what it says on the banner?",
+  "hylotlDescription" : "Hmmm, interesting symbols.",
+  "novakidDescription" : "It's a purdy banner. Must've taken time to make.",
+  "vieraDescription" : "An embroidered ancient word of good fortune.",
+
+
+  "inventoryIcon" : "vierabanner4icon.png",
+  "orientations" : [
+    {
+      "image" : "vierabanner4.png:<color>",
+      "imagePosition" : [-8, -40],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0], [1, 0] ]
+
+    }
+  ]
+}

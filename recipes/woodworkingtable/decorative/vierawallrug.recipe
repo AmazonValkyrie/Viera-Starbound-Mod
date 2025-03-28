@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 6 },
+	{ "item" : "string", "count" : 3 }	
+  ],
+  "output" : {
+    "item" : "vierawallrug",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

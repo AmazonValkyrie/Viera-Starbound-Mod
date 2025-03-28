@@ -1,0 +1,45 @@
+{
+  "objectName" : "vieradualitystorage",
+  "colonyTags" : ["viera","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 100,
+  "description" : "A spacious storage locker built into the walls.",
+  "shortdescription" : "Duality Wall Storage",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "An unassuming storage locker.",
+  "avianDescription" : "There's more than meets the eye to this wall panel.",
+  "floranDescription" : "Whatsss inssside?",
+  "glitchDescription" : "Admiration. The philosophy of duality is displayed here.",
+  "humanDescription" : "This cabinet is bigger on the inside.",
+  "hylotlDescription" : "What a beautiful depiction of the duality of life.",
+  "novakidDescription" : "Clever buildin' storage in the walls.",
+  "vieraDescription" : "Building storage into the walls saves much space.",
+
+  "inventoryIcon" : "vieradualitystorageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieradualitystorage.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+	  "frames" : 9,
+	  "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 56,
+  "frameCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 9,
+  "openFrameIndex" : 8,
+  "autoCloseCooldown" : 3600
+}

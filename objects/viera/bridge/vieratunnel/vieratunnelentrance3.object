@@ -1,0 +1,46 @@
+{
+  "objectName" : "vieratunnelentrance3",
+  "colonyTags" : ["viera","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 90,
+  "description" : "A carved entryway to Viera villages.",
+  "shortdescription" : "Outer Entrance Gate",
+  "race" : "viera",
+  "health" : 3.5,
+
+  "apexDescription" : ".",
+  "avianDescription" : ".",
+  "floranDescription" : ".",
+  "glitchDescription" : ".",
+  "humanDescription" : ".",
+  "hylotlDescription" : ".",
+  "novakidDescription" : ".",
+  "vieraDescription" : ".",
+  
+
+  "inventoryIcon" : "vieratunnelentrance3.png",
+  "orientations" : [
+    {
+      "image" : "vieratunnelentrance3.png:<color>",
+
+      "imagePosition" : [-36, 0],
+      "frames" : 1,
+	  "renderLayer" : "Player+12",
+      "animationCycle" : 0.5,
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ]	  
+    },
+	{
+      "image" : "vieratunnelentrance3.png:<color>",
+
+      "imagePosition" : [-36, 0],
+      "frames" : 1,
+	  "renderLayer" : "Player+12",
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+      "anchors" : [ ]	  
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore23",
+  "title" : "Origins of the Wood: The First Breath",
+  "description" : "Ancient Viera creation story.",
+  "icon" : "vieracover6.png",
+  "contentPages" : [
+    "^yellow;The First Breath^reset;\n\nIn the beginning, before time wove itself into the fabric of the world, there was only Silence and Void. From this silence, a breath was drawn-a whisper that became a sigh, and from that sigh, The Wood was born. She was the First Root, the Great Canopy, the Lifeblood of all that would grow.",
+	
+	"From Her essence, trees sprang forth, their branches reaching towards the sky, their roots delving deep into the ground. Rivers flowed with Her laughter, winds danced to Her song. She was the pulse within every leaf, the whisper within every breeze. Her presence permeated every living thing, binding them together in harmony.",
+	
+	"The Viera were born of this harmony, sculpted from the soil beneath Her oldest boughs, their ears shaped to catch Her whispers on the wind. To them, She gave the gift of hearing, that they might listen to Her wisdom. In return, they swore fealty, vowing never to abandon the shadows of Her canopy. Thus, the Green Word was woven into their souls-a bond between spirit and flesh, between The Wood and Her chosen."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

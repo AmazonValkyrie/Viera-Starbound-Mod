@@ -1,0 +1,36 @@
+{
+  "itemName" : "ivalicianshortsword",
+  "shortdescription" : "Ivalician Shortsword",
+  "description" : "A shortsword from ivalice; as its name suggests, it's functionally a shortsword",
+  "level" : 1,
+  "price" : 50,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "itemTags" : ["weapon","melee","shortsword"],
+  "twoHanded" : false,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : { 
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_shortsword.ogg" ]
+    }
+  },
+
+  "elementalType" : "physical",
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "altAbilityType" : "",
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

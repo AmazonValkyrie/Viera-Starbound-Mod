@@ -1,0 +1,58 @@
+{
+  "objectName" : "fu_vierastldrive",
+  "colonyTags" : ["viera", "prism", "vieraship", "argo", "science"],
+  "race" : "viera",
+  "rarity" : "essential",
+  "category" : "furniture",
+  "printable" : false,
+  "description" : "A magicite STL crystal. Allows travel within a system, but cannot travel to others.\n^orange;Ship Mass: +1^reset;. ^red;BYOS Only^reset;",
+  "shortdescription" : "^red;Magicite STL Crystal^reset;",
+  
+  "apexDescription" : "Light is refracted as it passes through this prism.",
+  "avianDescription" : "This crystal refracts light into pretty patterns.",
+  "floranDescription" : "Colours burssst out of this rock. Makes Floran curious.",
+  "glitchDescription" : "Bewildered. I find these rocks to be quite mesmerising.",
+  "humanDescription" : "These rocks are responsible for the impressive light show.",
+  "hylotlDescription" : "Prisms are a true wonder of the natural world.",
+  "novakidDescription" :  "I enjoy a good light show!",
+  "vieraDescription" : "This dazzling magicite crystal channels power to the ship.",
+  "lightColor" : [255, 254, 159],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.0,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "fu_vierastldrive.png:<frame>", "fullbright" : true }, 
+		{ "image" : "fu_vierastldrivelit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "/objects/viera/ship/shipengine/viera_shipengine.animation",
+  "animationParts" : {
+    "main" : "fu_vierastldrive.png",
+	"fullbright" : "fu_vierastldrivelit.png"
+  },
+  "animationPosition" : [-16, 0],
+  
+  "scripts" : [ "/objects/ship/fu_shipstatmodifier.lua" ],
+  "scriptDelta" : 60,
+  "detectThresholdMed" : 10,
+  "detectThresholdMax" : 50,
+  
+  "stats" : {
+    "shipSpeed" : -20,
+    "shipMass" : 1
+  },
+  "capabilities" : [
+    "planetTravel"
+  ],
+  "maxAmountGroups" : {
+    "ftlDrive" : 1
+  },
+  "byosOnly" : true
+}

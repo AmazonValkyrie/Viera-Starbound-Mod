@@ -1,0 +1,37 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "vierawwtable",
+        "states" : {
+          "vierawwtable" : {
+            "frames" : 77,
+            "cycle" : 8.5,
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "vierawwtable" : {
+              "properties" : {
+                "image" : "woodworkingtable.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

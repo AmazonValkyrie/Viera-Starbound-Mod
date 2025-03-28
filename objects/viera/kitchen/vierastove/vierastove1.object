@@ -1,0 +1,63 @@
+{
+  "objectName" : "vierastove1",
+  "colonyTags" : ["viera","cooking","vieravillage"],
+  "printable" : false,
+  "price" : 120,
+  "rarity" : "Uncommon",
+  "health" : 1.5,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ]
+  },
+  "description" : "A warm fire heats the burners of the stove. The heat can be used for cooking.",
+  "shortdescription" : "Iron Stove",
+  "race" : "viera",
+  "category" : "crafting",
+
+  "apexDescription" : "A strong iron stove for cooking.",
+  "avianDescription" : "A large, hot metal box. Probably used for cooking.",
+  "floranDescription" : "Floran hate flames, but likesss to cook. Cooking leadss to eating.",
+  "glitchDescription" : "Informed. Heating meat with fire is a basic form of cooking.",
+  "humanDescription" : "I absolutely love cooking.",
+  "hylotlDescription" : "A warm stove, I enjoy the simplicity of flame-cooked food.",
+  "novakidDescription" : "A toasty stove for cookin'. What more d'ya need?",
+  "vieraDescription" : "I can cook delicious foods on this stove.",
+
+
+  "inventoryIcon" : "vierastove1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vierastove1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "campfire",
+      "campfire"
+    ],
+    "defaultReactions" : {
+      "campfire" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

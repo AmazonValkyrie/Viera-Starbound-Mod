@@ -1,0 +1,12 @@
+{
+  "itemName" : "pastelsmooth",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "pastelsmoothicon.png",
+  "description" : "Gold filigree on smooth pastel color.",
+  "shortdescription" : "Smooth Wall Paneling",
+
+  "materialId" : 13077,
+  "learnBlueprintsOnPickup" : [ "pastelsmooth" ]
+}

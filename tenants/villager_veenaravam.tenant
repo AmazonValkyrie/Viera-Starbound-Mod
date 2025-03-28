@@ -1,0 +1,26 @@
+{
+	"name": "villager_veenaravam",
+	"priority": 4,
+
+	"colonyTagCriteria": {
+		"light" : 1,
+		"door" : 1,
+		"viera" : 4,
+		"maleveenarava" : 2
+	},
+
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "maleveenaravaviera",
+			"type": "maleveenaravavieravillager",
+			"overrides": {
+			 }
+		 }
+	 ],
+
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

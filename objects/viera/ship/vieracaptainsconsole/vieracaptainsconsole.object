@@ -1,0 +1,48 @@
+{
+  "objectName" : "vieracaptainsconsole",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "itemTags" : ["captainschair"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "loungeable",
+
+  "description" : "The Captain and crew navigate the ship from here.",
+  "shortdescription" : "Viera Captain's Console",
+  "race" : "viera",
+  "category" : "furniture",
+
+  "apexDescription" : "Ahh... Sweet freedom. I can use the ship's navigator from this chair.",
+  "avianDescription" : "The Captain's chair. That's me! I can use the ship's navigator from this chair.",
+  "floranDescription" : "Best chair on ship. Floran can sit here to ussse navigator and fly ship!",
+  "glitchDescription" : "Excited. Sitting on the Captain's chair allows me to fly this ship. Where to next?",
+  "humanDescription" : "The Captain's chair. The person sitting here decides where the ship goes!",
+  "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
+  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes! That's me!",
+  "vieraDescription" : "I can pilot the vessel from this position.",
+  
+  "lightColor" : [255, 255, 255],
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vieracaptainsconsole.png:<color>.<frame>",
+      "imagePosition" : [-24, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPositions" : [ [-5.5, 18.25], [6, 18.25] ]
+    }
+  ],
+  
+  "animationParts" : {
+    "bg" : "vieracaptainsconsole.png",
+    "fg" : "vieracaptainsconsolelit.png"
+  },
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
+
+  "sitCoverImage" : "/objects/viera/ship/vieracaptainsconsole/vieracaptainsconsolecover.png"
+}

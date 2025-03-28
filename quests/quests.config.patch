@@ -1,0 +1,12 @@
+[
+ {
+   "op":"add", 
+   "path":"/initialquests/viera",	
+   "value": [ "vieraopening" ]
+ },
+ {
+   "op":"add", 
+   "path":"/initialquests/moogle",	
+   "value": [ "protectorate" ]
+ }
+]

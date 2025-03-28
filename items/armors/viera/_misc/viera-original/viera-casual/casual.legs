@@ -1,0 +1,46 @@
+{
+  "itemName" : "casualvieralegs",
+  "shortdescription" : "Casual Leggings",
+  "description" : "Casual legwear for the relaxing Viera.",
+  
+  "style" : "Viera - Cosmetic",
+  "category" : "legwear",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 35,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+    /* PURPLE */
+    { "776396" : "776396", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* BLACK */
+    { "776396" : "383838", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* GREY */
+    { "776396" : "b5b5b5", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* WHITE */
+    { "776396" : "7b7b7b", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* RED */
+    { "776396" : "932625", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* ORANGE */
+    { "776396" : "af4e00", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* YELLOW */
+    { "776396" : "a46e06", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* GREEN */
+    { "776396" : "247824", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* BLUE */
+    { "776396" : "344495", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* PURPLE */
+    { "776396" : "776396", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* PINK */
+    { "776396" : "97276d", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" },
+    /* BROWN */
+    { "776396" : "754c23", "7A5639" : "7A5639", "5E4D3B" : "5E4D3B", "3F3328" : "3F3328" }
+
+  ]
+}

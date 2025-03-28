@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "sandstonematerial", "count" : 2 },
+	{ "item" : "cobblestonematerial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "dalmascanbrick",
+    "count" : 8
+  },
+  "duration" : 0.1,
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

@@ -1,0 +1,108 @@
+[
+	{ "op" : "add",
+		"path" : "/helpme/viera",
+		"value" : [
+			"Why do you wish to hurt me?",
+			"I need aid, I have no weapon!",
+			"You will not corner me!",
+			"This is why we do not trust the outside world!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/viera",
+		"value" : [
+			"I've made it to safety!",
+			"Thank the Wood, I am safe!",
+			"May the Wood safeguard us all.",
+			"All will be well."
+			]
+	},
+	{ "op" : "add",
+		"path" : "/helpme/femaleveenaravaviera",
+		"value" : [
+			"Why do you wish to hurt me?",
+			"I need aid, I have no weapon!",
+			"You will not corner me!",
+			"This is why we do not trust the outside world!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/femaleveenaravaviera",
+		"value" : [
+			"I've made it to safety!",
+			"Thank the Wood, I am safe!",
+			"May the Wood safeguard us all.",
+			"All will be well."
+			]
+	},
+	{ "op" : "add",
+		"path" : "/helpme/maleveenaravaviera",
+		"value" : [
+			"Why do you wish to hurt me?",
+			"I need aid, I have no weapon!",
+			"You will not corner me!",
+			"This is why we do not trust the outside world!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/maleveenaravaviera",
+		"value" : [
+			"I've made it to safety!",
+			"Thank the Wood, I am safe!",
+			"May the Wood safeguard us all.",
+			"All will be well."
+			]
+	},
+	{ "op" : "add",
+		"path" : "/helpme/femalefeolviera",
+		"value" : [
+			"Why do you wish to hurt me?",
+			"I need aid, I have no weapon!",
+			"You will not corner me!",
+			"This is why we do not trust the outside world!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/femalefeolviera",
+		"value" : [
+			"I've made it to safety!",
+			"Thank the Wood, I am safe!",
+			"May the Wood safeguard us all.",
+			"All will be well."
+			]
+	},
+	{ "op" : "add",
+		"path" : "/helpme/malefeolviera",
+		"value" : [
+			"Why do you wish to hurt me?",
+			"I need aid, I have no weapon!",
+			"You will not corner me!",
+			"This is why we do not trust the outside world!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/malefeolviera",
+		"value" : [
+			"I've made it to safety!",
+			"Thank the Wood, I am safe!",
+			"May the Wood safeguard us all.",
+			"All will be well."
+			]
+	},
+	{ "op" : "add",
+		"path" : "/helpme/moogle",
+		"value" : [
+			"I need help, kupo!",
+		    "Please help, kupopo!",
+		    "I need some assistance, kupo!"
+			]
+	},
+	{ "op" : "add",
+		"path" : "/safe/moogle",
+		"value" : [
+			"Things may be safe again, kupo.",
+		    "It appears to be safe, kupopo.",
+		    "Thank goodness that's over, kupo."
+			]
+	}
+]

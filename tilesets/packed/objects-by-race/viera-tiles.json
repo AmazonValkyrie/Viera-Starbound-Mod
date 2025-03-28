@@ -1,0 +1,2280 @@
+{ "columns":0,
+ "margin":0,
+ "name":"viera-tiles",
+ "spacing":0,
+ "tilecount":113,
+ "tiledversion":"1.11.2",
+ "tileheight":24,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"Vieran Whitewood with angled carving",
+         "\/\/name":"angledtile",
+         "\/\/short description":"Angled Whitewood",
+         "material":"angledtile"
+        },
+     "1":
+        {
+         "\/\/description":"Carved Whitewood",
+         "\/\/name":"carvedtile",
+         "\/\/short description":"Carved Whitewood",
+         "material":"carvedtile"
+        },
+     "10":
+        {
+         "\/\/description":"Dalmascan Iron Fence III - actually 4",
+         "\/\/name":"dalmascanfence4",
+         "\/\/short description":"Dalmascan Iron Fence III - actually 4",
+         "material":"dalmascanfence4"
+        },
+     "100":
+        {
+         "\/\/description":"Sloped Trimming",
+         "\/\/name":"vieraslopedtrimming",
+         "\/\/short description":"Sloped Trimming",
+         "material":"vieraslopedtrimming"
+        },
+     "101":
+        {
+         "\/\/description":"Upper Moulding",
+         "\/\/name":"walltopper",
+         "\/\/short description":"Upper Moulding",
+         "material":"walltopper"
+        },
+     "102":
+        {
+         "\/\/description":"Floral Whitewood",
+         "\/\/name":"whitewoodcolumnbase",
+         "\/\/short description":"Floral Whitewood",
+         "material":"whitewoodcolumnbase"
+        },
+     "103":
+        {
+         "\/\/description":"Fluted Whitewood",
+         "\/\/name":"whitewoodcolumnfluting",
+         "\/\/short description":"Fluted Whitewood",
+         "material":"whitewoodcolumnfluting"
+        },
+     "104":
+        {
+         "\/\/description":"Carved whitewood column topper",
+         "\/\/name":"whitewoodcolumnroof",
+         "\/\/short description":"Carved whitewood column topper",
+         "material":"whitewoodcolumnroof"
+        },
+     "105":
+        {
+         "\/\/description":"Mahogany Lattice",
+         "\/\/name":"windowlattice",
+         "\/\/short description":"Mahogany Lattice",
+         "material":"windowlattice"
+        },
+     "106":
+        {
+         "\/\/description":"Wood Foundation",
+         "\/\/name":"woodenbase",
+         "\/\/short description":"Wood Foundation",
+         "material":"woodenbase"
+        },
+     "107":
+        {
+         "\/\/description":"Whitewood Foundation I",
+         "\/\/name":"woodenbase1",
+         "\/\/short description":"Whitewood Foundation I",
+         "material":"woodenbase1"
+        },
+     "108":
+        {
+         "\/\/description":"Whitewood Foundation II",
+         "\/\/name":"woodenbase2",
+         "\/\/short description":"Whitewood Foundation II",
+         "material":"woodenbase2"
+        },
+     "109":
+        {
+         "\/\/description":"Mahogany Slats",
+         "\/\/name":"woodenslats",
+         "\/\/short description":"Mahogany Slats",
+         "material":"woodenslats"
+        },
+     "11":
+        {
+         "\/\/description":"Dalmascan Filigree",
+         "\/\/name":"dalmascanfiligreestripe",
+         "\/\/short description":"Dalmascan Filigree",
+         "material":"dalmascanfiligreestripe"
+        },
+     "110":
+        {
+         "\/\/description":"Mahogany Slats II",
+         "\/\/name":"woodenslats1",
+         "\/\/short description":"Mahogany Slats II",
+         "material":"woodenslats1"
+        },
+     "111":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingbottom",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingbottom"
+        },
+     "112":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingcenter",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingcenter"
+        },
+     "113":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingcorner1",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingcorner1"
+        },
+     "114":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingcorner2",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingcorner2"
+        },
+     "115":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingcorner3",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingcorner3"
+        },
+     "116":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingcorner4",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingcorner4"
+        },
+     "117":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingleftside",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingleftside"
+        },
+     "118":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingrightside",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingrightside"
+        },
+     "119":
+        {
+         "\/\/description":"Whitewood Paneling",
+         "\/\/name":"wwpanelingtop",
+         "\/\/short description":"Whitewood Paneling",
+         "material":"wwpanelingtop"
+        },
+     "12":
+        {
+         "\/\/description":"Dalmascan Stripe Stone",
+         "\/\/name":"dalmascanfiligreestripe2",
+         "\/\/short description":"Dalmascan Stripe Stone",
+         "material":"dalmascanfiligreestripe2"
+        },
+     "13":
+        {
+         "\/\/description":"Dalmascan Gold Patterns",
+         "\/\/name":"dalmascangoldpatterns",
+         "\/\/short description":"Dalmascan Gold Patterns",
+         "material":"dalmascangoldpatterns"
+        },
+     "14":
+        {
+         "\/\/description":"Dalmascan Marble",
+         "\/\/name":"dalmascanmarble",
+         "\/\/short description":"Dalmascan Marble",
+         "material":"dalmascanmarble"
+        },
+     "15":
+        {
+         "\/\/description":"Dalmascan Marble Edge I",
+         "\/\/name":"dalmascanmarbleedging",
+         "\/\/short description":"Dalmascan Marble Edge I",
+         "material":"dalmascanmarbleedging"
+        },
+     "16":
+        {
+         "\/\/description":"Dalmascan Marble Edge II",
+         "\/\/name":"dalmascanmarbleedging2",
+         "\/\/short description":"Dalmascan Marble Edge II",
+         "material":"dalmascanmarbleedging2"
+        },
+     "17":
+        {
+         "\/\/description":"Dalmascan Striped Plating",
+         "\/\/name":"dalmascanplating1",
+         "\/\/short description":"Dalmascan Striped Plating",
+         "material":"dalmascanplating1"
+        },
+     "18":
+        {
+         "\/\/description":"Dalmascan Plating",
+         "\/\/name":"dalmascanplating2",
+         "\/\/short description":"Dalmascan Plating",
+         "material":"dalmascanplating2"
+        },
+     "19":
+        {
+         "\/\/description":"Dalmascan Tile",
+         "\/\/name":"dalmascanquadtile",
+         "\/\/short description":"Dalmascan Tile",
+         "material":"dalmascanquadtile"
+        },
+     "2":
+        {
+         "\/\/description":"Circular Carving",
+         "\/\/name":"circulartile",
+         "\/\/short description":"Circular Carving",
+         "material":"circulartile"
+        },
+     "20":
+        {
+         "\/\/description":"Dalmascan Silver Patterns",
+         "\/\/name":"dalmascansilverpatterns",
+         "\/\/short description":"Dalmascan Silver Patterns",
+         "material":"dalmascansilverpatterns"
+        },
+     "21":
+        {
+         "\/\/description":"Dalmascan Stained Glass",
+         "\/\/name":"dalmascanstainedglass",
+         "\/\/short description":"Dalmascan Stained Glass",
+         "material":"dalmascanstainedglass"
+        },
+     "22":
+        {
+         "\/\/description":"Dalmascan Multicolored Glass",
+         "\/\/name":"dalmascanstainedglass2",
+         "\/\/short description":"Dalmascan Multicolored Glass",
+         "material":"dalmascanstainedglass2"
+        },
+     "23":
+        {
+         "\/\/description":"Dalmascan Smoothstone",
+         "\/\/name":"dalmascanstone",
+         "\/\/short description":"Dalmascan Smoothstone",
+         "material":"dalmascanstone"
+        },
+     "24":
+        {
+         "\/\/description":"Dalmascan Scalloped Stone",
+         "\/\/name":"dalmascanstonescallop",
+         "\/\/short description":"Dalmascan Scalloped Stone",
+         "material":"dalmascanstonescallop"
+        },
+     "25":
+        {
+         "\/\/description":"Striped Moulding",
+         "\/\/name":"dalmascanstripe",
+         "\/\/short description":"Striped Moulding",
+         "material":"dalmascanstripe"
+        },
+     "26":
+        {
+         "\/\/description":"Stripe Edge Stone",
+         "\/\/name":"dalmascanstripe2",
+         "\/\/short description":"Stripe Edge Stone",
+         "material":"dalmascanstripe2"
+        },
+     "27":
+        {
+         "\/\/description":"Dalmascan Thin Brick",
+         "\/\/name":"dalmascanthinbrick",
+         "\/\/short description":"Dalmascan Thin Brick",
+         "material":"dalmascanthinbrick"
+        },
+     "28":
+        {
+         "\/\/description":"Dalmascan Twist Plate",
+         "\/\/name":"dalmascantwistplating",
+         "\/\/short description":"Dalmascan Twist Plate",
+         "material":"dalmascantwistplating"
+        },
+     "29":
+        {
+         "\/\/description":"Dalmascan Twist Plate II",
+         "\/\/name":"dalmascantwistplatingvert",
+         "\/\/short description":"Dalmascan Twist Plate II",
+         "material":"dalmascantwistplatingvert"
+        },
+     "3":
+        {
+         "\/\/description":"Column Base",
+         "\/\/name":"columnbase",
+         "\/\/short description":"Column Base",
+         "material":"columnbase"
+        },
+     "30":
+        {
+         "\/\/description":"Sphere Carvings",
+         "\/\/name":"dottedtile",
+         "\/\/short description":"Sphere Carvings",
+         "material":"dottedtile"
+        },
+     "31":
+        {
+         "\/\/description":"Circular Carving",
+         "\/\/name":"dotted1tile",
+         "\/\/short description":"Circular Carving",
+         "material":"dotted1tile"
+        },
+     "32":
+        {
+         "\/\/description":"Flowers of the Wood",
+         "\/\/name":"eithnefloralblock1",
+         "\/\/short description":"Flowers of the Wood",
+         "material":"eithnefloralblock1"
+        },
+     "33":
+        {
+         "\/\/description":"Mahogany Flooring",
+         "\/\/name":"flooring",
+         "\/\/short description":"Mahogany Flooring",
+         "material":"flooring"
+        },
+     "34":
+        {
+         "\/\/description":"Flower Motif",
+         "\/\/name":"floweredtile",
+         "\/\/short description":"Flower Motif",
+         "material":"floweredtile"
+        },
+     "35":
+        {
+         "\/\/description":"Fluted Mahogany",
+         "\/\/name":"flutedtile",
+         "\/\/short description":"Fluted Mahogany",
+         "material":"flutedtile"
+        },
+     "36":
+        {
+         "\/\/description":"Fluted Mahogany II",
+         "\/\/name":"fluted1tile",
+         "\/\/short description":"Fluted Mahogany II",
+         "material":"fluted1tile"
+        },
+     "37":
+        {
+         "\/\/description":"Geometric Trim I",
+         "\/\/name":"geometric",
+         "\/\/short description":"Geometric Trim I",
+         "material":"geometric"
+        },
+     "38":
+        {
+         "\/\/description":"Geometric Trim II",
+         "\/\/name":"geometric2",
+         "\/\/short description":"Geometric Trim II",
+         "material":"geometric2"
+        },
+     "39":
+        {
+         "\/\/description":"The Green Word",
+         "\/\/name":"greenwordpastel1",
+         "\/\/short description":"The Green Word",
+         "material":"greenwordpastel1"
+        },
+     "4":
+        {
+         "\/\/description":"Column Base II - technically",
+         "\/\/name":"columnbase1",
+         "\/\/short description":"Column Base II - technically",
+         "material":"columnbase1"
+        },
+     "47":
+        {
+         "\/\/description":"Whitewood Roofing",
+         "\/\/name":"intricateroof",
+         "\/\/short description":"Whitewood Roofing",
+         "material":"intricateroof"
+        },
+     "48":
+        {
+         "\/\/description":"Whitewood Roofing",
+         "\/\/name":"intricateroof1",
+         "\/\/short description":"Whitewood Roofing",
+         "material":"intricateroof1"
+        },
+     "49":
+        {
+         "\/\/description":"Unrefined Mahogany",
+         "\/\/name":"livingmahogany",
+         "\/\/short description":"Unrefined Mahogany",
+         "material":"livingmahogany"
+        },
+     "5":
+        {
+         "\/\/description":"Curved Carving",
+         "\/\/name":"curvedtile",
+         "\/\/short description":"Curved Carving",
+         "material":"curvedtile"
+        },
+     "50":
+        {
+         "\/\/description":"Mossy Mahogany",
+         "\/\/name":"livingmossymahogany",
+         "\/\/short description":"Mossy Mahogany",
+         "material":"livingmossymahogany"
+        },
+     "51":
+        {
+         "\/\/description":"Mahogany Roofing",
+         "\/\/name":"mahoganyroof",
+         "\/\/short description":"Mahogany Roofing",
+         "material":"mahoganyroof"
+        },
+     "52":
+        {
+         "\/\/description":"Flora bundled together",
+         "\/\/name":"eithnenaturalfoliage",
+         "\/\/short description":"Flora bundled together",
+         "material":"eithnenaturalfoliage"
+        },
+     "53":
+        {
+         "\/\/description":"Ovular Whitewood",
+         "\/\/name":"ovulartile",
+         "\/\/short description":"Ovular Whitewood",
+         "material":"ovulartile"
+        },
+     "54":
+        {
+         "\/\/description":"Ovular Mahogany",
+         "\/\/name":"ovular2",
+         "\/\/short description":"Ovular Mahogany",
+         "material":"ovular2"
+        },
+     "55":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingbottom",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingbottom"
+        },
+     "56":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingcenter",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingcenter"
+        },
+     "57":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingcorner1",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingcorner1"
+        },
+     "58":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingcorner2",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingcorner2"
+        },
+     "59":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingcorner3",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingcorner3"
+        },
+     "6":
+        {
+         "\/\/description":"Dalmascan Brick",
+         "\/\/name":"dalmascanbrick",
+         "\/\/short description":"Dalmascan Brick",
+         "material":"dalmascanbrick"
+        },
+     "60":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingcorner4",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingcorner4"
+        },
+     "61":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingleftside",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingleftside"
+        },
+     "62":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingrightside",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingrightside"
+        },
+     "63":
+        {
+         "\/\/description":"Mahogany Paneling",
+         "\/\/name":"panelingtop",
+         "\/\/short description":"Mahogany Paneling",
+         "material":"panelingtop"
+        },
+     "64":
+        {
+         "\/\/description":"Filigree Wall Panel",
+         "\/\/name":"pastelpattern1",
+         "\/\/short description":"Filigree Wall Panel",
+         "material":"pastelpattern1"
+        },
+     "65":
+        {
+         "\/\/description":"Filigree Wall Panel",
+         "\/\/name":"pastelpattern2",
+         "\/\/short description":"Filigree Wall Panel",
+         "material":"pastelpattern2"
+        },
+     "66":
+        {
+         "\/\/description":"Filigree Wall Panel",
+         "\/\/name":"pastelpattern3",
+         "\/\/short description":"Filigree Wall Panel",
+         "material":"pastelpattern3"
+        },
+     "67":
+        {
+         "\/\/description":"Devore' Wall Panel",
+         "\/\/name":"pastelpattern4",
+         "\/\/short description":"Devore' Wall Panel",
+         "material":"pastelpattern4"
+        },
+     "68":
+        {
+         "\/\/description":"Smooth Wall Paneling",
+         "\/\/name":"pastelsmooth",
+         "\/\/short description":"Smooth Wall Paneling",
+         "material":"pastelsmooth"
+        },
+     "69":
+        {
+         "\/\/description":"Rabbit-Hole Center",
+         "\/\/name":"rabbitholecenter",
+         "\/\/short description":"Rabbit-Hole Center",
+         "material":"rabbitholecenter"
+        },
+     "7":
+        {
+         "\/\/description":"Dalmascan Stone Fence",
+         "\/\/name":"dalmascanfence1",
+         "\/\/short description":"Dalmascan Stone Fence",
+         "material":"dalmascanfence1"
+        },
+     "70":
+        {
+         "\/\/description":"Rabbit-Hole Left",
+         "\/\/name":"rabbitholeleft",
+         "\/\/short description":"Rabbit-Hole Left",
+         "material":"rabbitholeleft"
+        },
+     "71":
+        {
+         "\/\/description":"Rabbit-Hole Right",
+         "\/\/name":"rabbitholeright",
+         "\/\/short description":"Rabbit-Hole Right",
+         "material":"rabbitholeright"
+        },
+     "72":
+        {
+         "\/\/description":"Whitewood Roofing",
+         "\/\/name":"rooftile",
+         "\/\/short description":"Whitewood Roofing",
+         "material":"rooftile"
+        },
+     "73":
+        {
+         "\/\/description":"Roofing Center",
+         "\/\/name":"roofcenter",
+         "\/\/short description":"Roofing Center",
+         "material":"roofcenter"
+        },
+     "74":
+        {
+         "\/\/description":"Roofing Left End",
+         "\/\/name":"roofleftend",
+         "\/\/short description":"Roofing Left End",
+         "material":"roofleftend"
+        },
+     "75":
+        {
+         "\/\/description":"Roofing Right End",
+         "\/\/name":"roofrightend",
+         "\/\/short description":"Roofing Right End",
+         "material":"roofrightend"
+        },
+     "76":
+        {
+         "\/\/description":"Scalloped Carving",
+         "\/\/name":"scallopedtile",
+         "\/\/short description":"Scalloped Carving",
+         "material":"scallopedtile"
+        },
+     "77":
+        {
+         "\/\/description":"Wide Scallop Left",
+         "\/\/name":"scalloped2lefttile",
+         "\/\/short description":"Wide Scallop Left",
+         "material":"scalloped2lefttile"
+        },
+     "78":
+        {
+         "\/\/description":"Wide Scallop Right",
+         "\/\/name":"scalloped2righttile",
+         "\/\/short description":"Wide Scallop Right",
+         "material":"scalloped2righttile"
+        },
+     "79":
+        {
+         "\/\/description":"Scalloped Trim",
+         "\/\/name":"scalloped3",
+         "\/\/short description":"Scalloped Trim",
+         "material":"scalloped3"
+        },
+     "8":
+        {
+         "\/\/description":"Dalmascan Iron Fence",
+         "\/\/name":"dalmascanfence2",
+         "\/\/short description":"Dalmascan Iron Fence",
+         "material":"dalmascanfence2"
+        },
+     "80":
+        {
+         "\/\/description":"Sloped Whitewood",
+         "\/\/name":"slopedtile",
+         "\/\/short description":"Sloped Whitewood",
+         "material":"slopedtile"
+        },
+     "81":
+        {
+         "\/\/description":"Smooth Mahogany",
+         "\/\/name":"smoothtile",
+         "\/\/short description":"Smooth Mahogany",
+         "material":"smoothtile"
+        },
+     "82":
+        {
+         "\/\/description":"Bordered Mahogany",
+         "\/\/name":"smoothborderedtile",
+         "\/\/short description":"Bordered Mahogany",
+         "material":"smoothborderedtile"
+        },
+     "83":
+        {
+         "\/\/description":"Swirl Motif",
+         "\/\/name":"swirltile",
+         "\/\/short description":"Swirl Motif",
+         "material":"swirltile"
+        },
+     "84":
+        {
+         "\/\/description":"Lush Foliage",
+         "\/\/name":"vierafoliage1",
+         "\/\/short description":"Lush Foliage",
+         "material":"vierafoliage1"
+        },
+     "85":
+        {
+         "\/\/description":"Ladder Path I",
+         "\/\/name":"vieraladderpath1",
+         "\/\/short description":"Ladder Path I",
+         "material":"vieraladderpath1"
+        },
+     "86":
+        {
+         "\/\/description":"Ladder Path II",
+         "\/\/name":"vieraladderpath2",
+         "\/\/short description":"Ladder Path II",
+         "material":"vieraladderpath2"
+        },
+     "87":
+        {
+         "\/\/description":"Ladder Path III",
+         "\/\/name":"vieraladderpath3",
+         "\/\/short description":"Ladder Path III",
+         "material":"vieraladderpath3"
+        },
+     "88":
+        {
+         "\/\/description":"Vieran Fence I",
+         "\/\/name":"vieranfence",
+         "\/\/short description":"Vieran Fence I",
+         "material":"vieranfence"
+        },
+     "89":
+        {
+         "\/\/description":"Vieran Fence II",
+         "\/\/name":"vieranfence1",
+         "\/\/short description":"Vieran Fence II",
+         "material":"vieranfence1"
+        },
+     "9":
+        {
+         "\/\/description":"Dalmascan Iron Fence II - technically",
+         "\/\/name":"dalmascanfence3",
+         "\/\/short description":"Dalmascan Iron Fence II - technically",
+         "material":"dalmascanfence3"
+        },
+     "90":
+        {
+         "\/\/description":"Vieran Fence Left",
+         "\/\/name":"vieranfenceleftend",
+         "\/\/short description":"Vieran Fence Left",
+         "material":"vieranfenceleftend"
+        },
+     "91":
+        {
+         "\/\/description":"Vieran Fence Right",
+         "\/\/name":"vieranfencerightend",
+         "\/\/short description":"Vieran Fence Right",
+         "material":"vieranfencerightend"
+        },
+     "92":
+        {
+         "\/\/description":"Carved Wall I",
+         "\/\/name":"vieranwall",
+         "\/\/short description":"Carved Wall I",
+         "material":"vieranwall"
+        },
+     "93":
+        {
+         "\/\/description":"Carved Wall II",
+         "\/\/name":"vieranwall1",
+         "\/\/short description":"Carved Wall II",
+         "material":"vieranwall1"
+        },
+     "94":
+        {
+         "\/\/description":"Edged Ship Plate I",
+         "\/\/name":"vierashipplating1",
+         "\/\/short description":"Edged Ship Plate I",
+         "material":"vierashipplating1"
+        },
+     "95":
+        {
+         "\/\/description":"Edged Ship Plate II",
+         "\/\/name":"vierashipplating2",
+         "\/\/short description":"Edged Ship Plate II",
+         "material":"vierashipplating2"
+        },
+     "96":
+        {
+         "\/\/description":"Edged Ship Plate III",
+         "\/\/name":"vierashipplating3",
+         "\/\/short description":"Edged Ship Plate III",
+         "material":"vierashipplating3"
+        },
+     "97":
+        {
+         "\/\/description":"Ship Plating Solid",
+         "\/\/name":"vierashipplatingsolid",
+         "\/\/short description":"Ship Plating Solid",
+         "material":"vierashipplatingsolid"
+        },
+     "98":
+        {
+         "\/\/description":"Sloped Glass",
+         "\/\/name":"vieraslopedglass",
+         "\/\/short description":"Sloped Glass",
+         "material":"vieraslopedglass"
+        },
+     "99":
+        {
+         "\/\/description":"Sloped Plating",
+         "\/\/name":"vieraslopedinsetplating",
+         "\/\/short description":"Sloped Plating",
+         "material":"vieraslopedinsetplating"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "1":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "10":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "100":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "101":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "102":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "103":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "104":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "105":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "106":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "107":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "108":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "109":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "11":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "110":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "111":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "112":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "113":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "114":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "115":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "116":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "117":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "118":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "119":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "12":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "13":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "14":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "15":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "20":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "21":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "22":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "23":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "24":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "25":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "26":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "27":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "28":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "29":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "3":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "30":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "31":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "32":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "33":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "34":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "35":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "36":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "37":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "38":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "39":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "4":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "47":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "48":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "49":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "5":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "50":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "51":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "52":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "53":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "54":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "55":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "56":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "57":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "58":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "59":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "6":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "60":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "61":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "62":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "63":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "64":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "65":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "66":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "67":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "68":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "69":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "7":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "70":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "71":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "72":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "73":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "74":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "75":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "76":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "77":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "78":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "79":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "8":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "80":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "81":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "82":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "83":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "84":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "85":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "86":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "87":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "88":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "89":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "9":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "90":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "91":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "92":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "93":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "94":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "95":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "96":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "97":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "98":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        },
+     "99":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/short description":"string",
+         "material":"string"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/angled.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/carved.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfence4.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "100":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraslopedtrimming.png",
+         "imageheight":12,
+         "imagewidth":12
+        },
+     "101":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/walltopper.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "102":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/whitewoodcolumnbase.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "103":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/whitewoodcolumnfluting.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "104":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/whitewoodcolumnroof.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "105":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/windowlattice.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "106":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/woodenbase.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "107":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/woodenbase1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "108":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/woodenbase2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "109":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/woodenslats.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfiligreestripe.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "110":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/woodenslats1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "111":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingbottom.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "112":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingcenter.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "113":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingcorner1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "114":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingcorner2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "115":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingcorner3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "116":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingcorner4.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "117":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingleftside.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "118":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingrightside.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "119":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/wwpanelingtop.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfiligreestripe2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascangoldpatterns.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanmarble.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanmarbleedging.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanmarbleedging2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanplating1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanplating2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanquadtile.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/circular.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascansilverpatterns.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstainedglass.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstainedglass2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstone.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstonescallop.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstripe.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanstripe2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanthinbrick.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascantwistplating.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascantwistplatingvert.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/columnbase.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dotted.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dotted1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/eithnefloralblock1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/flooringviera.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/flowered.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/fluted.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/fluted1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/geometric.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/geometric2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/greenwordpastel1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/columnbase1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/intricateroof.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "48":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/intricateroof1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "49":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/livingmahogany.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/curved.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "50":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/livingmossymahogany.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "51":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/mahoganyroof.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "52":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/naturalfoliage.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "53":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/ovular.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "54":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/ovular2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "55":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingbottom.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "56":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingcenter.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "57":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingcorner1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "58":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingcorner2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "59":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingcorner3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanbrick.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingcorner4.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingleftside.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingrightside.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/panelingtop.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/pastelpattern1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/pastelpattern2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/pastelpattern3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/pastelpattern4.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/pastelsmooth.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "69":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/rabbitholecenter.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfence1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "70":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/rabbitholeleft.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "71":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/rabbitholeright.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "72":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/roof.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "73":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/roofcenter.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "74":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/roofleftend.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "75":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/roofrightend.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "76":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/scalloped.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "77":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/scalloped2left.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "78":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/scalloped2right.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "79":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/scalloped3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfence2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "80":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/sloped.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "81":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/smooth.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "82":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/smoothbordered.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "83":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/swirl.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "84":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vierafoliage1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "85":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraladderpath1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "86":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraladderpath2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "87":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraladderpath3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "88":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranfence.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "89":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranfence1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/dalmascanfence3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "90":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranfenceleftendcap.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "91":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranfencerightendcap.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "92":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranwall.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "93":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieranwall1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "94":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vierashipplating1.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "95":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vierashipplating2.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "96":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vierashipplating3.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "97":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vierashipplatingsolid.png",
+         "imageheight":24,
+         "imagewidth":16
+        },
+     "98":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraslopedglass.png",
+         "imageheight":12,
+         "imagewidth":12
+        },
+     "99":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/vieraslopedinsetplating.png",
+         "imageheight":12,
+         "imagewidth":12
+        }
+    },
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.1
+}

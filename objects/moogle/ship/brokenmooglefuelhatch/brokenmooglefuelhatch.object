@@ -1,0 +1,69 @@
+{
+  "objectName" : "brokenmooglefuelhatch",
+  "colonyTags" : ["moogle", "moogleship"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  
+  "description" : "A receptacle where magicite crystals are fired, producing energy for the ship-but it's broken.",
+  "shortdescription" : "Broken Magicite Firebox ",
+  "race" : "moogle",
+  "lightColor" : [0, 122, 122],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel hatch. I can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "FTL fuel goes in here! When it's fixed...",
+  "vieraDescription" : "The ship's fuel receptacle is in need of repair.",
+  "moogleDescription" : "The Magicite Firebox needs to be fixed, kupopo.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "brokenmooglefuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenmooglefuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+  "particleEmitter" : {
+    "emissionRate" : 1.5,
+    "emissionVariance" : 0.65,
+
+    "particle" :
+    {
+	    "type" : "animated",
+	    "animation" : "/animations/energy/energy.animation",
+	    "position" : [0, 2],
+	    "finalVelocity" : [0, 0],
+	    "approach" : [0, 0],
+	    "destructionAction" : "shrink",
+	    "destructionTime" : 2.4,
+	    "fade" : 1,
+	    "size" : 0.5,
+	    "layer" : "back",
+	    "timeToLive" : 2.5,
+	    "variance" : {}
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0],
+      "position" : [0, 0.5]
+    }
+  }
+  
+}

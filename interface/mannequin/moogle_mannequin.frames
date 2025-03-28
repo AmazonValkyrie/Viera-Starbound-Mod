@@ -1,0 +1,7 @@
+{
+  "frameGrid" : {
+    "size" : [44, 44],
+    "dimensions" : [5, 1],
+    "names" : [[ "base", "head", "armf", "legs", "armb" ]]
+  }
+}

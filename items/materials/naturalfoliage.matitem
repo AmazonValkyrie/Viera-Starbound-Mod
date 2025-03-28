@@ -1,0 +1,11 @@
+{
+  "itemName" : "eithnenaturalfoliage",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "naturalfoliage.png",
+  "description" : "Flora bundled together.",
+  "shortdescription" : "Natural Foliage",
+
+  "materialId" : 13079
+}

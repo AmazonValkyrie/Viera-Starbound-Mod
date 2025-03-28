@@ -1,0 +1,43 @@
+{
+  "objectName" : "magiciterefinery",
+  "colonyTags" : ["viera","crafting"],
+  "rarity" : "Legendary",
+  "price" : 200,  
+  "description" : "Cut and refine magicite ore into fantastical things.",
+  "shortdescription" : "Magicite Refinery",  
+  "race" : "viera",
+  "category" : "crafting",  
+  "printable" : false,
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/magiciterefinery.config",
+    "filter" : [ "magiciterefinery" ]
+  },
+
+  "apexDescription" : "What use could crystals be to anyone?",
+  "avianDescription" : "I see crystals are used for crafting by others as well.",
+  "floranDescription" : "Floran ussse table. Make sparklyyy thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I bet I can carve up some of this magicite crystal.",
+  "hylotlDescription" : "To craft with crystal is to spread it's energy.",
+  "novakidDescription" : "Somebody sure knows how to make use o' crystal.",
+  "vieraDescription" : "This refinery can cut and shape the magicite.",
+
+  "inventoryIcon" : "magiciterefineryicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "magiciterefinery.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "magiciterefinery"
+}

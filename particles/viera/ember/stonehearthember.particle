@@ -1,0 +1,21 @@
+{
+  "kind" : "stonehearthember",
+  "definition" : {
+    "type" : "ember",
+    "position" : [0, 0],
+    "size" : 1.0,
+    "color" : [255, 100, 0, 255],
+    "light" : [150, 50, 50],
+    "fade" : 1,
+    "initialVelocity" : [0.0, 3.0],
+    "finalVelocity" : [0.0, 3.0],
+    "approach" : [0, 20],
+    "timeToLive" : 1,
+    "layer" : "back",
+    "zlevel" : 1,
+    "variance" : {
+      "initialVelocity" : [0.5, 3.0],
+      "position" : [0, 0.5]
+    }
+  }
+} 

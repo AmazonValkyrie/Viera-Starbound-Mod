@@ -1,0 +1,262 @@
+{
+  "type" : "vieracrewmemberwhitemage",
+  "baseType" : "vieracrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "healer",
+        "name" : "White Mage",
+        "field" : "Healing",
+		"uniformColorIndex" : 0,
+
+        "benefits" : [
+          {
+            "type" : "Regeneration",
+            "value" : 1
+          }
+        ]
+      },
+	  "defaultUniform" : {
+	    "head" : "vierawhitemagehead",
+        "chest" : "vierawhitemagechest",
+        "legs" : "vierawhitemagepants"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "Wounds fade, but wisdom remains. If you need me, I will be there.",
+              "The flow of magic guides me. Should you falter, I shall mend.",
+              "The Wood whispers of harmony, and so do I. Call, and I will come.",
+              "Even in battle, the light endures. If you seek my aid, it is yours.",
+              "Life ebbs and flows like the tide. When you are in need, I shall restore.",
+              "A healer’s place is where they are called. Speak, and I will follow.",
+              "The wind carries pain, the earth knows sorrow, but neither need linger. I will see to it.",
+              "Strength is not in steel alone. If you require my gifts, I will not turn away.",
+              "The Wood nurtures, and so shall I. Wherever you go, I will walk beside you.",
+              "I hear the quiet cries of the wounded, the unspoken pleas of the weary. If you need me, I am near."
+            ]
+          }
+        },
+        "fieldBenefit" : {
+          "default" : {
+            "default" : [
+              "You look hurt. Let me assist you.",
+              "Let me help you out!",
+              "I can heal your wounds.",
+              "Come to me for healing."
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "You're in need of healing. Hold still for a moment.",
+              "You're hurt. Allow me to assist you.",
+              "I can heal you! Hold still."
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "You look like you could use some healing!",
+              "Let me help you out!",
+              "I can assist you with healing!",
+              "Looks like you could use my assistance!",
+              "I can heal you! Come near, quickly!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vierawhitemagehead" } ],
+			"chest" : [ { "name" : "vierawhitemagechest" } ],
+            "legs" : [ { "name" : "vierawhitemagepants" } ],
+            "primary" : [ "medkit" ],
+            "sheathedprimary" : [ "rarestaff" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 200.0
+      },
+	  "protection" : {
+        "baseValue" : 0.5
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+	  "energyRegenPercentageRate" : {
+        "baseValue" : 2.5
+      },
+      "healthRegen" : {
+        "baseValue" : 2.5
+      }
+    }
+  }
+}

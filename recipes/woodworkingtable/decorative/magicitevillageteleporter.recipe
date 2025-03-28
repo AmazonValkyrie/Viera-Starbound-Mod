@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "teleportercore", "count" : 1 },
+	{ "item" : "goldbar", "count" : 8 },
+    { "item" : "darkwoodmaterial", "count" : 25 },
+	{ "item" : "refinedmagicitecrystal", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "magicitevillageteleporter",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

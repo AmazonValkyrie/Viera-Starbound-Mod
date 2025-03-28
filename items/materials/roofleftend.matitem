@@ -1,0 +1,10 @@
+{
+  "itemName" : "roofleftend",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "roofleftendicon.png",
+  "description" : "Vieran whitewood roofing.",
+  "shortdescription" : "Roofing Left End",
+
+  "materialId" : 13033
+}

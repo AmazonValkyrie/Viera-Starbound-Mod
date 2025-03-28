@@ -1,0 +1,108 @@
+{
+  "objectName" : "vieracrystallight1",
+  "colonyTags" : ["viera","light", "vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 85,
+  "description" : "Multi styled light made of magicite crystal.",
+  "shortdescription" : "Crystal Light",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "This crystal provides light.",
+  "avianDescription" : "This crystal hums with light and energy.",
+  "floranDescription" : "Magic lightsss.",
+  "glitchDescription" : "Curious. Gemstones that give off light.",
+  "humanDescription" : "Crystallized energy providing bright light.",
+  "hylotlDescription" : "These blue gemstones offer such warmth and light.",
+  "novakidDescription" : "What a pretty fire.",
+  "vieraDescription" : "Magicite glows naturally with ethereal energies.",
+
+  "lightColor" : [179, 178, 161],
+
+  "inventoryIcon" : "crystallighticon.png",
+  "orientations" : [
+    {
+      "image" : "crystallightceiling.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "crystallightceiling.png",
+        "fg" : "crystallightceilinglit.png"
+      },
+
+      "imagePosition" : [-8, -16],
+      "animationPosition" : [-8, -16],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "anchors" : [ "top" ]
+    },
+    
+    {
+      "image" : "crystallightleft.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "crystallightleft.png",
+        "fg" : "crystallightleftlit.png"
+      },
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "crystallightright.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "crystallightright.png",
+        "fg" : "crystallightrightlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "crystallightground.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "crystallightground.png",
+        "fg" : "crystallightgroundlit.png"
+      },
+
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "crystallightbg.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "crystallightbg.png",
+        "fg" : "crystallightbglit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}

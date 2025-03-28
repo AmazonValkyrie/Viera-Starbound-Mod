@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+	{ "item" : "paper", "count" : 16 },
+    { "item" : "leather", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "bookcase6b",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

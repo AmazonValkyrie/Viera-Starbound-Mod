@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 18 },
+	{ "item" : "ironbar", "count" : 3 },
+	{ "item" : "climbingrope", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "vierabridgegate2rear",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

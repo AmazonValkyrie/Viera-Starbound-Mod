@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 10 },
+    { "item" : "silk", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vieragoldarmorchest", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

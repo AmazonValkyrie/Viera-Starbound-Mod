@@ -1,0 +1,70 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "light" : {
+        "default" : "eithneecho",
+        "states" : {
+          "eithneecho" : {
+		    "frames" : 1,
+			"cycle" : 9.5,
+			"mode" : "loop",
+            "properties" : {
+              "particleEmittersOn" : [ "greenenergy" ],
+			  "persistentSound" : "/sfx/objects/crystallineecho.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "light" : {
+            "eithneecho" : {
+              "properties" : {
+                "image" : "viera_sailbroken.png:<color>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+		  "zLevel" : 1
+        },
+
+        "partStates" : {
+          "light" : {
+            "eithneecho" : {
+              "properties" : {
+                "image" : "viera_sailbrokenlit.png:<color>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "sounds" : {
+    "shipUpgrade" : [ "/sfx/interface/ship_powerup.ogg" ]
+  },
+  
+  "particleEmitters" : {
+	"greenenergy" : {
+	  "emissionRate" : 3,
+	  "emissionRateVariance" : 0.5,
+	  "active" : true,
+	  "particles" : [
+	    { "particle" : "viera_magicitegreen", "offset" : [8.5, 7.25] } 
+      ]
+	}
+  }
+}

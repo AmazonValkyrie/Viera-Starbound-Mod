@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore43",
+  "title" : "The Seonha Scrolls: Ch. 7",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;The Dance of the Twin Spirits^reset;\n\nIn the sacred Grove of Echoing Winds, we faced the Twin Spirits, guardians of an ancient altar. Their forms were ethereal, mirroring each other's every movement, blades of wind swirling around them in a deadly waltz.",
+	
+	"Seonha's chakram flew, slicing through the wind, disrupting their formation as she charged forward, her rapier a blur. She weaved through their synchronized strikes, her whip coiling through the air. Her chakram returned to her hand with a whistle, deflecting a blast of wind meant for me.",
+	
+	"I danced between the spirits' attacks, my staff whirling like a cyclone, deflecting blades of air while chanting a spell of Float. Light erupted from the beneath, encircling the spirits as I struck the ground, sealing their power. They howled as their forms shimmered, then vanished into the altar.",
+	
+	"The winds calmed, and Seonha's laughter broke the stillness. 'Even spirits must learn to yield,' she said, her eyes gleaming. I could only smile, for her spirit was a tempest none could tame."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

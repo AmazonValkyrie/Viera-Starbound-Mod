@@ -1,0 +1,84 @@
+{
+  "kind" : "femaleveenaravaviera",
+  
+    "charCreationTooltip" : {
+      "title" : "Viera",
+      "subTitle" : "O2",
+      "description" : "Known as the children of the Wood, the forest-dwelling Viera have remained cautious of all that lay beyond the trees of their homeworld. Using crystal-powered ships of the Wood's design, the Viera escaped an ancient evil let loose upon Ivalice."
+  },
+  "humanoidConfig" : "/species/vierahumanoid.config",
+  "nameGen" : [ "/species/vierafemalenamegen.config:names", "/species/vierafemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/vierahurt_female2.ogg", "/sfx/humanoid/vierahurt_female3.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Ear style", "Hair colour", "Shirt colour", "Legwear colour", "VIERA", "Stance" ],
+  "skull" : "/humanoid/viera/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FEFFFFFF?replace=9bd4ffFF=9EFFFFFF?replace=31a6ffFF=00FFFFFF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+
+ 
+    ]
+  },
+  "altOptionAsFacialMask" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/vieraspiral.png",
+      "characterImage" : "/interface/title/vierafemale.png",
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "male6", "male12" ],
+      "shirt" : [ "femalesalvemakervillagerchest", "femalecasualvillagervierachest" ],
+      "pants" : [ "femalesalvemakervillagerlegs", "femalecasualvillagervieralegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [],
+      "facialMaskGroup" : "ear style",
+      "facialMask" : [ "Agile1", "Agile3", "Agile4", "Agile5", "Agile6", "Agile7", "Agile8", "Agile9", "Agile10", "Agile11", "Tactics", "Tactics1", "Tactics2", "Tactics3", "Tactics4", "Tactics5", "Tactics6", "Tactics7", "Tactics8", "Tactics9", "Tactics10", "Tactics11", "Tactics12", "Tactics13", "Tactics14", "Tactics15", "Tactics16", "Tactics17", "Eruyt", "Eruyt1", "Eruyt2", "Eruyt3", "Eruyt4", "Eruyt5", "Eruyt6", "Eruyt7", "Eruyt8", "Eruyt9", "Eruyt10", "Eruyt11", "Eruyt12", "Eruyt13", "Eruyt14", "Eruyt15", "Eruyt16", "Eruyt17", "Eruyt18", "Eruyt19" ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/vieraspiral.png",
+      "characterImage" : "/interface/title/vierafemale.png",
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "male6", "male12" ],
+      "shirt" : [ "femalesalvemakervillagerchest", "femalecasualvillagervierachest" ],
+      "pants" : [ "femalesalvemakervillagerlegs", "femalecasualvillagervieralegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [],
+      "facialMaskGroup" : "ear style",
+      "facialMask" : [ "Agile1", "Agile3", "Agile4", "Agile5", "Agile6", "Agile7", "Agile8", "Agile9", "Agile10", "Agile11", "Tactics", "Tactics1", "Tactics2", "Tactics3", "Tactics4", "Tactics5", "Tactics6", "Tactics7", "Tactics8", "Tactics9", "Tactics10", "Tactics11", "Tactics12", "Tactics13", "Tactics14", "Tactics15", "Tactics16", "Tactics17", "Eruyt", "Eruyt1", "Eruyt2", "Eruyt3", "Eruyt4", "Eruyt5", "Eruyt6", "Eruyt7", "Eruyt8", "Eruyt9", "Eruyt10", "Eruyt11", "Eruyt12", "Eruyt13", "Eruyt14", "Eruyt15", "Eruyt16", "Eruyt17", "Eruyt18", "Eruyt19" ]
+    }
+  ],
+  "bodyColor" : [
+	//RAVA AND VEENA
+	{ "D09F7E" : "DDC69D", "A97F67" : "BB9F7B", "8E6E59" : "998B71", "5B4839" : "7A695F" },
+	{ "D09F7E" : "D8C3B1", "A97F67" : "BC9371", "8E6E59" : "937970", "5B4839" : "66585D" },
+	{ "D09F7E" : "D8A482", "A97F67" : "BF8B67", "8E6E59" : "996F52", "5B4839" : "72533D" },
+	{ "D09F7E" : "C1B29B", "A97F67" : "B7945F", "8E6E59" : "A37C5B", "5B4839" : "7F5933" },
+	{ "D09F7E" : "D8A66C", "A97F67" : "B07E41", "8E6E59" : "8C6B36", "5B4839" : "724A29" },
+	{ "D09F7E" : "BF9C7C", "A97F67" : "B48156", "8E6E59" : "A56542", "5B4839" : "7A4930" },
+	{ "D09F7E" : "BC8854", "A97F67" : "895D1F", "8E6E59" : "704413", "5B4839" : "4C2D0D" },
+	{ "D09F7E" : "AD7A5A", "A97F67" : "9B6131", "8E6E59" : "84491D", "5B4839" : "5B331A" },
+	{ "D09F7E" : "EAA577", "A97F67" : "C4845C", "8E6E59" : "994B21", "5B4839" : "590900" },
+	{ "D09F7E" : "CBA38A", "A97F67" : "8E6A5A", "8E6E59" : "7B5542", "5B4839" : "643929" },
+	{ "D09F7E" : "D09F7E", "A97F67" : "A97F67", "8E6E59" : "8E6E59", "5B4839" : "5B4839" },
+	{ "D09F7E" : "BF9C9A", "A97F67" : "A5706D", "8E6E59" : "7F514B", "5B4839" : "623737" },
+	{ "D09F7E" : "CC8A6C", "A97F67" : "A16548", "8E6E59" : "6E4B35", "5B4839" : "4C3425" },
+	{ "D09F7E" : "A86A55", "A97F67" : "8A5039", "8E6E59" : "67412E", "5B4839" : "4C3027" },
+	{ "D09F7E" : "A36E5B", "A97F67" : "7F5646", "8E6E59" : "6B483B", "5B4839" : "563A30" },
+	{ "D09F7E" : "956C58", "A97F67" : "88563B", "8E6E59" : "663926", "5B4839" : "4D271A" },
+	{ "D09F7E" : "B27662", "A97F67" : "7F4D3D", "8E6E59" : "4C2E24", "5B4839" : "301D17" },
+	{ "D09F7E" : "A05741", "A97F67" : "733A2F", "8E6E59" : "582A2E", "5B4839" : "371313" },
+	{ "D09F7E" : "BF956D", "A97F67" : "A27059", "8E6E59" : "613937", "5B4839" : "302E2F" },
+	{ "D09F7E" : "9F8489", "A97F67" : "7C5858", "8E6E59" : "592922", "5B4839" : "1E0F0C" }
+  ],
+  
+  "undyColor" : [ "" ],
+  
+  "hairColor" : [
+	//LIGHT GREY
+	{ "d9c189" : "B8B8B8", "B29F72" : "828282", "a38d59" : "606060", "8C7147" : "4C4C4C", "735e3a" : "333333" },
+	//WHITE
+	{ "d9c189" : "EAEAEA", "B29F72" : "D3D3D3", "a38d59" : "B8B8B8", "8C7147" : "999999", "735e3a" : "828282" },
+	//VIERA WHITE
+	{ "d9c189" : "FCFCF7", "B29F72" : "E5DAC3", "a38d59" : "CCC2AF", "8C7147" : "B2AA97", "735e3a" : "999182" }
+  ]
+}

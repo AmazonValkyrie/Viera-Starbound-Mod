@@ -1,0 +1,48 @@
+{
+  "itemName" : "vierasummonerhead",
+  "shortdescription" : "Summoner's Horn",
+  "description" : "Summoners call powerful Espers from the world of illusion to fight at their side.",
+  
+  "category" : "headwear",
+  "statSpread" : "summoner",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 25,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* YELLOW */
+    { "FFC57F" : "FFC57F", "E5B271" : "E5B271", "C49862" : "C49862", "AA8455" : "AA8455" },
+    /* BLACK */
+    { "FFC57F" : "7F7F7F", "E5B271" : "595959", "C49862" : "333333", "AA8455" : "000000" },
+    /* GREY */
+    { "FFC57F" : "9CABB7", "E5B271" : "7D8993", "C49862" : "646E77", "AA8455" : "41474C" },
+    /* WHITE */
+    { "FFC57F" : "FFFFFF", "E5B271" : "D6EAFF", "C49862" : "B8C9DB", "AA8455" : "80A1AD" },
+    /* RED */
+    { "FFC57F" : "D80000", "E5B271" : "AD0000", "C49862" : "840000", "AA8455" : "5E0000" },
+    /* ORANGE */
+    { "FFC57F" : "F2884B", "E5B271" : "C8713D", "C49862" : "A05A31", "AA8455" : "7A4425" },
+    /* YELLOW */
+    { "FFC57F" : "FFC57F", "E5B271" : "E5B271", "C49862" : "C49862", "AA8455" : "AA8455" },
+    /* GREEN */
+    { "FFC57F" : "1AB26E", "E5B271" : "158C56", "C49862" : "0F663E", "AA8455" : "093F27" },
+    /* BLUE */
+    { "FFC57F" : "00DDFF", "E5B271" : "00B9D6", "C49862" : "009FB7", "AA8455" : "007F94" },
+    /* PURPLE */
+    { "FFC57F" : "8565B1", "E5B271" : "775184", "C49862" : "5D4068", "AA8455" : "47314F" },
+    /* PINK */
+    { "FFC57F" : "FF9B88", "E5B271" : "E08879", "C49862" : "C17668", "AA8455" : "A36358" },
+    /* BROWN */
+    { "FFC57F" : "BC4B00", "E5B271" : "A04000", "C49862" : "7F3300", "AA8455" : "592300" }
+  ]
+}

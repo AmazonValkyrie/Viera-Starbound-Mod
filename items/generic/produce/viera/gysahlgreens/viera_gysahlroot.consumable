@@ -1,0 +1,20 @@
+{
+  "itemName" : "viera_gysahlroot",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "viera_gysahlroot.png",
+  "description" : "Spicy and sweet! The root has many uses.",
+  "shortdescription" : "Gysahl Root",
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 50,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "viera_gysahlbarlarge", "viera_gysahlbarsmall", "cookedgysahlroot" ]
+}

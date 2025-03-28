@@ -1,0 +1,11 @@
+{
+  "itemName" : "moogleslopedshipplating",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "moogleslopedshipplatingicon.png",
+  "shortdescription" : "Sloped Plating",
+  "description" : "Sloped, layered metal plating for sturdy building.",
+
+  "materialId" : 13130,
+  "learnBlueprintsOnPickup" : [ "moogleslopedshipplating" ]
+}

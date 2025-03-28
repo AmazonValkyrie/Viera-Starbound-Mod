@@ -1,0 +1,63 @@
+{
+  "id" : "chocobounlock03",
+  "title" : "^orange;Saddled with Another Task...^reset;",
+  "text" : "With the ^orange;gysahl greens^reset; you brought ^cyan;Wallace^reset;, he should be able to attract you a chocobo! In the meantime, you should ^green;gather materials^reset; for a basic saddle",
+  "completionText" : "All your hard work has paid off and now you're riding in style! Enjoy exploring with your new chocobuddy!",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "chocobounlock02" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [ [ "viera_chocobosaddlebasicsaddle", 1 ], [ "viera_chocobocallivaliceyellow", 1 ] ] ],
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/chocobo/chocobounlock03.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/chocoboknightwallace.png"} ],
+        "title" : "Sir Wallace"
+      }
+    },
+	"stages" : [
+	  {
+	    "state" : "gatherMaterials",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+	    "items" : [ 
+		  [ "leather", "Leather", 2 ],
+		  [ "string", "String", 10 ] 
+		],
+		"descriptions" : [  ],
+		"portraitTalks" : {
+		  "initial" : "startChocoboUnlock03",
+		  "interim" : "continueChocoboUnlock03" 
+		}		  
+	  },
+	  {
+	    "state" : "returnToWallace",
+	    "speakers" : {
+		  "initial" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "interim" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "target"  : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+		"needPreviousItems" : true,
+		"deliverPreviousItems" : [ 1 ],
+		"descriptions" : [ 
+		  "^green;Return to ^cyan;Wallace^reset; with the ^orange;materials^reset; you've gathered." 
+		],
+		"portraitTalks" : {
+		  "cleared" : "finishChocoboUnlock03" 
+		}	
+	  }
+	],
+    "giveBlueprints" : [ "viera_chocobosaddlebasicsaddle", "viera_chocobosaddlefancysaddle" ]
+  }
+}

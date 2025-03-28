@@ -1,0 +1,16 @@
+[
+  {	"op":"add",  "path":"/species/-", "value":"viera" },
+  { "op":"add",  "path":"/defaultCodexes/viera",  "value":[ "vierahistory1", "vierahistory2" ] },
+  { "op":"add",  "path":"/deploymentConfig/speciesStarterMechBody/viera",  "value":"mechbodyvieraproto" },
+  
+  {	"op":"add",  "path":"/species/-", "value":"moogle" },
+  { "op":"add",  "path":"/defaultCodexes/moogle", "value":[ "mooglediary1" ] },
+  { "op":"add",  "path":"/deploymentConfig/speciesStarterMechBody/moogle", "value":"mechbodyvieraproto" },
+  
+  {	"op":"add",  "path":"/species/-", "value":"bangaa" },
+  { "op":"add",  "path":"/defaultCodexes/bangaa", "value":[ "bangaadiary1" ] },
+  { "op":"add",  "path":"/deploymentConfig/speciesStarterMechBody/bangaa", "value":"mechbodyvieraproto" },
+  
+  { "op":"add",  "path":"/defaultBlueprints/tier1/-", "value":{ "item": "refinedmagicitecrystal" } },
+  { "op":"add",  "path":"/genericScriptContexts/chocoboUnlocks", "value":"/scripts/player/viera/chocobounlocks.lua" }
+]

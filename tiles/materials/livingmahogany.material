@@ -1,0 +1,22 @@
+{
+  "materialId" : 13078,
+  "materialName" : "livingmahogany",
+  "particleColor" : [102, 73, 41, 255],
+  "itemDrop" : "livingmahogany",
+  "description" : "Rough and unrefined, this wood looks freshly chopped.",
+  "shortdescription" : "Unrefined Mahogany",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "livingmahogany.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 2800
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "gysahlcreampie",
+  "rarity" : "Uncommon",
+  "price" : 365,
+  "category" : "preparedFood",
+  "inventoryIcon" : "gysahlcreampie.png",
+  "description" : "Sweetened, minty gysahl whipped into a cream.",
+  "shortdescription" : "Gysahl Cream Pie",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "stuffedgysahlroot" ]
+}

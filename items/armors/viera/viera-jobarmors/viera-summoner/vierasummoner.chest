@@ -1,0 +1,56 @@
+{
+  "itemName" : "vierasummonerchest",
+  "shortdescription" : "Summoner's Vestments",
+  "description" : "Summoners call powerful Espers from the world of illusion to fight at their side.",
+  
+  "category" : "chestwear",
+  "statSpread" : "summoner",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 80,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "malesleeve/bsleeve.png",
+    "frontSleeve" : "malesleeve/fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    /* WHITE */
+    { "D8EFFF" : "D8EFFF", "BACCD8" : "BACCD8", "97A7B2" : "97A7B2", "77838C" : "77838C" },
+    /* BLACK */
+    { "D8EFFF" : "7F7F7F", "BACCD8" : "595959", "97A7B2" : "333333", "77838C" : "000000" },
+    /* GREY */
+    { "D8EFFF" : "9CABB7", "BACCD8" : "7D8993", "97A7B2" : "646E77", "77838C" : "41474C" },
+    /* WHITE */
+    { "D8EFFF" : "D8EFFF", "BACCD8" : "BACCD8", "97A7B2" : "97A7B2", "77838C" : "77838C" },
+    /* RED */
+    { "D8EFFF" : "D80000", "BACCD8" : "AD0000", "97A7B2" : "840000", "77838C" : "5E0000" },
+    /* ORANGE */
+    { "D8EFFF" : "F2884B", "BACCD8" : "C8713D", "97A7B2" : "A05A31", "77838C" : "7A4425" },
+    /* YELLOW */
+    { "D8EFFF" : "FFD800", "BACCD8" : "E0B700", "97A7B2" : "C19E00", "77838C" : "A38500" },
+    /* GREEN */
+    { "D8EFFF" : "1AB26E", "BACCD8" : "158C56", "97A7B2" : "0F663E", "77838C" : "093F27" },
+    /* BLUE */
+    { "D8EFFF" : "00DDFF", "BACCD8" : "00B9D6", "97A7B2" : "009FB7", "77838C" : "007F94" },
+    /* PURPLE */
+    { "D8EFFF" : "8565B1", "BACCD8" : "775184", "97A7B2" : "5D4068", "77838C" : "47314F" },
+    /* PINK */
+    { "D8EFFF" : "FF9B88", "BACCD8" : "E08879", "97A7B2" : "C17668", "77838C" : "A36358" },
+    /* BROWN */
+    { "D8EFFF" : "BC4B00", "BACCD8" : "A04000", "97A7B2" : "7F3300", "77838C" : "592300" }
+
+  ]
+}

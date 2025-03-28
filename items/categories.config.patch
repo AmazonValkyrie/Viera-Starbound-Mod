@@ -1,0 +1,8 @@
+[
+  { "op":"add", "path":"/labels/chocobocall", "value": "Chocobo Call"  },
+  { "op":"add", "path":"/labels/chocobofood", "value": "Chocobo Food"  },
+  { "op":"add", "path":"/labels/chocobosaddle", "value": "Chocobo Saddle"  },
+  { "op":"add", "path":"/labels/chocobobarding", "value": "Chocobo Barding"  },
+  { "op":"add", "path":"/labels/chocobostorage", "value": "Chocobo Storage"  },
+  { "op":"add", "path":"/labels/chocobomanagement", "value": "Chocobo Management"  }
+]

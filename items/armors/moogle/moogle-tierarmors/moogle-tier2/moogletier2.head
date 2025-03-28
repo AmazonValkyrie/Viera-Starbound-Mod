@@ -1,0 +1,50 @@
+{
+  "itemName" : "moogletier2head",
+  "shortdescription" : "Tungsten Moogle Helmet",
+  "description" : "Tungsten helmet of Moogle design.",
+  "itemTags" : [ "tier2armour" ],
+  
+  "category" : "headarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "standard",
+  "species" : "moogle",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 1440,
+  "level" : 2,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    // TUNGSTEN
+    { "CCCCCC" : "CCCCCC", "9E9E9E" : "9E9E9E", "616161" : "616161", "383838" : "383838", "007F94" : "007F94", "055B75" : "055B75", "002B2B" : "002B2B" },
+    // BLACK
+    { "CCCCCC" : "BFCCC0", "9E9E9E" : "6F7068", "616161" : "3B3F3B", "383838" : "000000", "007F94" : "D80000", "055B75" : "840000", "002B2B" : "5E0000" },
+    // GREY
+    { "CCCCCC" : "CCCCCC", "9E9E9E" : "9E9E9E", "616161" : "616161", "383838" : "383838", "007F94" : "007F94", "055B75" : "055B75", "002B2B" : "002B2B" },
+    // WHITE
+    { "CCCCCC" : "FFFFFF", "9E9E9E" : "C7F2F2", "616161" : "C4C4C4", "383838" : "8C8C8C", "007F94" : "E0B700", "055B75" : "C19E00", "002B2B" : "A38500" },
+    // RED
+    { "CCCCCC" : "FFC6C6", "9E9E9E" : "EA0000", "616161" : "AD0000", "383838" : "660000", "007F94" : "FFFFFF", "055B75" : "D6EAFF", "002B2B" : "B8C9DB" },
+    // ORANGE
+    { "CCCCCC" : "FFF8B9", "9E9E9E" : "F3A74A", "616161" : "CA6613", "383838" : "6F382D", "007F94" : "00B9D6", "055B75" : "009FB7", "002B2B" : "007F94" },
+    // YELLOW
+    { "CCCCCC" : "FFFBD8", "9E9E9E" : "FFD84D", "616161" : "E2AF20", "383838" : "B97C01", "007F94" : "37B74E", "055B75" : "2D9941", "002B2B" : "267F37" },
+    // GREEN
+    { "CCCCCC" : "9BFFD2", "9E9E9E" : "1AB26E", "616161" : "137F4E", "383838" : "0A472C", "007F94" : "C8713D", "055B75" : "A05A31", "002B2B" : "7A4425" },
+    // BLUE
+    { "CCCCCC" : "D8FFFC", "9E9E9E" : "4FACC8", "616161" : "39747F", "383838" : "233C43", "007F94" : "A04000", "055B75" : "7F3300", "002B2B" : "592300" },
+    // PURPLE
+    { "CCCCCC" : "E8D8FF", "9E9E9E" : "906EBF", "616161" : "60497F", "383838" : "392C4C", "007F94" : "7D8993", "055B75" : "646E77", "002B2B" : "41474C" },
+    // PINK
+    { "CCCCCC" : "FFD3CC", "9E9E9E" : "FF9B88", "616161" : "BF7467", "383838" : "7F4D44", "007F94" : "FFFFFF", "055B75" : "D6EAFF", "002B2B" : "B8C9DB" },
+    // BROWN
+    { "CCCCCC" : "FFD0B5", "9E9E9E" : "C6672F", "616161" : "8C4821", "383838" : "4C2712", "007F94" : "FF9B88", "055B75" : "E08879", "002B2B" : "A36358" }
+  ]
+}

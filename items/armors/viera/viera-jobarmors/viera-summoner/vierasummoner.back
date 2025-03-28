@@ -1,0 +1,47 @@
+{
+  "itemName" : "vierasummonerback",
+  "shortdescription" : "Summoner's Cape",
+  "description" : "Summoners call powerful Espers from the world of illusion to fight at their side.",
+  
+  "category" : "backwear",
+  "statSpread" : "summoner",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 70,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "colorOptions" : [
+    // DARK GREEN
+    { "388C59" : "388C59", "193F28" : "193F28"},
+    // BLACK
+    { "388C59" : "595959", "193F28" : "000000" },
+    // GREY
+    { "388C59" : "7D8993", "193F28" : "41474C" },
+    // WHITE
+    { "388C59" : "D6EAFF", "193F28" : "80A1AD" },
+    // RED
+    { "388C59" : "AD0000", "193F28" : "5E0000" },
+    // ORANGE
+    { "388C59" : "C8713D", "193F28" : "7A4425" },
+    // YELLOW
+    { "388C59" : "E0B700", "193F28" : "A38500" },
+    // GREEN
+    { "388C59" : "388C59", "193F28" : "193F28" },
+    // BLUE
+    { "388C59" : "00B9D6", "193F28" : "007F94" },
+    // PURPLE
+    { "388C59" : "775184", "193F28" : "47314F" },
+    // PINK
+    { "388C59" : "E08879", "193F28" : "A36358" },
+    // BROWN
+    { "388C59" : "A04000", "193F28" : "592300" }
+  ]
+}

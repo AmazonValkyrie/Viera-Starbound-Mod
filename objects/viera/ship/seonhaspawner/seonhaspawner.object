@@ -1,0 +1,77 @@
+{
+  "objectName" : "seonhaspawner",
+  "shortdescription" : "Seonha's Magicite",
+  "subtitle" : "The Magicite of Seonha!",
+  "colonyTags" : ["viera"],
+  "race" : "generic",
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 50,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "seonhaspawner" ],
+  
+  "tooltipKind" : "base",
+  "description"        : "A lovely glowing crystal.",
+  "apexDescription"    : "",
+  "avianDescription"   : "",
+  "floranDescription"  : "",
+  "glitchDescription"  : "",
+  "humanDescription"   : "",
+  "hylotlDescription"  : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "seonhaspawner.png:1", 
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1
+    }
+  ],    
+  "animation" : "/objects/viera/ship/seonhaspawner/seonhaspawner.animation",
+  "animationParts" : {
+    "img" : "seonhaspawner.png",
+    "lit" : "seonhaspawnerlit.png"
+  },
+  
+  "scripts" : [ "/objects/viera/viera_spawnunique.lua" ],
+  "scriptDelta" : 20,
+  "npcUID" : "captainseonha",
+  "npcSpecies" : "viera",
+  "npcType" : "captainseonha",
+  "npcLevel" : 6,
+  "chatRadius" : 10,
+  "chatCooldown" : 75,
+  "chatGreeting" : [
+    "*Amazonian Trilling*"
+  ],
+  "chatExpressions" : [
+    "I have many skills...",
+	"It's wisdom before weapons, <player>.",
+	"To conquer others is to wield power. To conquer yourself is to know the way...",
+	"Faring well out here among the stars?",
+	"I hope to assist you in the field of battle some day.",
+	"The Wood Herself will guide us onward.",
+	"We're fortunate to have many allies in the universe.",
+	"A keen mind sharpens the blade better than any whetstone.",
+    "Do not mistake stillness for inaction-patience wins more battles than rage.",
+    "Wherever the wind carries us, the Wood’s whispers remain.",
+    "The stars are vast, yet I am never lost. The Wood is my compass.",
+    "Do not be reckless. Strength is knowing when to strike and when to yield.",
+    "Even the mightiest oak begins as a mere seed. Growth takes time.",
+    "We move forward, as the river does—steady, unwavering, inevitable.",
+    "The unseen binds all things-earth, sky, even the stars above.",
+    "A warrior fights not only with steel, but with purpose.",
+    "The wind carries many voices. Listen closely, and you may hear wisdom.",
+    "To understand the blade is to understand yourself.",
+    "There is no battle without risk, no victory without cost.",
+    "To rush is to stumble. To wait is to strike true.",
+    "Survival is not just skill;it is balance, instinct, and knowing when to stand your ground.",
+    "The universe is full of wonders. Have you found what you seek?",
+    "Wherever this journey leads, may we tread it with purpose and honor."
+
+	
+  ]
+}

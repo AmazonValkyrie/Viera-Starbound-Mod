@@ -1,0 +1,57 @@
+{
+  "objectName" : "viera_gysahlrootseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Grows gysahl root - the greens are a chocobo's favorite food!",
+  "shortdescription" : "Gysahl Root Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 15,
+
+  "apexDescription" : "Is this some sort of turnip? Peculiar.",
+  "avianDescription" : "The greens of this plant are so fragrant.",
+  "floranDescription" : "Sssstinky turnipsss? This amuses Floran.",
+  "glitchDescription" : "Approving. This plant is pleasantly crunchy.",
+  "humanDescription" : "Looks like a turnip. I've always hated turnips.",
+  "hylotlDescription" : "Usually the most bitter of plants bear great benefit.",
+  "novakidDescription" : "A turnip?",
+  "vieraDescription" : "A bit bitter for my taste, but Chocobo love it!",
+
+  "inventoryIcon" : "icon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "viera_gysahlrootseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "viera_gysahlrootseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "gysahlHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

@@ -1,0 +1,51 @@
+ {
+  "objectName" : "acornoverheadlight",
+  "colonyTags" : ["viera","light","vieravillage"],
+  "rarity" : "Uncommon",
+  "description" : "An acorn shaped overhead light",
+  "shortdescription" : "Acorn Overhead Light",
+  "race" : "viera",
+  "health" : 1.5,
+  "category" : "light",
+  "price" : 60,
+  "printable" : false,
+  "lightColor" : [255, 255, 220],
+  "pointLight" : true,
+  "pointBeam" : 3,
+  "beamAmbience" : 0.4,
+
+  "apexDescription" : "An acorn shaped overhead light.",
+  "avianDescription" : "An acorn shaped overhead light.",
+  "floranDescription" : "An acorn shaped overhead light.",
+  "glitchDescription" : "An acorn shaped overhead light.",
+  "humanDescription" : "An acorn shaped overhead light.",
+  "hylotlDescription" : "An acorn shaped overhead light.",
+  "novakidDescription" : "What a pretty fire.",
+  "vieraDescription" : "An acorn shaped overhead light.",
+
+  "inventoryIcon" : "acornoverheadlighticon.png",
+  "orientations" : [
+    {
+      "image" : "acornoverheadlight.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+	  "renderLayer" : "Player+5",
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation", 
+  "animationParts" : {
+    "bg" : "acornoverheadlight.png",
+    "fg" : "acornoverheadlightlit.png"
+  },
+  "animationPosition" : [-4, -24],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, -2] ]
+}

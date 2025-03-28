@@ -1,0 +1,560 @@
+{
+  "type" : "vieracrewmember",
+  "baseType" : "vierabase",
+
+  "dropPools" : [ "villagertreasure" ],
+
+  "damageTeamType" : "friendly",
+
+  // Remove protection and powermultiplier gained from being level 1 as scaling is from player armor
+  "innateStatusEffects" : [ { "stat" : "protection", "amount": -25 }, {"stat" : "powerMultiplier", "amount" : -0.5} ], 
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "crewmember",
+    "behaviorConfig" : {
+      "emptyHands" : false,
+
+      // Wander behavior config
+      "wanderTime" : 1,
+      "idleTime" : 10,
+      "outerHomeRange" : 20,
+      "innerHomeRange" : 15,
+
+      "hostileDamageTeam" : {"type" : "friendly", "team" : 1}
+    },
+
+    "crew" : {
+      "recruitable" : true,
+
+      "recruitInteractAction" : {
+        "messageType" : "recruits.offerRecruit",
+        "messageArgs" : []
+      },
+
+      "powerMultiplierExponent" : 1.0,
+
+      "role" : {
+        "type" : "warrior",
+        "name" : "Wood Warder",
+        "field" : "Protection",
+        "uniformColorIndex" : 0
+      },
+
+      "ranks" : [
+        "Warden-in-Training <role>",
+        "3rd Leaf-Tender <field> Officer",
+	    "Aspiring Grove-Keeper <role>",
+        "Initiate Apprentice <role>",
+        "Transient Wayfarer <role>",
+        "3rd Shadowed Watcher <role>",
+        "64th Elder-Sanctioned <role>",
+        "Rooted <field> Officer",
+        "Reclining <field> Observer",
+        "Arcane Brewmaster <role>",
+        "Master of Verdant Order <field> Officer",
+        "Unbound <field> Examiner",
+        "Bound <field> Examiner",
+        "Skyborne <field> Sentinel",
+        "Initiate <field> Sage",
+        "Elder of Petty <field> Disputes",
+        "Branch-Kin <role>",
+        "Trusted <field> Pathfinder",
+        "Whispering Wind <field> Counselor",
+        "Devoted <field> Aide",
+        "Keeper of <field> Endeavors",
+        "Wayward <role>",
+        "Matron of <field> Relations",
+        "Twilight-Called <role>",
+        "Lorekeeper of <field> Diplomacy",
+        "<field> Seedling Guide",
+        "Untamed Spirit <role>",
+        "Glade-Watch <field> Overseer",
+        "Silent Footstep <field> Tracker",
+        "Moon-Seer <field> Observer",
+        "Wild Bloom <field> Innovator",
+        "Self-Appointed Guardian of <field> Operations",
+        "Just another wandering <role>",
+        "Forager <role>",
+        "Oracle of <field> Matters",
+        "Alternative Path <field> Mediator",
+        "Verdant-Touched <field> Officer",
+        "Emergency Canopy <field> Watcher",
+        "First Mate's Second-Cousin's Third Root-Keeper <role>",
+        "Uncompensated Sproutling <field> Observer",
+        "<field> Acolyte",
+        "<field> Council Scribe",
+        "Driftwood <field> Opportunist",
+        "Neutral Grove-Keeper <role>",
+        "Subpar Leaf-Speaker in <field> Negotiations",
+        "Fallen Log <field> Enthusiast"
+
+      ],
+	  "defaultUniform" : {
+	    "head" : "woodwarderhelmet",
+        "chest" : "woodwarderchest",
+        "legs" : "woodwarderlegs",
+		"back" : "vierascarfwhite"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "questGenerator" : {
+      // Disable participation of crewmembers in generated quests until the
+      // generated quest system knows how to deal with entities that can
+      // disappear from the world and/or change uniqueId.
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "default" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          },
+		  "viera" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "Hello traveler, may I join your party?",
+              "My name is <selfname>, and I'd love to join your party if you'll have me?",
+              "You've got to take me with you and your party and teach me everything you know!",
+              "May I join your party on your airship? I could be of great help to you.",
+              "I would love to join you and your party on your airship, if you'll allow?"
+            ]
+          } 
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "If you need assistance on the field of battle, I will be here.",
+              "Let me know if you need help and I will follow.",
+              "I'll be here if you need help in battle.",
+			  "I will boldly follow you into combat when necessary.",
+			  "Should you need help on the battlefield, let me know.",
+			  "If you need my aid, I will be there."
+            ]
+          }
+        },
+        "respawned" : {
+          "default" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          },
+		  "viera" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "Thank the Wood for that Phoenix Down.",
+              "I didn't realize you knew how to cast Raise.",
+              "I have returned from the void!",
+              "My life is restored. Thank the Wood.",
+              "I'm happy to be back.",
+              "I hope that wasn't our last Phoenix Down.",
+              "I'm back and at full health!",
+              "Thank you for restoring me."
+            ]
+          }
+        },
+        "unfollow" : {
+          "default" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          },
+		  "viera" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "I will wait here for you.",
+              "I shall remain here. Let me know if you have need of me.",
+              "I will stay put here.",
+              "I will stay and guard this location if you need.",
+              "I'll stay here if you prefer.",
+              "I will hold position here."
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          },
+		  "viera" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "Ready to follow you again.",
+              "I am pleased to rejoin the party.",
+              "I am happy to follow the party again.",
+              "I'm ready to get moving when you are.",
+              "Where are we off to?"
+            ]
+          }          
+        },
+        "cantreach" : {
+          "default" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          },
+		  "femaleveenaravaviera" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "You are out of reach!",
+              "I'm not sure I can reach you from here.",
+              "I may require assistance catching up to you.",
+              "We've been split up!",
+              "I seem to be unable to reach you!"
+            ]
+          }
+		  }
+      },
+
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+
+      "converse" : "/dialog/crewmember.config:converse",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
+    }
+  },
+
+  "movementParameters" : {
+    // Run at the same speed as the player
+    "runSpeed" : 16.0
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+			"chest" : [ { "name" : "woodwarderchest" } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "primary" : [ "npcbow" ],
+            "sheathedprimary" : [ "npcspear" ]
+          },
+          {
+            "head" : [ { "name" : "woodwarderhelmet" } ],
+			"chest" : [ { "name" : "woodwarderchest" } ],
+            "legs" : [ { "name" : "woodwarderlegs" } ],
+            "primary" : [ "npcshortsword", "commonlargeshield" ],
+            "sheathedprimary" : [ "npcbow" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "hitInvulnerability" : true,
+      "hitInvulnerabilityThreshold" : 0.0333,
+      "hitInvulnerabilityTime" : 1,
+      "hitInvulnerabilityFlash" : 0.15,
+      "damageFlashOnDirectives" : "",
+      "damageFlashOffDirectives" : ""
+    },
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 400.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 100.0
+      },
+	  "protection" : {
+        "baseValue" : 1.5
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 2.0
+      }
+    }
+  }
+}

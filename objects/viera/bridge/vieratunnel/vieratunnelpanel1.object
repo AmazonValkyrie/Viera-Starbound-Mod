@@ -1,0 +1,52 @@
+{
+  "objectName" : "vieratunnelpanel1",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "Intricately carved, modular tunnel paneling.",
+  "shortdescription" : "Carved Tunnel",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+  "zlevel" : 2,
+
+  "apexDescription" : ".",
+  "avianDescription" : ".",
+  "floranDescription" : ".",
+  "glitchDescription" : ".",
+  "humanDescription" : ".",
+  "hylotlDescription" : ".",
+  "novakidDescription" : "?",
+  "vieraDescription" : ".",
+
+  "inventoryIcon" : "vieratunnelpanel1.png",
+  "orientations" : [
+    {
+      "image" : "vieratunnelpanel1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+      "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-4, 14], [-3, 14], [-2, 14], [-1, 14], [0, 14], [1, 14], [2, 14], [3, 14]
+	  ]	  
+    },
+	{
+      "image" : "vieratunnelpanel1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+      "anchors" : [ ],
+      "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-3, 14], [-2, 14], [-1, 14], [0, 14], [1, 14], [2, 14], [3, 14], [4, 14]
+	  ]		  
+    }
+  ]
+}

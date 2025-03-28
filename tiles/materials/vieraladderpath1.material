@@ -1,0 +1,22 @@
+{
+  "materialId" : 13112,
+  "materialName" : "vieraladderpath1",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieraladderpath1",
+  "shortdescription" : "Ladder Path I",
+  "description" : "Recessed material for ladder.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieraladderpath1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

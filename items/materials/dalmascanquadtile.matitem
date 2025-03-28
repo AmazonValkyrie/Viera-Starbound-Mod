@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanquadtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanquadtileicon.png",
+  "shortdescription" : "Dalmascan Tile",
+  "description" : "Vibrantly colored tiles arranged on mortar.",
+
+  "materialId" : 13094
+}

@@ -1,0 +1,47 @@
+{
+    "id": "vierabasichomegoods",
+    "title": "Basic Viera Home Goods",
+    "description": "A book of plans detailing how to craft Viera home goods.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating Viera home goods and furniture. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "acornlight",
+            "acornoverheadlight",
+            "bookcase1",
+            "carvedvierabed",
+            "chestlgviera",
+            "rabbitholebed",
+            "urnmdviera",
+			"woodemblem",
+			"vieracolonydeed",
+			"vieratoilet",
+			"vieratable",
+			"vierasink",
+			"vierashelf",
+			"vierasink2",
+			"vierasofa",
+			"vierastool",
+			"vieraoven",
+			"vierabanner1",
+			"vieraarmchair1",
+			"vieracrystallight1",
+			"vieracurveddoor",
+			"vieraendtable",
+			"vierafridge",
+			"viera_mannequin",
+			"vieracounter",
+			"vieracupboard1",
+			"vieracabinet1",
+			"vierabath",
+			"vierachair",
+			"warrenholeentry2inner",
+			"warrenholeentry2outer"
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 300
+    }
+}

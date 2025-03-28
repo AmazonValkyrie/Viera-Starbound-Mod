@@ -1,0 +1,18 @@
+{
+  "id" : "vieralore21",
+  "title" : "Asteria, The Silver Blossom: Ch. 1",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover4.png",
+  "contentPages" : [
+    "^yellow;Of Moonlight and Mist^reset;\n\nAsteria was born beneath the light of a falling star, a rare omen that painted the night sky with silver fire. The elders whispered that such a birth was touched by fate, for the falling star was said to carry the wisdom of the heavens. Her hair gleamed like moonlight on still water, and her laughter was a melody that danced through the trees.",
+	
+	"From a young age, Asteria was drawn to the ancient glades where light and shadow mingled in delicate balance. She listened to the whispering winds and felt the pulse of the ground beneath her feet, her bond with the Green Word deep and unbreakable. Yet, unlike others who heard the voices of the past, Asteria dreamed of the future.",
+	
+	"She was gifted with visions-glimpses of what could be. Some were beautiful: rivers flowing with silver light, fields of blooming wildflowers. Others were darker: shadows falling across the jungle, fires devouring ancient trees. She kept these visions close to her heart, sharing them only with Marpesia, her closest friend and confidante."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "type" : "vieracrewmemberfencer",
+  "baseType" : "vieracrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "fencer",
+        "name" : "Fencer",
+        "field" : "Fencer",
+		"uniformColorIndex" : 0,
+
+        "benefits" : [ ]
+      },
+	  "defaultUniform" : {
+	    "head" : "vierafencerhead",
+        "chest" : "vierafencerchest",
+        "legs" : "vierafencerpants"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+			  
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "The blade is drawn when duty calls. Speak, and I shall follow.",
+			  "Should you require my skill, I will be at your side.",
+			  "I do not raise my blade lightly—but if battle demands, I shall be there.",
+			  "A duel, a dance, a hunt—whatever the fray, I am prepared.",
+			  "With measured steps, I follow. With steady hand, I strike.",
+			  "Call, and I will answer. The battlefield is no place for hesitation.",
+			  "Should the wind whisper of battle, know that I am near.",
+			  "The blade moves as the heart wills—if you seek my aid, you need only ask.",
+			  "I stand ready, keen as steel. Where you tread, I shall shadow.",
+			  "The Wood does not falter, nor shall I. Name your need, and I shall answer."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vierafencerhead" } ],
+			"chest" : [ { "name" : "vierafencerchest" } ],
+            "legs" : [ { "name" : "vierafencerpants" } ],
+            "primary" : [ "npcshortsword", "commonlargeshield" ],
+            "sheathedprimary" : [ "npcbow", "npcshortsword" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 550.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 150.0
+      },
+	  "protection" : {
+        "baseValue" : 0.5
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+	  "energyRegenPercentageRate" : {
+        "baseValue" : 1.5
+      },
+      "healthRegen" : {
+        "baseValue" : 1.25
+      }
+    }
+  }
+}

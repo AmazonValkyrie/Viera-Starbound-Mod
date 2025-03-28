@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfence1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfence1icon.png",
+  "shortdescription" : "Dalmascan Stone Fence",
+  "description" : "The ornate carvings of Dalmasca handed resonate still.",
+
+  "materialId" : 13084
+}

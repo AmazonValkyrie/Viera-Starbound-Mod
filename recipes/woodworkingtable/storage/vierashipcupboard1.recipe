@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "darkwoodmaterial", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "vierashipcupboard1",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "storage", "all" ]
+}

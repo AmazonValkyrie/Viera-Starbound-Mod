@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "firedclay", "count" : 8 },
+    { "item" : "climbingrope", "count" : 2 }	
+  ],
+  "output" : {
+    "item" : "urnlgviera",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

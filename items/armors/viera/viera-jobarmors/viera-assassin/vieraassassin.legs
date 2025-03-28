@@ -1,0 +1,48 @@
+{
+  "itemName" : "vieraassassinpants",
+  "shortdescription" : "Assassin Jodhpurs ",
+  "description" : "The finely honed skills of the assassin enable her to strike with deadly force.",
+  
+  "category" : "legwear",
+  "statSpread" : "assassin",
+  "statGrowth" : "standard",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "price" : 65,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "colorOptions" : [
+    /* PURPLE */
+    { "8C6D85" : "8C6D85", "664F60" : "664F60", "3F313C" : "3F313C", "21191F" : "21191F" },
+    /* BLACK */
+    { "8C6D85" : "7F7F7F", "664F60" : "595959", "3F313C" : "333333", "21191F" : "000000" },
+    /* GREY */
+    { "8C6D85" : "AFBFCC", "664F60" : "7D8993", "3F313C" : "646E77", "21191F" : "41474C" },
+    /* WHITE */
+    { "8C6D85" : "FFFFFF", "664F60" : "C9DBED", "3F313C" : "95BBC9", "21191F" : "728F99" },
+    /* RED */
+    { "8C6D85" : "D80000", "664F60" : "840000", "3F313C" : "680000", "21191F" : "300000" },
+    /* ORANGE */
+    { "8C6D85" : "FFA477", "664F60" : "FF8C4F", "3F313C" : "C8713D", "21191F" : "844929" },
+    /* YELLOW */
+    { "8C6D85" : "FFB970", "664F60" : "E69E50", "3F313C" : "C18443", "21191F" : "996835" },
+    /* GREEN */
+    { "8C6D85" : "40D65B", "664F60" : "2D9941", "3F313C" : "267F37", "21191F" : "13421C" },
+    /* BLUE */
+    { "8C6D85" : "00C2E0", "664F60" : "0094AA", "3F313C" : "007B8E", "21191F" : "004B56" },
+    /* PURPLE */
+    { "8C6D85" : "8C6D85", "664F60" : "664F60", "3F313C" : "3F313C", "21191F" : "21191F" },
+    /* PINK */
+    { "8C6D85" : "FF9B88", "664F60" : "E08879", "3F313C" : "C17668", "21191F" : "A36358" },
+    /* BROWN */
+    { "8C6D85" : "BC4B00", "664F60" : "7F3300", "3F313C" : "592300", "21191F" : "3F1800" }
+
+  ]
+}

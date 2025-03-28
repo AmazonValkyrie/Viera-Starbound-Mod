@@ -1,0 +1,22 @@
+{
+  "materialId" : 13045,
+  "materialName" : "windowlattice",
+  "particleColor" : [109, 99, 48, 255],
+  "itemDrop" : "windowlattice",
+  "shortdescription" : "Mahogany Lattice",
+  "description" : "Window lattice made of mahogany.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "windowlattice.png",
+    "variants" : 2,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

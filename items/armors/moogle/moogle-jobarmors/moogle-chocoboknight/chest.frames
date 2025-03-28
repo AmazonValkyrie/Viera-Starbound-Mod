@@ -1,0 +1,19 @@
+{
+  "frameList" : {
+    "chest" : [0, 0, 44, 44]
+  },
+  "aliases" : {
+    "run"     : "chest",
+    "swim"    : "chest",
+    "duck"    : "chest",
+    "duck.1"  : "chest",
+    "chest.1" : "chest",
+    "chest.2" : "chest",
+    "chest.3" : "chest",
+    "idle.1"  : "chest",
+    "idle.2"  : "chest",
+    "idle.3"  : "chest",
+    "idle.4"  : "chest",
+    "idle.5"  : "chest"
+  }
+}

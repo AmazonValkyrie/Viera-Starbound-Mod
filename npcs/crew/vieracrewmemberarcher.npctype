@@ -1,0 +1,157 @@
+{
+  "type" : "vieracrewmemberarcher",
+  "baseType" : "vieracrewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "archer",
+        "name" : "Archer",
+        "field" : "Archery",
+		"uniformColorIndex" : 0,
+
+        "benefits" : [ ]
+      },
+	  "defaultUniform" : {
+	    "head" : "vieraarcherhead",
+        "chest" : "vieraarcherchest",
+        "legs" : "vieraarcherpants"
+      },
+      "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+
+			  
+            ]
+          },
+          "viera" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+            ]
+          },
+          "femaleveenaravaviera" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+            ]
+          },
+		  "femalefeolviera" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+            ]
+          },
+		  "maleveenaravaviera" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+            ]
+          },
+		  "malefeolviera" : {
+            "default" : [
+              "The wind carries whispers of battle. If you call, I shall hear.",
+              "A keen eye, a steady hand-I stand ready when needed.",
+              "I do not waste arrows, nor time. Speak, and I will follow.",
+              "The hunt begins when the prey is named. If you need me, say the word.",
+              "Silent as the falling leaf, swift as the striking hawk-I am near.",
+              "Mark the target, and I will see it done.",
+              "No distance is too great, no shot too far. If you need me, I am ready.",
+              "The boughs of the Wood stretch far, and so do my arrows. Call, and I will come.",
+              "I wait, I watch, I strike. When you have need of me, I will be there.",
+              "The forest never sleeps, nor do I. Name your need, and it will be met."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vieraarcherhead" } ],
+			"chest" : [ { "name" : "vieraarcherchest" } ],
+            "legs" : [ { "name" : "vieraarcherpants" } ],
+            "primary" : [ "npcbow" ],
+            "sheathedprimary" : [ "npcbow" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 325.0
+      },
+	  "maxEnergy" : {
+        "baseValue" : 150.0
+      },
+	  "protection" : {
+        "baseValue" : 0.5
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+	  "energyRegenPercentageRate" : {
+        "baseValue" : 2.0
+      },
+      "healthRegen" : {
+        "baseValue" : 2.0
+      }
+    }
+  }
+}

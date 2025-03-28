@@ -1,0 +1,51 @@
+{ "columns":0,
+ "margin":0,
+ "name":"objects-by-race\/viera",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":3,
+ "tileheight":200,
+ "tileproperties":
+    {
+     "303":
+        {
+         "\/\/description":"Magicite Platform",
+         "\/\/name":"magiciteplatform1",
+         "\/\/short description":"Magicite Platform",
+         "material":"magiciteplatform1"
+        },
+     "304":
+        {
+         "\/\/description":"Mahogany Platform",
+         "\/\/name":"mahoganyplatform",
+         "\/\/short description":"Mahogany Platform",
+         "material":"mahoganyplatform"
+        },
+     "305":
+        {
+         "\/\/description":"Whitewood Platform",
+         "\/\/name":"whitewoodplatform",
+         "\/\/short description":"Whitewood Platform",
+         "material":"whitewoodplatform"
+        }
+    },
+ "tiles":
+    {
+     "303":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/magiciteplatform1.png"
+        },
+     "304":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/mahoganyplatform.png"
+        },
+     "305":
+        {
+         "image":"..\/..\/..\/tiled\/packed\/materials\/whitewoodplatform.png"
+        }
+    },
+ "tilewidth":128
+}

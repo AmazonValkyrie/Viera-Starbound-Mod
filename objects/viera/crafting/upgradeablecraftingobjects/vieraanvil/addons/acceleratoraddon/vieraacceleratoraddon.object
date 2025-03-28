@@ -1,0 +1,57 @@
+{
+  "objectName" : "vieraacceleratoraddon",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "price" : 1250,
+  "description" : "A refined magicite crystal that provides a specialization in ranged gear to the anvil.",
+  "shortdescription" : "^orange;Magicite Accelerator^white;",
+  "race" : "viera",
+
+  "apexDescription" : "How useful, this will add additional ranged equipment and armour to the anvil.",
+  "avianDescription" : "I can use this to add extra equipment and armour to the anvil.",
+  "floranDescription" : "Floran use thisss to add more thingss to anvil.",
+  "glitchDescription" : "Excited. Using this module will add additional ranged equipment and armour to the anvil.",
+  "humanDescription" : "Using this adds extra ranged equipment and armour to the anvil!",
+  "hylotlDescription" : "This useful module will add additional ranged equipment and armour to the anvil.",
+  "novakidDescription" : "This handy ol' module will add even more to the anvil.",
+  "vieraDescription" : "This magicite crystal will allow for more ranged gear to be crafted.",
+
+  "printable" : false,
+
+  "placementImage" : "vieraacceleratoraddonpreview.png",
+  "placementImagePosition" : [-24, -24],
+
+  "inventoryIcon" : "vieraacceleratoraddonicon.png",
+  "orientations" : [
+    {
+      "direction" : "left",
+      "image" : "vieraacceleratoraddon.png:<color>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2] ],
+
+      "fgAnchors" : [ [-1, -1], [0, -1] ],
+      "anchorMaterial" : "metamaterial:anviladdonbase"
+    }
+  ],
+
+  "forceFinishAnimationsInInit" : false,
+  "animation" : "/objects/viera/crafting/upgradeablecraftingobjects/vieraanvil/addons/vieraanviladdon.animation",
+  "animationPosition" : [-8, 0],
+  "animationParts" : {
+    "addon" : "vieraacceleratoraddon.png",
+    "addonfullbright" : "vieraacceleratoraddonfullbright.png"
+  },
+
+  "scripts" : [ "/scripts/objectaddons.lua", "/objects/viera/crafting/upgradeablecraftingobjects/vieraanvil/addons/anviladdon.lua" ],
+
+  "addonConfig" : {
+    "isAddons" : [
+      {
+        "name" : "vieraacceleratorAddon"
+      }
+    ]
+  }
+}

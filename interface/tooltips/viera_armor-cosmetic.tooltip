@@ -1,0 +1,140 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/viera_armor-header.png",
+    "fileBody" : "/interface/tooltips/viera_armor-body.png",
+    "fileFooter" : "/interface/tooltips/viera_armor-footer.png"
+  },  
+  
+  //DESCRIPTION
+  "dLabel" : {
+    "type" : "label",
+    "position" : [66, 126],
+    "wrapWidth" : 140,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },  
+  
+  //IMAGE DISPLAY
+  "fImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 7,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "mfImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 6,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "mhImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 5,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "cImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 4,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "mImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 3,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "mlImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 2,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "bImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+    "zlevel" : 1,
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },
+  "mbImage" : {
+    "type" : "image",
+    "file" : "",
+	"scale" : 2, 
+	"trim" : false,
+    "centered" : false,
+    "position" : [-13, 31]
+  },  
+  
+  //STATS
+  "pwrLabel" : {
+    "type" : "label",
+    "position" : [153, 51],
+    "wrapWidth" : 53,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },   
+  "prtLabel" : {
+    "type" : "label",
+    "position" : [153, 37],
+    "wrapWidth" : 53,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },   
+  "hltLabel" : {
+    "type" : "label",
+    "position" : [79, 51],
+    "wrapWidth" : 53,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  }, 
+  "nrgLabel" : {
+    "type" : "label",
+    "position" : [79, 37],
+    "wrapWidth" : 53,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },  
+  
+  //FOOTER DETAILS
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [9, 13],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [64, 13],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [77, 13],
+    "hAnchor" : "left",
+    "value" : "0"
+  }
+}

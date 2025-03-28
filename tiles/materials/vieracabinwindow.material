@@ -1,0 +1,22 @@
+{
+  "materialId" : 13124,
+  "materialName" : "vieracabinwindow",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "vieracabinwindow",
+  "shortdescription" : "Framed Window",
+  "description" : "Windows with a lattice-like frame.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieracabinwindow.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3130
+  }
+}

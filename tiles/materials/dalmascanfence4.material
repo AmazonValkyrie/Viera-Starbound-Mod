@@ -1,0 +1,22 @@
+{
+  "materialId" : 13087,
+  "materialName" : "dalmascanfence4",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanfence4",
+  "shortdescription" : "Dalmascan Iron Fence III",
+  "description" : "A molded iron fence with spokes.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanfence4.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

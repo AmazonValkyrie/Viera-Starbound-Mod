@@ -1,0 +1,22 @@
+{
+  "materialId" : 13011,
+  "materialName" : "dottedtile",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "dottedtile",
+  "description" : "Three spherical carvings on ochre wood.",
+  "shortdescription" : "Sphere Carvings",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dotted.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2875
+  }
+}

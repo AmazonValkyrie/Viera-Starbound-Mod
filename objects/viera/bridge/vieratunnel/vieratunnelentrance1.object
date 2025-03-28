@@ -1,0 +1,54 @@
+{
+  "objectName" : "vieratunnelentrance1",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "A carven structure topping the entrances to Viera villages.",
+  "shortdescription" : "Entrance Sculpture",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 120,
+  "health" : 3.5,
+  "zlevel" : 2,
+
+  "apexDescription" : "Quite a decorative entrance.",
+  "avianDescription" : "What an elaborate, carved sculpture.",
+  "floranDescription" : "Lovelyyyy wooodssss.",
+  "glitchDescription" : "Admiration. An intricately carved block of wood.",
+  "humanDescription" : "A lot of time must've gone into crafting this sculpture.",
+  "hylotlDescription" : "The people of this village must be expert carpenters.",
+  "novakidDescription" : "All this carved wood sure is extra.",
+  "vieraDescription" : "The intricate carpentry skills of the Viera are unsurpassed.",
+
+  "inventoryIcon" : "vieratunnelentrance1.png",
+  "orientations" : [
+    {
+      "image" : "vieratunnelentrance1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player-2",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+      "collision" : "solid",
+      "collisionSpaces" : [ 
+			[0, 0], [1, 0]
+	  ]	  
+    },
+	{
+      "image" : "vieratunnelentrance1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player-2",
+	  "direction" : "right",
+      "anchors" : [ ],
+      "collision" : "solid",
+      "collisionSpaces" : [ 
+			[-1, 0], [-2, 0]
+	  ]	  
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 50 },
+	{ "item" : "plantfibre", "count" : 30 },
+	{ "item" : "refinedmagicitecrystal", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "vieravillagepedestal2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decorative", "all" ]
+}

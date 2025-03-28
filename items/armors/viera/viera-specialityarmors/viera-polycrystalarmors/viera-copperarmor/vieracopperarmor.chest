@@ -1,0 +1,57 @@
+{
+  "itemName" : "vieracopperarmorchest",
+  "shortdescription" : "Viera Copper Breastplate",
+  "description" : "An experiment in Viera metallurgy - this stunning copper breastplate makes up for its bulk with extra defense.",
+  "itemTags" : [ "tier1armour" ],
+  
+  "category" : "chestarmour",
+  "statSpread" : "polycrystal",
+  "statGrowth" : "standard",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 800,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:chest",
+  
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  
+  "colorOptions" : [
+    /* COPPER */
+    { "D8AB6C" : "D8AB6C", "C6914B" : "C6914B", "CA6C38" : "CA6C38", "C14401" : "C14401", "7D310F" : "7D310F" },
+    /* BLACK */
+    { "D8AB6C" : "808080", "C6914B" : "595959", "CA6C38" : "333333", "C14401" : "191919", "7D310F" : "000000" },
+    /* GREY */
+    { "D8AB6C" : "B8B8B8", "C6914B" : "828282", "CA6C38" : "606060", "C14401" : "4C4C4C", "7D310F" : "333333" },
+    /* WHITE */
+    { "D8AB6C" : "EAEAEA", "C6914B" : "D3D3D3", "CA6C38" : "B8B8B8", "C14401" : "999999", "7D310F" : "828282" },
+    /* RED */
+    { "D8AB6C" : "FF3258", "C6914B" : "D82B4B", "CA6C38" : "982441", "C14401" : "69243F", "7D310F" : "4C1A2E" },
+    /* ORANGE */
+    { "D8AB6C" : "D8AB6C", "C6914B" : "C6914B", "CA6C38" : "CA6C38", "C14401" : "C14401", "7D310F" : "7D310F" },
+    /* YELLOW */
+    { "D8AB6C" : "FFEC8E", "C6914B" : "FFDF54", "CA6C38" : "FFD800", "C14401" : "D8B400", "7D310F" : "997F00" },
+    /* GREEN */
+    { "D8AB6C" : "49E193", "C6914B" : "3BA380", "CA6C38" : "197C81", "C14401" : "136063", "7D310F" : "0E4547" },
+    /* BLUE */
+    { "D8AB6C" : "5D8BC7", "C6914B" : "4D55B0", "CA6C38" : "2E2A73", "C14401" : "201E51", "7D310F" : "12102D" },
+    /* PURPLE */
+    { "D8AB6C" : "CCA7C2", "C6914B" : "91778A", "CA6C38" : "592239", "C14401" : "42192A", "7D310F" : "280F1A" },
+    /* PINK */
+    { "D8AB6C" : "FFD3CC", "C6914B" : "FF9F8C", "CA6C38" : "FF7459", "C14401" : "D35E4A", "7D310F" : "96201B" },
+    /* BROWN */
+    { "D8AB6C" : "EFA838", "C6914B" : "BE6D1D", "CA6C38" : "7A2409", "C14401" : "541D0C", "7D310F" : "331107" }
+ 
+  ]
+}

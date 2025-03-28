@@ -1,0 +1,50 @@
+{
+  "itemName" : "moogle_freelancer1head",
+  "shortdescription" : "Moogle Pointed Cap",
+  "description" : "A pointed cap of Moogle design.",
+  "itemTags" : [  ],
+  
+  "category" : "headarmour",
+  "statSpread" : "lightweight",
+  "statGrowth" : "standard",
+  "species" : "moogle",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "price" : 480,
+  "level" : 1,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:head",  
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  
+  "colorOptions" : [
+    /* BLUE */
+    { "448ECE" : "448ECE", "3874A5" : "3874A5", "2B597F" : "2B597F", "1E3E59" : "1E3E59" },
+    /* BLACK */
+    { "448ECE" : "8C8C8C", "3874A5" : "666666", "2B597F" : "3F3F3F", "1E3E59" : "000000" },
+    /* GREY */
+    { "448ECE" : "D8D8D8", "3874A5" : "BCBCBC", "2B597F" : "8C8C8C", "1E3E59" : "666666" },
+    /* WHITE */
+    { "448ECE" : "FFFFFF", "3874A5" : "E5E5E5", "2B597F" : "C4C4C4", "1E3E59" : "999999" },
+    /* RED */
+    { "448ECE" : "DB0000", "3874A5" : "990000", "2B597F" : "720000", "1E3E59" : "4C0000" },
+    /* ORANGE */
+    { "448ECE" : "FF6A00", "3874A5" : "D85600", "2B597F" : "B24700", "1E3E59" : "933B00" },
+    /* YELLOW */
+    { "448ECE" : "FDC752", "3874A5" : "D8AA47", "2B597F" : "B28C3A", "1E3E59" : "997832" },
+    /* GREEN */
+    { "448ECE" : "7CBF61", "3874A5" : "63994E", "2B597F" : "4A733A", "1E3E59" : "345129" },
+    /* BLUE */
+    { "448ECE" : "448ECE", "3874A5" : "3874A5", "2B597F" : "2B597F", "1E3E59" : "1E3E59" },
+    /* PURPLE */
+    { "448ECE" : "BF4A88", "3874A5" : "993B6D", "2B597F" : "7A2F57", "1E3E59" : "54203C" },
+    /* PINK */
+    { "448ECE" : "FF7FB6", "3874A5" : "CC6692", "2B597F" : "A55276", "1E3E59" : "723952" },
+    /* BROWN */
+    { "448ECE" : "B23800", "3874A5" : "7F2800", "2B597F" : "591C00", "1E3E59" : "331000" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "vieradirigible",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vieradirigibleicon.png",
+  "shortdescription" : "Sloped Dirigible",
+  "description" : "Sloped dirigible block.",
+
+  "materialId" : 13128,
+  "learnBlueprintsOnPickup" : [ "vieradirigible" ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "op": "add",
+    "path": "/vieraStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "vieraStarterWeapon"},
+		{"pool" : "starterTreasure"},
+        {"item" : [ "vieralantern" ]},
+		{"item" : [ "vieraprotectoratechest" ]},
+		{"item" : [ "vieraprotectoratepants" ]},
+		{"item" : [ "argoshipdeed-codex" ]},
+		{"item" : [ "argofurniture1-codex" ]},
+		{"item" : [ "vierabasichomegoods-codex" ]},
+		{"item" : [ "vierabuildersmanual1-codex" ]}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/moogleStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "vieraStarterWeapon"},
+		{"pool" : "starterTreasure"},
+        {"item" : [ "mooglemininghathead" ]},
+		{"item" : [ "moogleshipfurniture-codex" ]},
+		{"item" : [ "vierabasichomegoods-codex" ]},
+		{"item" : [ "vierabuildersmanual1-codex" ]}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/vieraStarterWeapon",
+    "value": [[0, {
+      "pool" : [
+        { "weight" : 0.17, "item" : "ivalicianshortsword" },
+        { "weight" : 0.17, "item" : "ivalicianbroadsword" },
+        { "weight" : 0.17, "item" : "ivalicianwavesword" },
+        { "weight" : 0.17, "item" : "ivalicianlongsword" },
+        { "weight" : 0.16, "item" : "ivaliciangreatsword" },
+        { "weight" : 0.16, "item" : "ivalicianclaymore" }
+      ]
+    }]]
+  }
+]

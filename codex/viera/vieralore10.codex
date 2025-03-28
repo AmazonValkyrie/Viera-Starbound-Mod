@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore10",
+  "title" : "The Way of the Hunter",
+  "description" : "Ancient Viera hunting philosophy.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Way of the Hunter^reset;\n\nTo hunt is to honor. Before loosing the arrow, whisper gratitude to the life offered. Do not take more than the land can bear, nor less than you need. Feet must fall like raindrops, leaving no trace.",
+
+	"Breath in unison with the breeze. An arrow drawn without purpose will find only the void."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

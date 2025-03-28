@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore12",
+  "title" : "The Spirits Beneath the Roots",
+  "description" : "Ancient Viera spirituality.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;The Spirits Within^reset;\n\nDeep beneath the roots where light dares not tread, the Green-Keepers dwell. They weave the tapestry of life, unseen, unspoken. To glimpse one is to see your own shadow given form; elusive, fleeting.",
+
+	"They guard the hidden springs, the secret pathways known only to those who listen to the heartbeat of the land."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

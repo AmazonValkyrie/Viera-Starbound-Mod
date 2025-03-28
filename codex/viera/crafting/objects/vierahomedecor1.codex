@@ -1,0 +1,32 @@
+{
+    "id": "vierahomedecor1",
+    "title": "Viera Home Decor",
+    "description": "A book of plans detailing how to craft Viera home decor.",
+    "icon": "vieracover9.png",
+    "contentPages": [
+        "This book details the processes and plans for creating a variety of Viera home decor. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "vierabanner2",
+            "vierabanner4",
+            "vierabasket1",
+            "vierabasket2",
+            "vierabasket3",
+            "vieracolumn1",
+            "vieracolumn2",
+			"vieragreeble1",
+			"vieragreeble2",
+			"vieragreeble3",
+			"vieragreeble4",
+			"vierajars1",
+			"vieraspicerack1",
+			"vierateacup1",
+			"vierateapot1",
+			"vierawallrug"
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 225
+    }
+}

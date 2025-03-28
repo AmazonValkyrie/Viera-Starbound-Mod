@@ -1,0 +1,22 @@
+{
+  "materialId" : 13098,
+  "materialName" : "dalmascanstone",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanstone",
+  "shortdescription" : "Dalmascan Smoothstone",
+  "description" : "Sandstone smoothed, and colored in Dalmascan fashion.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanstone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 13063,
+  "materialName" : "wwpanelingcorner3",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "wwpanelingcorner3",
+  "description" : "Carved, whitewood paneling. Lower left corner.",
+  "shortdescription" : "Whitewood Paneling",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wwpanelingcorner3.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2860
+  }
+}

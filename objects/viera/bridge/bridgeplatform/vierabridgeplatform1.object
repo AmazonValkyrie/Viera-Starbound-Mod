@@ -1,0 +1,56 @@
+{
+  "objectName" : "vierabridgeplatform1",
+  "colonyTags" : ["viera", "vieravillage", "nature"],
+  "rarity" : "Uncommon",
+  "description" : "An intricately carved wooden suspension bridge.",
+  "shortdescription" : "Bridge Platform",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 100,
+  "health" : 3.5,
+  "zlevel" : 2,
+
+  "apexDescription" : "A way to traverse the trees, I see.",
+  "avianDescription" : "Building things like this upon the trees makes travel easier.",
+  "floranDescription" : "Floating foresssst bridgeee.",
+  "glitchDescription" : "Admiration. An intricate path of decoration.",
+  "humanDescription" : "Nifty way to travel in the trees.",
+  "hylotlDescription" : "What an unassuming mode of travel.",
+  "novakidDescription" : "Is this bridge safe?",
+  "vieraDescription" : "Pathways strung upon the trees make it easier to traverse the canopy.",
+
+  "inventoryIcon" : "vierabridgeplatform1.png",
+  "orientations" : [
+    {
+      "image" : "vierabridgeplatform1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "left",
+	  "renderLayer" : "Player+12",
+	  "flipImages" : true,
+      "anchors" : [ ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-4, 3], [-3, 3], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [3, 3],
+			[4, 3] 
+	  ]	  
+    },
+	{
+      "image" : "vierabridgeplatform1.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+	  "renderLayer" : "Player+12",
+      "anchors" : [ ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-4, 3], [-3, 3], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [3, 3],
+			[4, 3]
+	  ]	  
+    }
+  ]
+}

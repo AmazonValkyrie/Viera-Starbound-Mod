@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+	{ "item" : "goldbar", "count" : 2},
+	{ "item" : "refinedmagicitecrystal", "count" : 2},
+    { "item" : "fabric", "count" : 18 }
+  ],
+  "output" : {
+    "item" : "flagviera2",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

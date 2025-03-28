@@ -1,0 +1,76 @@
+{
+  "objectName" : "spiritofthewood",
+  "colonyTags" : ["maleveenarava", "pretty", "valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 80,
+  "description" : "A symbol of the male Veena & Rava Viera.",
+  "shortdescription" : "The Spirit of the Wood",
+  "race" : "maleveenaravaviera",
+  "health" : 1.5,
+
+  "apexDescription" : "This water must be sacred to these people. How primitive.",
+  "avianDescription" : "This chalice carries magical waters.",
+  "floranDescription" : "Life Waterrrr.",
+  "glitchDescription" : "Mystified. This water possesses great energies.",
+  "humanDescription" : "What a beautiful, sparkling chalice.",
+  "hylotlDescription" : "The waters in this chalice are ethereal.",
+  "novakidDescription" : "Lighting with style. Does it do something else?",
+  "vieraDescription" : "We will always carry the Spirit of the Wood with us.",
+  
+  "lightColor" : [107, 127, 127],
+  
+    "particleEmitter" : {
+    "emissionRate" : 0.7,
+    "emissionVariance" : 0.3,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 0.25],
+      "size" : 1.0,
+      "color" : [133, 191, 191, 150],
+      "light" : [0, 130, 130],
+      "fade" : 0.9,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [-0.1, -0.1],
+      "approach" : [0.65, 0.65],
+      "timeToLive" : 5,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.0, 1.0],
+      "position" : [1.5, 0.5]
+    }
+  },
+
+  "inventoryIcon" : "spiritofthewoodicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "spiritofthewood.png:<color>.<frame>", "fullbright" : true }, { "image" : "spiritofthewoodlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "spiritofthewood.png:<color>.<frame>", "fullbright" : true }, { "image" : "spiritofthewoodlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+	
+  ]
+}

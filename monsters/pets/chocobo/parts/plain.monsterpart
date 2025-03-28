@@ -1,0 +1,9 @@
+{
+  "name" : "plain",
+  "category" : "petchocobo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "plain.png"
+  }
+}

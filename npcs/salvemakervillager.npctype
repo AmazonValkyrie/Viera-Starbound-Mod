@@ -1,0 +1,108 @@
+{
+  "type" : "salvemakervillager",
+  "baseType" : "vierabase",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.25,
+	  "converseChance" : 1,
+      "patrolTime" : 3,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+    
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/viera.config:tagCriteria",
+          "enclosedArea" : "/dialog/viera.config:enclosedArea",
+          "otherDeed" : "/dialog/viera.config:otherDeed",
+          "severe" : "/dialog/viera.config:severe",
+          "final" : "/dialog/viera.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/viera.config:beacon",
+          "rent" : "/dialog/viera.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/viera.config:helpme",
+		"helpthem" : "/dialog/viera.config:helpthem",
+        "encourage" : "/dialog/viera.config:encourage",
+        "safe" : "/dialog/viera.config:safe"
+      },
+      "breakObject" : "/dialog/viera.config:breakObject",
+      "greeting" : "/dialog/viera.config:smvillagergreeting",
+      "converse" : "/dialog/viera.config:smvillagerconverse",
+      "accuse" : "/dialog/viera.config:accuse",
+      "alert" : "/dialog/viera.config:alert"
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "femaleveenaravaviera" : [
+      [0, [
+          {
+            "head" : [ 
+			  { "name" : "salvemakercirclet", "parameters" : { "colorIndex" : [2, 3] } } 
+			],
+			"chest" : [
+              { "name" : "salvemakervillagerchest", "parameters" : { "colorIndex" : [2, 3] } }
+            ],
+            "legs" : [
+              { "name" : "salvemakervillagerlegs", "parameters" : { "colorIndex" : [2, 3] } }
+            ],
+			"sheathedprimary" : [
+              "npcdagger"
+            ]
+          },
+		  {
+			"chest" : [
+              { "name" : "salvemakerwayfarerchest", "parameters" : { "colorIndex" : [2, 3] } }
+            ],
+            "legs" : [
+              { "name" : "salvemakervillagerlegs", "parameters" : { "colorIndex" : [2, 3] } }
+            ],
+			"sheathedprimary" : [
+              "npcdagger"
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

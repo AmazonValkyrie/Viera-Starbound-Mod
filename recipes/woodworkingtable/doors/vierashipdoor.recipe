@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "wire", "count" : 8 },
+	{ "item" : "ironbar", "count" : 2 },
+	{ "item" : "refinedmagicitecrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vierashipdoor",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "doors", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore15",
+  "title" : "The Saga of Marpesia: Prologue",
+  "description" : "Tales of a beloved Viera warrior.",
+  "icon" : "vieracover3.png",
+  "contentPages" : [
+    "^yellow;The Whisper of Prophecy^reset;\n\nFrom the roots of the First Tree shall rise a leader, her gaze sharp as the hawk's flight, her voice the echo of ancient wisdom. In her hands, the balance shall be kept, and beneath her shadow, peace shall dwell.",
+
+	"Yet, as the moon casts light and shadow alike, so too shall her reign be marked by glory...and grief."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "type" : "chocoboknightwallace",
+  "baseType" : "mooglebase",
+  
+  "npcname" : "Wallace\n^white;<Chocobo Knight>^reset;",
+  "identity" : {
+    "gender" : "male",
+    "facialHairType" : "blank",
+    "hairType" : "unique/down/chocoboknightwallace",
+	"hairDirectives" : "?replace=DB0000=DB0000?replace=990000=990000?replace=510000=510000",
+ 	"bodyDirectives" : "?replace=FEFED5=FEFED5?replace=D5D5A4=D5D5A4?replace=ACA46A=ACA46A?replace=938349=938349?replace=524929=524929?replace=808080=808080?replace=606060=606060",
+	"personalityIdle"    : "idle.4",
+	"personalityArmIdle" : "idle.4"
+  },
+
+  "damageTeamType" : "friendly",
+  "levelVariance" : [0, 0],
+  "persistent" : false,
+  "keepAlive" : false,
+
+  "scripts" : [ "/npcs/vNPC.lua" ],
+  "scriptConfig" : {
+	"uniqueId" : "chocoboknightwallace",
+    "behavior" : "guard",		
+    "personalities" : [
+	  [1.0, {
+        "personality" : "wallacedefault",
+        "behaviorConfig" : {},
+        "reactions" : {
+          "spontaneous" : [
+            [8.0, "sit"],
+            [8.0, "wander"],
+            [1.0, "sleep", { "timeRange" : [0.7, 0.9] }]
+          ],
+          "hasquest" : [
+            [4.0, "sit"],
+            [8.0, "wander"],
+            [2.0, "mooglewave"],
+            [1.0, "smile"],
+            [1.0, "neutral"],
+            [2.0, "laugh"],
+            [0.5, "annoyed"]
+          ],
+          "default" : [
+            [4.0, "sit"],
+            [4.0, "wander"],
+            [1.0, "smile"],
+            [1.0, "neutral"],
+            [1.0, "laugh"],
+            [0.5, "annoyed"],
+
+            // Chat-ending behaviors:
+            [0.5, "quit"],
+            [0.5, "gohome"],
+            [0.5, "follow"]
+          ],
+          "campfire" : [
+            [1.0, "mooglewarmhands"],
+            [1.0, "mooglecrouchwarm"]
+          ],
+		  "furnace" : [
+            [1.0, "mooglewarmhands"],
+            [1.0, "mooglecrouchwarm"]
+          ],
+          "furnaceComplete" : [
+            [1.0, "mooglewarmhands"],
+            [1.0, "mooglecrouchwarm"],
+            [1.0, "pokefire"]
+          ]
+        }
+      }]
+	],
+	
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+	"offeredQuests" : [ "chocobounlock01", "chocobounlock02", "chocobounlock03", "chocobounlock04", "chocoborepeatable01"  ],
+    "turnInQuests" : [ "chocobounlock00", "chocobounlock01", "chocobounlock02", "chocobounlock03", "chocobounlock04", "chocoborepeatable01"  ],
+
+    "chatPortrait" : "/interface/chatbubbles/wallacedefaulttalk.png:<frame>",
+    "portraitTalk" : {
+	  "mode" : "npc",
+      "next"  : 0,
+	  "count" : 0,
+      "timer" : 0.0,
+      "delay" : 0.0,
+	  "speakerID" : 0,
+      "portraits" : [
+        "/interface/chatbubbles/wallacedefaulttalk.png:<frame>"
+      ],
+	  "conversation" : "wait",
+      "conversations" : {
+		"startChocoboUnlock01" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+	        "^green;Pleased to meet you, kupo!^reset;",
+		    "If you want a ^orange;chocobo^reset;, kupo, you'll need to ^green;learn how to take care of them^reset;.", 
+			"The first thing you'll need to know is ^orange;what they like to eat^reset;, po!",
+			"Most ^orange;Chocobo love Gysahl Greens^reset;, a common plant where I come from, kup.",
+            "The root that they're a part of is ^green;easy to grow^reset; - but you'll need some ^orange;gardening equipment^reset;.",
+			"Come back when you've ^green;found^reset; ^orange;a hoe and a watering can^reset;, kupo-ku!"
+		  ],
+		  "cooldowns" : [ 8.0, 8.0, 8.0, 8.0, 8.0, 8.0 ],
+		  "image" : [ 1, 1, 1, 1, 1, 1 ]
+		},
+		"continueChocoboUnlock01" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Any luck ^green;finding^reset; those ^orange;tools^reset; kupo-ku?"
+		  ],
+		  "cooldowns" : [ 8.0 ],
+		  "image" : [ 1 ]
+		},
+		"startChocoboUnlock02" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Kupo! Looks like you've got what you need - ",
+			"Take these ^orange;seeds^reset; and ^green;see what you can do with them^reset;, po-po!",
+		    "What, these roots behind me??",
+			"Oh, those are for ~MY~ chocobo!",
+			"Go ahead and ^green;plant those seeds I gave you^reset;, kupo, and you should be able to grow your own.",
+			"^green;Bring me back 15^reset; or so, and I think I'll be able to ^orange;attract a bird just for you^reset;!",
+			"Hurry along now kupo-po!"
+        ],
+		  "cooldowns" : [ 8.0, 12.0, 8.0, 6.0, 10.0, 12.0, 8.0 ],
+		  "image" : [ 1, 1, 1, 1, 1, 1, 1 ]
+		},
+		"continueChocoboUnlock02" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "How's ^green;gysahl farming^reset; treating ya, kupo-ku?"
+		  ],
+		  "cooldowns" : [ 8.0 ],
+		  "image" : [ 1 ]
+		},
+		"startChocoboUnlock03" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Kupawesome job!",
+			"While you were out playing Harvest Kup, I found this ^orange;Chocobo Collar^reset; - you can have it if you want, po!",
+            "Now that we have the Gysahl Greens, I can use them to ^orange;attract a chocobo^reset;, po-po!",
+			"While we wait, why don't you ^green;gather some materials to make a, kupo, saddle^rest;?",
+			"You can ride bareback, if that's your style, po-po; but it never hurts to have a saddle handy!",
+			"Kup - it should take about ^green;2 leather and 10 string^reset; to make a basic saddle."
+          ],
+		  "cooldowns" : [ 6.0, 14.0, 10.0, 10.0, 12.0, 10.0 ],
+		  "image" : [ 1, 1, 1, 1, 1, 1 ]
+		},
+		"continueChocoboUnlock03" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "How's ^green;gysahl farming^reset; treating ya, kupo-ku?",
+		    "I've found another ^orange;Chocobo^reset; for you whenever you have the greens!"
+		  ],
+		  "cooldowns" : [ 6.0, 8.0 ],
+		  "image" : [ 1, 1 ]
+		},
+		"finishChocoboUnlock03" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Kupo-ku!!",
+			"While you were out gathering materials, I was able to ^orange;attract a chocobo^reset; using those greens.",
+			"Congratu-kupo-lations!!"
+          ],
+		  "cooldowns" : [ 4.0, 12.0, 8.0 ],
+		  "image" : [ 1, 1, 1 ]
+		},
+		"startChocoboUnlock04" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Welcome back, kupo-ku!",
+			"You know, ^orange;one Chocobo^reset;'s great and all, kup, ^green;but why stop there^reset;?",
+			"I can help you ^green;amass a whole chuckle of Chocobos^reset;, po-po!",
+			"Buuuuut...",
+			"You'll need ^orange;stables^reset; to keep all of them in!",
+			"If you can ^green;gather^reset; ^orange;75 Timber, 25 Cobblestone Brick, and 20 Woven Fabric^reset;, I'll show you how to build one, kupo!"
+          ],
+		  "cooldowns" : [ 6.0, 8.0, 8.0, 8.0, 8.0, 12.0 ],
+		  "image" : [ 1, 1, 1, 1, 1, 1 ]
+		},
+		"continueChocoboUnlock04" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Excited to ^green;build^reset; your very own ^orange;chocobo stables^reset;, kupo-ku?"
+		  ],
+		  "cooldowns" : [ 8.0 ],
+		  "image" : [ 1 ]
+		},
+		"finishChocoboUnlock04" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Kupo! That's a heavy load!",
+			"Drop the materials over here, po-po, and I'll show you how to build a ^orange;Dual-Stall Chocobo Stable^reset;.",
+			"Kup-oh! I just had a thought!",
+			"I can show you how to use these materials to make a ^orange;shaded barding^reset; for your Chocobo too, kupo!",
+			"Now that we've got that settled, kupo, just ^green;talk to me anytime you want another feathered friend^reset;!",
+			"I'll need more ^orange;Gysahl Greens^reset;, kup-of course, but I'm sure that won't be a problem for you!"
+          ],
+		  "cooldowns" : [ 8.0, 12.0, 6.0, 8.0, 12.0, 12.0 ],
+		  "image" : [ 1, 1, 1, 1, 1, 1 ]
+		},
+		"startChocoboRepeatable01" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+            "Hey there, kupster!",
+			"In the market for ^orange;another Chocobo^reset;?",
+			"Just ^green;bring me^reset; ^orange;15 Gysahl Greens^reset; and I'll catch you one faster than you can say \"kupo po kupo-ku\"!"
+          ],
+		  "cooldowns" : [ 6.0, 6.0, 12.0 ],
+		  "image" : [ 1, 1, 1 ]
+		},
+		"continueChocoboRepeatable01" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "How's ^green;gysahl farming^reset; treating ya, kupo-ku?"
+		  ],
+		  "cooldowns" : [ 8.0 ],
+		  "image" : [ 1 ]
+		},
+		"finishChocoboRepeatable01" : {
+		  "startDelay" : 0.0,
+		  "endDelay"  : 0.0,
+		  "text" : [
+		    "Oh hey, po-po!",
+			"I was just thinking about you...",
+			"I managed to ^orange;wrangle this Chocobo^reset; just before you arrived, kup!",
+			"I'll ^green;trade ya^reset; for those ^orange;greens you brought^reset; and just find another one for myself later!",
+			"Pleasure doing business, kupo-ku!"
+          ],
+		  "cooldowns" : [ 4.0, 8.0, 8.0, 12.0, 8.0 ],
+		  "image" : [ 1, 1, 1, 1, 1 ]
+		}
+	  }
+    },
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Greetings, kupo!"
+          ]
+        }
+      }
+	}
+  },
+  
+  "items" : {
+    "default" : [ [
+	  0, [
+          {
+            "head"  : [ { "name" : "chocoboknighthead",  "parameters" : {  } } ],
+            "chest" : [ { "name" : "chocoboknightchest", "parameters" : {  } } ],
+            "legs"  : [ { "name" : "chocoboknightlegs",  "parameters" : {  } } ]
+          }
+      ],
+	  1, [
+          {
+            "head"  : [ {  } ],
+            "chest" : [ { "name" : "chocoboknightchest", "parameters" : {  } } ],
+            "legs"  : [ { "name" : "chocoboknightlegs",  "parameters" : {  } } ]
+          }
+	  ] 
+    ] ] 
+  }
+}

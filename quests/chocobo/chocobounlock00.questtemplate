@@ -1,0 +1,48 @@
+{
+  "id" : "chocobounlock00",
+  "title" : "^orange;Brave Knights and Bold Steeds^reset;",
+  "text" : "The prospect of meeting another refugee from Ivalice is exicting - you'd better ^green;construct the management stand^reset; and meet with this ^orange;mystery moogle^reset;.",
+  "completionText" : "Seems this moogle, ^cyan;Wallace^reset;, can help you aquire a ^orange;mount of sorts^reset; - you just need to ^green;gather a few things^reset; first!",
+  "showCompleteDialog" : false,
+  "showAcceptDialog" : false,
+  "showFailDialog" : false,
+  "canBeAbandoned" : false,
+  "mainQuest" : true,
+  "prerequisites" : [ "magicitediscovery01" ],
+  "moneyRange" : [0, 0],
+  "rewards" : [ [  ] ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/chocobo/chocobounlock00.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/captainseonha.png"} ],
+        "title" : "Cpt. Seonha"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/npcs/questportraits/chocoboknightwallace.png"} ],
+        "title" : "Sir Wallace"
+      }
+    },
+    "stages" : [
+	  {
+	    "state" : "findChocoboKnight",
+		"speakers" : {
+	      "initial" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+	      "interim" : { "uid" : "captainseonha", "name" : "Captain Seonha" },
+	      "target"  : { "uid" : "chocoboknightwallace", "name" : "Chocobo Knight" },
+		  "cleared" : { "uid" : "chocoboknightwallace", "name" : "Sir Wallace" }
+		},
+		"descriptions" : [ 
+		  "^green;Build and place^reset; the ^orange;Chocobo Stand^reset; and ^green;see who responds^reset;." 
+		],
+		"portraitTalks" : {
+		  "initial" : "startChocoboUnlock00", 
+		  "interim" : "continueChocoboUnlock00"
+		}		  
+	  }
+	],	
+    "followUp" : "chocobounlock01"
+  }
+}

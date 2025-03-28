@@ -1,0 +1,197 @@
+[
+    {
+        "op": "add",
+        "path": "/vieravillageLore",
+        "value": [
+            [
+                1,
+                {
+                    "pool": [
+                        {
+                            "weight": 0.25,
+                            "item": "vierahistory1-codex"
+                        },
+						{
+                            "weight": 0.25,
+                            "item": "vierahistory2-codex"
+                        },
+						{
+                            "weight": 0.25,
+                            "item": "vieralore1-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore2-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore3-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore4-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore5-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore6-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore7-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore8-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore9-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore10-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore11-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore12-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore13-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore14-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore15-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore16-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore17-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore18-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore19-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore20-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore21-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore22-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore23-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore24-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore25-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore26-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore27-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore28-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore29-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore30-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore31-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore32-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore33-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore34-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore35-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore36-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore37-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore38-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore39-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore40-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore41-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore42-codex"
+                        },
+                        {
+                            "weight": 0.25,
+                            "item": "vieralore43-codex"
+                        }
+                    ],
+                    "poolRounds": 1,
+                    "allowDuplication": false
+                }
+            ]
+        ]
+    }
+]

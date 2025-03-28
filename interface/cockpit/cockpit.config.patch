@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/vieramajesticforest",
+    "value": [
+      "A ^#15ce02;majestic forest ^white;of tall, ancient trees covers this planet's surface. The planet is teeming with such life and mystery that even the flora give off energy readings.",
+      "Keep your wits about you amongst the trees here, as nary a completely clear landing spot can be found, but I'm confident you'll be safeguarded here in the Wood.",
+      "Readings indicate several energy echoes even within the trees themselves. There's something alive down there in the ^#15ce02;forest ^white;below.",
+	  "This green planet is a ^#15ce02;majestic forest ^white;of ancient flora. I sense gentle energies echoing from the Wood below, but be cautious of other life in the ^#15ce02;forest ^white;.",
+	  "There's no telling what you'll encounter in the deep wood below. Energy readings indicate an abundance of mixed life below the ^#15ce02;forest's ^white;canopy."
+	  
+    ]
+  },
+   {
+    "op": "add",
+    "path": "/planetTypeNames/vieramajesticforest",
+    "value": "Majestic Forest"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/vieramajesticforest",
+    "value": [
+      89,
+      142,
+      50
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "objectName" : "magicitecrystalrock",
+  "colonyTags" : [],
+  "rarity" : "Uncommon",
+  "category" : "breakable",
+  "printable" : false,
+  "health" : 1.5,
+
+  "description" : "A glistening Magicite Crystal formation.",
+  "shortdescription" : "Crystal Formation",
+  "race" : "generic",
+
+  "apexDescription" : "There appears to be a powerful crystal within this fragile rock.",
+  "avianDescription" : "If I break this rock holding it, I should be able to gather the crystal ore within it.",
+  "floranDescription" : "Glittery rock. Sssmash it!",
+  "glitchDescription" : "Observant. This rock contains a crystal with astounding energy.",
+  "humanDescription" : "A rock full of magick crystal! Maybe I can break it.",
+  "hylotlDescription" : "A swift blow to the rock base would free the crystal within.",
+  "novakidDescription" : "A mighty shiny rock. I can mine it too.",
+  "vieraDescription" : "A large Magicite formation. I should take this with me!",
+  
+  "lightColor" : [126, 204, 204],
+  
+  "particleEmitter" : {
+    "emissionRate" : 1.5,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [16, 16],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/sparkles/sparkle2.animation",
+      "size" : 1.0,
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [0, 0],
+      "timeToLive" : 1,
+      "layer" : "front"
+    },
+
+    "particleVariance" : {
+      "position" : [1.0, 1.0]
+    }
+  },
+
+  "inventoryIcon" : "magicitecrystalrockicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image": "magicitecrystalrock.png:<color>", "fullbright" : true }, { "image" : "magicitecrystalrocklit.png:<color>" } ],
+      "imagePosition" : [0, 0],
+	  "direction" : "left",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image": "magicitecrystalrock.png:<color>", "fullbright" : true }, { "image" : "magicitecrystalrocklit.png:<color>" } ],
+      "imagePosition" : [0, 0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "rockshard" } ],
+  "smashDropPool" : "magicitecrystalRock",
+  "breakDropPool" : "magicitecrystalRock"
+}

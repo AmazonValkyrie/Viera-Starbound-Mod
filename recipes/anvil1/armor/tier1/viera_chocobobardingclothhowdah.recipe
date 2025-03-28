@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "string", "count" : 20 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "viera_chocobobardingclothhowdah", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

@@ -1,0 +1,81 @@
+{
+  "type" : "mooglevillager",
+  "baseType" : "mooglebase",  
+
+  "levelVariance" : [3, 3],
+  "damageTeamType" : "friendly",
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "behaviorConfig" : {
+	  "greetingChance" : 0.25,
+	  "converseChance" : 1,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+	"questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+
+      // Every 30 seconds, decide whether to generate a quest and if so, spend
+      // the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+
+      // Don't generate new quests if there are already more than <nearbyQuestLimit>
+      // questmanager stagehands nearby, within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+	  "chance" : 1,
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [0.5, "mooglecrewmemberengineer"],
+          [0.5, "mooglecrewmembermechanic"]
+        ]
+      }
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander"]
+      ]
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "default" : [
+      [0, [{
+        "head": [{"name": "moogle_freelancer1head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "chest": [{"name": "moogle_freelancer1chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}],
+        "legs": [{"name": "moogle_freelancer1legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }}]
+      },
+	  {
+        "head" : [ { "name" : "moogle_freelancer2head", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+		"chest" : [ { "name" : "moogle_freelancer2chest", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ],
+        "legs" : [ { "name" : "moogle_freelancer2legs", "parameters": {"colorIndex" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] } } ]
+          }]]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

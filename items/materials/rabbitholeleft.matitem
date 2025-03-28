@@ -1,0 +1,10 @@
+{
+  "itemName" : "rabbitholeleft",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "rabbitholelefticon.png",
+  "description" : "Carved whitewood for Vieran entryways.",
+  "shortdescription" : "Rabbit-Hole Left",
+
+  "materialId" : 13016
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "intricateroof",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "intricaterooficon.png",
+  "description" : "Carved Vieran whitewood roofing.",
+  "shortdescription" : "Whitewood Roofing",
+
+  "materialId" : 13021
+}

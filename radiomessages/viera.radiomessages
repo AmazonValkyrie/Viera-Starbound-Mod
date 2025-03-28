@@ -1,0 +1,73 @@
+{
+  "magicitediscovery01-refineMagicite-initial" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "Can you hear me? That's definitely ^orange;magicite crystal ore^reset; you've found - only problem is you'll ^green;need to refine it^reset; before it's of any use to us. You should be able to do so at any ^orange;Stone Hearth^reset;.",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-refineMagicite-interim" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "Just checking in! Remember, you'll to ^green;need to refine^reset; that ^orange;magicite crystal ore^reset; you've found. You should be able to do so at any ^orange;Stone Hearth^reset;!",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-refineMagicite-cleared-a" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "I registered a burst of energy from your location that matches with the ^orange;magicite refinement process^reset;, great job! While you were doing that, I managed to contact ^orange;someone from Ivalice^reset; who can help our exploration efforts!",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-refineMagicite-cleared-b" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "They've agreed to help, but we'll need to craft a station for them to work from - it will serve as a beacon to help them locate us as well.",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-refineMagicite-cleared-c" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "^green;Gather^reset; ^orange;40 Timber, 20 Cobblestone Brick, and 6 Woven Fabric^reset; in addition to ^orange;the magicite you refined^reset;.",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-returnToSeonha-initial-a" : {
+    "type" : "quest",
+    "senderName" : "---",
+    "portraitImage" : "/interface/chatbubbles/blankdefault.png:<frame>",
+    "text" : "[ With the requested materials gathered, you figure you ought to check in with Captain Seonha... ]",
+    "portraitFrames" : 4,
+    "portraitSpeed" : 0.25
+  },
+  
+  "magicitediscovery01-returnToSeonha-initial-b" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "Hello? Oh good, I was just about to check in with you. If you've ^orange;gathered those materials^reset; ^green;come back to me^reset; and I'll show you what we need to make.",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  },
+  
+  "magicitediscovery01-returnToSeonha-interim" : {
+    "type" : "quest",
+    "senderName" : "Captain Seonha",
+    "portraitImage" : "/interface/chatbubbles/seonhadefaulttalkblink.png:<frame>",
+    "text" : "Just checking in! Remember, if you've ^orange;gathered those materials^reset; ^green;come back to me^reset; and I'll show you what we need to make.",
+    "portraitFrames" : 12,
+    "portraitSpeed" : 2
+  }
+}

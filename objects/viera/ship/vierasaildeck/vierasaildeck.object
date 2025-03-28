@@ -1,0 +1,37 @@
+{
+  "objectName" : "vierasaildeck",
+  "colonyTags" : ["viera", "vieraship", "argo"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 180,
+
+  "description" : "A carved mahogany deck with gold filigree.",
+  "shortdescription" : "Sail Deck",
+  "race" : "viera",
+
+  "apexDescription" : "Too flashy for my kind.",
+  "avianDescription" : "Such extravagant carvings and metal work.",
+  "floranDescription" : "Sssshiny.",
+  "glitchDescription" : "Intrigue. Elaborate pedestal for a ship view.",
+  "humanDescription" : "This is way more intricate than anything I've seen.",
+  "hylotlDescription" : "No detail is lost, even on a viewport.",
+  "novakidDescription" : "Sure beats the furniture I'm used to.",
+  "vieraDescription" : "A support for the voice of the Wood.",
+
+  "inventoryIcon" : "vierasaildeckicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vierasaildeck.png:<color>", "fullbright" : true }, { "image" : "vierasaildecklit.png:<color>" } ],
+      "imagePosition" : [-48, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-5,-0], [-4,1], [-3,1], [-1,1], [-0,1], [1,1], [2,1], [3,1], [4,1], [5,1]
+	  ]
+    }
+  ]
+}

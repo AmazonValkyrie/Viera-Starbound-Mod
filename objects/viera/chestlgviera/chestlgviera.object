@@ -1,0 +1,41 @@
+{
+  "objectName" : "chestlgviera",
+  "colonyTags" : ["viera","storage", "vieravillage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 80,
+  "description" : "A Viera chest carved of mahogany.",
+  "shortdescription" : "Large Viera Chest",
+  "race" : "viera",
+  "health" : 1.5,
+
+  "apexDescription" : "A chest! Let's look inside.",
+  "avianDescription" : "Often these chests stored valuables. I'm excited!",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A chest! Let's open it up.",
+  "hylotlDescription" : "There is little as exciting as an unopened chest.",
+  "novakidDescription" : "What could be in this purdy box?",
+  "vieraDescription" : "Crafted by my people to store our intricate wares.",
+
+  "inventoryIcon" : "chestlgvieraicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestlgviera.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

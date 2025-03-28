@@ -1,0 +1,52 @@
+{
+  "objectName" : "eithnefountain3",
+  "colonyTags" : ["viera","pretty","valuable","vieravillage"],
+  "rarity" : "Uncommon",
+  "price" : 150,
+  "description" : "The life-giving energies of the Wood pour from this fountain.",
+  "shortdescription" : "Fountain of Eithne",
+  "race" : "viera",
+  "category" : "decorative",
+  "health" : 1.5,
+  
+  "statusEffects" : [ ],
+
+  "apexDescription" : "What a breathtaking fountain. She must be someone of great importance.",
+  "avianDescription" : "A wondrous fountain. Who is this female rabbit?",
+  "floranDescription" : "Bunny Ladyy give healing watersss of life.",
+  "glitchDescription" : "Relaxed. The sounds of this water is calming.",
+  "humanDescription" : "If I had a penny I'd throw it in.",
+  "hylotlDescription" : "Beautiful clear water. Sometimes I miss the ocean.",
+  "novakidDescription" : "Some kinda splashy statue spoutin' sparkly water.",
+  "vieraDescription" : "The Spirit of the Wood Herself is depicted here giving us healing waters.",
+  
+  "lightColor" : [247, 239, 210],
+
+  "inventoryIcon" : "fountainicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "eithnefountain3.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnefountain3lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "eithnefountain3.png:<color>.<frame>", "fullbright" : true }, { "image" : "eithnefountain3lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+    ],
+
+  "soundEffect" : "/sfx/objects/fountain1.ogg"
+
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/vieramajesticforest",
+    "value": [
+      [0.075, "fog"],
+      [0.075, "groundmist"],
+      [0.075, "rain"],
+      [0.075, "storm"],
+      [0.050, "glowingrain"],
+      [0.075, "drizzle"],
+      [0.85, "clear"]
+    ]
+  }
+]

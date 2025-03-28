@@ -1,0 +1,20 @@
+{
+  "materialId" : 13127,
+  "materialName" : "vieracablingplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "vieracablingplatform",
+  "shortdescription" : "Cabling Platform",
+  "description" : "Cabling utilized as a platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieracablingplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

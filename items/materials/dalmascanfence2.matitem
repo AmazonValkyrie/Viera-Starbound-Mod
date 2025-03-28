@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanfence2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanfence2icon.png",
+  "shortdescription" : "Dalmascan Iron Fence",
+  "description" : "Iron and marble combine to shape this curve-topped fence.",
+
+  "materialId" : 13085
+}

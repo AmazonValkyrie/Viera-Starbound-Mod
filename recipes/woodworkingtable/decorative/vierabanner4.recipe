@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 3 },
+    { "item" : "fabric", "count" : 20 },
+	{ "item" : "string", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "vierabanner4",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "angledtile",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "angledicon.png",
+  "description" : "Vieran Whitewood with angled carving.",
+  "shortdescription" : "Angled Whitewood",
+
+  "materialId" : 13030
+}

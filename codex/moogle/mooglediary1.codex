@@ -1,0 +1,13 @@
+{
+	"id" : "mooglediary1",
+	"title" : "Moogle's Log",
+	"description" : "The diary of a lost soul.",
+	"icon" : "mooglecover1.png",
+	"contentPages" : [
+    "Lore here."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

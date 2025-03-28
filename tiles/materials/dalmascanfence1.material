@@ -1,0 +1,22 @@
+{
+  "materialId" : 13084,
+  "materialName" : "dalmascanfence1",
+  "particleColor" : [134, 72, 50, 255],
+  "itemDrop" : "dalmascanfence1",
+  "shortdescription" : "Dalmascan Stone Fence",
+  "description" : "The ornate carvings of Dalmasca handed resonate still.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "dalmascanfence1.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

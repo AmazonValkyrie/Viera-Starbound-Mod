@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "viera_chocobobardingtier5basic", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "viera_chocobobardingtier6basic", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

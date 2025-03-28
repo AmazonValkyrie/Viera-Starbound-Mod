@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedmagicitecrystal", "count" : 4 },
+    { "item" : "goldbar", "count" : 5 }	
+  ],
+  "output" : {
+    "item" : "magiciteplatform1",
+    "count" : 6
+  },
+  "groups" : [ "woodworkingtable", "materials", "all" ]
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "mooglecargoshiplantern",
+  "colonyTags" : ["outdoor","light", "moogle", "moogleship"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 200,
+  "description" : "A hanging magicite lantern.",
+  "shortdescription" : "Cargo Ship Lantern",
+  "race" : "moogle",
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "mooglecargoshiplantern" ],
+
+  
+  "apexDescription" : "A bright, bluish light.",
+  "avianDescription" : "A sparkling crystal lantern.",
+  "floranDescription" : "Bright like crystalsss in the sky.",
+  "glitchDescription" : "Appreciative. I am grateful for the additional lighting.",
+  "humanDescription" : "More glowing crystals to light the way.",
+  "hylotlDescription" : "Such peaceful, glowing energy pours from this lamp.",
+  "novakidDescription":  "Crystals used for lighting?",
+  "vieraDescription" : "The magicite glows to guide our way.",
+  "moogleDescription" : "A glowing, magicite lamp, kupo.",
+
+
+  "lightColor" : [194, 235, 204],
+  "flickerPeriod" : 2,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 1.5,
+  "flickerPeriodVariance" : 1,
+  "flickerIntensityVariance" : 0.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mooglecargoshiplantern.png:<color>.<frame>", "fullbright" : true }, { "image" : "mooglecargoshiplanternlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 10,
+      "animationCycle" : 4.0,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [1,1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "mooglecargoshiplantern.png:<color>.<frame>", "fullbright" : true }, { "image" : "mooglecargoshiplanternlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 10,
+      "animationCycle" : 4.0,
+      "direction" : "right",
+      "lightPosition" : [1,1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    }
+  ],
+
+  "interactive" : false
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanmarbleedging2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanmarbleedging2icon.png",
+  "shortdescription" : "Dalmascan Marble Edge II",
+  "description" : "Finely smoothed marble and metalwork.",
+
+  "materialId" : 13091
+}

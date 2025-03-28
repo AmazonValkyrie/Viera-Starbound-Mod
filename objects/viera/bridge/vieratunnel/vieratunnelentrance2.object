@@ -1,0 +1,52 @@
+{
+  "objectName" : "vieratunnelentrance2",
+  "colonyTags" : ["viera","vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 90,
+  "description" : "A carved entryway to Viera villages.",
+  "shortdescription" : "Entrance Gate",
+  "race" : "viera",
+  "health" : 3.5,
+
+  "apexDescription" : ".",
+  "avianDescription" : ".",
+  "floranDescription" : ".",
+  "glitchDescription" : ".",
+  "humanDescription" : ".",
+  "hylotlDescription" : ".",
+  "novakidDescription" : ".",
+  "vieraDescription" : ".",
+  
+
+  "inventoryIcon" : "vieratunnelentrance2.png",
+  "orientations" : [
+    {
+      "image" : "vieratunnelentrance2.png:<color>",
+
+      "imagePosition" : [-36, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "left",
+	  "flipImages" : true,
+      "anchors" : [ ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-4, 18], [-3, 18], [-2, 18], [-1, 18], [0, 18], [1, 18], [2, 18], [3, 18], [4, 18]
+	  ]	  
+    },
+	{
+      "image" : "vieratunnelentrance2.png:<color>",
+
+      "imagePosition" : [-36, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "direction" : "right",
+      "anchors" : [ ],
+      "collision" : "platform",
+      "collisionSpaces" : [ 
+			[-4, 18], [-3, 18], [-2, 18], [-1, 18], [0, 18], [1, 18], [2, 18], [3, 18], [4, 18]
+	  ]	  
+    }
+  ]
+}

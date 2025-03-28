@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 5 },
+    { "item" : "vieralantern", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 },
+	{ "item" : "refinedmagicitecrystal", "count" : 20 },
+    { "item" : "livingroot", "count" : 1 }
+  ],
+  "output" : { "item" : "magiciteairaura", "count" : 1 },
+  "groups" : [ "craftinganvil", "hazardgear", "all" ]
+}

@@ -1,0 +1,113 @@
+{
+  "kind" : "bangaa",
+  "playerSpecies" : true,
+  "charCreationTooltip" : {
+    "title" : "Bangaa",
+    "subTitle" : "vSpecies",
+    "description" : "Don't call them lizards!"
+  },
+  "humanoidConfig" : "/species/vierahumanoid.config",
+  "nameGen" : [ "/species/mooglenamegen.config:names", "/species/mooglenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/mooglehurt.ogg", "/sfx/humanoid/mooglehurt.ogg" ],
+  "charGenTextLabels" : [ "Scale colour", "Beak", "Shirt", "Legwear", "Underwear", "Ear style", "Shirt colour", "Legwear colour", "BANGAA", "Stance" ],
+  "skull" : "/humanoid/bangaa/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FEFFFFFF?replace=9bd4ffFF=9EFFFFFF?replace=31a6ffFF=00FFFFFF",
+  
+  "defaultBlueprints" : {
+    "tier1" : [
+	// Empty Hands
+      { "item" : "flagmoogle" }
+	]
+  },
+  
+  "matchColorIndices" : true,
+  "altOptionAsUndyColor" : true,
+  "headOptionAsFacialhair" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/vieraarrow.png",
+      "characterImage" : "/interface/title/vieramale.png",
+      "hairGroup" : "beak",
+      "hair" : [ 
+	    "1a", "2a", "3a", "4a",
+		"1b", "2b", "3b", "4b",
+		"1c", "2c", "3c", "4c" 
+	  ],
+      "facialHairGroup" : "ear",
+      "facialHair" : [
+	    "1", "2", "3", "4"
+	  ],
+      "facialMaskGroup" : "",
+      "facialMask" : [],
+      "shirt" : [ "freelancer1chest" ],
+      "pants" : [ "freelancer1legs" ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/vieraspiral.png",
+      "characterImage" : "/interface/title/vierafemale.png",
+      "hairGroup" : "beak",
+      "hair" : [ 
+	    "1a", "2a", "3a", "4a",
+		"1b", "2b", "3b", "4b",
+		"1c", "2c", "3c", "4c" 
+	  ],
+      "facialHairGroup" : "ear",
+      "facialHair" : [
+	    "1", "2", "3", "4"
+	  ],
+      "facialMaskGroup" : "",
+      "facialMask" : [],
+      "shirt" : [ "freelancer1chest" ],
+      "pants" : [ "freelancer1legs" ]
+    }
+  ],
+  "bodyColor" : [     
+	//BODY [CHARCOAL]                                                                                          //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+    { "404040" : "404040", "545454" : "545454", "666666" : "666666", "7A7A7A" : "7A7A7A", "8E8E8E" : "8E8E8E", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [BLUE]                                                                                              //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+	{ "404040" : "3D4366", "545454" : "555E8E", "666666" : "6E79B7", "7A7A7A" : "8694E0", "8E8E8E" : "99A8FF", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [GREEN]                                                                                             //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+	{ "404040" : "3A4735", "545454" : "5C7054", "666666" : "7E9972", "7A7A7A" : "9FC191", "8E8E8E" : "C3EAB2", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [YELLOW]                                                                                            //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+	{ "404040" : "665B3A", "545454" : "8E7F51", "666666" : "B7A368", "7A7A7A" : "E0C87F", "8E8E8E" : "FFE69E", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [ORANGE]                                                                                            //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+	{ "404040" : "894D18", "545454" : "99561B", "666666" : "C17E43", "7A7A7A" : "D1A075", "8E8E8E" : "F9BF8B", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [RED]                                                                                               //IRIS [CHARCOAL]                         //SCLERA [WHITE]
+	{ "404040" : "662020", "545454" : "8E2D2D", "666666" : "B73A3A", "7A7A7A" : "E07070", "8E8E8E" : "FF9E9E", "1E1E1E" : "1E1E1E", "2D2D2D" : "2D2D2D", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [MELANISTIC]                                                                                        //IRIS [BLACK]                            //SCLERA [WHITE]
+	{ "404040" : "000000", "545454" : "0F0F0F", "666666" : "1E1E1E", "7A7A7A" : "2D2D2D", "8E8E8E" : "3C3C3C", "1E1E1E" : "000000", "2D2D2D" : "0F0F0F", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [LEUCISTIC]                                                                                         //IRIS [BLUE]                             //SCLERA [WHITE]
+	{ "404040" : "84427B", "545454" : "AD56A1", "666666" : "D680CA", "7A7A7A" : "FFBFF6", "8E8E8E" : "FFE5FB", "1E1E1E" : "8694E0", "2D2D2D" : "99A8FF", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" },
+	//BODY [ALBINO]                                                                                            //IRIS [PINK]                             //SCLERA [WHITE]
+	{ "404040" : "D168C3", "545454" : "E589D9", "666666" : "FFBFF6", "7A7A7A" : "FFE5FB", "8E8E8E" : "FFF2FF", "1E1E1E" : "E589D9", "2D2D2D" : "FFBFF6", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" }
+	//BODY [GHOST]                                                                                             //IRIS [RED]                              //SCLERA [WHITE]
+	//{ "404040" : "C1B8C1", "545454" : "D1C6D1", "666666" : "E0D5E0", "7A7A7A" : "EFE3EF", "8E8E8E" : "F4F2F4", "1E1E1E" : "960000", "2D2D2D" : "A80000", "E0E0E0" : "E0E0E0", "FFFFFF" : "FFFFFF" }
+  ],  
+  "undyColor" : [ 
+	//RED
+    { "7C0000" : "7C0000", "960000" : "960000", "A80000" : "A80000", "BA0000" : "BA0000"  }, 
+	//ORANGE            
+    { "7C0000" : "C14D00", "960000" : "DB5700", "A80000" : "ED5E00", "BA0000" : "FF6A00"  }, 
+	//YELLOW
+    { "7C0000" : "BF9F00", "960000" : "D8B400", "A80000" : "EDC500", "BA0000" : "FFD800"  }, 
+	//GREEN
+    { "7C0000" : "127A00", "960000" : "169300", "A80000" : "18A500", "BA0000" : "1BB700"  }, 
+	//BLUE
+    { "7C0000" : "00127A", "960000" : "001693", "A80000" : "0018A5", "BA0000" : "001BB7"  }, 
+	//PURPLE
+    { "7C0000" : "6E048E", "960000" : "8205A8", "A80000" : "9005BA", "BA0000" : "9D06CC"  }, 
+	//PINK
+    { "7C0000" : "C15BC1", "960000" : "DB67DB", "A80000" : "ED6FED", "BA0000" : "FF77FF"  }, 
+	//BROWN
+    { "7C0000" : "563520", "960000" : "704529", "A80000" : "825030", "BA0000" : "935B36"  }, 
+	//BLACK
+    { "7C0000" : "0A0A0A", "960000" : "191919", "A80000" : "232323", "BA0000" : "2D2D2D"  }, 
+	//GREY
+    { "7C0000" : "707070", "960000" : "898989", "A80000" : "9B9B9B", "BA0000" : "ADADAD"  }, 
+	//WHITE
+    { "7C0000" : "DBDBDB", "960000" : "E5E5E5", "A80000" : "EFEFEF", "BA0000" : "F9F9F9"  }
+  ],  
+  "hairColor" : [ "" ]
+}

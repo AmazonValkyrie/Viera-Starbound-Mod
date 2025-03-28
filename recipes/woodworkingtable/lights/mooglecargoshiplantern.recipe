@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "refinedmagicitecrystal", "count" : 2 }	
+  ],
+  "output" : {
+    "item" : "mooglecargoshiplantern",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

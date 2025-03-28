@@ -1,0 +1,835 @@
+[
+    {
+		"op": "add",
+		"path": "/merchantStart/viera",
+		"value": {
+			"default": [
+				"Welcome to my shop, star-traveler.",
+				"Feel free to browse my inventory.",
+				"Looking for something specific?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/viera",
+		"value": {
+			"default": [
+				"Thank you for your patronage.",
+				"Please come again!",
+				"Safe travels."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/viera",
+		"value": {
+			"default": [
+				"Follow me and I'll show you to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/viera",
+		"value": {
+			"default": [
+				"Welcome to my shop!",
+				"This should work to do business."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/viera",
+		"value": {
+			"default": [
+				"Unique finds for affordable prices!",
+				"Come check out my wares!",
+				"Perhaps I have items you're interested in?",
+				"Take a look at my variety of goods!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/viera",
+		"value": {
+			"default": [
+				"I'm afraid my home is no longer sufficient.",
+				"Could you please repair my home?",
+				"The state of my quarters is in need of repair.",
+				"I'm not sure I can continue to live here while my home is in this state.",
+				"My home has fallen into disrepair."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/viera",
+		"value": {
+			"default": [
+				"Will you be able to repair my home?",
+				"My home is no longer comfortable and livable.",
+				"My home is in need of repair.",
+				"Can you please fix my home?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/viera",
+		"value": {
+			"default": [
+				"This space is too cramped for multiple tenants.",
+				"I don't enjoy rooming with strangers.",
+				"I do not wish to share my living quarters.",
+				"This must be a mistake, I live here alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/viera",
+		"value": {
+			"default": [
+				"Perhaps I will seek more appropriate lodging elsewhere.",
+				"The conditions of my living quarters are not to my liking.",
+				"I am considering relocating. I'm no longer happy here.",
+				"Perhaps the life of the Wayfarer is the path for me away from here."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/viera",
+		"value": {
+			"default": [
+				"I am severing our contract and moving on.",
+				"I wish to leave and see what else remains for me in the stars.",
+				"This is no longer bearable, and I must be moving on.",
+				"I will seek out other Viera kin and see what their colonies are like.",
+				"It was a mistake to dwell here too long. I must move onward."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/viera",
+		"value": {
+			"default": [
+				"Do you need some assistance?",
+				"May I assist you?",
+				"Is there anything I can help you with?",
+				"Do you need any help?",
+				"I'm here to help, if you need!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/viera",
+		"value": {
+			"default": [
+				"I so appreciate my home. Here is something in exchange for your kindness.",
+				"Here is a gift to express my gratitude for this home you have provided.",
+				"I am very happy living here. I wish to give you a gift in exchange."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantStart/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop, star-traveler.",
+				"Feel free to browse my inventory.",
+				"Looking for something specific?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Thank you for your patronage.",
+				"Please come again!",
+				"Safe travels."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Follow me and I'll show you to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop!",
+				"This should work to do business."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Unique finds for affordable prices!",
+				"Come check out my wares!",
+				"Perhaps I have items you're interested in?",
+				"Take a look at my variety of goods!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I'm afraid my home is no longer sufficient.",
+				"Could you please repair my home?",
+				"The state of my quarters is in need of repair.",
+				"I'm not sure I can continue to live here while my home is in this state.",
+				"My home has fallen into disrepair."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Will you be able to repair my home?",
+				"My home is no longer comfortable and livable.",
+				"My home is in need of repair.",
+				"Can you please fix my home?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"This space is too cramped for multiple tenants.",
+				"I don't enjoy rooming with strangers.",
+				"I do not wish to share my living quarters.",
+				"This must be a mistake, I live here alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Perhaps I will seek more appropriate lodging elsewhere.",
+				"The conditions of my living quarters are not to my liking.",
+				"I am considering relocating. I'm no longer happy here.",
+				"Perhaps the life of the Wayfarer is the path for me away from here."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I am severing our contract and moving on.",
+				"I wish to leave and see what else remains for me in the stars.",
+				"This is no longer bearable, and I must be moving on.",
+				"I will seek out other Viera kin and see what their colonies are like.",
+				"It was a mistake to dwell here too long. I must move onward."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Do you need some assistance?",
+				"May I assist you?",
+				"Is there anything I can help you with?",
+				"Do you need any help?",
+				"I'm here to help, if you need!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"I so appreciate my home. Here is something in exchange for your kindness.",
+				"Here is a gift to express my gratitude for this home you have provided.",
+				"I am very happy living here. I wish to give you a gift in exchange."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantStart/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop, star-traveler.",
+				"Feel free to browse my inventory.",
+				"Looking for something specific?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Thank you for your patronage.",
+				"Please come again!",
+				"Safe travels."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Follow me and I'll show you to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop!",
+				"This should work to do business."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Unique finds for affordable prices!",
+				"Come check out my wares!",
+				"Perhaps I have items you're interested in?",
+				"Take a look at my variety of goods!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I'm afraid my home is no longer sufficient.",
+				"Could you please repair my home?",
+				"The state of my quarters is in need of repair.",
+				"I'm not sure I can continue to live here while my home is in this state.",
+				"My home has fallen into disrepair."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Will you be able to repair my home?",
+				"My home is no longer comfortable and livable.",
+				"My home is in need of repair.",
+				"Can you please fix my home?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/maleveenaravaviera",
+		"value": {
+			"default": [
+				"This space is too cramped for multiple tenants.",
+				"I don't enjoy rooming with strangers.",
+				"I do not wish to share my living quarters.",
+				"This must be a mistake, I live here alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Perhaps I will seek more appropriate lodging elsewhere.",
+				"The conditions of my living quarters are not to my liking.",
+				"I am considering relocating. I'm no longer happy here.",
+				"Perhaps the life of the Wayfarer is the path for me away from here."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I am severing our contract and moving on.",
+				"I wish to leave and see what else remains for me in the stars.",
+				"This is no longer bearable, and I must be moving on.",
+				"I will seek out other Viera kin and see what their colonies are like.",
+				"It was a mistake to dwell here too long. I must move onward."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Do you need some assistance?",
+				"May I assist you?",
+				"Is there anything I can help you with?",
+				"Do you need any help?",
+				"I'm here to help, if you need!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/maleveenaravaviera",
+		"value": {
+			"default": [
+				"I so appreciate my home. Here is something in exchange for your kindness.",
+				"Here is a gift to express my gratitude for this home you have provided.",
+				"I am very happy living here. I wish to give you a gift in exchange."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantStart/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop, star-traveler.",
+				"Feel free to browse my inventory.",
+				"Looking for something specific?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Thank you for your patronage.",
+				"Please come again!",
+				"Safe travels."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Follow me and I'll show you to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop!",
+				"This should work to do business."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Unique finds for affordable prices!",
+				"Come check out my wares!",
+				"Perhaps I have items you're interested in?",
+				"Take a look at my variety of goods!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/femalefeolvaviera",
+		"value": {
+			"default": [
+				"I'm afraid my home is no longer sufficient.",
+				"Could you please repair my home?",
+				"The state of my quarters is in need of repair.",
+				"I'm not sure I can continue to live here while my home is in this state.",
+				"My home has fallen into disrepair."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Will you be able to repair my home?",
+				"My home is no longer comfortable and livable.",
+				"My home is in need of repair.",
+				"Can you please fix my home?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/femalefeolvaviera",
+		"value": {
+			"default": [
+				"This space is too cramped for multiple tenants.",
+				"I don't enjoy rooming with strangers.",
+				"I do not wish to share my living quarters.",
+				"This must be a mistake, I live here alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Perhaps I will seek more appropriate lodging elsewhere.",
+				"The conditions of my living quarters are not to my liking.",
+				"I am considering relocating. I'm no longer happy here.",
+				"Perhaps the life of the Wayfarer is the path for me away from here."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/femalefeolvaviera",
+		"value": {
+			"default": [
+				"I am severing our contract and moving on.",
+				"I wish to leave and see what else remains for me in the stars.",
+				"This is no longer bearable, and I must be moving on.",
+				"I will seek out other Viera kin and see what their colonies are like.",
+				"It was a mistake to dwell here too long. I must move onward."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/femalefeolvaviera",
+		"value": {
+			"default": [
+				"Do you need some assistance?",
+				"May I assist you?",
+				"Is there anything I can help you with?",
+				"Do you need any help?",
+				"I'm here to help, if you need!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/femalefeolvaviera",
+		"value": {
+			"default": [
+				"I so appreciate my home. Here is something in exchange for your kindness.",
+				"Here is a gift to express my gratitude for this home you have provided.",
+				"I am very happy living here. I wish to give you a gift in exchange."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantStart/malefeolvaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop, star-traveler.",
+				"Feel free to browse my inventory.",
+				"Looking for something specific?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/malefeolvaviera",
+		"value": {
+			"default": [
+				"Thank you for your patronage.",
+				"Please come again!",
+				"Safe travels."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/malefeolvaviera",
+		"value": {
+			"default": [
+				"Follow me and I'll show you to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/malefeolvaviera",
+		"value": {
+			"default": [
+				"Welcome to my shop!",
+				"This should work to do business."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/malefeolvaviera",
+		"value": {
+			"default": [
+				"Unique finds for affordable prices!",
+				"Come check out my wares!",
+				"Perhaps I have items you're interested in?",
+				"Take a look at my variety of goods!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/malefeolvaviera",
+		"value": {
+			"default": [
+				"I'm afraid my home is no longer sufficient.",
+				"Could you please repair my home?",
+				"The state of my quarters is in need of repair.",
+				"I'm not sure I can continue to live here while my home is in this state.",
+				"My home has fallen into disrepair."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/malefeolvaviera",
+		"value": {
+			"default": [
+				"Will you be able to repair my home?",
+				"My home is no longer comfortable and livable.",
+				"My home is in need of repair.",
+				"Can you please fix my home?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/malefeolvaviera",
+		"value": {
+			"default": [
+				"This space is too cramped for multiple tenants.",
+				"I don't enjoy rooming with strangers.",
+				"I do not wish to share my living quarters.",
+				"This must be a mistake, I live here alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/malefeolvaviera",
+		"value": {
+			"default": [
+				"Perhaps I will seek more appropriate lodging elsewhere.",
+				"The conditions of my living quarters are not to my liking.",
+				"I am considering relocating. I'm no longer happy here.",
+				"Perhaps the life of the Wayfarer is the path for me away from here."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/malefeolvaviera",
+		"value": {
+			"default": [
+				"I am severing our contract and moving on.",
+				"I wish to leave and see what else remains for me in the stars.",
+				"This is no longer bearable, and I must be moving on.",
+				"I will seek out other Viera kin and see what their colonies are like.",
+				"It was a mistake to dwell here too long. I must move onward."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/malefeolvaviera",
+		"value": {
+			"default": [
+				"Do you need some assistance?",
+				"May I assist you?",
+				"Is there anything I can help you with?",
+				"Do you need any help?",
+				"I'm here to help, if you need!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/malefeolvaviera",
+		"value": {
+			"default": [
+				"I so appreciate my home. Here is something in exchange for your kindness.",
+				"Here is a gift to express my gratitude for this home you have provided.",
+				"I am very happy living here. I wish to give you a gift in exchange."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantStart/moogle",
+		"value": {
+			"default": [
+				"Welcome to shop stall, kupo!",
+				"Take a look at my wares, kupopo!",
+				"Do you need help finding something, kupo?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/moogle",
+		"value": {
+			"default": [
+				"Thank you for stopping by, kupo!",
+				"Come again, kupopo!",
+				"Good fortune, kupo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/moogle",
+		"value": {
+			"default": [
+				"Come, kupo! Look at my wares."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/moogle",
+		"value": {
+			"default": [
+				"Welcome to my store, kupo!",
+				"This will be a great place to do business, kupopo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/moogle",
+		"value": {
+			"default": [
+				"Interesting wares here, kupo!",
+				"Come look at my inventory, kupopo!",
+				"I may have something you're interested in, kupo!",
+				"I have lots of things to sell, kupo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/moogle",
+		"value": {
+			"default": [
+				"This isn't a nice home anymore, kupo.",
+				"Please fix my home, kupopo.",
+				"Kupo! My home is need of repair.",
+				"My home doesn't feel livable anymore, kupooo.",
+				"My home needs some improvment, kupopo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/moogle",
+		"value": {
+			"default": [
+				"Can you fix my home, kupo?",
+				"My home is no longer a comfort, kupo.",
+				"Could you fix my home, kupo?",
+				"Can you please fix my home, kupo?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/moogle",
+		"value": {
+			"default": [
+				"I am not fond of rooming with strangers, kupo.",
+				"I miss my own space, kupo.",
+				"I do not want to share my living space, kupopo.",
+				"It's too cramped with this many people, kupo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/moogle",
+		"value": {
+			"default": [
+				"I may have to move, kupo.",
+				"My living conditions here have declined, kupopo.",
+				"Perhaps its time for me to leave, kupo.",
+				"I may have to move along from here, kupopo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/moogle",
+		"value": {
+			"default": [
+				"It's time I moved away, kupo.",
+				"With things as they are, I think I should leave, kupopo.",
+				"I must bid you goodbye, kupo.",
+				"I see that I must move on now, kupo."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/moogle",
+		"value": {
+			"default": [
+				"Can I help you, kupo?",
+				"May I provide assistance, kupopo?",
+				"Do you need assistance, kupo?",
+				"Let me know if you need any help, kupo.",
+				"If you need anything, let me know, kupopo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/moogle",
+		"value": {
+			"default": [
+				"I greatly appreciate my lovely home, kupo! Allow me to show my thanks.",
+				"I must express my gratitude, kupopo! Here is a gift!",
+				"I feel very happy and at peace here, kupo. Thank you! Here is a gift!"
+			]
+		}
+	}
+]

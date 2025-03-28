@@ -1,0 +1,93 @@
+{
+  "objectName" : "moogletechstation",
+  "colonyTags" : ["moogle"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+ 
+
+  "category" : "decorative",
+
+  "description" : "Moogle-based Artificial Intelligence Lattice, or M.A.I.L for short.",
+  "shortdescription" : "M.A.I.L",
+  "race" : "moogle",
+
+  "lightColor" : [62, 84, 89],
+  "lightPosition" : [0, 2],
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.97,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "I can talk to the ship through this console.",
+  "avianDescription" : "I can use this station to talk to the ship.",
+  "floranDescription" : "Floran use thisss magic panel to talk to the ship!",
+  "glitchDescription" : "Happy. This station allows me to talk to the ship.",
+  "humanDescription" : "This station allows me to communicate with the ship.",
+  "hylotlDescription" : "This console allows me to communicate with the ship.",
+  "novakidDescription" : "This here station lets me talk with the ship.",
+  "vieraDescription" : "This magicite mechanism allows communication with the ship.",
+  "moogleDescription" : "Moogle-magicite technology at its finest, kupo!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "moogletechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "moogletechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 29,
+      "animationCycle" : 3.0,
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "moogletechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "moogletechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 29,
+      "animationCycle" : 3.0,
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+  
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petchocobo",
+  "spawnOffset" : [2, 2],
+
+  "chatPortrait" : "/ai/portraits/moogleportrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/moogleportrait.png:unique.1" ],
+      [ "I am M.A.I.L, your Moogle-based Artificial Intelligence Lattice, kupo! I manage the ship.",       "/ai/portraits/moogleportrait.png:talk.0" ],
+      [ "I can also give you helpful advice!", "/ai/portraits/moogleportrait.png:talk.1" ],
+      [ "This cargo ship is a long way from its destination and needs to be repaired, kupo-ku.", "/ai/portraits/moogleportrait.png:talk.0" ],
+      [ "It seems the navigation systems were also damaged, and our location is currently unknown.", "/ai/portraits/moogleportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "Magicite engines de-stabilized, kupo.", "/ai/portraits/moogleportrait.png:unique.1"],
+      [ "Please restabilize the system.", "/ai/portraits/moogleportrait.png:unique.1"],
+      [ "Reboot the system, already, kupo-ku!", "/ai/portraits/moogleportrait.png:yell.1"],
+      [ "To make use of your M.A.I.L please reboot.", "/ai/portraits/moogleportrait.png:unique.1" ],
+      [ "Restabilizing has shown to improve ship interaction satisfaction levels, kupo.", "/ai/portraits/moogleportrait.png:unique.1"],
+      [ "Restabilizing requires a conscious entity to interact with the M.A.I.L console, kupo.", "/ai/portraits/moogleportrait.png:unique.1" ]
+    ]
+  },
+
+  "uniqueId" : "techstation",
+  "inputNodes" : [ [0, 0] ]
+}

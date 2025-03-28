@@ -1,0 +1,22 @@
+{
+  "materialId" : 13049,
+  "materialName" : "whitewoodcolumnbase",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "whitewoodcolumnbase",
+  "description" : "Whitewood column base with floral motif.",
+  "shortdescription" : "Floral Whitewood",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "whitewoodcolumnbase.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2890
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "vierafoliage1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "vierafoliage1icon.png",
+  "description" : "Lush leaves from the depths of the Wood.",
+  "shortdescription" : "Lush Foliage",
+
+  "materialId" : 13116,
+  "learnBlueprintsOnPickup" : [ "vierafoliage1" ]
+}

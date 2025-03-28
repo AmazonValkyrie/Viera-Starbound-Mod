@@ -1,0 +1,22 @@
+{
+  "materialId" : 13001,
+  "materialName" : "vieranfenceleftend",
+  "particleColor" : [154, 133, 90, 255],
+  "itemDrop" : "vieranfenceleftend",
+  "description" : "A left end-cap to a Vieran fence.",
+  "shortdescription" : "Vieran Fence Left",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vieranfenceleftendcap.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2860
+  }
+}

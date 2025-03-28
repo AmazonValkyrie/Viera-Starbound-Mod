@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 7 },
+    { "item" : "string", "count" : 20 },
+    { "item" : "fabric", "count" : 5 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "viera_chocobobardingtravelersharness", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "whitewoodcolumnfluting",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "whitewoodcolumnflutingicon.png",
+  "description" : "Fluted, whitewood column.",
+  "shortdescription" : "Fluted Whitewood",
+
+  "materialId" : 13050
+}

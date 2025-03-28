@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vieracopperarmorpants", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "halberdracktier4",
+  "colonyTags" : ["viera","combat","tier4"],
+  "rarity" : "Uncommon",
+  "description" : "This rack holds two durasteel halberd.",
+  "shortdescription" : "Durasteel Halberd Rack",
+  "race" : "viera",
+  "category" : "decorative",
+  "price" : 50,
+  "health" : 1.5,
+
+  "apexDescription" : ".",
+  "avianDescription" : ".",
+  "floranDescription" : ".",
+  "glitchDescription" : ".",
+  "humanDescription" : ".",
+  "hylotlDescription" : ".",
+  "novakidDescription" : ".",
+  "vieraDescription" : ".",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "halberdracktier4.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

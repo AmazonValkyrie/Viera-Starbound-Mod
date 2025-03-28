@@ -1,0 +1,54 @@
+{
+  "objectName" : "viera_marketstall_nanzie",
+  "colonyTags" : ["viera","vieravillage","commerce", "nanzie", "vieramerchant"],
+  "rarity" : "Common",
+  "description" : "A large market stall displaying wigs and various goods.",
+  "shortdescription" : "Nanzie's Market Stall",
+  "race" : "viera",
+  "objectType" : "loungeable",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "Quite a wide array of wigs and various items.",
+  "avianDescription" : "There's so many interesting things to browse.",
+  "floranDescription" : "Many itemssss.",
+  "glitchDescription" : "Interested. I find these wares pleasing.",
+  "humanDescription" : "There's a lot of interesting looking stuff here.",
+  "hylotlDescription" : "Quite a display of exotic goods.",
+  "novakidDescription" : "Lotsa interestin' stuff here.",
+  "vieraDescription" : "A wide array of wigs and more.",
+
+  "inventoryIcon" : "marketstallicon.png",
+  "orientations" : [
+    {
+      "image" : "viera_marketstall_nanzie_right.png",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "sitPosition" : [ 0, 18.5 ],
+	  "sitCoverImage" : "/objects/viera/viera_marketstall/viera_marketstall_nanzie_rightcover.png"
+
+    },
+	{
+      "image" : "viera_marketstall_nanzie_left.png",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "sitPosition" : [ -1, 18.5 ],
+	  "sitCoverImage" : "/objects/viera/viera_marketstall/viera_marketstall_nanzie_leftcover.png"
+
+    }
+  ]
+}

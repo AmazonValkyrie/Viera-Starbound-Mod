@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "flagviera",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

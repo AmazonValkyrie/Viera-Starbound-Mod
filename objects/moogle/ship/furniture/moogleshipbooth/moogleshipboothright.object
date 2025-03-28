@@ -1,0 +1,49 @@
+{
+  "objectName" : "moogleshipboothright",
+  "colonyTags" : ["moogle", "moogleship"],
+  "rarity" : "Uncommon",
+  "objectType" : "loungeable",
+  "description" : "A soft cushioned booth.",
+  "shortdescription" : "Moogle Ship Booth",
+  "race" : "moogle",
+  "category" : "furniture",
+  "price" : 90,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "moogleshipboothright" ],
+
+  "apexDescription" : "A heavy booth with decorative cushions.",
+  "avianDescription" : "This booth looks comfortable.",
+  "floranDescription" : "Ssoft cushionsss.",
+  "glitchDescription" : "Intrigued. A comfortable booth for dining.",
+  "humanDescription" : "This looks like a great place for a meal.",
+  "hylotlDescription" : "A comfortable space to refresh.",
+  "novakidDescription" : "A nice place for grub!",
+  "vieraDescription" : "A comfortable arrangement for dining.",
+  "moogleDescription" : "A comfortable booth for meals, kupo.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image": "moogleshipboothright.png:<color>",
+	  "sitCoverImage" : "/objects/moogle/ship/furniture/moogleshipbooth/moogleshipboothrightcover.png",
+	  "direction": "right",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+	  "sitFlipDirection": true,
+      "sitPositions" : [ [-5.5, 19.25] ]
+
+    },
+	{
+      "image": "moogleshipboothright.png:<color>",
+	  "sitCoverImage" : "/objects/moogle/ship/furniture/moogleshipbooth/moogleshipboothrightcover.png",
+	  "direction": "left",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+	  "sitFlipDirection": false,
+      "sitPositions" : [ [-5.5, 19.25] ]
+
+    }
+	
+  ]
+  
+}

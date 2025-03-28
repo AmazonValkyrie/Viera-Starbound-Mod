@@ -1,0 +1,187 @@
+{
+  "objectName" : "stonehearth",
+  "shortdescription" : "^orange;Stone Hearth^white;",
+  "colonyTags" : ["viera","crafting","light"],
+  "race" : "viera", 
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "health" : 3.5,
+  "breakDropOptions" : [],
+ 
+  "price" : 55,
+  "printable" : false,
+  
+  "description" : "A Viera furnace for refining ore into bars and ingredients.",
+  "apexDescription" : "A furnace. Looks as if it's built for metal work.",
+  "avianDescription" : "A tiled furnace, built to be extra hot.",
+  "floranDescription" : "Hsss hot fire.",
+  "glitchDescription" : "Identify. Viera smithies use these furnaces to produce tools and weaponry.",
+  "humanDescription" : "The kind of furnace used to produce weapons.",
+  "hylotlDescription" : "A furnace for metalwork.",
+  "novakidDescription" : "Furnace for smeltin' ore.",
+  "vieraDescription" : "A lovely hearth for crafting our tools and warming our homes.",
+  
+  "animation" : "stonehearth.animation",		  
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "stonehearth1.png:default.default",
+  "placementImagePosition" : [-8, 0], 	
+  "animationPosition" : [12, 20],	
+  
+  "interactData" : { "config" : "/interface/windowconfig/craftingfurnace.config" },  	
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 3,
+  "upgradeStages" : [
+    {
+      "animationState" : "primus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Ornate Stone Hearth^white;",
+        "inventoryIcon" : "icon1.png",
+        "placementImage" : "stonehearth1.png:default.default",
+		
+        "description" : "Smelt basic ore into materials here.",
+        "apexDescription" : "A furnace. Looks as if it's built for metal work.",
+        "avianDescription" : "A stone furnace, built to be extra hot.",
+        "floranDescription" : "Hsss hot fire.",
+        "glitchDescription" : "Identify. Viera smithies use these furnaces to produce tools and weaponry.",
+        "humanDescription" : "The kind of furnace used to produce weapons.",
+        "hylotlDescription" : "A furnace for metalwork.",
+        "novakidDescription" : "Furnace for smeltin' ore n' sich.",
+        "vieraDescription" : "A lovely hearth for crafting our tools and warming our homes."
+      },
+      "interactData" : {
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Ornate Stone Hearth",
+            "subtitle" : " ^#b9b5b2;Viera Ore Smelting",
+            "icon" : { "file" : "/interface/crafting/stonehearth.png" }
+          }
+        },
+        "filter" : [ "craftingfurnace" ],
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 6 },
+          { "item" : "coalore", "count" : 10 },
+          { "item" : "glass", "count" : 5 }
+        ]
+      },	  
+      "upgradeParticleEffect" : "upgrade",
+      "upgradeSoundEffect" : "fanfare",
+      "learnBlueprintsOnPickup" : []
+    },  
+    {
+      "animationState" : "secundus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Lofty Stone Hearth^white;",
+        "inventoryIcon" : "icon2.png",
+        "placementImage" : "stonehearth2.png:default.default",
+
+        "description" : "The Lofty Stone Hearth is used to turn ores and other materials into crafting ingredients.",
+        "apexDescription" : "A furnace. Looks as if it's built for metal work.",
+        "avianDescription" : "A stone furnace, built to be extra hot.",
+        "floranDescription" : "Hsss hot fire.",
+        "glitchDescription" : "Identify. Viera smithies use these furnaces to produce tools and weaponry.",
+        "humanDescription" : "The kind of furnace used to produce weapons.",
+        "hylotlDescription" : "A furnace for metalwork.",
+		"novakidDescription" : "Furnace for smeltin' ore n' sich.",
+        "vieraDescription" : "A lovely hearth for crafting our tools and warming our homes."
+      },
+      "interactData" : {
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Lofty Stone Hearth",
+            "subtitle" : " ^#b9b5b2;Viera Ore Smelting",
+            "icon" : { "file" : "/interface/crafting/stonehearth.png" }
+          }
+        },
+        "filter" : [ "craftingfurnace", "craftingfurnace2" ],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+          { "item" : "goldbar", "count" : 2 },
+          { "item" : "glass", "count" : 20 },
+          { "item" : "volatilepowder", "count" : 10 }
+        ]
+      },	  
+      "upgradeParticleEffect" : "finalUpgrade",
+      "upgradeSoundEffect" : "fanfare",
+      "learnBlueprintsOnPickup" : []
+    },
+    {
+      "animationState" : "tertius",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Grand Stone Hearth^white;",
+        "inventoryIcon" : "icon3.png",
+        "placementImage" : "stonehearth3.png:default.default",
+		
+        "description" : "The Grand Stone Hearth is used to turn ores and other materials into crafting ingredients.",
+        "apexDescription" : "A furnace. Looks as if it's built for metal work.",
+        "avianDescription" : "A tiled furnace, built to be extra hot.",
+        "floranDescription" : "Hsss hot fire.",
+        "glitchDescription" : "Identify. Viera smithies use these furnaces to produce tools and weaponry.",
+        "humanDescription" : "The kind of furnace used to produce weapons.",
+        "hylotlDescription" : "A furnace for metalwork.",
+		"novakidDescription" : "Furnace for smeltin' ore n' sich.",
+        "vieraDescription" : "A lovely hearth for crafting our tools and warming our homes."
+      },
+      "interactData" : {
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Grand Stone Hearth",
+            "subtitle" : " ^#b9b5b2;Viera Ore Smelting",
+            "icon" : { "file" : "/interface/crafting/stonehearth.png" }
+          }
+        },
+        "filter" : [ "craftingfurnace", "craftingfurnace2", "craftingfurnace3" ],
+        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg"
+      },
+      "learnBlueprintsOnPickup" : []
+	}
+  ],
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "stonehearth1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "stonehearth1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [[-1, 0], [0, 0], [1, 0]],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ 
+	    { "image" : "stonehearth1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "stonehearth1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "right",
+      "spaces" : [[-1, 0], [0, 0], [1, 0]],
+      "anchors" : [ "bottom" ]
+    }
+  ], 
+  
+  "scripts" : [ 
+    "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-3, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

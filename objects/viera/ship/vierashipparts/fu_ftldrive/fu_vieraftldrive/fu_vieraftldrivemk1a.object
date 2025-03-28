@@ -1,0 +1,72 @@
+{
+  "objectName" : "fu_vieraftldrivemk1a",
+  "rarity" : "essential",
+  "colonyTags" : [ "science" ],
+  "category" : "furniture",
+  "description" : "A larger FTL magicite crystal for a space craft. Allows interstellar travel. ^orange;Ship Speed: +4^reset;. ^red;BYOS Only^reset;.",
+  "shortdescription" : "^cyan;FTL Magicite Crystal Mk1a^reset;",
+  "race" : "viera",
+  "printable" : false,
+//  "learnBlueprintsOnPickup":["fu_vieraftldrivemk1a"],
+
+  "apexDescription" : "A decent sized model of FTL Drive, useful for faster space travel.",
+  "avianDescription" : "This larger FTL drive is able to provide more motion for my ship.",
+  "floranDescription" : "Floran likesss large FTL drive, make ship go faster.",
+  "glitchDescription" : "Content. Larger FTL drive means much better space flight.",
+  "humanDescription" : "This large FTL drive as basically a universal requirement.",
+  "hylotlDescription" : "A larger FTL drive, providing a good boost during space flight.",
+  "novakidDescription" : "A larger faster'n 'light drive, boostin' my ship's performance.",
+  "vieraDescription" : "A large, runed magicite crystal allowing for faster interstellar travel.",
+  
+  "lightColor" : [118, 224, 224],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.0,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "fu_vieraftldrive.png:<frame>", "fullbright" : true }, 
+		{ "image" : "fu_vieraftldrivelit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+	  "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "imageLayers" : [ 
+	    { "image" : "fu_vieraftldrive.png:<frame>", "fullbright" : true }, 
+		{ "image" : "fu_vieraftldrivelit.png:<frame>" } ],
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "viera_ftldrive.animation",
+  "animationParts" : {
+    "main" : "fu_vieraftldrive.png",
+	"fullbright" : "fu_vieraftldrivelit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/ship/fu_shipstatmodifier.lua" ],
+  "scriptDelta" : 60,
+  "detectThresholdMed" : 10,
+  "detectThresholdMax" : 50,
+
+  "stats" : {
+    "shipSpeed" : 4
+  },
+  "capabilities" : [
+    "systemTravel",
+    "planetTravel"
+  ],
+  "maxAmountGroups" : {
+    "ftlDrive" : 1
+  },
+  "byosOnly" : true
+}

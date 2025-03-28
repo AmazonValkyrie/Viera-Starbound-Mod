@@ -1,0 +1,57 @@
+{
+  "objectName" : "viera_chocobostand",
+  "shortdescription" : "Chocobo Stand",
+  "subtitle" : "Heal and manage your chocobuddies!",
+  "colonyTags" : ["viera"],
+  "race" : "generic",
+  "rarity" : "Legendary",
+  "category" : "chocobomanagement",
+  "printable" : false,
+  "price" : 50,
+  "health" : 1.5,
+  "learnBlueprintsOnPickup" : [ "viera_chocobostand" ],
+  
+  "tooltipKind" : "base",
+  "description"        : "All the things you need to care for your chocobo in one convenient place!",
+  "apexDescription"    : "All the things you need to care for your chocobo in one convenient place!",
+  "avianDescription"   : "All the things you need to care for your chocobo in one convenient place!",
+  "floranDescription"  : "All the things you need to care for your chocobo in one convenient place!",
+  "glitchDescription"  : "All the things you need to care for your chocobo in one convenient place!",
+  "humanDescription"   : "All the things you need to care for your chocobo in one convenient place!",
+  "hylotlDescription"  : "All the things you need to care for your chocobo in one convenient place!",
+  "novakidDescription" : "All the things you need to care for your chocobo in one convenient place!",
+  "vieraDescription" : "All the things you need to care for your chocobo in one convenient place!",
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "viera_chocobostand.png:1", 
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [20, 28],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ],    
+  "animation" : "/objects/viera/chocobostand/viera_chocobostand.animation",
+  "animationParts" : {
+    "img" : "viera_chocobostand.png",
+    "lit" : "viera_chocobostandlit.png"
+  },
+  
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/viera/chocobomanagement/chocobomanagementgui.config",
+  
+  "scripts" : [ "/objects/viera/viera_spawnunique.lua" ],
+  "scriptDelta" : 20,
+  "npcUID" : "chocoboknightwallace",
+  "npcSpecies" : "moogle",
+  "npcType" : "chocoboknightwallace",
+  "npcLevel" : 3,
+  "chatRadius" : 10,
+  "chatCooldown" : 75,
+  "chatGreeting" : [
+  ],
+  "chatExpressions" : [
+  ]
+}

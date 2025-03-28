@@ -1,0 +1,22 @@
+{
+  "materialId" : 13079,
+  "materialName" : "eithnenaturalfoliage",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "eithnenaturalfoliage",
+  "description" : "Flora bundled together.",
+  "shortdescription" : "Natural Foliage",
+
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "naturalfoliage.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3960
+  }
+}

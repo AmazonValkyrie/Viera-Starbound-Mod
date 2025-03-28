@@ -1,0 +1,23 @@
+{
+  "materialId" : 13077,
+  "materialName" : "pastelsmooth",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "pastelsmooth",
+  "description" : "Smooth pastel colored wall.",
+  "shortdescription" : "Smooth Wall Paneling",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pastelsmooth.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2710
+  }
+}

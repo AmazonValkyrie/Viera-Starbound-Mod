@@ -1,0 +1,35 @@
+{
+  "objectName" : "waywardarrow",
+  "colonyTags" : ["viera", "malespawn"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 80,
+  "health" : 1.5,
+  
+  "description" : "A mighty arrow, carried on the Winds, traveling ever-onward.",
+  "shortdescription" : "The Wayward Arrow",
+  "race" : "viera",
+
+  "apexDescription" : "Could this be a representation of a flower?",
+  "avianDescription" : "This symbol is unfamilar.",
+  "floranDescription" : "????",
+  "glitchDescription" : "????. This symbol is not in my database.",
+  "humanDescription" : "A falling arrow, or a sprouting flower?",
+  "hylotlDescription" : "A symbol for a nomadic culter, perhaps?",
+  "novakidDescription" : "The only way is up.",
+  "vieraDescription" : "Our symbol for the wayward ones, we dare not walk with.",
+
+  "inventoryIcon" : "waywardarrowicon.png",
+  "orientations" : [
+    {
+      "image" : "waywardarrow.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

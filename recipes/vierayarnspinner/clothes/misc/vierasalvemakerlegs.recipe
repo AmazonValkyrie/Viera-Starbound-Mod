@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 8 },
+    { "item" : "string", "count" : 1 },
+	{ "item" : "fabric", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vierasalvemakerlegs", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

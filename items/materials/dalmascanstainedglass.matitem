@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstainedglass",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstainedglassicon.png",
+  "shortdescription" : "Dalmascan Stained Glass",
+  "description" : "Colored stainedglass for ornate windows.",
+
+  "materialId" : 13096
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "vieraspiritwoodwall2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decorative", "all" ]
+}

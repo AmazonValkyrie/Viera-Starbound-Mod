@@ -1,0 +1,34 @@
+{
+  "objectName" : "galbanalilypot",
+  "colonyTags" : ["viera","nature","pretty","vieravillage"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 3000,
+  "health" : 1.5,
+  "description" : "Never thought I'd see them growing out here.",
+  "shortdescription" : "Galbana Lily Flower Pot",
+  "race" : "viera",
+
+  "apexDescription" : "An unfamiliar flower.",
+  "avianDescription" : "What a lovely flower.",
+  "floranDescription" : "Flowerssss.",
+  "glitchDescription" : "Pretty. Another plant to catalogue.",
+  "humanDescription" : "A beautiful flower.",
+  "hylotlDescription" : "No such thing grows beneath the waves.",
+  "novakidDescription" : "Flowers are always nice.",
+  "vieraDescription" : "A rare flower from Ivalice.",
+
+  "inventoryIcon" : "galbanalilypoticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "galbanalilypot.png:<color>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

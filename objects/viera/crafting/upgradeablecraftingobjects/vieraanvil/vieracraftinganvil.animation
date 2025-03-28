@@ -1,0 +1,195 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "vieracraftinganvil",
+        "states" : {
+          "vieracraftinganvil" : {},
+          "vieracraftinganvil2" : {
+            "frames" : 12,
+            "cycle" : 1.2,
+            "mode" : "loop"
+          },
+          "vieracraftinganvil3" : {
+            "properties" : {
+              "lightsOff" : [ "acceleratorglow", "manipulatorglow", "separatorglow" ],
+              "lightsOn" : [ "replicatorglow" ]
+            }
+          },
+          "accelerator" : {
+            "properties" : {
+              "lightsOff" : [ "replicatorglow", "manipulatorglow", "separatorglow" ],
+              "lightsOn" : [ "acceleratorglow" ]
+            }
+          },
+          "separator" : {
+            "properties" : {
+              "lightsOff" : [ "replicatorglow", "acceleratorglow", "manipulatorglow" ],
+              "lightsOn" : [ "separatorglow" ]
+            }
+          },
+          "manipulator" : {
+            "properties" : {
+              "lightsOff" : [ "replicatorglow", "acceleratorglow", "separatorglow" ],
+              "lightsOn" : [ "manipulatorglow" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "lights" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+          "zLevel" : 0
+        },
+        "partStates" : {
+          "stage" : {
+            "vieracraftinganvil" : {},
+
+            "vieracraftinganvil2" : {
+			  "properties" : {
+                "image" : "vieracraftinganvil2.png:<color>.<frame>"
+              }
+			},
+
+            "vieracraftinganvil3" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3.png:<color>"
+              }
+            },
+
+            "accelerator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3.png:<color>.accelerator"
+              }
+            },
+
+            "separator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3.png:<color>.separator"
+              }
+            },
+
+            "manipulator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3.png:<color>.manipulator"
+              }
+            }
+          }
+        }
+      },
+      "chassis" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "stage" : {
+            "vieracraftinganvil" : {
+              "properties" : {
+                "image" : "vieracraftinganvil.png:<color>"
+              }
+            },
+
+            "vieracraftinganvil2" : {
+              "properties" : {
+                "image" : "vieracraftinganvil2lit.png:<color>.<frame>"
+              }
+            },
+
+            "vieracraftinganvil3" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3lit.png:<color>"
+              }
+            },
+
+            "accelerator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3lit.png:<color>.accelerator"
+              }
+            },
+
+            "separator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3lit.png:<color>.separator"
+              }
+            },
+
+            "manipulator" : {
+              "properties" : {
+                "image" : "vieracraftinganvil3lit.png:<color>.manipulator"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/viera/vieraupgradefanfare.ogg"]
+  },
+
+  "lights" : {
+
+    "replicatorglow" : {
+      "active" : false,
+      "color" : [89, 119, 179],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "acceleratorglow" : {
+      "active" : false,
+      "color" : [155, 186, 61],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "separatorglow" : {
+      "active" : false,
+      "color" : [164, 81, 196],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "manipulatorglow" : {
+      "active" : false,
+      "color" : [79, 172, 178],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

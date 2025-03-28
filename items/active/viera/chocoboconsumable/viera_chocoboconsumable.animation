@@ -1,0 +1,102 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "confetti", "chocobofood", "chocobofeather" ]
+            }
+          },
+          "fire_chocobofeather" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "chocobofood",
+            "properties" : {
+              "immediateSound" : "/sfx/viera/vieraupgradefanfare.ogg",
+              "particleEmittersOff" : [ "confetti", "chocobofood", "chocobofeather" ]
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [-0.125, 0], [0, 0] ]
+            }
+          },
+          "chocobofeather" : {
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "confetti", "chocobofeather" ]
+            }
+          },
+          "fire_chocobofood" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "chocobofood",
+            "properties" : {
+              "immediateSound" : "/sfx/viera/vieraupgradefanfare.ogg",
+              "particleEmittersOff" : [ "confetti", "chocobofood", "chocobofeather" ]
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [-0.125, 0], [0, 0] ]
+            }
+          },
+          "chocobofood" : {
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "particleEmittersOn" : [ "confetti", "chocobofood" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "item" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.0, 0.0],
+          "image" : "/items/active/viera/chocoboconsumable/<category>/<name>/icon.png"
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "confetti" : {
+      "emissionRate" : 500.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_confettifallingred" },
+        { "particle" : "viera_confettidriftingred" },
+        { "particle" : "viera_confettifallingblue" },
+        { "particle" : "viera_confettidriftingblue" },
+        { "particle" : "viera_confettifallinggreen" },
+        { "particle" : "viera_confettidriftinggreen" },
+        { "particle" : "viera_confettifallingwhite" },
+        { "particle" : "viera_confettidriftingwhite" }
+      ]
+    },
+    "chocobofood" : {
+      "emissionRate" : 500.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_gysahlroot" }
+      ]
+    },
+    "chocobofeather" : {
+      "emissionRate" : 500.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+      "particles" : [
+        { "particle" : "viera_chocobofeather" }
+      ]
+    }
+  }
+}

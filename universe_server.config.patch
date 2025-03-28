@@ -1,0 +1,44 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/viera",
+		"value" : [
+		    "/ships/viera/vieraT0.structure",
+			"/ships/viera/vieraT1.structure",
+			"/ships/viera/vieraT2.structure",
+			"/ships/viera/vieraT3.structure",
+			"/ships/viera/vieraT4.structure",
+			"/ships/viera/vieraT5.structure",
+			"/ships/viera/vieraT6.structure",
+			"/ships/viera/vieraT7.structure",
+			"/ships/viera/vieraT8.structure"
+		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/moogle",
+		"value" : [
+		    "/ships/moogle/moogleT0.structure",
+			"/ships/moogle/moogleT1.structure",
+			"/ships/moogle/moogleT2.structure",
+			"/ships/moogle/moogleT3.structure",
+			"/ships/moogle/moogleT4.structure",
+			"/ships/moogle/moogleT5.structure",
+			"/ships/moogle/moogleT6.structure",
+			"/ships/moogle/moogleT7.structure",
+			"/ships/moogle/moogleT8.structure"
+		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/bangaa",
+		"value" : [
+		    "/ships/viera/vieraT0.structure",
+			"/ships/viera/vieraT1.structure",
+			"/ships/viera/vieraT2.structure",
+			"/ships/viera/vieraT3.structure",
+			"/ships/viera/vieraT4.structure",
+			"/ships/viera/vieraT5.structure",
+			"/ships/viera/vieraT6.structure",
+			"/ships/viera/vieraT7.structure",
+			"/ships/viera/vieraT8.structure"
+		]
+	}
+]

@@ -1,0 +1,20 @@
+{
+  "id" : "vieralore42",
+  "title" : "The Seonha Scrolls: Ch. 6",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;Reflections in the Moonlit Grove^reset;\n\nSeonha seldom speaks of her past, the life she led before. But on nights when the moonlight dances upon the leaves, her eyes grow distant, reflecting memories she cannot forget.",
+	
+	"I once asked her why she fights so fiercely, why she risks her life for strangers. She did not answer immediately, her gaze fixed upon the stars. Finally, she said, 'I fight because I know what it is to be lost...and I will not let others suffer as I have.'",
+	
+	"In that moment, I understood the depth of her sorrow and the strength of her resolve. I saw the pain she carried and the hope she protected. It is her past that drives her forward, not for redemption, but to give others the chance she never had.",
+	
+	"I vowed then to remain by her side, to weave her story so it may never be forgotten. For Seonha is more than a warrior-she is a beacon to all who wander in darkness, a champion chosen by the Wood Herself."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

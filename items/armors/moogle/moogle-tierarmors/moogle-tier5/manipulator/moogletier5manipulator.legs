@@ -1,0 +1,49 @@
+{
+  "itemName" : "moogletier5mpants",
+  "shortdescription" : "Ferozium Moogle Leg Armor",
+  "description" : "Ferozium leg armor of Moogle design.",
+  "itemTags" : [ "tier5armour" ],
+  
+  "category" : "legarmour",
+  "statSpread" : "standard",
+  "statGrowth" : "manipulator",
+  "species" : "moogle",
+  "rarity" : "Rare",
+  "maxStack" : 1,
+  "price" : 1920,
+  "level" : 5,
+  
+  "tooltipKind" : "viera_armor",  
+  "builder" : "/items/buildscripts/viera/buildvieraarmor.lua",
+  "inventoryIcon" : "icons.png:pants",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "colorOptions" : [
+    /* FEROZIUM CRYSTAL BLUE */
+    { "A8E6E2" : "A8E6E2", "4FACB2" : "4FACB2", "30636C" : "30636C", "233C43" : "233C43", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLACK */
+    { "A8E6E2" : "BFCCC0", "4FACB2" : "6F7068", "30636C" : "3B3F3B", "233C43" : "000000", "F2DBA9" : "D80000", "D6B155" : "AD0000", "917948" : "840000", "6D5B36" : "5E0000" },
+    /* GREY */
+    { "A8E6E2" : "EBE1DC", "4FACB2" : "ADA197", "30636C" : "696F67", "233C43" : "433539", "F2DBA9" : "8565B1", "D6B155" : "775184", "917948" : "5D4068", "6D5B36" : "47314F" },
+    /* WHITE */
+    { "A8E6E2" : "FFFFFF", "4FACB2" : "C7F2F2", "30636C" : "C4C4C4", "233C43" : "8C8C8C", "F2DBA9" : "00DDFF", "D6B155" : "00B9D6", "917948" : "009FB7", "6D5B36" : "007F94" },
+    /* RED */
+    { "A8E6E2" : "FFC6C6", "4FACB2" : "EA0000", "30636C" : "AD0000", "233C43" : "660000", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* ORANGE */
+    { "A8E6E2" : "FFF8B9", "4FACB2" : "F3A74A", "30636C" : "CA6613", "233C43" : "6F382D", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* YELLOW */
+    { "A8E6E2" : "FFFBD8", "4FACB2" : "FFD84D", "30636C" : "E2AF20", "233C43" : "B97C01", "F2DBA9" : "40D65B", "D6B155" : "37B74E", "917948" : "2D9941", "6D5B36" : "267F37" },
+    /* FEROZIUM CRYSTAL BLUE */
+    { "A8E6E2" : "A8E6E2", "4FACB2" : "4FACB2", "30636C" : "30636C", "233C43" : "233C43", "F2DBA9" : "F2DBA9", "D6B155" : "D6B155", "917948" : "917948", "6D5B36" : "6D5B36" },
+    /* BLUE */
+    { "A8E6E2" : "D8FFFC", "4FACB2" : "4FACC8", "30636C" : "39747F", "233C43" : "233C43", "F2DBA9" : "BC4B00", "D6B155" : "A04000", "917948" : "7F3300", "6D5B36" : "592300" },
+    /* PURPLE */
+    { "A8E6E2" : "E8D8FF", "4FACB2" : "906EBF", "30636C" : "60497F", "233C43" : "392C4C", "F2DBA9" : "9CABB7", "D6B155" : "7D8993", "917948" : "646E77", "6D5B36" : "41474C" },
+    /* PINK */
+    { "A8E6E2" : "FFD3CC", "4FACB2" : "FF9B88", "30636C" : "BF7467", "233C43" : "7F4D44", "F2DBA9" : "FFFFFF", "D6B155" : "D6EAFF", "917948" : "B8C9DB", "6D5B36" : "80A1AD" },
+    /* BROWN */
+    { "A8E6E2" : "FFD0B5", "4FACB2" : "C6672F", "30636C" : "8C4821", "233C43" : "4C2712", "F2DBA9" : "FF9B88", "D6B155" : "E08879", "917948" : "C17668", "6D5B36" : "A36358" }
+  ]
+}

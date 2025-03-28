@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanstripe2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanstripe2icon.png",
+  "description" : "Painted white stone with stripes at edge.",
+  "shortdescription" : "Stripe Edge Stone",
+
+  "materialId" : 13082
+}

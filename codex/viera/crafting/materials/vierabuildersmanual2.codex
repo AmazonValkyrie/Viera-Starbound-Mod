@@ -1,0 +1,44 @@
+{
+    "id": "vierabuildersmanual2",
+    "title": "Viera Builder's Manual - Artisan",
+    "description": "A book of schematics for crafting building materials.",
+    "icon": "vieracoverb2.png",
+    "contentPages": [
+        "This book details the process and schematics for crafting Viera building materials of artisan design. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+            "circulartile",
+            "columnbase1",
+            "columnbase",
+            "curvedtile",
+            "dottedtile",
+			"dotted1tile",
+			"filigreestripe",
+			"filigreestripe2",
+			"floweredtile",
+			"fluted1tile",
+			"flutedtile",
+			"geometric2",
+			"geometric",
+			"greenwordpastel1",
+			"pastelpattern1",
+			"pastelpattern2",
+			"pastelpattern3",
+			"pastelpattern4",
+			"pastelsmooth",
+			"scallopedtile",
+			"scalloped2righttile",
+			"scalloped2lefttile",
+			"scalloped3",
+			"swirltile",
+			"whitewoodcolumnfluting",
+			"whitewoodcolumnroof",
+			"whitewoodcolumnbase",
+			"whitewoodplatform"
+			
+        ],
+        "rarity": "Rare",
+        "price": 450
+    }
+}

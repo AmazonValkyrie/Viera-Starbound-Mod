@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/maleveenaravaviera",
+    "value": {
+      "male": [
+        "/sfx/humanoid/viera_chatter_male1.ogg",
+        "/sfx/humanoid/viera_chatter_male2.ogg",
+        "/sfx/humanoid/viera_chatter_male3.ogg",
+        "/sfx/humanoid/viera_chatter_male4.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/viera_chatter_male1.ogg",
+        "/sfx/humanoid/viera_chatter_male2.ogg",
+        "/sfx/humanoid/viera_chatter_male3.ogg",
+        "/sfx/humanoid/viera_chatter_male4.ogg"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/femaleveenaravaviera",
+    "value": {
+      "male": [
+        "/sfx/humanoid/viera_chatter_female1.ogg",
+        "/sfx/humanoid/viera_chatter_female2.ogg",
+        "/sfx/humanoid/viera_chatter_female3.ogg",
+        "/sfx/humanoid/viera_chatter_female4.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/viera_chatter_female1.ogg",
+        "/sfx/humanoid/viera_chatter_female2.ogg",
+        "/sfx/humanoid/viera_chatter_female3.ogg",
+        "/sfx/humanoid/viera_chatter_female4.ogg"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/malefeolviera",
+    "value": {
+      "male": [
+        "/sfx/humanoid/viera_chatter_male1.ogg",
+        "/sfx/humanoid/viera_chatter_male2.ogg",
+        "/sfx/humanoid/viera_chatter_male3.ogg",
+        "/sfx/humanoid/viera_chatter_male4.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/viera_chatter_male1.ogg",
+        "/sfx/humanoid/viera_chatter_male2.ogg",
+        "/sfx/humanoid/viera_chatter_male3.ogg",
+        "/sfx/humanoid/viera_chatter_male4.ogg"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/femalefeolviera",
+    "value": {
+      "male": [
+        "/sfx/humanoid/viera_chatter_female1.ogg",
+        "/sfx/humanoid/viera_chatter_female2.ogg",
+        "/sfx/humanoid/viera_chatter_female3.ogg",
+        "/sfx/humanoid/viera_chatter_female4.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/viera_chatter_female1.ogg",
+        "/sfx/humanoid/viera_chatter_female2.ogg",
+        "/sfx/humanoid/viera_chatter_female3.ogg",
+        "/sfx/humanoid/viera_chatter_female4.ogg"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/moogle",
+    "value": {
+      "male": [
+        "/sfx/humanoid/moogle_chatter1.ogg",
+        "/sfx/humanoid/moogle_chatter2.ogg",
+        "/sfx/humanoid/moogle_chatter3.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/moogle_chatter1.ogg",
+        "/sfx/humanoid/moogle_chatter2.ogg",
+        "/sfx/humanoid/moogle_chatter3.ogg"
+      ]
+    }
+  }
+]

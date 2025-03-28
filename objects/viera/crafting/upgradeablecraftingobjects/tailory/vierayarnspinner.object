@@ -1,0 +1,125 @@
+{
+  "objectName" : "vierayarnspinner",
+  "shortdescription" : "^orange;Tailory Station^white;",  
+  "colonyTags" : ["viera","crafting"],
+  "race" : "viera",
+  "rarity" : "Uncommon",	
+  "category" : "crafting",
+  "health" : 3.5,
+  "breakDropOptions" : [],
+
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "The spinning wheel is used to produce clothing, fabrics and other crafting ingredients!",
+  "apexDescription" : "A spinning wheel. A tool for tailors.",
+  "avianDescription" : "A tool for working threads.",
+  "floranDescription" : "Floran ssspin wheel, work thread.",
+  "glitchDescription" : "Observe. Yarn spinners are for knitting, not sewing.",
+  "humanDescription" : "A wooden spinning wheel. Old-fashioned.",
+  "hylotlDescription" : "The Hylotl consider spinning yarn an art-form.",
+  "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+  "vieraDescription" : "A tool to craft the garb of my people.",
+
+  "animation" : "vierayarnspinner.animation",  
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "vierayarnspinner1.png:default.default",
+  "placementImagePosition" : [-8, 0], 
+  "animationPosition" : [16, 12],
+ 
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+  "upgradeStages" : [
+    {
+      "animationState" : "primus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Modest Tailory Station^white;",
+        "inventoryIcon" : "icon1.png",
+        "placementImage" : "vierayarnspinner1.png:default.default",
+
+        "description" : "The spinning wheel is used to produce clothing, fabrics and other crafting ingredients!",
+        "apexDescription" : "A spinning wheel. A tool for tailors.",
+        "avianDescription" : "A tool for working threads.",
+        "floranDescription" : "Floran ssspin wheel, work thread.",
+        "glitchDescription" : "Observe. Yarn spinners are for knitting, not sewing.",
+        "humanDescription" : "A wooden spinning wheel. Old-fashioned.",
+        "hylotlDescription" : "The Hylotl consider spinning yarn an art form.",
+        "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+        "vieraDescription" : "A tool to craft the garb of my people."
+      },
+      "interactData" : {
+	    "config" : "/interface/windowconfig/craftingwheel.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Modest Tailory Station",
+            "subtitle" : " ^#b9b5b2;Textiles and dyes",
+            "icon" : { "file" : "/interface/crafting/vierayarnspinner.png" }
+          }
+        },
+        "filter" : [ "craftingwheel" ],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 6 },
+          { "item" : "string", "count" : 25 },
+          { "item" : "silverbar", "count" : 1 }
+        ]
+      },	  
+      "upgradeParticleEffect" : "finalUpgrade",
+      "upgradeSoundEffect" : "fanfare",
+      "learnBlueprintsOnPickup" : []
+    },
+    {
+      "animationState" : "secundus",
+      "itemSpawnParameters" : {
+        "shortdescription" : "^orange;Magicloth Tailory Station^white;",
+        "inventoryIcon" : "icon2.png",
+        "placementImage" : "vierayarnspinner2.png:default.default",
+
+        "description" : "The sewing machine is used to produce clothing, fabrics and other crafting ingredients.",
+        "apexDescription" : "A sewing machine. A tool for tailors.",
+        "avianDescription" : "A tool for working threads.",
+        "floranDescription" : "Floran sssew with machine, work thread.",
+        "glitchDescription" : "Observant. An advanced tailoring tool.",
+        "humanDescription" : "A sewing machine. Pretty standard fare.",
+        "hylotlDescription" : "It may not be as traditional, but a sewing machine is certainly a lot more efficient.",
+        "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+        "vieraDescription" : "A tool to craft the garb of my people."		
+      },
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingwheel.config",
+		"paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Magicloth Tailory Station",
+            "subtitle" : " ^#b9b5b2;Textiles and dyes",
+            "icon" : { "file" : "/interface/crafting/vierayarnspinner.png" }
+          }
+        },
+        "filter" : [ "craftingwheel", "craftingwheel2" ]
+      },
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ 
+	    { "image" : "vierayarnspinner1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "vierayarnspinner1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [[-1, 0], [0, 0], [1, 0]],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ 
+	    { "image" : "vierayarnspinner1.png:<color>.<frame>", "fullbright" : true }, 
+		{ "image" : "vierayarnspinner1lit.png:<color>.<frame>" } 
+	  ],
+      "direction" : "right",
+      "spaces" : [[-1, 0], [0, 0], [1, 0]],
+      "anchors" : [ "bottom" ]
+    }
+  ], 
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ]  
+}

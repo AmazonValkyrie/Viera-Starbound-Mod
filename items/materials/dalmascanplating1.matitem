@@ -1,0 +1,10 @@
+{
+  "itemName" : "dalmascanplating1",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "dalmascanplating1icon.png",
+  "shortdescription" : "Dalmascan Striped Plating",
+  "description" : "Colored stone and metalwork form this plating.",
+
+  "materialId" : 13092
+}

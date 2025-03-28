@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 12 },
+	{ "item" : "climbingrope", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "vierabridgeplatformelevatorshort",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

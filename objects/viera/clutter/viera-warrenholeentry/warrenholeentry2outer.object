@@ -1,0 +1,58 @@
+{
+  "objectName" : "warrenholeentry2outer",
+  "colonyTags" : ["viera", "nature", "vieravillage"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 180,
+  "printable" : false,
+  "description" : "Layers of carved whitewood shape this Viera entryway.",
+  "shortdescription" : "Warren Hole Entry FG",
+  "race" : "viera",
+  "health" : 3.5,
+
+  "apexDescription" : "A very large entry way.",
+  "avianDescription" : "An imposing doorway. I wonder what lay ahead.",
+  "floranDescription" : "???.",
+  "glitchDescription" : "Curious. This tall entry leads to a doorway.",
+  "humanDescription" : "This is one ornate entrance.",
+  "hylotlDescription" : "This entryway descends into the ground.",
+  "novakidDescription" : "Sum purdy architecture.",
+  "vieraDescription" : "The carved whitewood shapes an entrance to this home.",
+
+  "inventoryIcon" : "warrenholeentry2outer.png",
+  "orientations" : [
+    {
+      "image" : "warrenholeentry2outer.png:<color>",
+      "imagePosition" : [-48, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "flipImages" : true,
+	  "direction" : "left",
+
+     
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[0, 1], [-1, 1], [-2, 1], [-3, 1], [-4, 1], [-5, 1], [2, 13], [1, 13], [0, 13], [-1, 12], [-2, 11], [-3, 10]
+	  ]
+
+    },
+	{
+      "image" : "warrenholeentry2outer.png:<color>",
+      "imagePosition" : [-48, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "renderLayer" : "Player+12",
+	  "direction" : "right",
+
+
+      "anchors" : [ ],
+	  "collision" : "solid",
+      "collisionSpaces" : [ 
+			[0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [-2, 13], [-1, 13], [0, 13], [1, 12], [2, 11], [3, 10]
+	  ]
+
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "vieralore11",
+  "title" : "Whispers of the Leaves",
+  "description" : "Ancient Viera spirituality.",
+  "icon" : "vieracover5.png",
+  "contentPages" : [
+    "^yellow;Whispers of the Leaves^reset;\n\nWhen dusk descends and shadows stretch long, gather beneath the eldest tree. There, let your voice rise in harmony with the sigh of the evening breeze. The chant begins soft, a murmur among the leaves, growing with the wind until the forest itself sings with you.",
+
+	"Thus is the bond renewed, the cycle kept, the spirit of the Wood preserved."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 25
+  }
+}

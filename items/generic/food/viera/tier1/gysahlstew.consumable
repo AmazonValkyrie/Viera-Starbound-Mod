@@ -1,0 +1,26 @@
+{
+  "itemName" : "gysahlstew",
+  "rarity" : "Uncommon",
+  "price" : 200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "gysahlstew.png",
+  "description" : "A hearty gysahl stew.",
+  "shortdescription" : "Gysahl Stew",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 495
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 10,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "gysahljuice" ]
+}

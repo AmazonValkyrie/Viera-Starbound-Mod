@@ -1,0 +1,146 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/viera",
+		"value": {
+			"default": [
+				"Did you call for me?",
+				"May I be of help to you?",
+				"Bless the Wood, it's you!",
+				"It is lovely to see a friendly face."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/viera",
+		"value": {
+			"default": [
+				"This isn't much, but I hope you like it.",
+				"I have a gift for you, friend.",
+				"This is for you! Thank you for everything.",
+				"This home is lovely! I give you this gift as thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"Did you call for me?",
+				"May I be of help to you?",
+				"Bless the Wood, it's you!",
+				"It is lovely to see a friendly face."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/femaleveenaravaviera",
+		"value": {
+			"default": [
+				"This isn't much, but I hope you like it.",
+				"I have a gift for you, friend.",
+				"This is for you! Thank you for everything.",
+				"This home is lovely! I give you this gift as thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/maleveenaravaviera",
+		"value": {
+			"default": [
+				"Did you call for me?",
+				"May I be of help to you?",
+				"Bless the Wood, it's you!",
+				"It is lovely to see a friendly face."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/maleveenaravaviera",
+		"value": {
+			"default": [
+				"This isn't much, but I hope you like it.",
+				"I have a gift for you, friend.",
+				"This is for you! Thank you for everything.",
+				"This home is lovely! I give you this gift as thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/femalefeolviera",
+		"value": {
+			"default": [
+				"Did you call for me?",
+				"May I be of help to you?",
+				"Bless the Wood, it's you!",
+				"It is lovely to see a friendly face."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/femalefeolviera",
+		"value": {
+			"default": [
+				"This isn't much, but I hope you like it.",
+				"I have a gift for you, friend.",
+				"This is for you! Thank you for everything.",
+				"This home is lovely! I give you this gift as thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/malefeolviera",
+		"value": {
+			"default": [
+				"Did you call for me?",
+				"May I be of help to you?",
+				"Bless the Wood, it's you!",
+				"It is lovely to see a friendly face."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/malefeolviera",
+		"value": {
+			"default": [
+				"This isn't much, but I hope you like it.",
+				"I have a gift for you, friend.",
+				"This is for you! Thank you for everything.",
+				"This home is lovely! I give you this gift as thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/moogle",
+		"value": {
+			"default": [
+				"Did you call for me, kupo?",
+		        "Do you need me, kupo?",
+		        "I'm here to help, kupo!",
+		        "It's good to see you, kupo!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/moogle",
+		"value": {
+			"default": [
+				"I have something for you, kupo.",
+		        "Gift for friend, kupo!",
+		        "This is for you! Thank you for everything, kupo!",
+		        "Thank you for my home. Take this, kupo!"
+			]
+		}
+	}
+]

@@ -1,0 +1,26 @@
+{
+  "id" : "vieralore41",
+  "title" : "The Seonha Scrolls: Ch. 5",
+  "description" : "Tells the story of a legendary warrior among the Viera.",
+  "icon" : "captainseonha1.png",
+  "contentPages" : [
+    "^yellow;The Curse of the Witch Queen^reset;\n\nIn the ruins of ^yellow;Lyrhalla^reset;, a village lost to time and tragedy, a curse lingered-a plague that twisted those who lingered too long into shadow-beasts. It was the doing of the ^#6A2284;Witch Queen Morragh^reset;, who ruled with fear and dark magic.",
+	
+	"'Who was Morragh'? I asked Seonha. 'She's not really Morragh, but a vessel possessed by Morragh' replied Seonha. 'She was once a powerful ^blue;Black Mage^reset; ; A wise one. But her pursuit of knowledge and ancient magicks led her to the artifact she's wearing-^#6A2284;The Crown of Morragh^reset;. Then Morragh took hold and did the rest.'",
+	
+	"Seonha would not turn away, even as the shadows reached for her, their claws dripping with malice. 'Face your fears, or be consumed by them,' she told me, her voice unyielding as stone. Together, we entered the heart of darkness.",
+	
+	"The Witch Queen was beautiful and terrible, her presence intoxicatingly cold. She wove illusions, drawing upon Seonha's past, whispering of guilt and regret. I saw Seonha falter, her eyes haunted by memories she never spoke of. But she stood firm, her heart anchored by her iron will.",
+	
+	"I called upon my teachings of White Magick within me, the voices of the lost guiding my song. With each note, I shattered Morragh's illusions, revealing her to be as hollow as her curse. Enraged, the Witch Queen struck, her magic like shadows given form.",
+	
+	"Seonha fought with unmatched fury, her blade carving through darkness, her resolve burning brighter than Morragh's hate. In the end, the Witch Queen fell, her curse undone by Seonha's courage and my song of liberation.",
+	
+	"When the shadows lifted, the souls of Lyrhalla were free. Seonha stood amidst the ruins, weary but unbroken, a symbol of hope to all who feared the darkness. I knew then that Seonha was no average Fencer-she was a force for good."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

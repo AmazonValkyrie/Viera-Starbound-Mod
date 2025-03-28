@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 35 },
+	{ "item" : "fabric", "count" : 10}
+  ],
+  "output" : {
+    "item" : "viera_marketstallp2",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "decoration", "all" ]
+}

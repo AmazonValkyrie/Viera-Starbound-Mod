@@ -1,0 +1,76 @@
+{
+  "objectName" : "heartofthewood",
+  "colonyTags" : ["femaleveenarava", "pretty", "valuable"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 80,
+  "description" : "A symbol of the female Veena & Rava Viera.",
+  "shortdescription" : "The Heart of the Wood",
+  "race" : "femaleveenaravaviera",
+  "health" : 1.5,
+
+  "apexDescription" : "I've never seen a manner of plant like this.",
+  "avianDescription" : "There is great energy emanating from within this.",
+  "floranDescription" : "Planttt powerrr!",
+  "glitchDescription" : "Mystified. A glittering seed with great energies.",
+  "humanDescription" : "Is this plant alive?",
+  "hylotlDescription" : "I sense great Life-giving energies from this seed.",
+  "novakidDescription" : "Lighting with style. Does it do something else?",
+  "vieraDescription" : "The Wood's Heart is carried with us, wherever we may tread.",
+
+  "lightColor" : [107, 127, 127],
+    
+    "particleEmitter" : {
+    "emissionRate" : 0.7,
+    "emissionVariance" : 0.3,
+
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 0.25],
+      "size" : 1.0,
+      "color" : [233, 255, 147, 255],
+      "light" : [88, 104, 25],
+      "fade" : 0.9,
+      "initialVelocity" : [0, 0],
+      "finalVelocity" : [-0.1, -0.1],
+      "approach" : [0.65, 0.65],
+      "timeToLive" : 5,
+      "layer" : "back"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.0, 1.0],
+      "position" : [1.5, 0.5]
+    }
+  },
+
+  "inventoryIcon" : "heartofthewoodicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "heartofthewood.png:<color>.<frame>", "fullbright" : true }, { "image" : "heartofthewoodlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "heartofthewood.png:<color>.<frame>", "fullbright" : true }, { "image" : "heartofthewoodlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+	
+  ]
+}

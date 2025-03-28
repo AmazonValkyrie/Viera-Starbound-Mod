@@ -1,0 +1,11 @@
+{
+  "itemName" : "vierarope2",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "vierarope2icon.png",
+  "shortdescription" : "Rope wrappings in a vertical direction.",
+  "description" : "Rope Wrapping.",
+
+  "materialId" : 13126,
+  "learnBlueprintsOnPickup" : [ "vierarope2" ]
+}

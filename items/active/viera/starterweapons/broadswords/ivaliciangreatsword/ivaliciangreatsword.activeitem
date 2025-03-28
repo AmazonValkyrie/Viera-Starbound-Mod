@@ -1,0 +1,34 @@
+{
+  "itemName" : "ivaliciangreatsword",
+  "shortdescription" : "Ivalician Greatsword",
+  "description" : "A greatsword from ivalice; it's functionally a broadsword",
+  "level" : 1,
+  "price" : 50,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "itemTags" : ["weapon","melee","broadsword"],
+  "twoHanded" : false,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : { 
+    "animatedParts" : {"parts": {"swoosh": {"partStates": {"swoosh": {"fire2": {"properties": {"image": "" }}}}}}}
+  },
+
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+  "altAbilityType" : "",
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

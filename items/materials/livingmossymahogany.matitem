@@ -1,0 +1,11 @@
+{
+  "itemName" : "livingmossymahogany",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "livingmossymahogany.png",
+  "description" : "Rough and unrefined, this moss-covered wood looks freshly chopped.",
+  "shortdescription" : "Mossy Mahogany",
+
+  "materialId" : 13117
+}

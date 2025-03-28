@@ -1,0 +1,45 @@
+{
+  "objectName" : "vierashiplocker",
+  "colonyTags" : ["viera","storage", "vieraship", "argo"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "learnBlueprintsOnPickup" : [ "vierastoragelocker" ],
+
+  "category" : "storage",
+  "description" : "A beautifully carved locker, fitted with gold and crystal facets.",
+  "shortdescription" : "Ornate Storage",
+  "race" : "viera",
+  "health" : 1.5,
+  "lightColor" : [0, 102, 102],
+
+  "apexDescription" : "Even their storage compartments are ornate.",
+  "avianDescription" : "What a grand way to store your items.",
+  "floranDescription" : "Ssssstorage.",
+  "glitchDescription" : "Admiration. What a lovely storage system.",
+  "humanDescription" : "A Viera storage hatch.",
+  "hylotlDescription" : "This beautiful panel appears to serve as storage.",
+  "novakidDescription" : "A locker, for puttin' things in.",
+  "vieraDescription" : "Storage compartments built into the ship walls.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vierashiplocker.png:<color>.<key>", "fullbright" : true }, { "image" : "vierashiplockerlit.png:<color>.<key>" } ],
+      "imagePosition" : [-16, -8],
+	  "frames" : 12,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/cropshipper_door_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/viera_shiplocker_close.ogg" ],
+  "slotCount" : 64,
+  "frameCount" : 12,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 9,
+  "openFrameIndex" : 11,
+  "autoCloseCooldown" : 3600
+}

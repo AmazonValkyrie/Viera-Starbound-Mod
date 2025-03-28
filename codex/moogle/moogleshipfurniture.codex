@@ -1,0 +1,31 @@
+{
+    "id": "moogleshipfurniture",
+    "title": "Moogle Ship Furniture",
+    "description": "A book of plans detailing how to craft various Moogle ship furniture.",
+    "icon": "mooglecover2.png",
+    "contentPages": [
+        "This book details the processes and plans for creating a variety of Moogle ship furniture. "
+    ],
+    "itemConfig": {
+        "learnBlueprintsOnPickup": [
+			"moogleurn1",
+			"moogleurn2",
+			"moogleshipbookcase",
+			"moogleshipboothleft",
+			"moogleshipboothright",
+			"moogleshipcupboard1",
+			"moogleshipfoodstorage",
+			"moogleshipsink",
+			"moogleshipstove",
+			"mooglebunk",
+			"mooglecargoshiplantern",
+			"moogleshipdoor",
+			"moogleshiphatch",
+			"moogleshipladder",
+			"tinywaystoneteleporter"			
+			
+        ],
+        "rarity": "Uncommon",
+        "price": 275
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "viera_marketstallp1",
+  "colonyTags" : ["viera","vieravillage","commerce","vieraingredientsmerchant"],
+  "rarity" : "Common",
+  "description" : "A large market stall displaying various ingredients.",
+  "shortdescription" : "Ingredients Market Stall",
+  "race" : "viera",
+  "objectType" : "loungeable",
+  "category" : "furniture",
+  "price" : 105,
+
+  "apexDescription" : "A variety of unfamiliar condoments.",
+  "avianDescription" : "Quite a plethora of items.",
+  "floranDescription" : "Good smellsssss.",
+  "glitchDescription" : "Interested. I do not recognize many of these components.",
+  "humanDescription" : "There's a lot of interesting looking stuff here.",
+  "hylotlDescription" : "Quite a display of exotic goods.",
+  "novakidDescription" : "Lotsa interestin' stuff here.",
+  "vieraDescription" : "A pleasant variety of goods.",
+
+  "inventoryIcon" : "marketstalliconp1.png",
+  "orientations" : [
+    {
+      "dualImage" : "viera_marketstallp1.png",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "sitPosition" : [ 0, 18.25 ]
+
+    }
+  ],
+  "sitCoverImage" : "/objects/viera/viera_marketstall/viera_marketstallp1cover.png"
+}

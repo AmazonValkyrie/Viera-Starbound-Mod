@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 4 },
+	{ "item" : "goldbar", "count" : 2 },
+	{ "item" : "refinedmagicitecrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vierastoragelocker",
+    "count" : 1
+  },
+  "groups" : [ "woodworkingtable", "storage", "all" ]
+}

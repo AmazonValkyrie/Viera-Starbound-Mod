@@ -1,0 +1,10 @@
+{
+  "itemName" : "panelingleftside",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "inventoryIcon" : "panelingleftsideicon.png",
+  "description" : "Carved, mahogany paneling. Left side.",
+  "shortdescription" : "Mahogany Paneling",
+
+  "materialId" : 13057
+}
